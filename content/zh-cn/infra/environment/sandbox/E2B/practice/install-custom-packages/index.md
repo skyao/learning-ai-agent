@@ -104,7 +104,14 @@ FROM e2bdev/code-interpreter:latest
 
 RUN pip install cowsay
 RUN npm install cowsay
-
 ```
 
 注意：基础镜像必须使用 e2bdev/code-interpreter:latest 。
+
+### 构建模板
+
+```bash
+e2b template build -c "/root/.jupyter/start-up.sh"
+
+```
+
