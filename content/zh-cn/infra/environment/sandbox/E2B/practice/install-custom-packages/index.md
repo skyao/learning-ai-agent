@@ -12,6 +12,10 @@ description: >
 
 ## 准备工作
 
+### 安装 Docker
+
+后面构建模板时需要使用 docker 构建镜像。
+
 ### 安装 cli
 
 安装 e2b 的 cli：
