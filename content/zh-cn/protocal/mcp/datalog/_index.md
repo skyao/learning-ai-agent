@@ -1,7 +1,7 @@
 ---
 title: "Datalog"
 linkTitle: "Datalog"
-weight: 10
+weight: 100
 date: 2025-05-27
 description: >
   Datalog
