@@ -15,3 +15,7 @@ description: >
 
 - [Google A2A](https://google.github.io/A2A/#/)
 - [OpenAI Agent Protocol](https://github.com/openai/agent-protocol)
+
+## 社区资料
+
+- [awesome-agents](https://github.com/kyrolabs/awesome-agents)
