@@ -33,9 +33,9 @@ git checkout v.3.3.7
 准备 api key:
 
 ```bash
-export OPENAI_API_KEY="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"
+export OPENAI_API_KEY="sk-or-v1-8b367db75f582b3c5955xxxxxxxxxxxxxxxxxxx"
 export OPENAI_BASE_URL="https://openrouter.ai/api/v1"
-export TAVILY_API_KEY="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"
+export TAVILY_API_KEY="tvly-dev-EGogSTktgxxxxxxxxxxxxxx"
 export OPENAI_MODEL="openai/gpt-5"
 export EMBEDDING_MODEL="openai/text-embedding-3-large"
 ```
