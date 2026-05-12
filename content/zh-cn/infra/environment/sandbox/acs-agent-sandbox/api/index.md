@@ -19,7 +19,21 @@ description: >
 
 Kubernetes生态：全面深度融合 Kubernetes 原生生态体系方案，兼容现有存储、网络及运维监控体系。
 
-## 创建Agent Sandbox
+## 操作
+
+### 创建Agent Sandbox
 
 https://help.aliyun.com/zh/cs/user-guide/create-an-agent-sandbox?spm=a2c4g.11186623.help-menu-2584271.d_2_1_0.60bd2360fYW7xs&scm=20140722.H_3022303._.OR_help-T_cn~zh-V_1
+
+
+## 模型
+
+在 e2b 模型之外，ACS 增加了模型对象，以 k8s CR 的形式：
+
+- SandboxSet / 预热池
+- SandboxClaim
+- Sandbox: 对应 e2b 的 sandbox，在 k8s 下有 Sandbox CR
+
+
+
 
