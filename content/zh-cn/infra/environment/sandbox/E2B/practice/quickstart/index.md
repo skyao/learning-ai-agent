@@ -60,11 +60,12 @@ vi e2b-quickstart.py
 内容如下:
 
 ```python
+# main.py
 from dotenv import load_dotenv
 load_dotenv()
 from e2b_code_interpreter import Sandbox
 
-sbx = Sandbox() # By default the sandbox is alive for 5 minutes
+sbx = Sandbox.create() # Creates a persistent sandbox session
 execution = sbx.run_code("print('hello world')") # Execute Python inside the sandbox
 print(execution.logs)
 
@@ -104,7 +105,7 @@ vi e2b-quickstart.ts
 import 'dotenv/config'
 import { Sandbox } from '@e2b/code-interpreter'
 
-const sbx = await Sandbox.create() // By default the sandbox is alive for 5 minutes
+const sbx = await Sandbox.create() // Creates a persistent sandbox session
 const execution = await sbx.runCode('print("hello world")') // Execute Python inside the sandbox
 console.log(execution.logs)
 
@@ -115,6 +116,8 @@ console.log(files)
 执行:
 
 ```bash
+npm install dotenv @e2b/code-interpreter
+
 npx tsx ./e2b-quickstart.ts
 ```
 
@@ -190,4 +193,29 @@ npx tsx ./e2b-quickstart.ts
   { name: 'usr', type: 'dir', path: '/usr' },
   { name: 'var', type: 'dir', path: '/var' }
 ]
+```
+
+注意： node.js 版本不能太高，比如最新的 v24.12.0 就会报错：
+
+```bash
+{ stdout: [ 'hello world\n' ], stderr: [] }
+/home/sky/work/code/e2b/quickstart-nodejs/node_modules/e2b/src/envd/rpc.ts:54
+    return new SandboxError(`${err.code}: ${err.message}`)
+           ^
+
+SandboxError: 2: [unknown] fetch failed
+    at handleRpcError (/home/sky/work/code/e2b/quickstart-nodejs/node_modules/e2b/src/envd/rpc.ts:54:12)
+    at handleFilesystemRpcError (/home/sky/work/code/e2b/quickstart-nodejs/node_modules/e2b/src/sandbox/filesystem/index.ts:53:10)
+    at Filesystem2.list (/home/sky/work/code/e2b/quickstart-nodejs/node_modules/e2b/src/sandbox/filesystem/index.ts:589:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async <anonymous> (/home/sky/work/code/e2b/quickstart-nodejs/index.ts:9:15)
+
+Node.js v24.12.0
+```
+
+需要换回 v22 版本：
+
+```bash
+nvm install 22
+nvm use 22
 ```
