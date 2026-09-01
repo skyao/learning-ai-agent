@@ -69,23 +69,34 @@ Aries 的目标是通过将智能体轨迹视为一等公民,弥合"语义任务
 
 为进行这一受控分析,Aries 集成了 OpenHands([Wang et al., 2026](https://arxiv.org/html/2607.29069v1#bib.bib6))、Hermes Agent([Nous Research, 2026](https://arxiv.org/html/2607.29069v1#bib.bib44))与 OpenClaw([OpenClaw Contributors, 2026](https://arxiv.org/html/2607.29069v1#bib.bib43)),并评估来自 SWE-Bench Pro([Deng et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib24))、Terminal-Bench 2([Team, 2025](https://arxiv.org/html/2607.29069v1#bib.bib1))与 DeepResearch Bench([Du et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib25))的服务任务。我们从每个基准各采样 20 个任务,使 OpenClaw 达到 50% 的任务成功率(这对精度研究很重要),并每个任务重复五次。除非另有说明,实验使用由 SGLang([Zheng et al., 2024](https://arxiv.org/html/2607.29069v1#bib.bib2))在本地提供的 Qwen3.6-35B-A3B-FP8([Qwen Team, 2026](https://arxiv.org/html/2607.29069v1#bib.bib45)),运行于一个 96 核节点上,配备一块 94 GB HBM 的 NVIDIA H100 GPU。
 
-### 4.1 Harness 与工具与模型同等重要
+### 4.1 Harness 和工具与模型同等重要
 
 现有 LLM 服务引擎优化的是以 Token 为中心的指标,如 TTFT 与 TPOT([Zhong et al., 2024](https://arxiv.org/html/2607.29069v1#bib.bib11); [Kwon et al., 2023](https://arxiv.org/html/2607.29069v1#bib.bib9); [Zheng et al., 2024](https://arxiv.org/html/2607.29069v1#bib.bib2))。这些指标忽略了 harness 处理模型输出或等待工具执行的主机侧时间间隔,尽管在完成这些步骤之前智能体无法继续推进。
 
 ![](../english/images/figure_03.png)
-图 3. 端到端平均延迟分解。harness 与工具执行带来的延迟与 LLM 调用相当。
+
+图 3. 端到端平均延迟分解。harness 和工具执行带来的延迟与 LLM 调用相当。
 
 ![](../english/images/figure_04.png)
+
 图 4. LLM 推理与工具执行的延迟分布。工具调用呈现出跨越多个数量级的严重长尾。
+
 由于逐步计时信息在商业集群中过于敏感而难以收集,我们基于公开数据集与 harness(它们在共享的轨迹标识符与时间基准下记录这些事件)来分析现有指标的效用。
-我们的剖析揭示了两个关键的系统洞察:**(1) 关键路径向 harness 与工具执行转移:** 如图 [3]([https://arxiv.org/html/2607.29069v1#S4.F3](https://arxiv.org/html/2607.29069v1#S4.F3)) 所示,工具执行是重要的延迟贡献者,在不同数据集与 harness 下贡献了总延迟的 13% 至 48%,其中 Hermes Agent 在 Terminal-Bench 2 上达到 48%。除工具执行外,harness 还花费高达 9% 的端到端时间用于编排及其他主机侧处理,进一步拉长了连续 LLM 调用之间的间隔,并可能延长轨迹状态在 GPU 内存中的驻留时间。**(2) 长尾延迟分布:** 图 [4]([https://arxiv.org/html/2607.29069v1#S4.F4](https://arxiv.org/html/2607.29069v1#S4.F4)) 表明,虽然 LLM 延迟依然重要,但工具调用呈现出跨越多个数量级的严重长尾。综合来看,这些结果说明,大量主机侧延迟常常主导执行时间,这意味着仅优化加速器的 Token 生成无法解决真实的智能体瓶颈。
+
+我们的剖析揭示了两个关键的系统洞察:
+
+1. 关键路径向 harness 与工具执行转移:如图 [3]([https://arxiv.org/html/2607.29069v1#S4.F3](https://arxiv.org/html/2607.29069v1#S4.F3)) 所示,工具执行是重要的延迟贡献者,在不同数据集与 harness 下贡献了总延迟的 13% 至 48%,其中 Hermes Agent 在 Terminal-Bench 2 上达到 48%。除工具执行外,harness 还花费高达 9% 的端到端时间用于编排及其他主机侧处理,进一步拉长了连续 LLM 调用之间的间隔,并可能延长轨迹状态在 GPU 内存中的驻留时间。
+
+2. 长尾延迟分布: 图 [4]([https://arxiv.org/html/2607.29069v1#S4.F4](https://arxiv.org/html/2607.29069v1#S4.F4)) 表明,虽然 LLM 延迟依然重要,但工具调用呈现出跨越多个数量级的严重长尾。综合来看,这些结果说明,大量主机侧延迟常常主导执行时间,这意味着仅优化加速器的 Token 生成无法解决真实的智能体瓶颈。
 
 > **结论 1:** _端到端任务时长在很大程度上取决于 harness 与工具沙箱的执行,而不仅仅是模型推理。_
 
 ### 4.2 长上下文决定效率与精度
 
-在传统 LLM 服务中,上下文生命周期通常限定于请求—响应循环,使引擎能在查询结束后回收 KV 缓存页,除非显式保留或卸载以复用([Kwon et al., 2023](https://arxiv.org/html/2607.29069v1#bib.bib9); [Zheng et al., 2024](https://arxiv.org/html/2607.29069v1#bib.bib2); [Zhong et al., 2024](https://arxiv.org/html/2607.29069v1#bib.bib11); [Hu et al., 2024a](https://arxiv.org/html/2607.29069v1#bib.bib16); [Qin et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib3); [Liu et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib4))。相反,长时程智能体生成单调增长的历史记录,并贯穿整个轨迹持续存在。尽管现有框架采用语义压缩以适配系统限制([Rasmussen et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib13); [Xu et al., 2026](https://arxiv.org/html/2607.29069v1#bib.bib14); [Chhikara et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib15)),但不受管理的上下文扩张仍会锁定物理 GPU Token 池,并降低服务并发度([Li et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib47); [Kariyappa and Suh, 2026](https://arxiv.org/html/2607.29069v1#bib.bib48))。保留过多历史可能增加尾延迟,而激进压缩可能丢弃后续步骤所需的信息,从而降低任务精度([Kang et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib49); [Kariyappa and Suh, 2026](https://arxiv.org/html/2607.29069v1#bib.bib48))。化解这一精度—效率张力,需要从被动的内存分配转向轨迹感知的状态管理,在保留上下文的资源成本与其未来效用之间取得平衡。
+在传统 LLM 服务中,上下文生命周期通常限定于请求—响应循环,使引擎能在查询结束后回收 KV 缓存页,除非显式保留或卸载以复用([Kwon et al., 2023](https://arxiv.org/html/2607.29069v1#bib.bib9); [Zheng et al., 2024](https://arxiv.org/html/2607.29069v1#bib.bib2); [Zhong et al., 2024](https://arxiv.org/html/2607.29069v1#bib.bib11); [Hu et al., 2024a](https://arxiv.org/html/2607.29069v1#bib.bib16); [Qin et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib3); [Liu et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib4))。
+
+相反,长时程智能体生成单调增长的历史记录,并贯穿整个轨迹持续存在。尽管现有框架采用语义压缩以适配系统限制([Rasmussen et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib13); [Xu et al., 2026](https://arxiv.org/html/2607.29069v1#bib.bib14); [Chhikara et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib15)),但不受管理的上下文扩张仍会锁定物理 GPU Token 池,并降低服务并发度([Li et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib47); [Kariyappa and Suh, 2026](https://arxiv.org/html/2607.29069v1#bib.bib48))。保留过多历史可能增加尾延迟,而激进压缩可能丢弃后续步骤所需的信息,从而降低任务精度([Kang et al., 2025](https://arxiv.org/html/2607.29069v1#bib.bib49); [Kariyappa and Suh, 2026](https://arxiv.org/html/2607.29069v1#bib.bib48))。化解这一精度—效率张力,需要从被动的内存分配转向轨迹感知的状态管理,在保留上下文的资源成本与其未来效用之间取得平衡。
+
 我们首先对比生产平台上智能体服务与传统推理中观测到的上下文长度。随后,我们刻画与上下文预算相关的权衡,以及它们如何借助公开 harness 与数据集影响智能体服务的精度与效率。在后一分析中,我们针对所有被评估的基准,对 OpenClaw 与 Hermes Agent 的上下文预算进行扫描(为简洁起见省略 OpenHands),以确定保留额外历史在何时不再带来有意义的精度提升。随后,我们在 256K 上下文大小下服务 32 个并发活跃智能体会话,以每秒一次的频率采样后端资源利用率,量化上下文保留的成本。
 
 ![](../english/images/figure_05.png)
@@ -95,7 +106,14 @@ Aries 的目标是通过将智能体轨迹视为一等公民,弥合"语义任务
 ![](../english/images/figure_06.png)
 
 图 6. 不同上下文窗口大小下的压缩与上下文溢出次数,及对应的任务成功率。更大的窗口缓解了溢出/压缩压力,但任务成功率在工作负载特定阈值后趋于平缓。
-我们得到三点关键观察:**(1) 轨迹状态放大:** 生产轨迹显示,智能体上下文显著大于传统推理工作负载中观测到的上下文,这与我们在公开数据集与 harness 上的结果一致。如图 [5]([https://arxiv.org/html/2607.29069v1#S4.F5](https://arxiv.org/html/2607.29069v1#S4.F5)) 所量化,平均智能体上下文消耗的 KV 占用显著大于传统推理。在 Qwen3.6 模型、固定 25GB 预算下,这种状态放大使最大驻留容量从 176 个并发服务请求骤降至仅 40 个——即 4.4× 的缩减。**(2) 上下文充分性阈值:** 借助开源数据集与 harness,我们证明长上下文保留仅在达到任务特定阈值前提升精度,超过该阈值后,额外历史尽管消耗更多内存,却几乎不再带来精度收益。如图 [6]([https://arxiv.org/html/2607.29069v1#S4.F6](https://arxiv.org/html/2607.29069v1#S4.F6)) 所示,OpenClaw 在 DeepResearch Bench 上于 160K 上下文处达到峰值成功率(95%),此时恰好消除了上下文溢出。相反,Terminal-Bench 2 与 SWE-Bench Pro 在溢出压力消除后趋于平缓甚至下降,其最佳性能出现在较小或中等窗口,而非最大上下文。**(3) 容量导致的批处理受限:** 我们在公开数据集上的结果进一步表明,大规模保留状态严重制约服务容量。图中数据表明,尽管存在 32 个会话的积压,内存压力仍限制了有效批处理;Token 池利用率峰值达到 97%,而引擎仅维持中位数 22 个并发请求。在此压力下,调度器抢占活跃会话,p95 内部排队延迟达到 7.9 秒。
+
+我们得到三点关键观察:
+
+1. 轨迹状态放大: 生产轨迹显示,智能体上下文显著大于传统推理工作负载中观测到的上下文,这与我们在公开数据集与 harness 上的结果一致。如图 [5]([https://arxiv.org/html/2607.29069v1#S4.F5](https://arxiv.org/html/2607.29069v1#S4.F5)) 所量化,平均智能体上下文消耗的 KV 占用显著大于传统推理。在 Qwen3.6 模型、固定 25GB 预算下,这种状态放大使最大驻留容量从 176 个并发服务请求骤降至仅 40 个——即 4.4× 的缩减。
+
+2. 上下文充分性阈值: 借助开源数据集与 harness,我们证明长上下文保留仅在达到任务特定阈值前提升精度,超过该阈值后,额外历史尽管消耗更多内存,却几乎不再带来精度收益。如图 [6]([https://arxiv.org/html/2607.29069v1#S4.F6](https://arxiv.org/html/2607.29069v1#S4.F6)) 所示,OpenClaw 在 DeepResearch Bench 上于 160K 上下文处达到峰值成功率(95%),此时恰好消除了上下文溢出。相反,Terminal-Bench 2 与 SWE-Bench Pro 在溢出压力消除后趋于平缓甚至下降,其最佳性能出现在较小或中等窗口,而非最大上下文。
+
+3. 容量导致的批处理受限: 我们在公开数据集上的结果进一步表明,大规模保留状态严重制约服务容量。图中数据表明,尽管存在 32 个会话的积压,内存压力仍限制了有效批处理;Token 池利用率峰值达到 97%,而引擎仅维持中位数 22 个并发请求。在此压力下,调度器抢占活跃会话,p95 内部排队延迟达到 7.9 秒。
 
 ![](../english/images/figure_07.png)
 
@@ -115,7 +133,9 @@ Aries 的目标是通过将智能体轨迹视为一等公民,弥合"语义任务
 
 ![](../english/images/figure_09.png)
 
-图 9. 每秒聚合测量的工具与 harness CPU 与内存利用率 CDF。工具环境大部分时间处于空闲,在工具调用期间出现高 CPU 利用率尖峰。
+图 9. 每秒聚合测量的工具与 harness CPU 与内存利用率 CDF。
+
+工具环境大部分时间处于空闲,在工具调用期间出现高 CPU 利用率尖峰。
 
 ![](../english/images/figure_10.png)
 
