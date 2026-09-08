@@ -4,7 +4,7 @@ linkTitle: "基础设施"
 weight: 1
 menu:
   main:
-    weight: 30
+    weight: 100
     pre: <i class='fas fa-paper-plane'></i>
 date: 2021-08-13
 cascade:

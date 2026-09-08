@@ -4,7 +4,7 @@ linkTitle: "协议"
 weight: 1
 menu:
   main:
-    weight: 40
+    weight: 30
     pre: <i class='fas fa-paper-plane'></i>
 date: 2021-08-13
 cascade:
