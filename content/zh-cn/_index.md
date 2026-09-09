@@ -3,8 +3,8 @@ title: AI Agent 学习笔记
 ---
 
 {{< blocks/cover title="AI Agent 学习笔记" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="./timeline/">
-  阅读笔记内容 <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+<a class="btn btn-lg btn-primary me-3 mb-4" href="./definition/">
+  从「什么是 AI Agent」开始 <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/skyao/learning-ai-agent">
     查看笔记源码 <i class="fab fa-github ms-2 "></i>

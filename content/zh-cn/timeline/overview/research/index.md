@@ -7,6 +7,8 @@ description: >
   说明这次 AI Agent 调研的方法论
 ---
 
+本页是方法，不是入门。若还没有工作定义，先读 [什么是 AI Agent](/definition/what-is-ai-agent/) 和 [什么不是](/definition/what-is-not-ai-agent/)。总弧线和每年怎么读见 [概述](../)。
+
 ## 什么是 "AI Agent"？
 
 
