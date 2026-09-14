@@ -27,7 +27,7 @@ LLM Agent = 为了达成目标，在循环里调用工具。出处：[I think �
 
 | 来源 | 他们怎么说 | 我怎么用 |
 | --- | --- | --- |
-| [Anthropic · Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) | 先把东西都叫 *agentic systems*，再切开：**workflow** = 代码写死路径；**agent** = 模型自己决定流程和工具。 | 四要素里的「LLM 当决策核 + 循环」就是这条线。他们会把写死的多步流水线排除在 Agent 之外，比我们的定义略严。 |
+| [Anthropic · Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) | 先把东西都叫 *agentic systems*，再切开：**workflow** = 代码写死路径；**agent** = 模型自己决定流程和工具。 | 四要素里的「LLM 当决策核心 + 循环」就是这条线。他们会把写死的多步流水线排除在 Agent 之外，比我们的定义略严。 |
 | [OpenAI · Practical Guide](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | *Agents are systems that independently accomplish tasks on your behalf.* 并写明：简单 chatbot、单轮 LLM、情感分类器 **不是** Agent。 | 「什么不是AI Agent」几乎同构。他们更强调 *on your behalf* 和独立性，听起来像高自主；我明确写弱自主也算。 |
 | [LangChain · What is an AI agent?](https://www.langchain.com/blog/what-is-an-agent) | *A system that uses an LLM to decide the control flow of an application.* 也写：Agent 就是 **LLM running in a loop**。 | 把「谁决定下一步」当成定义核心。他们用 **spectrum**：router → 状态机 → 长程自主，不搞二元是/否。 |
 | [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/unit1/what-are-agents) | *A system that leverages an AI model to interact with its environment in order to achieve a user-defined objective.* 循环写成 Think → Act → Observe。 | 教学拆法和本笔记最像。但他们的光谱从「只处理输出」到「多步 Agent」都叫 agency，例子里还带上客服 chatbot，边界比我松。 |

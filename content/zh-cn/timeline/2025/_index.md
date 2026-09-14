@@ -13,7 +13,7 @@ description: >
 
 ## 和 LLM 的关系
 
-2024 的 o1 是预告。2025 年决策核的变化是：**思考被训练进模型，运行时把模型和电脑接在一起。**
+2024 的 o1 是预告。2025 年决策核心的变化是：**思考被训练进模型，运行时把模型和电脑接在一起。**
 
 - **推理模型成为 Agent 的默认引擎之一。** o3 系（2025 年初进入产品）、Claude 3.7 / Claude 4（2 月与 5 月）、以及年中以后的 GPT-5 一类「快模型 + 思考模型 + 路由」。规划、回退、写测试不再完全靠提示词里的 ReAct 明文。代价是延迟和账单。
 - **专用 Agent 模型出现。** OpenAI 的 Codex 云端 Agent 用为软件工程优化的 codex-1（o3 变体）；Anthropic 把最强编码核和 Claude Code 绑在一起发。应用层开始反过来说：我们要的不是通用聊天模型，是会在沙箱里收工的模型。
@@ -36,7 +36,7 @@ description: >
 | 2025-07 | Operator 并入 ChatGPT agent | 工程化 | 浏览执行和研究开始收进同一个产品入口，而不是独立网站 |
 | 2025 | [Agent Skills](/protocal/skills/) | 工程化 | 用文件夹打包流程、脚本、领域知识，运行时动态加载。通用 Agent 靠 Skills 变专用，而不靠再训练。原文见 [为智能体配备 Agent Skills](/protocal/skills/posts/equipping-agents-for-the-real-world-with-agent-skills/) |
 
-刻意不升格的：每一个「我们的多 Agent 平台」发布会；把 A2A 写成已经统一企业通信（协议发布 ≠ 生态长成，对照 [前传里的 FIPA](../before2022/)）；以及任何把 Deep Research 的长报告等同于「已解决研究」的说法。
+刻意不升格的：每一个「我们的多 Agent 平台」发布会；把 A2A 写成已经统一企业通信（协议发布 ≠ 生态长成，对照 [前传里的 FIPA](../before2022/early-concepts/fipa-acl/)）；以及任何把 Deep Research 的长报告等同于「已解决研究」的说法。
 
 ## 能力栈切片
 
