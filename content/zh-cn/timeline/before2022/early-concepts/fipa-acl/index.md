@@ -7,7 +7,7 @@ description: >
   Foundation for Intelligent Physical Agents：为异构 Agent 规定管理平台、通信语言与交互协议。
 ---
 
-组织与规范：[FIPA](https://www.fipa.org/)（Foundation for Intelligent Physical Agents）。1996 年 4 月在伦敦 Imperial College 讨论建制，同年 9 月在日内瓦登记为瑞士非营利协会，目标是为异构、会交互的 Agent 与 Agent 系统编写软件标准。第一批规范以 FIPA 97 发布。2005 年 6 月 8 日，FIPA 成为 IEEE Computer Society 的标准委员会。现行规范仍集中在 fipa.org 的 Repository。
+组织与规范：[FIPA](https://www.fipa.org/)（Foundation for Intelligent Physical Agents）。1996 年 4 月在伦敦 Imperial College 讨论建制，1996 年 9 月在日内瓦登记为瑞士非营利协会，目标是为异构、会交互的 Agent 与 Agent 系统编写软件标准。第一批规范以 FIPA 97 发布。2005 年 6 月 8 日，FIPA 成为 IEEE Computer Society 的标准委员会。现行规范仍集中在 fipa.org 的 Repository。
 
 与本页直接相关的规范包括：FIPA 97 第 1 部分 Agent Management、第 2 部分 Agent Communication Language；其后拆成的 *FIPA ACL Message Structure Specification*（SC00061）、*FIPA Communicative Act Library Specification*（SC00037）、*FIPA Contract Net Interaction Protocol Specification*（SC00029）等。
 
@@ -108,6 +108,4 @@ FIPA 完成了规范文本，并在 Agentcities 等项目中做过互操作试�
 
 ## 和 AI Agent 的关系
 
-FIPA 是时间线上明确的**标准建立型**节点，结果偏警示：规范可以写完，生态可以不出现。2024 年 [MCP](/protocal/mcp/) 与 2025 年 [A2A](/protocal/a2a/) 处理的问题分别是「模型如何接工具」和「Agent 如何接 Agent」。它们出现在 ChatGPT / Claude 等产品已经存在之后，是把已经在用的调用方式收成事实标准，与 FIPA「先写全规范再等待实现」的顺序相反。
-
-读 A2A 时，这一页提供对照清单：发现是 DF 还是 Agent Card；消息类型是交际行为库还是任务/消息对象；有没有已经在跑的运行时作为宿主；符合性是否依赖不可观察的信念。 [2027](../../../2027/) 把「A2A 会否重演无生态」列为观察项，依据就是这一段历史。
+FIPA 是时间线上明确的**标准建立型**节点，结果偏警示：规范可以写完，生态可以不出现。2024 年 MCP 与 2025 年 A2A 处理的问题分别是「模型如何接工具」和「Agent 如何接 Agent」。它们出现在 ChatGPT / Claude 等产品已经存在之后，是把已经在用的调用方式收成事实标准，与 FIPA「先写全规范再等待实现」的顺序相反。

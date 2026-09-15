@@ -9,9 +9,7 @@ description: >
 
 Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei. *Language Models are Few-Shot Learners*. NeurIPS 2020. [arXiv:2005.14165](https://arxiv.org/abs/2005.14165)（[PDF](https://arxiv.org/pdf/2005.14165)）。Brown、Mann、Ryder、Subbiah 标注为同等贡献。
 
-本页只转述这篇论文自己写了什么。数字与结构主张以 arXiv / NeurIPS 文本为准。全文约 70 页（含附录），图与完整任务提示以原文为准。
-
-网上多见「翻译与解读」混写，例如 [阿里云](https://developer.aliyun.com/article/800559)、[51CTO](https://blog.51cto.com/yunyaniu/3247337)，不是独立的授权全译。对照阅读以原文为准。本页不复制未授权全文。
+中文译本：[AI千集](https://aiqianji.com/blog/article/3187)、[51CTO（翻译与解读）](https://blog.51cto.com/yunyaniu/5090186)。
 
 ---
 

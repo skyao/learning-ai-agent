@@ -7,11 +7,9 @@ description: >
   按原文结构转述 Vaswani 等 2017 年论文：架构、注意力公式、训练与实验结果。
 ---
 
-Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin. *Attention Is All You Need*. NIPS 2017. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)（[HTML](https://arxiv.org/html/1706.03762v7)、[PDF](https://arxiv.org/pdf/1706.03762)）。八位作者均标注为同等贡献。
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin. *Attention Is All You Need*. NIPS 2017. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)（[HTML](https://arxiv.org/html/1706.03762v7)、[PDF](https://arxiv.org/pdf/1706.03762)）。八位作者均标注为同等贡献。文首注明：在注明出处的前提下，Google 允许在学术或新闻作品中复制该文的表与图。
 
-本页只转述这篇论文自己写了什么。公式、表格数字与结构主张以 arXiv v7 / NIPS 文本为准。全文与图仍以原文 PDF 为准；文首注明：在注明出处的前提下，Google 允许在学术或新闻作品中复制该文的表与图。
-
-网上有多份民间中文译本，质量与版本不一（英德/英法 BLEU 有的把摘要 41.8 和正文 41.0 抄混）。对照阅读以原文为准。较完整的民间译本包括：[CSDN 转述](https://blog.csdn.net/nocml/article/details/103082600)、[GitHub LaTeX 中译](https://github.com/cnolka/transformer-paper-zh)。本页不复制未授权全文。
+中文译本：[Arthur Chiao](https://arthurchiao.art/blog/attention-is-all-you-need-zh/)、[GitHub LaTeX 中译](https://github.com/cnolka/transformer-paper-zh)、[博客园](https://www.cnblogs.com/dengfanxin/p/16638798.html)。民间译本质量不一，英德/英法 BLEU 有的把摘要 41.8 和正文 41.0 抄混。
 
 ---
 

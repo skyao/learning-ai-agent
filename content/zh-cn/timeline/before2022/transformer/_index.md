@@ -1,6 +1,9 @@
 ---
 title: "Transformer"
-linkTitle: "Transformer"
+linkTitle: "[论文]Transformer"
+分类: "论文"
+标签:
+  - "范式更替"
 weight: 100
 date: 2026-09-14
 description: >
@@ -8,8 +11,6 @@ description: >
 ---
 
 Vaswani 等，2017，*Attention Is All You Need*（NIPS 2017）。提出完全基于注意力的序列转换模型 Transformer，去掉循环与卷积。
-
-分两页读，互不混写：
 
 1. [论文](./paper/) — 按原文结构转述：问题、架构、公式、实验与结论。不加入后来的 LLM / Agent 解释。
 2. [讲解](./explanation/) — 这篇论文解决了什么问题，这些问题如何传到后来的大语言模型，以及如何成为 AI Agent 决策核心的物理前提。
