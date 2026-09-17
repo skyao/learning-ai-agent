@@ -7,7 +7,7 @@ linkTitle: "[论文]STRIPS"
 weight: 10
 date: 2026-09-14
 description: >
-  谓词世界加算子搜索得到计划。规划器是决策核心，执行另接。有搜索循环，不是 LLM。
+  符号规划器：谓词写世界，算子搜出计划。有循环和动作，核不是 LLM；其动作效果清单，正是今日 Agent 所缺。
 ---
 
 原文：[Fikes & Nilsson, 1971](https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/PublishedPapers/strips.pdf)，*STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving*，*Artificial Intelligence* 2: 189–208。IJCAI-71 报告，实现用 LISP 运行在 PDP-10 上，服务于 SRI 的机器人研究（Shakey）。
@@ -127,9 +127,11 @@ STRIPS（Stanford Research Institute Problem Solver）是一个**符号规划器
 
 ## 和 AI Agent 的关系
 
-STRIPS **有循环**：规划器在世界模型空间里反复搜索，直到目标可证。它也**有动作**：计划随后由执行程序完成推箱子、过门等操作。观察是定理证明器对当前模型的询问，不是开放文本回执。决策核心是定理证明加搜索，不是语言模型；世界是谓词集合，不是工具 JSON 或屏幕。后来 LLM Agent 中的 Planning，古典形态就是这一支，控制流在规划器，不在解码过程中。STRIPS 不是 ReAct、不是 Function Calling，也不是编码运行时的祖先产品。
+**STRIPS 是符号规划器：谓词写世界，算子搜出计划。有循环和动作，核不是 LLM；其动作效果清单，正是今日 Agent 所缺。**
 
-但「不是祖先」不等于「没有关系」。两者都在做同一件事：让机器自己决定下一步做什么。区别在于它们如何处理「一个动作会改变什么」，而这个区别决定了各自的能力边界。
+它的循环在世界模型空间里反复搜索，直到目标可证；动作由执行程序在计划算出之后完成。观察是定理证明器对当前模型的询问，不是开放文本回执。决策核心是定理证明加搜索，不是语言模型；世界是谓词集合，不是工具 JSON 或屏幕。后来 LLM Agent 中的 Planning，古典形态就是这一支，控制流在规划器，不在解码过程中。它也不是 ReAct、不是 Function Calling，不是编码运行时的祖先产品。
+
+两者都在做同一件事：让机器自己决定下一步做什么；区别在于如何处理「一个动作会改变什么」，而这个区别决定了各自的能力边界。
 
 STRIPS 的做法，是给每个动作附两张清单。第一张写**做这件事需要什么**，即前提；第二张写**做完之后世界加上什么、去掉什么**，即增列表与删列表，合起来就是效果。页面里那个 `goto(m, n)` 动作，两张清单是：前提「在 m」，效果「去掉『在 m』，加上『在 n』」。
 
