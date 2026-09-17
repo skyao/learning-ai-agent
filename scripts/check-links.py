@@ -66,6 +66,21 @@ def resolve_target(page: str, link_path: str) -> str:
     return posixpath.normpath(posixpath.join(page, link_path))
 
 
+def has_anchor(content: str, frag: str) -> bool:
+    """构建产物里是否存在该 id。
+
+    Hugo 压缩输出会省略不需要引号的属性值引号，同一个锚点可能写成 id="x"，
+    也可能写成 id=x（值里不含空格时）。只匹配前一种会把有效锚点误报为失效。
+    未加引号的值以空白、'>' 或 '/' 结束。前面的否定环视避免匹配到
+    data-id 这类以 id 结尾的别的属性名。
+    """
+    esc = re.escape(frag)
+    quoted = '"%s"' % esc
+    single = "'%s'" % esc
+    bare = "%s(?=[\\s>/])" % esc
+    return re.search(r"(?<![\w-])id=(?:%s|%s|%s)" % (quoted, single, bare), content) is not None
+
+
 def check(repo_root: str, content_dir: str, build_dir: str) -> int:
     problems: list[tuple[str, str, str]] = []
     total = 0
@@ -110,7 +125,7 @@ def check(repo_root: str, content_dir: str, build_dir: str) -> int:
                 if frag and html.endswith(".html"):
                     with open(html, encoding="utf-8") as fh:
                         content = fh.read()
-                    if f'id="{frag}"' not in content:
+                    if not has_anchor(content, frag):
                         problems.append((src, url, "锚点不存在：" + frag))
 
     print(f"检查内部链接 {total} 条，问题 {len(problems)} 处")
