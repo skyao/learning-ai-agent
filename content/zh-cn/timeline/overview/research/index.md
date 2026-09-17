@@ -77,7 +77,7 @@ Function Calling 作为能力出现在模型层叙事（核开始能稳定选工
 
 ## 4. 进表规则
 
-防流水账，也防只写赢家。每条：**分类一、标签可多**。侧栏 `[分类]条目名`。前传八条概念不套七类。
+防流水账，也防只写赢家。每条：**分类一、标签可多**。侧栏 `[分类]条目名`。前传八条概念不套八类。
 
 ### 分类
 
@@ -88,8 +88,10 @@ Function Calling 作为能力出现在模型层叙事（核开始能稳定选工
 5. **协议** — Function Calling、MCP、A2A、Skills
 6. **评测** — HumanEval、SWE-bench 族、OSWorld、Terminal-Bench
 7. **博文** — Building effective agents、Agent identity
+8. **监管** — 法规、指南、政府指令、司法先例（欧盟 AI Act 第 50 条指南、出口管制、加州 AB 316）
 
 - 有论文不等于分类是论文。知名模型走模型；评测论文走评测；可跑系统走产品或框架。
+- **分类看对象是什么，不看材料挂在哪。** 政府行为走**监管**，不因为是厂商博客发布的就归博文——材料只是载体。同理，只有厂商通稿、没有实际监管效力的事件也不因「像政策」而进监管。
 - Function Calling 与 Skills 进协议，与 MCP、A2A 并列。
 - 发布会不当条。2023-11 记 GPT-4 Turbo 与 Assistants API，不记 DevDay；GPTs 不升格。
 - 同名不同物跟主对象：2025 云端 Codex 是产品，不是 2021 那只模型。Tag 机制文档与 Slack 切换并进 Claude Tag。
