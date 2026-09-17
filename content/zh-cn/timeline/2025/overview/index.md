@@ -7,7 +7,7 @@ description: >
   2025：运行时吞掉编排库。MCP 被追认，A2A 与 Skills 给出接线与装载；Verified 与 Pro 不可横比。
 ---
 
-**一句话主线：** 2025 年，控制循环从开发者自写的编排库，迁进可直接委派的运行时——Claude Code、云端 Codex、ChatGPT 里的 Deep Research / Agent 模式。推理模型（o3、GPT-5）把规划与工具选择训练进核；模型仍不是 Agent。MCP 被跨厂商追认，A2A 给出 Agent↔Agent 接线，Skills 是运行时装载而不是 RPC。评测从 Verified 加硬到 Terminal-Bench / SWE-bench Pro，两套分数不可横比。11 月自托管「龙虾」仓库出现，舆论顶点在次年初。
+**一句话主线：** 2025 年，控制循环从开发者自写的编排库，迁进可直接委派的运行时——Claude Code、云端 Codex、ChatGPT 里的 Deep Research / Agent 模式。推理模型（o3、GPT-5）把规划与工具选择训练进核；模型仍不是 Agent。MCP 被跨厂商追认，A2A 给出 Agent↔Agent 接线，Skills 是运行时装载而不是 RPC。评测从 Verified 加硬到 Terminal-Bench / SWE-bench Pro，两套分数不可横比。年底出现转向：**云厂商开始把 Agent 运行时当作平台品类提供**（AWS AgentCore、阿里云 AgentRun），编码 Agent 的委派面进 Slack。11 月自托管「龙虾」仓库出现，舆论顶点在次年初。
 
 上一页：[2024](../../2024/overview/)。协议深挖：[MCP](/protocal/mcp/)、[A2A](/protocal/a2a/)、[Skills](/protocal/skills/)。
 
@@ -42,6 +42,11 @@ description: >
 | 2025-09-19 | [SWE-bench Pro](../swe-bench-pro/) | 评测 | 标准、警示 | 更长、抗污染的仓库题。GPT-5 在统一脚手架上约 23%——Verified 七成与 Pro 两成不可横比：谓词变硬，完成率塌缩 |
 | 2025-10 | [Agent Skills](../agent-skills/) | 协议 | 工程化 | 用文件夹打包流程、脚本、领域知识，运行时动态加载。通用核靠 Skills 变专用，而不靠再训练。不是 RPC。原文见 [为智能体配备 Agent Skills](/protocal/skills/posts/equipping-agents-for-the-real-world-with-agent-skills/) |
 | 2025-11-24 | [OpenClaw / Clawdbot（龙虾）](../openclaw/) | 产品 | 引爆 | 自托管 Gateway：聊天软件指挥你自己的机器。仓库在 2025 年出现；**现象级爆红在 2026-01**，见 [OpenClaw 爆红](../../2026/openclaw/) |
+| 2025-12-02 | [AWS AgentCore](../aws-agentcore/)（re:Invent） | 产品 | 工程化 | 推理模型循环之外的一层：策略在工具调用到达系统前拦截并裁决，评估按真实运行行为打分。当时均为 Preview，2026-03 才 GA |
+| 2025-12-08 | [Claude Code in Slack](../claude-code-slack/) | 产品 | 工程化 | 委派面从终端搬进聊天流：@Claude 建会话、按频道上下文自动选仓、线程回帖给 PR 直链。执行面未变，是 2026 Claude Tag 的前身 |
+| 2025-12-10 | [阿里云函数计算 AgentRun](../aliyun-agentrun/) | 产品 | 工程化 | 云厂商把 Agent 运行时做成平台资源：会话亲和突破 Serverless 无状态，运行时与沙箱可休眠、按需唤醒。厂商自报数字按主张记 |
+| 2025-12-18 | [Agent Skills 开放标准](../agent-skills-standard/) | 协议 | 标准 | 10 月的文件夹格式去厂商化：规范独立到 agentskills.io，客户端登记表数十家。管打包与可移植性，不管执行语义 |
+| 2025-12-18 | [GPT-5.2-Codex](../gpt-5-2-codex/) | 模型 | 工程化 | 为 Codex 优化的编码核：上下文压缩让工作跨多个上下文窗口保持连贯；Windows 有了原生沙箱选项。厂商自报分数未能一手核实 |
 
 刻意不升格的：每一个「我们的多 Agent 平台」发布会；把 A2A 写成已经统一企业通信（协议发布 ≠ 生态长成，对照 [前传里的 FIPA](../../before2022/early-concepts/fipa-acl/)）；任何把 Deep Research 的长报告等同于「已解决研究」的说法；Google Mariner 等与 Computer Use / Operator 同线的跟进预览；以及 2026 年才出现的「龙虾套壳安装会」。
 
@@ -72,6 +77,8 @@ description: >
 
 每个编码会话一个沙箱，成为运行时标配。MCP server、密钥、允许域名开始出现在开发者设置里。评测上 SWE-bench Verified 分数继续被刷高，[Terminal-Bench](../terminal-bench/) 和 [SWE-bench Pro](../swe-bench-pro/) 把「会写补丁」和「会在终端/长周期仓库收工」拆开。可观测性仍弱：一次委派烧了多少 token、在哪一步漂了，产品刚开始给日志（Agents SDK 的 tracing 是开发者侧的一步）。
 
+12 月这层被云厂商收成产品。[AWS AgentCore](../aws-agentcore/) 把工具调用的裁决与行为评估搬到推理循环之外，[阿里云 AgentRun](../aliyun-agentrun/) 用会话亲和与休眠唤醒承接有状态 Agent——两者回答的是同一类问题：环境怎么活着、谁来决定一次调用能不能发出去。**产品先于论文**：把这些负载当作一类系统问题来测量，要等 2026 年的 [Aries](../../2026/aries/) 与 [SpecBox](../../2026/specbox/)。
+
 ## 还做不到什么
 
 - **无人盯着做完跨天、跨人的任务。** 运行时很强，仍是「一个开发者的副驾驶」，不是团队员工。自托管龙虾把循环放到个人机器上，也不等于已经能当组织员工。
@@ -79,4 +86,4 @@ description: >
 - **A2A 级的多 Agent 分工成为日常。** 协议有了，生产上仍是单运行时 + MCP 工具。
 - **身份独立于用户。** 默认仍是「用你的 GitHub / 你的浏览器 / 你的账号」。主体不是独立 principal。共享频道里的服务账号是 2026 的 Claude Tag 才正视的问题。
 - **硬考卷上的自主软件工程。** Verified 可以刷到约四分之三（厂商自报）；Pro 把同一代模型打回约四分之一。谓词不同，完成率不可互换。
-- **基础设施被当成一等公民。** 沙箱冷启动、调度、长任务存活，还没有成为公开的系统论文主题。
+- **基础设施被当成一等公民，但仍以产品形态先出现。** 沙箱冷启动、调度、长任务存活在 12 月进入云厂商的产品目录，却还没有成为公开的系统论文主题——那要等 2026 年。

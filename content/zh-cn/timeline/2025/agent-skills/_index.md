@@ -10,7 +10,7 @@ description: >
   2025-10-16。用文件夹打包流程、脚本、领域知识，运行时动态加载。晚绑定专长包，不是 RPC。
 ---
 
-Anthropic，2025-10-16。工程博文提出 Agent Skills：含 `SKILL.md` 的目录，渐进式披露。后来再写成跨平台开放标准。
+Anthropic，2025-10-16。工程博文提出 Agent Skills：含 `SKILL.md` 的目录，渐进式披露。12 月转成[跨平台开放标准](../agent-skills-standard/)。
 
 1. [材料](./source/) — 按当时博文转述：结构、渐进披露、适用表面。
 2. [讲解](./explanation/) — 晚绑定专长包；不是 RPC，不是再训练，不是循环。
