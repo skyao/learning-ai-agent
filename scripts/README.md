@@ -30,8 +30,9 @@ npm run check:links
 
 参数：`--build`（先构建）、`--build-dir`、`--content-dir`、`--repo-root`。内容目录默认从 `hugo.toml` 的 `contentDir` 读取，所以改语言目录不用改脚本。
 
-> **npm 路径的坑：** `npm run` 会把 `node_modules/.bin` 放在 PATH 最前面，那里有一个 `hugo` 符号链接指向 `hugo-extended` 的**下载器**（不是 hugo 本身）。如果它下载不到二进制（离线或网络受限），`npm run build` / `npm run check:links` 都会失败，报 `Hugo installation failed` 或 `read ETIMEDOUT`。
-> 本机装了系统 hugo 时，直接跑方式一或方式二即可；要让 npm 那条路也通，从 `devDependencies` 里去掉 `hugo-extended`。
+> **关于 hugo 从哪来：** 这个仓库**用系统安装的 hugo**，`devDependencies` 里刻意不含 `hugo-extended`。
+> 那个包做的事是「下载一份 hugo 二进制放进 `node_modules/.bin`」，而 `npm run` 会把这个目录放在 PATH 最前面——于是它会**顶替系统 hugo**。一旦下载失败（离线、网络受限），`npm run build` / `npm run check:links` 就全部报 `Hugo installation failed` / `read ETIMEDOUT`，排查起来很绕。
+> 所以请不要再把它装回来。需要固定版本的话，在 CI 里单独装 hugo，而不是塞进这个包。
 
 ### 它怎么判断
 
