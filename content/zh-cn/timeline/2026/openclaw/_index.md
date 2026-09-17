@@ -5,7 +5,7 @@ linkTitle: "[产品]OpenClaw 爆红"
 标签:
   - "引爆"
   - "警示"
-weight: 5
+weight: 10
 date: 2026-09-15
 description: >
   2026-01。Clawdbot 改名 OpenClaw，星标与「养龙虾」陡增。仓库出生在 2025-11；热度与暴露面是这一月的事。

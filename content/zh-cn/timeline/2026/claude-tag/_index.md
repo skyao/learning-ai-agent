@@ -5,7 +5,7 @@ linkTitle: "[产品]Claude Tag"
 标签:
   - "工程化"
   - "范式更替"
-weight: 10
+weight: 90
 date: 2026-09-15
 description: >
   2026-06-23。Slack 里的共享 AI 队友。组织级身份 + 短寿沙箱；与 Claude Code on the web 同一引擎。

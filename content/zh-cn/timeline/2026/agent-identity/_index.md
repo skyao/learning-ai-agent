@@ -4,7 +4,7 @@ linkTitle: "[博文]Agent identity"
 分类: "博文"
 标签:
   - "范式更替"
-weight: 20
+weight: 100
 date: 2026-09-15
 description: >
   2026-06-24。异步、多驾驶员下 act-as-user 在授权、审计、回放上都不闭合。需要独立 Agent 主体。

@@ -4,7 +4,7 @@ linkTitle: "[产品]Cowork"
 分类: "产品"
 标签:
   - "工程化"
-weight: 7
+weight: 20
 date: 2026-09-15
 description: >
   2026-01-12。同一套 Claude Code 循环，接到本机文件夹。主体仍是使用者账号。当时仅 Max + macOS。
