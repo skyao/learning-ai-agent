@@ -2,6 +2,7 @@
 !.gitignore
 public/
 resources/
+__pycache__/
 node_modules/
 node_modules
 themes/

@@ -30,6 +30,14 @@ npm run check:links
 
 参数：`--build`（先构建）、`--build-dir`、`--content-dir`、`--repo-root`。内容目录默认从 `hugo.toml` 的 `contentDir` 读取，所以改语言目录不用改脚本。
 
+改动匹配逻辑后，跑一次回归用例：
+
+```bash
+python3 scripts/test_check_links.py
+```
+
+用例只覆盖锚点匹配（见「抓出来过的真实问题」的第二、三条）。只用标准库，不需要 pytest，也不依赖构建产物。
+
 > **关于 hugo 从哪来：** 这个仓库**用系统安装的 hugo**，`devDependencies` 里刻意不含 `hugo-extended`。
 > 那个包做的事是「下载一份 hugo 二进制放进 `node_modules/.bin`」，而 `npm run` 会把这个目录放在 PATH 最前面——于是它会**顶替系统 hugo**。一旦下载失败（离线、网络受限），`npm run build` / `npm run check:links` 就全部报 `Hugo installation failed` / `read ETIMEDOUT`，排查起来很绕。
 > 所以请不要再把它装回来。需要固定版本的话，在 CI 里单独装 hugo，而不是塞进这个包。
