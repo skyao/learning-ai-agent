@@ -7,7 +7,7 @@ linkTitle: "[框架]AutoGen"
 weight: 110
 date: 2026-09-15
 description: >
-  2023-08。多 Agent 做成消息总线。至少一方执行副作用，才有环境环。
+  2023-08。多 Agent 做成消息总线。至少一方执行副作用，才有作用在环境上的循环。
 ---
 
 Wu 等，Microsoft Research / 宾州州立大学等。arXiv 2023-08。开源库允许用可对话的多个 agent 协作完成任务。

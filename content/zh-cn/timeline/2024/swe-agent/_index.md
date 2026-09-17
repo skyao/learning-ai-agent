@@ -7,7 +7,7 @@ linkTitle: "[产品]SWE-agent"
 weight: 40
 date: 2026-09-15
 description: >
-  2024-05。Princeton：为环设计 Agent-Computer Interface，而不是把人用的 IDE 原样交给模型。
+  2024-05。Princeton：为循环设计 Agent-Computer Interface，而不是把人用的 IDE 原样交给模型。
 ---
 
 Princeton NLP 等。arXiv:2405.15793。SWE-agent：面向语言模型的 Agent-Computer Interface。开源对照 Devin。

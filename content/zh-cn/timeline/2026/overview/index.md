@@ -46,7 +46,7 @@ description: >
 | 2026-07-31 | [Aries](../aries/)（*Rethinking AI Cloud Infrastructure*） | 论文 | 首证、警示 | 测量向：Agent 云负载不是传统微服务。一次委派是轨迹（推理、工具、沙箱、KV），不是请求。问题重构先于新调度器——执行路径、存储、隔离被重新定义 |
 | 2026-08-02 | [欧盟 AI Act 第 50 条](../eu-ai-act-article-50/) 生效 | **监管** | 首证 | 官方指南明文点名 **AI agent 与多 Agent 架构**：设计上必须披露人工性质与所代表的人。第一个在生效规则里点名 Agent 的法域；同日加州透明度法也生效 |
 | 2026-08 | [SpecBox](../specbox/) | 论文 | — | 沙箱就绪时间被量化为 Agent 服务成本：环境未就绪，Action 只能阻塞。供给第一次被当成系统问题来量 |
-| 2026-08-07 | [Snowflake Cortex Agents](../snowflake-cortex-agents/) | 产品 | 工程化 | 三次 GA：跨应用 agent→agent 编排、服务端托管 agent loop、断连后继续的异步长任务。**数据平台开始把环收进服务端**——它们本来就知道谁有权访问什么 |
+| 2026-08-07 | [Snowflake Cortex Agents](../snowflake-cortex-agents/) | 产品 | 工程化 | 三次 GA：跨应用 agent→agent 编排、服务端托管 agent loop、断连后继续的异步长任务。**数据平台开始把循环收进服务端**——它们本来就知道谁有权访问什么 |
 | 2026-08-31 | [CrowdStrike Agent 身份与管控](../crowdstrike-agent-identity/) | 产品 | 工程化 | 每个 Agent 签发可验证身份、**不给常设凭证**、令牌按最小权限最短时间签发、动作绑定委托人；终端上清点并阻止影子 Agent。目前最完整的 Agent 身份模型 |
 | 2026-09-03 | [GPT-6 Astra](../gpt-6-astra/) | 模型 | — | 官方描述点出机制：边规划边验证、**独立确认结果后才宣布完成**。另有推理时安全指令注入，服务端在风险升高时改写输入 |
 | 2026 全年 | [开源权重模型达到 Agent 可用](../open-weights-2026/) | 模型 | — | 1M 上下文、原生多模态、computer use、harness 兼容成为开源标配。与 6 月的出口管制是同一件事的两面：**可替换性从优化项变成架构前提** |
@@ -73,7 +73,7 @@ MCP / Skills 被 Tag 当组织级 connections 和 skills repo 来用：管理员
 2. [Cowork](../cowork/)：厂商桌面应用，指定文件夹做知识工作。
 3. [Claude Tag](../claude-tag/)：组织频道、共享身份、可旁观。
 
-客诉汇总、法务审材料、数仓问答、缺陷复现开 PR——Anthropic 内部案例写在 Tag 资料列表第五阶段。Cowork / Claude Code 仍管个人文件与本地仓库；Tag 管共享、异步、可旁观。最小环没有换，换的是委派面和可见性。
+客诉汇总、法务审材料、数仓问答、缺陷复现开 PR——Anthropic 内部案例写在 Tag 资料列表第五阶段。Cowork / Claude Code 仍管个人文件与本地仓库；Tag 管共享、异步、可旁观。最小循环没有换，换的是委派面和可见性。
 
 ### 基础设施层
 

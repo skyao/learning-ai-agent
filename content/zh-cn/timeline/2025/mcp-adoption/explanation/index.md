@@ -11,7 +11,7 @@ description: >
 
 [MCP](../../../2024/mcp/) 在 2024-11 给出模型↔资源的开放协议，当时能用的 client 主要是 Claude Desktop。只有一家认的插槽，对应用方仍是赌 Anthropic。OpenAI、Google 表态之后，写一次 server 开始有机会插进多家运行时。这才是那篇规范的后世重要性：**总线成为默认槽位发生在 2025 年春天**，不是发布当天。
 
-按定义 MCP **仍然不是** Agent。被追认的是接线，不是自主性。环仍由 Desktop、Claude Code、Codex、自建 SDK 来跑。对照前传 [FIPA ACL](../../../before2022/early-concepts/fipa-acl/)：先写标准再等生态可以空转；MCP 是产品已存在、再收成事实协议。
+按定义 MCP **仍然不是** Agent。被追认的是接线，不是自主性。循环仍由 Desktop、Claude Code、Codex、自建 SDK 来跑。对照前传 [FIPA ACL](../../../before2022/early-concepts/fipa-acl/)：先写标准再等生态可以空转；MCP 是产品已存在、再收成事实协议。
 
 ## 对后续 LLM 与 Agent 的影响
 

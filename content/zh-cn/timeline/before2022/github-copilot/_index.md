@@ -7,7 +7,7 @@ linkTitle: "[产品]GitHub Copilot"
 weight: 140
 date: 2026-09-14
 description: >
-  2021-06 技术预览。IDE 行级补全。有缓冲区副作用，无目标环，不是 Agent。
+  2021-06 技术预览。IDE 行级补全。有缓冲区副作用，无目标循环，不是 Agent。
 ---
 
 GitHub 与 OpenAI，2021-06-29。技术预览：在编辑器里根据当前文件上下文建议代码。驱动模型是 OpenAI Codex。按 AI Agent 定义不是 Agent，但是「Copilot → Agent」这条产品演化的起点。

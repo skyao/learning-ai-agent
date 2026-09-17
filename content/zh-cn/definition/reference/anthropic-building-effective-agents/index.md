@@ -309,7 +309,7 @@ Erik S. 与 Barry Zhang 执笔。这篇文章来自我们在 Anthropic 做 Agent
 
 Our work with customers has revealed two particularly promising applications for AI agents that demonstrate the practical value of the patterns discussed above. Both applications illustrate how agents add the most value for tasks that require both conversation and action, have clear success criteria, enable feedback loops, and integrate meaningful human oversight.
 
-和客户合作下来，有两类应用特别有前景，也把上面那些模式的实际价值说清楚了。两者都说明：Agent 最能加分的任务，是既要对话又要行动、成功标准清楚、能形成反馈环、并且能接进有意义的人的监督。
+和客户合作下来，有两类应用特别有前景，也把上面那些模式的实际价值说清楚了。两者都说明：Agent 最能加分的任务，是既要对话又要行动、成功标准清楚、能形成反馈循环、并且能接进有意义的人的监督。
 
 ### A. 客户支持
 

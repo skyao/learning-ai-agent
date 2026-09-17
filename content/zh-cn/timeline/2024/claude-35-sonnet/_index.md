@@ -5,7 +5,7 @@ linkTitle: "[模型]Claude 3.5 Sonnet"
 weight: 80
 date: 2026-09-15
 description: >
-  2024-06-21。编码与 Artifact 工作流。许多团队把默认核切到这里。核换了，环仍在宿主。
+  2024-06-21。编码与 Artifact 工作流。许多团队把默认核切到这里。核换了，循环仍在宿主。
 ---
 
 Anthropic，2024-06-21。Claude 3.5 Sonnet：中档价、宣称超过 3 Opus。内部 agentic coding 评测 64% 对 Opus 的 38%（厂商自报）。

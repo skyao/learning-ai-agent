@@ -15,4 +15,4 @@ description: >
 
 ## 对后续 LLM 与 Agent 的影响
 
-2026 年 Tag 把 skills repo 做成组织级 bundle：管理员按频道配专长，而不是每人在 claude.ai 上装自己的。这与 Access bundle 同一方向：装载从个人配置上收到组织 scope。[调研方法](../../../overview/research/) 里的 Protocol 在 2025 年终于能用产品对上号：接线、装载、对端 Agent，都不是环本身。
+2026 年 Tag 把 skills repo 做成组织级 bundle：管理员按频道配专长，而不是每人在 claude.ai 上装自己的。这与 Access bundle 同一方向：装载从个人配置上收到组织 scope。[调研方法](../../../overview/research/) 里的 Protocol 在 2025 年终于能用产品对上号：接线、装载、对端 Agent，都不是循环本身。

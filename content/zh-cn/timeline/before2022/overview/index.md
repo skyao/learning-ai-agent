@@ -58,7 +58,7 @@ description: >
 | 2017-06 | [Transformer](../transformer/)（[论文](../transformer/paper/)、[讲解](../transformer/explanation/)） | 论文 | 范式更替 | 用自注意力替代循环与卷积，成为后续 LLM 的骨架。没有可扩展的条件生成器，后面就没有可讨论的决策核心。它不包含工具，也不包含终止条件 |
 | 2020-05 | [GPT-3](../gpt-3/)（[论文](../gpt-3/paper/)、[讲解](../gpt-3/explanation/)） | 模型 | 首证 | 上下文学习：不更新权重也能做新任务。Agent 后来把 Observation 当作工作记忆，其物理前提从这里开始。当时窗口约 2k–4k，工具调用只能依赖模型吐出可解析的字符串 |
 | 2020-05 | [RAG](../rag/)（[论文](../rag/paper/)、[讲解](../rag/explanation/)） | 论文 | 工程化 | 生成之前先检索。后来几乎所有「带外部知识的 Agent」都要先经过这一步；它本身仍是单次流水线，不是迭代循环 |
-| 2021-06 | [GitHub Copilot](../github-copilot/)（[材料](../github-copilot/source/)、[讲解](../github-copilot/explanation/)） | 产品 | 工程化 | 把 Codex 的能力做成 IDE 补全。按 AI Agent 定义**不是** Agent（无自主目标，无多步环境循环），但它是「Copilot → Agent」这条演化的起点。副作用在编辑器缓冲区，不在环境；无目标环 |
+| 2021-06 | [GitHub Copilot](../github-copilot/)（[材料](../github-copilot/source/)、[讲解](../github-copilot/explanation/)） | 产品 | 工程化 | 把 Codex 的能力做成 IDE 补全。按 AI Agent 定义**不是** Agent（无自主目标，无多步环境循环），但它是「Copilot → Agent」这条演化的起点。副作用在编辑器缓冲区，不在环境；无目标循环 |
 | 2021-07 | [Codex](../codex/)（[论文](../codex/paper/)、[讲解](../codex/explanation/)） | 模型 | 首证 | 语言模型写出可运行的代码。没有代码生成，就不会有后来的编码 Agent。生产版本驱动 GitHub Copilot。核不是运行时 |
 | 2021-07 | [HumanEval](../humaneval/)（[论文](../humaneval/paper/)、[讲解](../humaneval/explanation/)） | 评测 | 首证、标准 | 用单元测试衡量函数级合成。完成谓词的早期形态：看执行结果，不看流畅度。覆盖面远窄于 2023 年的 SWE-bench |
 | 2021-12 | [WebGPT](../webgpt/)（[论文](../webgpt/paper/)、[讲解](../webgpt/explanation/)） | 产品 | 首证 | GPT-3 在文本浏览器里检索、导航、带引用作答，并用人类反馈优化。这是「模型加环境加工具」的实验室形态；目标仍是答好一道题，不是自主完成开放任务。通道是页面，谓词是答题 |
@@ -81,7 +81,7 @@ description: >
 
 ### 应用层
 
-能够规模化的是助手，不是自主执行。任务型对话（订机票、查天气）与 Copilot 补全都是人在循环、一步一确认。WebGPT 与 Codex 停留在研究或开发者工具。没有「给出一个目标，让它在工具与环境里自行运转到完成」的产品，而那正是 2023 年 AutoGPT 所宣称要占据的位置。
+能够规模化的是助手，不是自主执行。任务型对话（订机票、查天气）与 Copilot 补全都是人在环路、一步一确认。WebGPT 与 Codex 停留在研究或开发者工具。没有「给出一个目标，让它在工具与环境里自行运转到完成」的产品，而那正是 2023 年 AutoGPT 所宣称要占据的位置。
 
 ### 基础设施层
 

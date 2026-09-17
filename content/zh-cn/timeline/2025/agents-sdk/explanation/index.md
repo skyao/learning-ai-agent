@@ -9,7 +9,7 @@ description: >
 
 ## 当时解决了什么问题
 
-2023 年 LangChain 把环做成库；2024 年 Swarm 证明多 Agent 交接有人要用。2025-03 OpenAI 把编排、内置工具、tracing 收成官方积木，降低「从 Completions 自写 while」的成本。Responses API 是接口：一次响应里可以带工具循环，状态与进程仍在调用方。
+2023 年 LangChain 把循环做成库；2024 年 Swarm 证明多 Agent 交接有人要用。2025-03 OpenAI 把编排、内置工具、tracing 收成官方积木，降低「从 Completions 自写 while」的成本。Responses API 是接口：一次响应里可以带工具循环，状态与进程仍在调用方。
 
 按定义 SDK **不是** Agent。用它写出来的系统可以是。handoffs 是库内拓扑，不是 [A2A](../../a2a/) 协议。同一周前后 [MCP 被追认](../../mcp-adoption/)：插槽和编排同时出现，层不同。
 

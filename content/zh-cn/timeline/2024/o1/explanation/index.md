@@ -4,7 +4,7 @@ linkTitle: "讲解"
 weight: 20
 date: 2026-09-15
 description: >
-  推理从明文 Thought 内化到测试时计算。环可以更短；工具与停机仍在宿主。模型不是 Agent。
+  推理从明文 Thought 内化到测试时计算。循环可以更短；工具与停机仍在宿主。模型不是 Agent。
 ---
 
 ## 当时解决了什么问题

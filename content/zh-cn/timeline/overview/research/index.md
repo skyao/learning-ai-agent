@@ -73,7 +73,7 @@ Function Calling 作为能力出现在模型层叙事（核开始能稳定选工
 | 扩展 | 长任务、跨会话、并发 | 窗口、记忆、沙箱寿命 |
 | 影响 | 被采用、被并入默认路径 | 不是通稿里的「革命」 |
 
-机制观察（Reflection / Tool use / Planning / Multi-agent）用来看环内部用了什么原语，何时变成标配。
+机制观察（Reflection / Tool use / Planning / Multi-agent）用来看循环内部用了什么原语，何时变成标配。
 
 ## 4. 进表规则
 
@@ -139,7 +139,7 @@ Function Calling 作为能力出现在模型层叙事（核开始能稳定选工
 
 - **分类 / 标签**：形态 vs 历史角色
 - **Agentic**：属性，不是产品类型
-- **ReAct 环**：Thought → Action → Observation → 再选
+- **ReAct 循环**：Thought → Action → Observation → 再选
 - **Tool calling / Function calling**：前者泛指；后者特指 2023-06 OpenAI API。分类=协议
 - **Framework / Runtime / Protocol**：库 / 装上即委派的执行环境 / 接线。2025 年三者终于能用产品对上号
 - **Sandbox**：副作用的地址空间

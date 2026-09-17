@@ -4,7 +4,7 @@ linkTitle: "讲解"
 weight: 20
 date: 2026-09-15
 description: >
-  在 token 序列里展开串行计算。没有 Action，没有 Observation。推理协议，不是环境环。
+  在 token 序列里展开串行计算。没有 Action，没有 Observation。推理协议，不是作用在环境上的循环。
 ---
 
 ## 论文解决了什么问题
@@ -19,4 +19,4 @@ CoT 的解法极窄：**不改权重，只改示范里有没有中间语言。**
 
 ## 对 AI Agent 的影响
 
-[ReAct](../../react/) 的 Thought 从这里接出，再接到 Action / Observation 上。没有这类中间步骤，循环里就只剩动作。它仍然不是环：没有 Action，没有 Observation；错了只能在下一段语言里改口。把 CoT 写成已经实现 Agent，会漏掉执行层。
+[ReAct](../../react/) 的 Thought 从这里接出，再接到 Action / Observation 上。没有这类中间步骤，循环里就只剩动作。它仍然不是循环：没有 Action，没有 Observation；错了只能在下一段语言里改口。把 CoT 写成已经实现 Agent，会漏掉执行层。

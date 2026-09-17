@@ -7,7 +7,7 @@ linkTitle: "[产品]BabyAGI"
 weight: 50
 date: 2026-09-15
 description: >
-  2023-03。执行、创建、重排三条 LLM 调用围着任务队列转。更短的无界环演示。
+  2023-03。执行、创建、重排三条 LLM 调用围着任务队列转。更短的无界循环演示。
 ---
 
 Yohei Nakajima。2023-03-28 先以 Task-Driven Autonomous Agent 公开，随后收成约百行的 `babyagi.py`。名字不表示这是 AGI。

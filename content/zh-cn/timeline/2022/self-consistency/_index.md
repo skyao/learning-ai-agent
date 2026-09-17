@@ -7,7 +7,7 @@ linkTitle: "[论文]Self-Consistency"
 weight: 30
 date: 2026-09-15
 description: >
-  多样本推理再投票。环里的重试 / 反思有一条采样聚合的根；论文没有环境。
+  多样本推理再投票。循环里的重试 / 反思有一条采样聚合的根；论文没有环境。
 ---
 
 Wang 等，2022-03，*Self-Consistency Improves Chain of Thought Reasoning in Language Models*。

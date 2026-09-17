@@ -7,7 +7,7 @@ linkTitle: "[协议]Function Calling"
 weight: 90
 date: 2026-09-15
 description: >
-  2023-06-13。工具调用收成 Chat Completions 的可校验 schema。协议不是 Agent；环在宿主。
+  2023-06-13。工具调用收成 Chat Completions 的可校验 schema。协议不是 Agent；循环在宿主。
 ---
 
 OpenAI，2023-06-13。`gpt-4-0613` 与 `gpt-3.5-turbo-0613` 微调成：判断要不要调函数，并吐出符合签名的 JSON。同日还有 16k 窗口的 `gpt-3.5-turbo-16k`。

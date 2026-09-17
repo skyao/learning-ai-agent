@@ -9,7 +9,7 @@ description: >
 
 ## 当时解决了什么问题
 
-[MCP 被追认](../../mcp-adoption/) 之后，工具层方言开始收束。企业里下一个问题是：我的客服 agent 如何把工单交给你的 ERP agent，而不绑死在同一家编排库。A2A 用 Agent Card、任务、通知回答这件事，并主动放在 MCP 旁边：MCP 接工具，A2A 接其他 Agent。扩展的是环的边界，不是再发明一套工具 JSON。
+[MCP 被追认](../../mcp-adoption/) 之后，工具层方言开始收束。企业里下一个问题是：我的客服 agent 如何把工单交给你的 ERP agent，而不绑死在同一家编排库。A2A 用 Agent Card、任务、通知回答这件事，并主动放在 MCP 旁边：MCP 接工具，A2A 接其他 Agent。扩展的是循环的边界，不是再发明一套工具 JSON。
 
 按定义 A2A **不是** Agent，是 Agent 之间的协议。没有它，多 Agent 仍能用私有 RPC；有了它，也不等于生产里已经在跨厂商调度。SDK 里的 handoffs 仍是库内拓扑，不要写成 A2A 落地。
 

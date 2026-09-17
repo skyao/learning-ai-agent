@@ -7,7 +7,7 @@ linkTitle: "[论文]Chain-of-Thought"
 weight: 20
 date: 2026-09-15
 description: >
-  中间计算写入 token 序列。不是环境环；ReAct 的 Thought 从这里接出。
+  中间计算写入 token 序列。不是作用在环境上的循环；ReAct 的 Thought 从这里接出。
 ---
 
 Wei 等，2022-01，*Chain-of-Thought Prompting Elicits Reasoning in Large Language Models*（Google Research）。把 ⟨输入, 思维链, 输出⟩ 示范写进提示，不微调。

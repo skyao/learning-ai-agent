@@ -7,7 +7,7 @@ linkTitle: "[框架]LangChain"
 weight: 60
 date: 2026-09-15
 description: >
-  2023 全年。把 chain、agent、tool 做成默认胶水。环可复制；生日在 2022 秋。
+  2023 全年。把 chain、agent、tool 做成默认胶水。循环可复制；生日在 2022 秋。
 ---
 
 Harrison Chase 等。库出现于 [2022-10](../../2022/langchain/)；公司 2023-02。2023 年记的是它成为教程和起步代码的默认层，不是生日。
