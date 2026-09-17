@@ -7,7 +7,7 @@ description: >
   按 2025-11 仓库出现时的产品形态转述：自托管 Gateway，不是 2026 年的星标数字。
 ---
 
-本页转述 **2025 年 11 月仓库公开时能核的产品主张**。改名 OpenClaw、星标暴涨、安全事件与「养龙虾」舆论在 **2026 年 1 月**，见 [2026 OpenClaw](../../../2026/openclaw/source/)，不写进本页「当时」。
+本页转述 **2025 年 11 月仓库公开时能核对的产品主张**。改名 OpenClaw、星标暴涨、安全事件与「养龙虾」舆论在 **2026 年 1 月**，见 [2026 OpenClaw](../../../2026/openclaw/source/)，不写进本页「当时」。
 
 主要出处：GitHub `openclaw/openclaw`，`created_at` **2025-11-24**；早期常用名 **Clawdbot / Clawd**（龙虾梗来自标志与 Claude 谐音）。项目 lore：[docs.openclaw.ai](https://docs.openclaw.ai/start/lore)。本页不复制文档全文。
 

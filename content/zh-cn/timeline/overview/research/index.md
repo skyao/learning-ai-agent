@@ -41,7 +41,7 @@ AI Agent 是以大语言模型为决策核心，在多步循环里对环境采�
 
 年份页用四层看「当年能踩在什么上」。分类回答「这条材料是什么」。
 
-Function Calling 作为能力出现在模型层叙事（核开始能稳定选工具）；作为里程碑归**协议**。Claude Code 在能力栈是运行时，分类是**产品**。
+Function Calling 作为能力出现在模型层叙事（核心开始能稳定选工具）；作为里程碑归**协议**。Claude Code 在能力栈是运行时，分类是**产品**。
 
 ```text
 应用     编码 / GUI / 研究 / 通用任务
@@ -82,7 +82,7 @@ Function Calling 作为能力出现在模型层叙事（核开始能稳定选工
 ### 分类
 
 1. **论文** — 剩余类（ReAct、InstructGPT、PaLM、Aries）
-2. **模型** — 换核（GPT-3、GPT-4、Claude 3、o1、o3）
+2. **模型** — 换核心（GPT-3、GPT-4、Claude 3、o1、o3）
 3. **产品** — 可打开的应用或运行时（ChatGPT、Claude Code、Assistants API）
 4. **框架** — 编排库 / SDK
 5. **协议** — Function Calling、MCP、A2A、Skills

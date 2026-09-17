@@ -7,7 +7,7 @@ linkTitle: "[论文]STRIPS"
 weight: 10
 date: 2026-09-14
 description: >
-  符号规划器：谓词写世界，算子搜出计划。有循环和动作，核不是 LLM；其动作效果清单，正是今日 Agent 所缺。
+  符号规划器：谓词写世界，算子搜出计划。有循环和动作，核心不是 LLM；其动作效果清单，正是今日 Agent 所缺。
 ---
 
 原文：[Fikes & Nilsson, 1971](https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/PublishedPapers/strips.pdf)，*STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving*，*Artificial Intelligence* 2: 189–208。IJCAI-71 报告，实现用 LISP 运行在 PDP-10 上，服务于 SRI 的机器人研究（Shakey）。
@@ -127,7 +127,7 @@ STRIPS（Stanford Research Institute Problem Solver）是一个**符号规划器
 
 ## 和 AI Agent 的关系
 
-**STRIPS 是符号规划器：谓词写世界，算子搜出计划。有循环和动作，核不是 LLM；其动作效果清单，正是今日 Agent 所缺。**
+**STRIPS 是符号规划器：谓词写世界，算子搜出计划。有循环和动作，核心不是 LLM；其动作效果清单，正是今日 Agent 所缺。**
 
 它的循环在世界模型空间里反复搜索，直到目标可证；动作由执行程序在计划算出之后完成。观察是定理证明器对当前模型的询问，不是开放文本回执。决策核心是定理证明加搜索，不是语言模型；世界是谓词集合，不是工具 JSON 或屏幕。后来 LLM Agent 中的 Planning，古典形态就是这一支，控制流在规划器，不在解码过程中。它也不是 ReAct、不是 Function Calling，不是编码运行时的祖先产品。
 

@@ -33,18 +33,18 @@ description: >
 
 上下文长度是轨迹的工作集上限。约 4k → `gpt-3.5-turbo-16k` → [GPT-4 Turbo](/timeline/2023/gpt-4-turbo/) 128k → [Gemini 1.5](/timeline/2024/gemini-15/) 百万 token 量级。窗口不够，只能检索、截断、外挂记忆，每一步都丢状态；窗口够，仍不产生副作用。
 
-[Claude 3](/timeline/2024/claude-3/) / [3.5 Sonnet](/timeline/2024/claude-35-sonnet/) 提高编码与工具使用的默认水平，许多编码运行时换核。[GPT-4o](/timeline/2024/gpt-4o/) 把视觉放进同一模型：Computer Use 的输入是像素，不是 DOM API。能看 ≠ 已点击。
+[Claude 3](/timeline/2024/claude-3/) / [3.5 Sonnet](/timeline/2024/claude-35-sonnet/) 提高编码与工具使用的默认水平，许多编码运行时换核心。[GPT-4o](/timeline/2024/gpt-4o/) 把视觉放进同一模型：Computer Use 的输入是像素，不是 DOM API。能看 ≠ 已点击。
 
 [o1-preview](/timeline/2024/o1/) 把搜索式推理训练成测试时计算：延迟和费用换正确率，「想」不必写在明文 Thought 里。停机、工具、沙箱仍在宿主。把内部 CoT 当成已经实现 ReAct，会漏掉执行层。
 
-## 2025–2026：核足够之后，稀缺资源换位
+## 2025–2026：核心足够之后，稀缺资源换位
 
-[o3](/timeline/2025/o3/) 在思维链中选择工具，决策与「该不该调用」开始并进，副作用仍发生在运行时一侧。[GPT-5](/timeline/2025/gpt-5/) 做路由：快路径 / 思考路径。编码专用权重与 [Claude Code](/timeline/2025/claude-code/)、云端 [Codex](/timeline/2025/openai-codex/) 绑定——产品要的是能在沙箱里收工的核，不是通用聊天模型。
+[o3](/timeline/2025/o3/) 在思维链中选择工具，决策与「该不该调用」开始并进，副作用仍发生在运行时一侧。[GPT-5](/timeline/2025/gpt-5/) 做路由：快路径 / 思考路径。编码专用权重与 [Claude Code](/timeline/2025/claude-code/)、云端 [Codex](/timeline/2025/openai-codex/) 绑定——产品要的是能在沙箱里收工的决策核心，不是通用聊天模型。
 
 [2026](/timeline/2026/overview/) 的主约束已不在「会不会选」：循环可跨小时、可开 PR。卡住的是凭证是否进沙箱、出站白名单、session 空闲后工作区是否还在。这些是身份与执行路径，不是再加一层思维链能消掉的。基准再涨几个点，不改变这条外移。
 
 ## 本条的边界
 
-ChatGPT、GPT-4、o1、GPT-5 都是核，不是 Agent。缺本条，其余三条无论多完整，对象仍是前传。只有本条，得到的是对话、补全或单次函数调用。核就绪的意义只有一句：控制循环、工具层和观察通道终于有了可挂载的策略网络。
+ChatGPT、GPT-4、o1、GPT-5 都是决策核心，不是 Agent。缺本条，其余三条无论多完整，对象仍是前传。只有本条，得到的是对话、补全或单次函数调用。核心就绪的意义只有一句：控制循环、工具层和观察通道终于有了可挂载的策略网络。
 
-[多步循环](../multi-step-loop/) 写控制流何时从代码交到这个核上。
+[多步循环](../multi-step-loop/) 写控制流何时从代码交到这个核心上。

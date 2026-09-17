@@ -7,7 +7,7 @@ linkTitle: "[论文]MRKL"
 weight: 60
 date: 2026-09-15
 description: >
-  主张 LLM 必须外挂知识与离散推理。图接近「核 + 工具」；实现仍是厂商私有系统。
+  主张 LLM 必须外挂知识与离散推理。图接近「核心 + 工具」；实现仍是厂商私有系统。
 ---
 
 Karpas 等，2022-05，*MRKL Systems*（AI21 Labs）。Modular Reasoning, Knowledge and Language；读作 miracle。实现称 Jurassic-X。

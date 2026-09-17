@@ -29,11 +29,11 @@ description: >
 
 人用的 IDE 对 Agent 过宽（任意快捷键）又过窄（没有「运行测试并返回失败切片」这种原语）。[SWE-agent](/timeline/2024/swe-agent/) 的 Agent-Computer Interface 按循环裁剪编辑 / 导航 / 测试。动作空间是设计物。
 
-[Computer Use](/timeline/2024/computer-use/)（2024-10）把观察换成截屏，动作换成鼠标键盘。副作用在 GUI 进程，错误不可逆、难回滚。[OSWorld](/timeline/2024/osworld/) 量的就是这类。[Operator](/timeline/2025/operator/) 给 Agent 独立浏览器，把预览收成产品；可靠度仍是预览级。视觉核（GPT-4o）是输入前提，点击策略是另一层。
+[Computer Use](/timeline/2024/computer-use/)（2024-10）把观察换成截屏，动作换成鼠标键盘。副作用在 GUI 进程，错误不可逆、难回滚。[OSWorld](/timeline/2024/osworld/) 量的就是这类。[Operator](/timeline/2025/operator/) 给 Agent 独立浏览器，把预览收成产品；可靠度仍是预览级。视觉核心（GPT-4o）是输入前提，点击策略是另一层。
 
 [MCP](/timeline/2024/mcp/)（2024-11）把「每个模型厂商一份 JSON tool 表」换成模型↔资源的开放协议。它不管循环、不管停机。2024 年 server 少、热度低；[2025 年多家接入](/timeline/2025/mcp-adoption/) 后才成为默认插槽。对照前传 [FIPA ACL](/timeline/before2022/early-concepts/fipa-acl/)：先写标准再等生态可以空转；MCP 是产品已存在、再收成事实协议。
 
-[Agent Skills](/timeline/2025/agent-skills/) 用目录装脚本、约定和领域步骤，运行时按需加载。通用核不变，动作清单晚绑定。它不是 RPC，是可版本化的专长包。
+[Agent Skills](/timeline/2025/agent-skills/) 用目录装脚本、约定和领域步骤，运行时按需加载。通用核心不变，动作清单晚绑定。它不是 RPC，是可版本化的专长包。
 
 云端 [Codex](/timeline/2025/openai-codex/)：一任务一沙箱，可并行、可开 PR。[Claude Code](/timeline/2025/claude-code/)：本机仓库 + shell。副作用的默认对象变成「一份可测的工作副本」，而不是聊天附件。
 
@@ -45,6 +45,6 @@ description: >
 
 ## 本条的边界
 
-本条区分 Agent 与聊天。schema、沙箱、GUI、MCP、Skills、身份，都在扩大合法副作用集合或收紧执行边界。任一接口单独存在，只是 I/O。动作由核选择，嵌入循环，回执成为下一步条件。2023 解决可解析调用与代码隔离；2024–2025 解决开放工具总线和屏幕；2026 解决「以谁的名义、在是否已就绪的沙箱里」。Agent 在这些接口被同一运行时驱动之后成立，不在协议发布日成立。
+本条区分 Agent 与聊天。schema、沙箱、GUI、MCP、Skills、身份，都在扩大合法副作用集合或收紧执行边界。任一接口单独存在，只是 I/O。动作由核心选择，嵌入循环，回执成为下一步条件。2023 解决可解析调用与代码隔离；2024–2025 解决开放工具总线和屏幕；2026 解决「以谁的名义、在是否已就绪的沙箱里」。Agent 在这些接口被同一运行时驱动之后成立，不在协议发布日成立。
 
 [反馈后再决策](../feedback-then-decide/) 写回执如何成为下一条件，以及完成如何被独立测量。
