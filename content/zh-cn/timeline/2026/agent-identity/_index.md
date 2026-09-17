@@ -1,7 +1,7 @@
 ---
 title: "Agent identity"
-linkTitle: "[博文]Agent identity"
-分类: "博文"
+linkTitle: "[文献]Agent identity"
+分类: "文献"
 标签:
   - "范式更替"
 weight: 100

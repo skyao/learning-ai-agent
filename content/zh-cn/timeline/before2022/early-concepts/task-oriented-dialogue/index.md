@@ -1,6 +1,9 @@
 ---
 title: "Siri / Alexa / 任务型对话（2011–2014）"
-linkTitle: "任务型对话"
+linkTitle: "[产品]任务型对话"
+分类: "产品"
+标签:
+  - "工程化"
 weight: 80
 date: 2026-09-14
 description: >

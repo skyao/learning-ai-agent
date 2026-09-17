@@ -39,7 +39,7 @@ description: >
 | 2026-06-09 | [Claude Fable 5 / Mythos 5](../fable-5-mythos-5/) | 模型 | 范式更替 | 同一底层模型按**安全护栏**分成两个产品：公开版与受限版。产品分层维度从「能力多强」换成「允许做什么」 |
 | 2026-06-12 | [出口管制暂停 Fable 5 / Mythos 5](../export-control-2026/) | **监管** | 警示 | 美方指令要求对外国国民关闭这两个模型，厂商当日对全部客户停用；06-30 解除、07-01 恢复。**已商用模型的访问权第一次被当场关掉** |
 | 2026-06-23 | [Introducing Claude Tag](../claude-tag/) | 产品 | 范式更替 | Slack 里的共享 AI 队友：`@Claude` 委派，线程即 session，记忆跟频道走。内部产品团队约 65% 代码来自内部版 Tag（厂商自报，记作影响力信号而非独立审计）。8-03 旧 Slack 应用切到 Tag |
-| 2026-06-24 | [Agent identity 博文](../agent-identity/)（Noah Zweben） | 博文 | 范式更替 | 写清为什么「act as the user」在异步、多驾驶员场景会崩：授权、审计、回放都不闭合。公开频道共享工作区身份，私有频道隔离；提到未来 JIT 凭证 |
+| 2026-06-24 | [Agent identity 博文](../agent-identity/)（Noah Zweben） | 文献 | 范式更替 | 写清为什么「act as the user」在异步、多驾驶员场景会崩：授权、审计、回放都不闭合。公开频道共享工作区身份，私有频道隔离；提到未来 JIT 凭证 |
 | 2026-06-30 | [Claude Sonnet 5](../sonnet-5/) | 模型 | — | 「最 agentic 的 Sonnet」：会规划、会用浏览器与终端、能自主跑，且落在中档价位。改的是单位成本，不是上限 |
 | 2026-07-09 | [GPT-5.6 家族](../gpt-5-6/) | 模型 | — | Sol / Terra / Luna 三档，多 Agent 编排与 computer use 成为**全家族标配**，上下文约 105 万。能力下放而非上限推进 |
 | 2026-07-24 | [Claude Opus 5](../opus-5/) | 模型 | — | 「驱动长时程 Agent 的台阶式改进」，重点写在**自我验证**与 computer use。竞争点转向「做完了怎么知道」 |

@@ -1,6 +1,9 @@
 ---
 title: "BDI（1991）"
-linkTitle: "BDI"
+linkTitle: "[论文]BDI"
+分类: "论文"
+标签:
+  - "首证"
 weight: 40
 date: 2026-09-14
 description: >

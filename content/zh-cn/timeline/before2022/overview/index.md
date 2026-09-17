@@ -23,22 +23,22 @@ description: >
 
 ## 里程碑
 
-分两段记录。第一段是概念库存，第二段是 LLM 底层能力。底层能力每条给出一个**分类**，**标签**可以有多个（[六类历史角色](../../overview/research/#里程碑类型)）。经典文献多数属于**首证**，或为后来提供了词汇，不应写成 LLM Agent 的祖先产品。
+分两段记录。第一段是概念库存，第二段是 LLM 底层能力。两段都给出**分类**与**标签**（[六类历史角色](../../overview/research/#里程碑类型)），标签可多，也可无。经典文献多数属于**首证**，或为后来提供了词汇，不应写成 LLM Agent 的祖先产品。
 
 ### 概念库存：词汇的来源
 
 各条分别写在 [早期概念](../early-concepts/) 中，本表只保留判断。
 
-| 时间 | 事件 | 类型 | 为什么记录 |
-| --- | --- | --- | --- |
-| 1971 | [STRIPS](../early-concepts/strips/)（Fikes & Nilsson） | 首证 | 把世界写成谓词，用算子搜索计划。后来 Agent 里的 Planning，其古典形态就是这一支。控制流在规划器，不在语言模型 |
-| 1980 | [Contract Net Protocol](../early-concepts/contract-net/)（Smith） | 首证 | 任务招标、投标、授予：多 Agent 分工的早期协议。它与 2025 年的 [A2A](/protocal/a2a/) 不是同一套技术，但说明「Agent 之间如何对话」是一个老问题，协议可以先于生态 |
-| 1986 | [Brooks 包容架构](../early-concepts/subsumption/) | 警示 / 首证 | 主张智能来自与环境的耦合，而不是先建立完整的世界模型。并非所有 Agent 路线都走「先推理再行动」 |
-| 1991 | [BDI](../early-concepts/bdi/)（Rao & Georgeff） | 首证 | 用信念、愿望、意图描述理性 Agent。今天产品里的 goal、plan、memory 常是这套词汇的口语版本，实现已经更换。决策核心是符号，不是 LLM |
-| 1995 | [Wooldridge & Jennings](../early-concepts/wooldridge-jennings/), *Intelligent Agents: Theory and Practice* | 工程化 | 把理论、架构、语言三块分开讨论，是「什么算 Agent」的常用入口，不是一篇模型论文 |
-| 1995 | [Russell & Norvig](../early-concepts/russell-norvig/)《人工智能：一种现代方法》第一版 | 工程化 | 用「理性 Agent」统摄教材：感知、行动、环境、性能度量。后来人们普遍使用 Agent 一词，很大程度上来自这里。教材定义宽于本站的工作定义 |
-| 1996 起 | [FIPA 与 ACL](../early-concepts/fipa-acl/) | 标准 | 试图规定 Agent 通信语言与工作流。生态没有长成后来的互联网协议。标准可以先于生态，也可以因缺少生态而终止 |
-| 2011–2014 | [Siri / Alexa / 任务型对话](../early-concepts/task-oriented-dialogue/) | 工程化 | 槽位填充加后端 API，是大规模的「语音助手」。循环由状态机驱动，控制图在上线前就已闭合，不是 LLM 规划；它说明大众对「助手」的想象早于 ChatGPT |
+| 时间 | 事件 | 分类 | 标签 | 为什么记录 |
+| --- | --- | --- | --- | --- |
+| 1971 | [STRIPS](../early-concepts/strips/)（Fikes & Nilsson） | 论文 | 首证 | 把世界写成谓词，用算子搜索计划。后来 Agent 里的 Planning，其古典形态就是这一支。控制流在规划器，不在语言模型 |
+| 1980 | [Contract Net Protocol](../early-concepts/contract-net/)（Smith） | 协议 | 首证 | 任务招标、投标、授予：多 Agent 分工的早期协议。它与 2025 年的 [A2A](/protocal/a2a/) 不是同一套技术，但说明「Agent 之间如何对话」是一个老问题，协议可以先于生态 |
+| 1986 | [Brooks 包容架构](../early-concepts/subsumption/) | 论文 | 首证、范式更替 | 主张智能来自与环境的耦合，而不是先建立完整的世界模型。它改写了「智能系统按功能还是按行为分解」这条前提，也说明并非所有 Agent 路线都走「先推理再行动」 |
+| 1991 | [BDI](../early-concepts/bdi/)（Rao & Georgeff） | 论文 | 首证 | 用信念、愿望、意图描述理性 Agent。今天产品里的 goal、plan、memory 常是这套词汇的通俗版本，实现已经更换。决策核心是符号，不是 LLM |
+| 1995 | [Wooldridge & Jennings](../early-concepts/wooldridge-jennings/), *Intelligent Agents: Theory and Practice* | 论文 | — | 把理论、架构、语言三块分开讨论，是「什么算 Agent」的常用入口，不是一篇模型论文。它给出的是分类与定义口径，没有交付物 |
+| 1995 | [Russell & Norvig](../early-concepts/russell-norvig/)《人工智能：一种现代方法》第一版 | 文献 | — | 用「理性 Agent」统摄教材：感知、行动、环境、性能度量。后来人们普遍使用 Agent 一词，很大程度上来自这里；它传播的是定义，教材定义宽于本站的工作定义 |
+| 1996 起 | [FIPA 与 ACL](../early-concepts/fipa-acl/) | 协议 | 警示 | 试图规定 Agent 通信语言与工作流。生态没有长成后来的互联网协议：规范写完，多方默认没有出现。标准可以先于生态，也可以因缺少生态而终止 |
+| 2011–2014 | [Siri / Alexa / 任务型对话](../early-concepts/task-oriented-dialogue/) | 产品 | 工程化 | 槽位填充加后端 API，是大规模的「语音助手」。循环由状态机驱动，控制图在上线前就已闭合，不是 LLM 规划；它说明大众对「助手」的想象早于 ChatGPT |
 
 刻意不展开的有：ELIZA（1966，对话幻觉的前史）、办公助手、语义网 Agent，以及绝大多数专家系统。它们可以说明「会说话不等于 Agent」，但带不走本站的主线。
 

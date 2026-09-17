@@ -1,6 +1,7 @@
 ---
 title: "Russell & Norvig《人工智能：一种现代方法》（1995）"
-linkTitle: "Russell & Norvig"
+linkTitle: "[文献]Russell & Norvig"
+分类: "文献"
 weight: 60
 date: 2026-09-14
 description: >

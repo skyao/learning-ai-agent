@@ -1,6 +1,9 @@
 ---
 title: "FIPA 与 ACL（1996 起）"
-linkTitle: "FIPA / ACL"
+linkTitle: "[协议]FIPA / ACL"
+分类: "协议"
+标签:
+  - "警示"
 weight: 70
 date: 2026-09-14
 description: >

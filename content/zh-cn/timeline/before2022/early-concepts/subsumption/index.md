@@ -1,6 +1,10 @@
 ---
 title: "Brooks 包容架构（1986）"
-linkTitle: "包容架构"
+linkTitle: "[论文]包容架构"
+分类: "论文"
+标签:
+  - "首证"
+  - "范式更替"
 weight: 30
 date: 2026-09-14
 description: >

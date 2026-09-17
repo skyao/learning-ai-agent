@@ -1,6 +1,9 @@
 ---
 title: "Contract Net Protocol（1980）"
-linkTitle: "Contract Net"
+linkTitle: "[协议]Contract Net"
+分类: "协议"
+标签:
+  - "首证"
 weight: 20
 date: 2026-09-14
 description: >

@@ -40,7 +40,7 @@ description: >
 | 2024-09 | OpenAI [o1-preview](../o1/) | 模型 | 范式更替 | 推理模型：测试时计算换正确率。循环的一部分被训练进核，而不只写在提示词里。宿主仍管停机与工具 |
 | 2024-10-22 | [Claude Computer Use](../computer-use/) | 产品 | 首证、工程化 | 公有 API 上第一次让前沿模型「看屏幕、点鼠标」。观察是像素，副作用在 GUI。OSWorld 分数仍低；Anthropic 自己写了笨拙和易错 |
 | 2024-11 | [Model Context Protocol (MCP)](../mcp/) | 协议 | 标准 | 模型 ↔ 工具/数据的开放接线，不是循环。2024 年是规范 + Claude Desktop 本地 server + 少量合作方。当时热度不高，2025 年才被多家追认 |
-| 2024-12 | Anthropic [Building effective agents](../building-effective-agents/) | 博文 | — | 把 workflow（边在代码里）和 agent（边在模型输出里）分开。多 Agent 是拓扑，不是更强的循环原语 |
+| 2024-12 | Anthropic [Building effective agents](../building-effective-agents/) | 文献 | — | 把 workflow（边在代码里）和 agent（边在模型输出里）分开。多 Agent 是拓扑，不是更强的循环原语 |
 
 刻意不升格的：GPT Store 里的 GPTs（自定义助手，无目标环）；Rabbit R1 等硬件叙事；大多数「多 Agent 框架」发布会——CrewAI / AutoGen / LangGraph 作为工程化存在，但 2024 的主线是编码谓词和协议萌芽，不是又一次 AutoGPT 式框架膨胀。
 

@@ -1,6 +1,7 @@
 ---
 title: "Wooldridge & Jennings（1995）"
-linkTitle: "Wooldridge & Jennings"
+linkTitle: "[论文]Wooldridge & Jennings"
+分类: "论文"
 weight: 50
 date: 2026-09-14
 description: >

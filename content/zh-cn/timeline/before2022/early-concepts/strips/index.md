@@ -1,6 +1,9 @@
 ---
 title: "STRIPS（1971）"
-linkTitle: "STRIPS"
+linkTitle: "[论文]STRIPS"
+分类: "论文"
+标签:
+  - "首证"
 weight: 10
 date: 2026-09-14
 description: >
