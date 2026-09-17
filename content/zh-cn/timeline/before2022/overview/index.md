@@ -31,7 +31,7 @@ description: >
 
 | 时间 | 事件 | 分类 | 标签 | 为什么记录 |
 | --- | --- | --- | --- | --- |
-| 1971 | [STRIPS](../early-concepts/strips/)（Fikes & Nilsson） | 论文 | 首证 | 把世界写成谓词，用算子搜出计划。有循环和动作，核不是 LLM；其动作效果清单，正是今日 Agent 所缺。后来 Agent 里的 Planning，古典形态就是这一支 |
+| 1971 | [STRIPS](../early-concepts/strips/)（Fikes & Nilsson） | 论文 | 首证 | 把世界写成谓词，用算子搜出计划。有循环和动作，核不是 LLM；其动作效果清单，正是今日 Agent 所缺 |
 | 1980 | [Contract Net Protocol](../early-concepts/contract-net/)（Smith） | 协议 | 首证 | 任务招标、投标、授予：多 Agent 分工的早期协议。它与 2025 年的 [A2A](/protocal/a2a/) 不是同一套技术，但说明「Agent 之间如何对话」是一个老问题，协议可以先于生态 |
 | 1986 | [Brooks 包容架构](../early-concepts/subsumption/) | 论文 | 首证、范式更替 | 主张智能来自与环境的耦合，而不是先建立完整的世界模型。它改写了「智能系统按功能还是按行为分解」这条前提，也说明并非所有 Agent 路线都走「先推理再行动」 |
 | 1991 | [BDI](../early-concepts/bdi/)（Rao & Georgeff） | 论文 | 首证 | 用信念、愿望、意图描述理性 Agent。今天产品里的 goal、plan、memory 常是这套词汇的通俗版本，实现已经更换。决策核心是符号，不是 LLM |
