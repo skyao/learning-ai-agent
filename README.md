@@ -9,3 +9,13 @@
 
 本笔记内容可以任意转载，但请注明来源并提供链接。
 
+### 本地开发
+
+```bash
+npm install                              # 首次：装 postcss 等依赖，hugo 构建需要
+hugo server                              # 本地预览
+python3 scripts/check-links.py --build   # 校验内部链接与页内锚点
+```
+
+`scripts/` 下的工具说明见 [scripts/README.md](scripts/README.md)。
+
