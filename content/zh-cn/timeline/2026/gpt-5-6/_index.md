@@ -2,8 +2,6 @@
 title: "GPT-5.6（Sol / Terra / Luna）"
 linkTitle: "[模型]GPT-5.6 家族"
 分类: "模型"
-标签:
-  - "工程化"
 weight: 120
 date: 2026-09-17
 description: >

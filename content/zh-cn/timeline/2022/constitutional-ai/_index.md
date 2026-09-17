@@ -2,8 +2,6 @@
 title: "Constitutional AI"
 linkTitle: "[论文]Constitutional AI"
 分类: "论文"
-标签:
-  - "工程化"
 weight: 130
 date: 2026-09-15
 description: >

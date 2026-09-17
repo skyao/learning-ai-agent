@@ -2,8 +2,6 @@
 title: "GPT-6 Astra"
 linkTitle: "[模型]GPT-6 Astra"
 分类: "模型"
-标签:
-  - "工程化"
 weight: 180
 date: 2026-09-17
 description: >

@@ -2,8 +2,6 @@
 title: "GPT-4o"
 linkTitle: "[模型]GPT-4o"
 分类: "模型"
-标签:
-  - "工程化"
 weight: 60
 date: 2026-09-15
 description: >

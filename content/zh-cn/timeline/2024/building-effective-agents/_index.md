@@ -2,8 +2,6 @@
 title: "Building effective agents"
 linkTitle: "[博文]Building effective agents"
 分类: "博文"
-标签:
-  - "工程化"
 weight: 130
 date: 2026-09-15
 description: >

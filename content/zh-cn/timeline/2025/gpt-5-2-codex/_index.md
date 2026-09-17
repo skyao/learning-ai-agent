@@ -2,8 +2,6 @@
 title: "GPT-5.2-Codex"
 linkTitle: "[模型]GPT-5.2-Codex"
 分类: "模型"
-标签:
-  - "工程化"
 weight: 135
 date: 2026-09-17
 description: >

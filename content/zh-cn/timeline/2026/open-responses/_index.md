@@ -2,8 +2,6 @@
 title: "Open Responses"
 linkTitle: "[协议]Open Responses"
 分类: "协议"
-标签:
-  - "工程化"
 weight: 25
 date: 2026-09-17
 description: >

@@ -2,8 +2,6 @@
 title: "Claude Code in Slack"
 linkTitle: "[产品]Claude Code in Slack"
 分类: "产品"
-标签:
-  - "工程化"
 weight: 120
 date: 2026-09-17
 description: >

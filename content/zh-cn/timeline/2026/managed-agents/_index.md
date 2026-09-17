@@ -3,7 +3,6 @@ title: "Claude Managed Agents"
 linkTitle: "[产品]Claude Managed Agents"
 分类: "产品"
 标签:
-  - "工程化"
   - "范式更替"
 weight: 40
 date: 2026-09-17

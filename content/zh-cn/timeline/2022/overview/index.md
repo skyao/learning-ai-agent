@@ -31,16 +31,16 @@ description: >
 | 2022-01 | [InstructGPT](../instructgpt/) | 论文 | 工程化 | 把决策核心从网页续写拧到指令契约。ChatGPT 与后来的系统提示、工具说明，都建立在「模型按意图解码」上 |
 | 2022-01 | [Chain-of-Thought](../chain-of-thought/) | 论文 | 首证 | 中间计算写入 token 序列。ReAct 的 Thought 是这条协议接到 Action / Observation 上 |
 | 2022-03 | [Self-Consistency](../self-consistency/) | 论文 | 首证 | 多样本推理再投票。后来环里的重试 / 反思，有一条采样聚合的根在这里 |
-| 2022-04 | [PaLM 540B](../palm/) | 论文 | 工程化 | 把「CoT 要够大才生效」做成可引用事实。规模是 2022 年核能力的物理上限之一 |
+| 2022-04 | [PaLM 540B](../palm/) | 论文 | — | 把「CoT 要够大才生效」做成可引用事实。规模是 2022 年核能力的物理上限之一 |
 | 2022-05 | [Zero-shot CoT](../zero-shot-cot/) | 论文 | 首证 | 一句 “Let's think step by step” 即可。触发成本降到最低，推理协议可复制，环境仍未接入 |
 | 2022-05 | [MRKL](../mrkl/) | 论文 | 首证 | 主张 LLM 必须外挂知识与离散推理模块。架构图接近后来的「核 + 工具」，实现仍是厂商私有系统 |
-| 2022-06 | [GitHub Copilot 正式商用](../copilot-ga/) | 产品 | 工程化 | 编码助手从预览变成付费产品。副作用在编辑器缓冲区，无目标环，不是 Agent；「Copilot → Agent」的产品线从此有付费用户 |
+| 2022-06 | [GitHub Copilot 正式商用](../copilot-ga/) | 产品 | — | 编码助手从预览变成付费产品。副作用在编辑器缓冲区，无目标环，不是 Agent；「Copilot → Agent」的产品线从此有付费用户 |
 | 2022-09 | [DeepMind Sparrow](../sparrow/) | 产品 | 首证 | 对话模型可搜索网页并带证据作答，并用规则约束。观察通道是页面，谓词是带引用的答案；目标不是开放任务执行 |
 | 2022-10 | [ReAct](../react/) | 论文 | 首证 | Thought → Action → Observation 交错。HotpotQA / ALFWorld / WebShop 上证明观察必须进入下一步，不能只靠内部 CoT。实现是文本约定；ChatGPT 尚未发布，Function Calling 还有八个月。引用爬升发生在 2023 |
 | 2022-10 | [LangChain](../langchain/) 以开源库出现 | 框架 | 工程化 | 把 RAG、工具包装、Agent 提示收进 Python 包。循环可复制，状态在进程内存和提示里。公司 2023-02 才成立；今年是胶水雏形，生态膨胀在明年 |
 | 2022-11 | [PAL](../pal/) | 论文 | 首证 | 推理步骤编译成程序，副作用关在 Python 解释器。通道是返回值，任务是解题。后来沙箱跑代码，这条根比把算术留在解码过程里更硬 |
 | 2022-11-30 | [ChatGPT](../chatgpt/) | 产品 | 引爆 | 把对话 LLM 做成默认界面。不是 Agent，却是后续所有运行时的人机接口前提。2022 年舆论中心是它，不是 ReAct |
-| 2022-12 | [Constitutional AI](../constitutional-ai/) | 论文 | 工程化 | 用原则和 AI 反馈对齐。对 Agent 史是旁支（安全与可控），对后来 Claude 系运行时是训练前提 |
+| 2022-12 | [Constitutional AI](../constitutional-ai/) | 论文 | — | 用原则和 AI 反馈对齐。对 Agent 史是旁支（安全与可控），对后来 Claude 系运行时是训练前提 |
 
 刻意不升格的：SayCan / Inner Monologue 等「语言模型给机器人下指令」（具身，见 [边界](../../overview/research/#agent-边界清单)）；各种 CoT 变体论文（Least-to-most、Self-Ask 等，机制上收进 CoT 家族即可）；以及任何把 ChatGPT 直接称作 Agent 的通稿。
 

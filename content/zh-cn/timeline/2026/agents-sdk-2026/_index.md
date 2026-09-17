@@ -2,8 +2,6 @@
 title: "OpenAI Agents SDK（2026 更新）"
 linkTitle: "[框架]Agents SDK 2026"
 分类: "框架"
-标签:
-  - "工程化"
 weight: 50
 date: 2026-09-17
 description: >

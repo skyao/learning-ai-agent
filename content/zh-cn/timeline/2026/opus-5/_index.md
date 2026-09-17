@@ -2,8 +2,6 @@
 title: "Claude Opus 5"
 linkTitle: "[模型]Claude Opus 5"
 分类: "模型"
-标签:
-  - "工程化"
 weight: 130
 date: 2026-09-17
 description: >

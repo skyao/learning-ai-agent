@@ -29,27 +29,27 @@ description: >
 | --- | --- | --- | --- | --- |
 | 2026-01-01 | [加州 AB 316](../california-ab-316/) 生效 | **监管** | 首证 | 被告不得以「AI 自主造成损害」抗辩。美国第一条规定自主行为后果归属的法条；不提 agent，也不要求审计 |
 | 2026-01 | [OpenClaw 爆红](../openclaw/)（Clawdbot → OpenClaw） | 产品 | 引爆、警示 | 自托管「龙虾」在改名周进入现象级。仓库出生在 [2025-11](../../2025/openclaw/)；热度、养虾与暴露面是 2026 年 1 月的事。热度 ≠ 完成率；权限面等于机器本身 |
-| 2026-01-12 | [Claude Cowork](../cowork/) | 产品 | 工程化 | 把 Claude Code 的循环做成桌面知识工作 Agent：指定本机文件夹，不进终端。当时研究预览，仅 Max + macOS。主体仍是使用者账号，不是频道共享的 Agent Identity |
-| 2026-01-15 | [Open Responses](../open-responses/) | 协议 | 工程化 | 模型接口层的开放规范：schema 源自 OpenAI 一方 API，但治理条款禁止任何厂商占多数席位。注意它与 MCP / A2A 不在同一层 |
-| 2026-02-05 | [Claude Opus 4.6](../opus-4-6/) | 模型 | 工程化 | Opus 级首次给出 1M 上下文；Claude Code 增加 agent teams，API 增加 compaction。长程与并行从「应用自己拼」变成核侧能力 |
-| 2026-04-08 | [Claude Managed Agents](../managed-agents/) | 产品 | 工程化、范式更替 | 把 Agent 拆成 session / harness / sandbox 三个可替换接口：容器死亡降级为一次工具调用错误，凭证不进沙箱。**「进程活着」不再是正确性前提**；会话按 session-hour 计费 |
-| 2026-04-15 | [OpenAI Agents SDK 更新](../agents-sdk-2026/) | 框架 | 工程化 | harness 与 compute 显式分两层，沙箱供应商可插拔，快照让会话在新沙箱里续跑。编排库开始内置「环境」这个概念 |
+| 2026-01-12 | [Claude Cowork](../cowork/) | 产品 | — | 把 Claude Code 的循环做成桌面知识工作 Agent：指定本机文件夹，不进终端。当时研究预览，仅 Max + macOS。主体仍是使用者账号，不是频道共享的 Agent Identity |
+| 2026-01-15 | [Open Responses](../open-responses/) | 协议 | — | 模型接口层的开放规范：schema 源自 OpenAI 一方 API，但治理条款禁止任何厂商占多数席位。注意它与 MCP / A2A 不在同一层 |
+| 2026-02-05 | [Claude Opus 4.6](../opus-4-6/) | 模型 | — | Opus 级首次给出 1M 上下文；Claude Code 增加 agent teams，API 增加 compaction。长程与并行从「应用自己拼」变成核侧能力 |
+| 2026-04-08 | [Claude Managed Agents](../managed-agents/) | 产品 | 范式更替 | 把 Agent 拆成 session / harness / sandbox 三个可替换接口：容器死亡降级为一次工具调用错误，凭证不进沙箱。**「进程活着」不再是正确性前提**；会话按 session-hour 计费 |
+| 2026-04-15 | [OpenAI Agents SDK 更新](../agents-sdk-2026/) | 框架 | — | harness 与 compute 显式分两层，沙箱供应商可插拔，快照让会话在新沙箱里续跑。编排库开始内置「环境」这个概念 |
 | 2026-04-29 | [Stripe 面向 Agent 的计量与支付](../stripe-agent-payments/) | 产品 | 工程化 | 按 token 实时结算；给 Agent 发**一次性虚拟卡**，真实支付信息不暴露、每笔由人批准。改的是经济语义，也是凭证设计 |
 | 2026-05-20 | [Google Agent Executor (AX)](../google-ax/) | 框架 | 工程化 | 自托管的分布式 harness 运行时：从可挂起/可恢复的镜像动态供给隔离环境。托管与库之外的第三种形态，三家在同一季度收敛到同一架构命题 |
 | 2026-06-09 | [Claude Fable 5 / Mythos 5](../fable-5-mythos-5/) | 模型 | 范式更替 | 同一底层模型按**安全护栏**分成两个产品：公开版与受限版。产品分层维度从「能力多强」换成「允许做什么」 |
 | 2026-06-12 | [出口管制暂停 Fable 5 / Mythos 5](../export-control-2026/) | **监管** | 警示 | 美方指令要求对外国国民关闭这两个模型，厂商当日对全部客户停用；06-30 解除、07-01 恢复。**已商用模型的访问权第一次被当场关掉** |
-| 2026-06-23 | [Introducing Claude Tag](../claude-tag/) | 产品 | 工程化、范式更替 | Slack 里的共享 AI 队友：`@Claude` 委派，线程即 session，记忆跟频道走。内部产品团队约 65% 代码来自内部版 Tag（厂商自报，记作影响力信号而非独立审计）。8-03 旧 Slack 应用切到 Tag |
+| 2026-06-23 | [Introducing Claude Tag](../claude-tag/) | 产品 | 范式更替 | Slack 里的共享 AI 队友：`@Claude` 委派，线程即 session，记忆跟频道走。内部产品团队约 65% 代码来自内部版 Tag（厂商自报，记作影响力信号而非独立审计）。8-03 旧 Slack 应用切到 Tag |
 | 2026-06-24 | [Agent identity 博文](../agent-identity/)（Noah Zweben） | 博文 | 范式更替 | 写清为什么「act as the user」在异步、多驾驶员场景会崩：授权、审计、回放都不闭合。公开频道共享工作区身份，私有频道隔离；提到未来 JIT 凭证 |
-| 2026-06-30 | [Claude Sonnet 5](../sonnet-5/) | 模型 | 工程化 | 「最 agentic 的 Sonnet」：会规划、会用浏览器与终端、能自主跑，且落在中档价位。改的是单位成本，不是上限 |
-| 2026-07-09 | [GPT-5.6 家族](../gpt-5-6/) | 模型 | 工程化 | Sol / Terra / Luna 三档，多 Agent 编排与 computer use 成为**全家族标配**，上下文约 105 万。能力下放而非上限推进 |
-| 2026-07-24 | [Claude Opus 5](../opus-5/) | 模型 | 工程化 | 「驱动长时程 Agent 的台阶式改进」，重点写在**自我验证**与 computer use。竞争点转向「做完了怎么知道」 |
+| 2026-06-30 | [Claude Sonnet 5](../sonnet-5/) | 模型 | — | 「最 agentic 的 Sonnet」：会规划、会用浏览器与终端、能自主跑，且落在中档价位。改的是单位成本，不是上限 |
+| 2026-07-09 | [GPT-5.6 家族](../gpt-5-6/) | 模型 | — | Sol / Terra / Luna 三档，多 Agent 编排与 computer use 成为**全家族标配**，上下文约 105 万。能力下放而非上限推进 |
+| 2026-07-24 | [Claude Opus 5](../opus-5/) | 模型 | — | 「驱动长时程 Agent 的台阶式改进」，重点写在**自我验证**与 computer use。竞争点转向「做完了怎么知道」 |
 | 2026-07-31 | [Aries](../aries/)（*Rethinking AI Cloud Infrastructure*） | 论文 | 首证、警示 | 测量向：Agent 云负载不是传统微服务。一次委派是轨迹（推理、工具、沙箱、KV），不是请求。问题重构先于新调度器——执行路径、存储、隔离被重新定义 |
 | 2026-08-02 | [欧盟 AI Act 第 50 条](../eu-ai-act-article-50/) 生效 | **监管** | 首证 | 官方指南明文点名 **AI agent 与多 Agent 架构**：设计上必须披露人工性质与所代表的人。第一个在生效规则里点名 Agent 的法域；同日加州透明度法也生效 |
-| 2026-08 | [SpecBox](../specbox/) | 论文 | 工程化 | 沙箱就绪时间被量化为 Agent 服务成本：环境未就绪，Action 只能阻塞。供给第一次被当成系统问题来量 |
+| 2026-08 | [SpecBox](../specbox/) | 论文 | — | 沙箱就绪时间被量化为 Agent 服务成本：环境未就绪，Action 只能阻塞。供给第一次被当成系统问题来量 |
 | 2026-08-07 | [Snowflake Cortex Agents](../snowflake-cortex-agents/) | 产品 | 工程化 | 三次 GA：跨应用 agent→agent 编排、服务端托管 agent loop、断连后继续的异步长任务。**数据平台开始把环收进服务端**——它们本来就知道谁有权访问什么 |
 | 2026-08-31 | [CrowdStrike Agent 身份与管控](../crowdstrike-agent-identity/) | 产品 | 工程化 | 每个 Agent 签发可验证身份、**不给常设凭证**、令牌按最小权限最短时间签发、动作绑定委托人；终端上清点并阻止影子 Agent。目前最完整的 Agent 身份模型 |
-| 2026-09-03 | [GPT-6 Astra](../gpt-6-astra/) | 模型 | 工程化 | 官方描述点出机制：边规划边验证、**独立确认结果后才宣布完成**。另有推理时安全指令注入，服务端在风险升高时改写输入 |
-| 2026 全年 | [开源权重模型达到 Agent 可用](../open-weights-2026/) | 模型 | 工程化 | 1M 上下文、原生多模态、computer use、harness 兼容成为开源标配。与 6 月的出口管制是同一件事的两面：**可替换性从优化项变成架构前提** |
+| 2026-09-03 | [GPT-6 Astra](../gpt-6-astra/) | 模型 | — | 官方描述点出机制：边规划边验证、**独立确认结果后才宣布完成**。另有推理时安全指令注入，服务端在风险升高时改写输入 |
+| 2026 全年 | [开源权重模型达到 Agent 可用](../open-weights-2026/) | 模型 | — | 1M 上下文、原生多模态、computer use、harness 兼容成为开源标配。与 6 月的出口管制是同一件事的两面：**可替换性从优化项变成架构前提** |
 
 刻意不升格的：所有「我们也有 Slack 机器人」的跟风稿；把 Tag 的 Beta 限制（Team/Enterprise、需 Owner、与 ZDR 不兼容）写成已经普及；国内「龙虾套壳 / 安装会」作为热度衍生品；以及任何尚未被第三方复现的 2026 下半年路线图。
 

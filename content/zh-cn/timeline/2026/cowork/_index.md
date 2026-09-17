@@ -2,8 +2,6 @@
 title: "Claude Cowork"
 linkTitle: "[产品]Cowork"
 分类: "产品"
-标签:
-  - "工程化"
 weight: 20
 date: 2026-09-15
 description: >

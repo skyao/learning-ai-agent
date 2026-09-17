@@ -2,8 +2,6 @@
 title: "GitHub Copilot 正式商用"
 linkTitle: "[产品]Copilot GA"
 分类: "产品"
-标签:
-  - "工程化"
 weight: 70
 date: 2026-09-15
 description: >

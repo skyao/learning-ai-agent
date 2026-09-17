@@ -3,7 +3,6 @@ title: "LangChain 成为默认编排层"
 linkTitle: "[框架]LangChain"
 分类: "框架"
 标签:
-  - "工程化"
   - "警示"
 weight: 60
 date: 2026-09-15

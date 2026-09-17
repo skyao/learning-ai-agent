@@ -2,8 +2,6 @@
 title: "Claude Opus 4.6"
 linkTitle: "[模型]Claude Opus 4.6"
 分类: "模型"
-标签:
-  - "工程化"
 weight: 30
 date: 2026-09-17
 description: >

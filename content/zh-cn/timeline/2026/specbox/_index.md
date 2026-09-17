@@ -2,8 +2,6 @@
 title: "SpecBox"
 linkTitle: "[论文]SpecBox"
 分类: "论文"
-标签:
-  - "工程化"
 weight: 150
 date: 2026-09-15
 description: >

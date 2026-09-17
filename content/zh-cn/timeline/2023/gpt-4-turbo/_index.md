@@ -2,8 +2,6 @@
 title: "GPT-4 Turbo"
 linkTitle: "[模型]GPT-4 Turbo"
 分类: "模型"
-标签:
-  - "工程化"
 weight: 145
 date: 2026-09-15
 description: >

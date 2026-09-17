@@ -37,16 +37,16 @@ description: >
 | 2025-05 | [OpenAI Codex](../openai-codex/) 云端软件工程 Agent | 产品 | 工程化 | 每任务一个云沙箱、可并行、可开 PR。与 2021 年那个 Codex **模型**同名不同物。CLI 与云端运行时成对出现 |
 | 2025-05-19 | [Terminal-Bench](../terminal-bench/) | 评测 | 首证、标准 | 真实 Docker 里的命令行任务，断言最终环境状态。给 Claude Code / Codex CLI 一条与 SWE-bench 不同的尺子 |
 | 2025 年中 | [Cursor Agent、Copilot Agent Mode、Gemini CLI](../ide-agents/) 等同场 | 产品 | 引爆 | 「在编辑器/终端里委派」成为默认开发体验。人在环路仍然是主路径，全自主是选项。弱自主仍满足定义 |
-| 2025-07 | Operator 并入 [ChatGPT agent](../chatgpt-agent/) | 产品 | 工程化 | 浏览执行和研究开始收进同一个产品入口，而不是独立网站 |
-| 2025-08-07 | [GPT-5](../gpt-5/) | 模型 | 工程化 | 快答 + 思考 + 路由收成默认系统。SWE-bench Verified 厂商自报 74.9%。本身不是 Agent |
+| 2025-07 | Operator 并入 [ChatGPT agent](../chatgpt-agent/) | 产品 | — | 浏览执行和研究开始收进同一个产品入口，而不是独立网站 |
+| 2025-08-07 | [GPT-5](../gpt-5/) | 模型 | — | 快答 + 思考 + 路由收成默认系统。SWE-bench Verified 厂商自报 74.9%。本身不是 Agent |
 | 2025-09-19 | [SWE-bench Pro](../swe-bench-pro/) | 评测 | 标准、警示 | 更长、抗污染的仓库题。GPT-5 在统一脚手架上约 23%——Verified 七成与 Pro 两成不可横比：谓词变硬，完成率塌缩 |
 | 2025-10 | [Agent Skills](../agent-skills/) | 协议 | 工程化 | 用文件夹打包流程、脚本、领域知识，运行时动态加载。通用核靠 Skills 变专用，而不靠再训练。不是 RPC。原文见 [为智能体配备 Agent Skills](/protocal/skills/posts/equipping-agents-for-the-real-world-with-agent-skills/) |
 | 2025-11-24 | [OpenClaw / Clawdbot（龙虾）](../openclaw/) | 产品 | 引爆 | 自托管 Gateway：聊天软件指挥你自己的机器。仓库在 2025 年出现；**现象级爆红在 2026-01**，见 [OpenClaw 爆红](../../2026/openclaw/) |
 | 2025-12-02 | [AWS AgentCore](../aws-agentcore/)（re:Invent） | 产品 | 工程化 | 推理模型循环之外的一层：策略在工具调用到达系统前拦截并裁决，评估按真实运行行为打分。当时均为 Preview，2026-03 才 GA |
-| 2025-12-08 | [Claude Code in Slack](../claude-code-slack/) | 产品 | 工程化 | 委派面从终端搬进聊天流：@Claude 建会话、按频道上下文自动选仓、线程回帖给 PR 直链。执行面未变，是 2026 Claude Tag 的前身 |
+| 2025-12-08 | [Claude Code in Slack](../claude-code-slack/) | 产品 | — | 委派面从终端搬进聊天流：@Claude 建会话、按频道上下文自动选仓、线程回帖给 PR 直链。执行面未变，是 2026 Claude Tag 的前身 |
 | 2025-12-10 | [阿里云函数计算 AgentRun](../aliyun-agentrun/) | 产品 | 工程化 | 云厂商把 Agent 运行时做成平台资源：会话亲和突破 Serverless 无状态，运行时与沙箱可休眠、按需唤醒。厂商自报数字按主张记 |
 | 2025-12-18 | [Agent Skills 开放标准](../agent-skills-standard/) | 协议 | 标准 | 10 月的文件夹格式去厂商化：规范独立到 agentskills.io，客户端登记表数十家。管打包与可移植性，不管执行语义 |
-| 2025-12-18 | [GPT-5.2-Codex](../gpt-5-2-codex/) | 模型 | 工程化 | 为 Codex 优化的编码核：上下文压缩让工作跨多个上下文窗口保持连贯；Windows 有了原生沙箱选项。厂商自报分数未能一手核实 |
+| 2025-12-18 | [GPT-5.2-Codex](../gpt-5-2-codex/) | 模型 | — | 为 Codex 优化的编码核：上下文压缩让工作跨多个上下文窗口保持连贯；Windows 有了原生沙箱选项。厂商自报分数未能一手核实 |
 
 刻意不升格的：每一个「我们的多 Agent 平台」发布会；把 A2A 写成已经统一企业通信（协议发布 ≠ 生态长成，对照 [前传里的 FIPA](../../before2022/early-concepts/fipa-acl/)）；任何把 Deep Research 的长报告等同于「已解决研究」的说法；Google Mariner 等与 Computer Use / Operator 同线的跟进预览；以及 2026 年才出现的「龙虾套壳安装会」。
 

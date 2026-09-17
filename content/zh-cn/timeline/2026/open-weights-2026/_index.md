@@ -2,8 +2,6 @@
 title: "开源权重模型达到 Agent 可用"
 linkTitle: "[模型]开源权重线"
 分类: "模型"
-标签:
-  - "工程化"
 weight: 190
 date: 2026-09-17
 description: >

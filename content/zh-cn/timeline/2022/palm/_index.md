@@ -2,8 +2,6 @@
 title: "PaLM 540B"
 linkTitle: "[论文]PaLM"
 分类: "论文"
-标签:
-  - "工程化"
 weight: 40
 date: 2026-09-15
 description: >
