@@ -4,7 +4,7 @@ linkTitle: "Russell & Norvig"
 weight: 60
 date: 2026-09-14
 description: >
-  第一版 AIMA 用理性 Agent 作为人工智能的教学框架：感知、行动、环境与性能度量。
+  教材用理性 Agent 统摄 AI：感知、行动、环境、性能度量。循环在图里；决策程序不限，宽于本笔记。
 ---
 
 材料：Stuart Russell & Peter Norvig，*Artificial Intelligence: A Modern Approach*，第 1 版，Prentice Hall，1995。这是教科书，不是会议论文。对 Agent 的集中表述在第 2 章 *Intelligent Agents*。后续版本（2003、2010、2020）在同一框架上补充了环境性质的分类表，以及用 PEAS（Performance, Environment, Actuators, Sensors）组织设计问题的写法。下面以第 1 版的定义为主，不把后版才固定的口号倒填为 1995 年原文。
@@ -78,7 +78,7 @@ AIMA 把人工智能的研究对象统一写成 **Agent**：任何可以被视�
 
 ## 和 AI Agent 的关系
 
-把教材四元组与 AI Agent 定义的四要素并置，可以看清收窄发生在哪一条：
+教材四元组里，循环、动作、观察已经画在第 2 章的图上。收窄发生在决策核心与迭代条款：
 
 | 教材 | 本笔记 |
 | --- | --- |
@@ -89,4 +89,4 @@ AIMA 把人工智能的研究对象统一写成 **Agent**：任何可以被视�
 | （不限制决策核心） | **必须由 LLM 选择下一步** |
 | （不强制多步迭代） | **必须有多步循环，并依据反馈再决策** |
 
-因此 Siri 在 AIMA 中是 Agent，在本笔记中降为助手。Wooldridge & Jennings 的弱四条是研究社区内部的入口，仍宽于本笔记，但已经比恒温器窄（要求社交与主动）。AIMA 是课程与大众读物的入口，是「人人会说 Agent」的主要来源。
+因此 Siri 在 AIMA 中是 Agent，在本笔记中降为助手。Wooldridge & Jennings 的弱四条是研究社区内部的入口，仍宽于本笔记，但已经比恒温器窄（要求社交与主动）。AIMA 是课程与大众读物的入口，是「人人会说 Agent」的主要来源。它不是 2022–2025 LLM Agent 产品的规格书。

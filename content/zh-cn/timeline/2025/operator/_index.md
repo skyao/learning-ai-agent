@@ -13,6 +13,6 @@ description: >
 OpenAI，2025-01-23。Operator：用自己的浏览器看网页、点击、滚动、键入。美国 Pro 用户研究预览。
 
 1. [材料](./source/) — 按当时公告转述：CUA、可用性、安全边界。不写 7 月并入后的产品形态。
-2. [讲解](./explanation/) — 2024 Computer Use 的产品化；分数和安全仍是预览级。
+2. [讲解](./explanation/) — 2024 Computer Use 的产品化；屏已通，谓词仍弱。
 
 当时公告：[Introducing Operator](https://openai.com/index/introducing-operator/)。

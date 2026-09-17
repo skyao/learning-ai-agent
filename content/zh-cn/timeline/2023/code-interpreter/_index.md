@@ -7,7 +7,7 @@ linkTitle: "[产品]Code Interpreter"
 weight: 100
 date: 2026-09-15
 description: >
-  2023-07。ChatGPT Plus 上云端 Python 沙箱全面放开。沙箱成为跑代码的标配环境。
+  2023-07。ChatGPT Plus 上云端 Python 沙箱全面放开。只要 exec，沙箱就是执行边界。
 ---
 
 OpenAI。插件期已是 alpha；约 2023-07-06 开始向全体 ChatGPT Plus 用户滚动放出。后来改称 Advanced Data Analysis。2023 年记的是沙箱成为产品能力，不是改名。

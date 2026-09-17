@@ -7,12 +7,12 @@ _build:
   list: never
   render: always
 description: >
-  2023-11-06 发布会已拆成两条里程碑，不再作为独立条目。
+  发布会不当条目。2023-11-06 已拆成换核与托管状态机两条里程碑。
 ---
 
-发布会不当条目。当天和 Agent 有关的两样，分开记：
+发布会不是系统变更，不当里程碑。当天和 Agent 有关的两样，机制不同，必须分开记：
 
-1. [GPT-4 Turbo](../gpt-4-turbo/) — 模型；128k 窗口
-2. [Assistants API](../assistants-api/) — 产品；托管运行时雏形
+1. [GPT-4 Turbo](../gpt-4-turbo/) — 模型；128k 工作集。换核，不换循环。
+2. [Assistants API](../assistants-api/) — 产品；托管状态机雏形。循环上云。
 
-GPTs 不单独升格。当时通稿：[New models and developer products announced at DevDay](https://openai.com/index/new-models-and-developer-products-announced-at-devday/)。
+GPTs 是同一套能力的无代码壳，不单独升格。热度是发布会；完成率不在台上。当时通稿：[New models and developer products announced at DevDay](https://openai.com/index/new-models-and-developer-products-announced-at-devday/)。

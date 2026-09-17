@@ -7,7 +7,7 @@ description: >
   对照社区口径：本笔记的四要素从哪来，和 Anthropic、OpenAI、LangChain 差在哪。
 ---
 
-工作定义在 [什么是 AI Agent](/definition/what-is-ai-agent/) 和 [什么不是](/definition/what-is-not-ai-agent/)。
+定义在 [什么是 AI Agent](/definition/what-is-ai-agent/) 和 [什么不是 AI Agent](/definition/what-is-not-ai-agent/)。
 
 写那两页的时候，我担心四要素是自己收窄出来的口径，和社区讲的不是一回事。对照过 2024–2026 社区常用的几份原文之后，我有了信息：我没有另起流派，只是把已经收敛的说法收成可判定的四要素，并故意比光谱派更窄、比「独立干活的数字员工」营销更严格。
 

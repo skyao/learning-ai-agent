@@ -13,6 +13,6 @@ description: >
 Peter Steinberger。GitHub 仓库 2025-11-24 创建（Warelay / 后称 Clawdbot）。把聊天频道接到本机 Gateway：模型 + 工具 + WhatsApp/Telegram 等。中文常称「龙虾」。
 
 1. [材料](./source/) — 按 2025 年 11 月仓库与产品形态转述。不把 2026-01 的星标暴涨写成当时事实。
-2. [讲解](./explanation/) — 为什么自托管个人 Agent 和厂商终端运行时不是同一条产品线。
+2. [讲解](./explanation/) — 出生与爆红必须切开；自托管个人 Agent ≠ 厂商终端运行时。
 
 仓库：[openclaw/openclaw](https://github.com/openclaw/openclaw)（创建于 2025-11-24）。站点：[openclaw.ai](https://openclaw.ai)。2026 年爆红见 [OpenClaw 爆红](../../2026/openclaw/)。

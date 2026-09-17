@@ -4,7 +4,7 @@ linkTitle: "FIPA / ACL"
 weight: 70
 date: 2026-09-14
 description: >
-  Foundation for Intelligent Physical Agents：为异构 Agent 规定管理平台、通信语言与交互协议。
+  异构 Agent 的平台、言语行为消息与交互协议。标准可以写完而生态不出现；不是 MCP / A2A 的前一版。
 ---
 
 组织与规范：[FIPA](https://www.fipa.org/)（Foundation for Intelligent Physical Agents）。1996 年 4 月在伦敦 Imperial College 讨论建制，1996 年 9 月在日内瓦登记为瑞士非营利协会，目标是为异构、会交互的 Agent 与 Agent 系统编写软件标准。第一批规范以 FIPA 97 发布。2005 年 6 月 8 日，FIPA 成为 IEEE Computer Society 的标准委员会。现行规范仍集中在 fipa.org 的 Repository。
@@ -108,4 +108,6 @@ FIPA 完成了规范文本，并在 Agentcities 等项目中做过互操作试�
 
 ## 和 AI Agent 的关系
 
-FIPA 是时间线上明确的**标准建立型**节点，结果偏警示：规范可以写完，生态可以不出现。2024 年 MCP 与 2025 年 A2A 处理的问题分别是「模型如何接工具」和「Agent 如何接 Agent」。它们出现在 ChatGPT / Claude 等产品已经存在之后，是把已经在用的调用方式收成事实标准，与 FIPA「先写全规范再等待实现」的顺序相反。
+FIPA **有环**：交互协议规定合法消息顺序，会话期内有请求、回复、失败、取消。消息是动作；对方的 ACL 是观察。决策核心不在规范里——规范假定参与者已经是 Agent，其内部如何选下一步（规则、BDI、规划器）由实现自定，不是 LLM。
+
+时间线上这是明确的**标准建立型**节点，结果偏警示：规范可以写完，生态可以不出现。2024 年 MCP 与 2025 年 A2A 处理的问题分别是「模型如何接工具」和「Agent 如何接 Agent」。它们出现在 ChatGPT / Claude 等产品已经存在之后，是把已经在用的调用方式收成事实标准，与 FIPA「先写全规范再等待实现」的顺序相反。不是同一套协议的版本迭代。

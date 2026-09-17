@@ -64,6 +64,6 @@ Agent 这个词使用实在是过于广泛，某些情况下也过于滥用。
 
 「弱自主」也算：人可以随时转向、审批。Agent 不是「完全没人管」的同义词。自主度是高级维度，入门只要求循环存在。
 
-完整对照表在 [调研方法](/timeline/overview/research/#agent-边界清单)。否的一侧在 [什么不是 AI Agent](../what-is-not-ai-agent/)。
+完整对照表在 [调研方法](/timeline/overview/research/#agent-边界清单)。否的一侧在 [什么不是 AI Agent](../what-is-not-ai-agent/)。四要素如何陆续满足、何时同时成立，见 [四要素视角](../history/)。
 
 

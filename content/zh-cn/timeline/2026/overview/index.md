@@ -4,19 +4,19 @@ linkTitle: "概述"
 weight: 1
 date: 2026-09-09
 description: >
-  2026：团队与基础设施。瓶颈从模型外移到身份、沙箱和调度。
+  2026：身份、沙箱、调度。个体编码循环已是日常；瓶颈从核外移到 principal 与执行路径。
 ---
 
-**一句话主线：** 2026 年，个体编码 Agent 已经是开发者日常；新问题是 **团队里那一个 Agent 用谁的权限、在谁的频道里干活、沙箱如何跟得上异步委派**。1 月 [OpenClaw](../openclaw/) 把自托管个人 Agent 送上舆论顶点；同月 [Cowork](../cowork/) 把 Claude Code 的循环做成非开发者桌面 Agent。Claude Tag 则把同一套云端沙箱引擎放进 Slack，用组织级 Agent Identity 而不是每人自建 Gateway。Aries / SpecBox 从云基础设施侧证明：执行路径和沙盒调度，已经和模型智力同样限制能做什么。
+**一句话主线：** 2026 年，个体编码 Agent 已经是开发者日常；新约束是 **团队里那一个 Agent 用谁的权限、在谁的频道里执行、沙箱如何跟得上异步委派**。1 月 [OpenClaw](../openclaw/) 把自托管个人 Agent 送上舆论顶点；同月 [Cowork](../cowork/) 把 Claude Code 的循环做成非开发者桌面 Agent。Claude Tag 则把同一套云端沙箱引擎放进 Slack，用组织级 Agent Identity 而不是每人自建 Gateway。Aries / SpecBox 从云基础设施侧证明：执行路径和沙盒调度，已经和模型智力同样限制能做什么。
 
-上一页：[2025](../../2025/overview/)。深挖：[Claude Tag](/data/2026/claude-tag/)、[Aries](/data/2026/rethinking-ai-cloud-infrastructure/)、[SpecBox](/data/2026/specbox-speculative-sandbox-scheduling/)。今天是 2026-09，这一页写的是上半年到初秋已经发生的事，不是全年盖棺。
+上一页：[2025](../../2025/overview/)。深挖：[Claude Tag](/data/2026/claude-tag/)、[Aries](/data/2026/rethinking-ai-cloud-infrastructure/)、[SpecBox](/data/2026/specbox-speculative-sandbox-scheduling/)。今天是 2026-09，这一页写的是上半年到初秋已经发生的事，不是全年闭合的编年。
 
 ## 和 LLM 的关系
 
-模型仍在涨（Tag 默认 Opus 4.8 一类前沿核），但 **Agent 史的主矛盾外移了**。
+模型仍在涨（Tag 默认 Opus 4.8 一类前沿核），但 **Agent 史的主矛盾外移了**。核够用之后，稀缺资源换成身份与供给。
 
 - **决策核心够用到可以暴露系统问题。** 当循环能跑数小时、能开 PR、能查数仓，瓶颈变成：凭证能不能进沙箱、出站要不要白名单、空闲后工作区是否还在、频道里谁有权转向。这些不是更多 CoT 能解决的。
-- **同一引擎，多个表面。** [Claude Tag](../claude-tag/) 文档写明：频道里的工作跑在与 Claude Code on the web 相同的短暂沙箱上。模型层没有换一种 Agent 物理，产品层换了「谁在委派、谁看得见」。
+- **同一引擎，多个表面。** [Claude Tag](../claude-tag/) 文档写明：频道里的工作跑在与 Claude Code on the web 相同的短暂沙箱上。模型层没有换一种 Agent 物理，产品层换了「谁在委派、谁看得见」。控制协议没有新发明，生命周期和权限模型有。
 - **推理/编码模型继续分化，但不再单独定义品类。** 2025 是运行时之年；2026 是运行时被嵌进组织工作流之年。LLM 提供决策，组织提供 scope、bundle、审计。
 
 ## 里程碑
@@ -25,12 +25,12 @@ description: >
 
 | 时间 | 事件 | 分类 | 标签 | 为什么记 |
 | --- | --- | --- | --- | --- |
-| 2026-01 | [OpenClaw 爆红](../openclaw/)（Clawdbot → OpenClaw） | 产品 | 引爆、警示 | 自托管「龙虾」在改名周进入现象级。仓库出生在 [2025-11](../../2025/openclaw/)；热度、养虾与暴露面是 2026 年 1 月的事 |
-| 2026-01-12 | [Claude Cowork](../cowork/) | 产品 | 工程化 | 把 Claude Code 的循环做成桌面知识工作 Agent：指定本机文件夹，不进终端。当时研究预览，仅 Max + macOS |
+| 2026-01 | [OpenClaw 爆红](../openclaw/)（Clawdbot → OpenClaw） | 产品 | 引爆、警示 | 自托管「龙虾」在改名周进入现象级。仓库出生在 [2025-11](../../2025/openclaw/)；热度、养虾与暴露面是 2026 年 1 月的事。热度 ≠ 完成率；权限面等于机器本身 |
+| 2026-01-12 | [Claude Cowork](../cowork/) | 产品 | 工程化 | 把 Claude Code 的循环做成桌面知识工作 Agent：指定本机文件夹，不进终端。当时研究预览，仅 Max + macOS。主体仍是使用者账号，不是频道共享的 Agent Identity |
 | 2026-06-23 | [Introducing Claude Tag](../claude-tag/) | 产品 | 工程化、范式更替 | Slack 里的共享 AI 队友：`@Claude` 委派，线程即 session，记忆跟频道走。内部产品团队约 65% 代码来自内部版 Tag（厂商自报，记作影响力信号而非独立审计）。8-03 旧 Slack 应用切到 Tag |
-| 2026-06-24 | [Agent identity 博文](../agent-identity/)（Noah Zweben） | 博文 | 范式更替 | 写清为什么「act as the user」在异步、多驾驶员场景会崩；公开频道共享工作区身份，私有频道隔离；提到未来 JIT 凭证 |
-| 2026-07-31 | [Aries](../aries/)（*Rethinking AI Cloud Infrastructure*） | 论文 | 首证、警示 | 测量向：Agent 云负载不是传统微服务。问题重构先于新调度器——执行路径、存储、隔离被重新定义 |
-| 2026-08 | [SpecBox](../specbox/) | 论文 | 工程化 | 推测式沙盒调度：意图预热、马尔可夫预取、语义缓存。针对的是串行关键路径，而不只是冷启动口号 |
+| 2026-06-24 | [Agent identity 博文](../agent-identity/)（Noah Zweben） | 博文 | 范式更替 | 写清为什么「act as the user」在异步、多驾驶员场景会崩：授权、审计、回放都不闭合。公开频道共享工作区身份，私有频道隔离；提到未来 JIT 凭证 |
+| 2026-07-31 | [Aries](../aries/)（*Rethinking AI Cloud Infrastructure*） | 论文 | 首证、警示 | 测量向：Agent 云负载不是传统微服务。一次委派是轨迹（推理、工具、沙箱、KV），不是请求。问题重构先于新调度器——执行路径、存储、隔离被重新定义 |
+| 2026-08 | [SpecBox](../specbox/) | 论文 | 工程化 | 推测式沙盒调度：意图预热、马尔可夫预取、语义缓存。针对的是串行关键路径，而不只是冷启动口号。环境未就绪，Action 只能阻塞 |
 
 刻意不升格的：所有「我们也有 Slack 机器人」的跟风稿；把 Tag 的 Beta 限制（Team/Enterprise、需 Owner、与 ZDR 不兼容）写成已经普及；国内「龙虾套壳 / 安装会」作为热度衍生品；以及任何尚未被第三方复现的 2026 下半年路线图。
 
@@ -44,7 +44,7 @@ description: >
 
 MCP / Skills 被 Tag 当组织级 connections 和 skills repo 来用：管理员按 scope 配 bundle，而不是每个成员在 claude.ai 上接自己的 connector。A2A 仍偏企业平台叙事，Tag 的「多人转向同一个 session」是产品层的多驾驶员，还不是 A2A 互操作。
 
-身份模型本身接近一层新协议：**Agent Identity + Agent Proxy + Access bundle + scope**。词见 [术语表](/data/2026/claude-tag/mechanism/glossary/)。
+身份模型本身接近一层新协议：**Agent Identity + Agent Proxy + Access bundle + scope**。词见 [术语表](/data/2026/claude-tag/mechanism/glossary/)。主体（principal）第一次从「借用用户 OAuth」里拆出来。
 
 ### 应用层
 
@@ -54,18 +54,18 @@ MCP / Skills 被 Tag 当组织级 connections 和 skills repo 来用：管理员
 2. [Cowork](../cowork/)：厂商桌面应用，指定文件夹做知识工作。
 3. [Claude Tag](../claude-tag/)：组织频道、共享身份、可旁观。
 
-客诉汇总、法务审材料、数仓问答、缺陷复现开 PR——Anthropic 内部案例写在 Tag 资料列表第五阶段。Cowork / Claude Code 仍管个人文件与本地仓库；Tag 管共享、异步、可旁观。
+客诉汇总、法务审材料、数仓问答、缺陷复现开 PR——Anthropic 内部案例写在 Tag 资料列表第五阶段。Cowork / Claude Code 仍管个人文件与本地仓库；Tag 管共享、异步、可旁观。最小环没有换，换的是委派面和可见性。
 
 ### 基础设施层
 
 2026 年第一次把执行基础设施写成主线：
 
-- **短暂沙箱生命周期**（建、干、闲、释放、回复再重建）——见 [How Claude Tag works](/data/2026/claude-tag/mechanism/how-it-works/)
+- **短暂沙箱生命周期**（建、跑、闲、释放、回复再重建）——见 [How Claude Tag works](/data/2026/claude-tag/mechanism/how-it-works/)
 - **凭证不进沙箱**——见 [Security and data handling](/data/2026/claude-tag/mechanism/security-and-data/)
 - **云上 Agent 负载的测量**——Aries
 - **沙盒预热与调度**——SpecBox
 
-评测仍在（SWE-bench 家族），但组织场景缺少等价于 SWE-bench 的「频道任务基准」。审计日志、花费上限、RBAC 成为产品功能，而不只是安全附录。
+评测仍在（SWE-bench 家族），但组织场景缺少等价于 SWE-bench 的「频道任务」谓词。审计日志、花费上限、RBAC 成为产品功能，而不只是安全附录。系统闭环了，治理闭环还没有。
 
 ## 还做不到什么
 
