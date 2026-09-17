@@ -7,7 +7,7 @@ description: >
   按 2021 年公开材料转述 Copilot 技术预览：结对程序员、Codex、IDE 补全。
 ---
 
-GitHub Copilot 没有对应一篇研究论文。本页转述 **2021 年技术预览当时公开说了什么**，不以 2022 正式商用、2023 Copilot X / Chat 回填。模型机制与 HumanEval 数字以 [Codex 论文](../../codex/paper/) 为准；那篇写明：独立的生产版本驱动 Copilot。
+GitHub Copilot 没有对应一篇研究论文。这里转述的是 **2021 年技术预览当时的公开表述**，不以 2022 年正式商用、2023 年 Copilot X 与 Chat 回填。模型机制与 HumanEval 数字以 [Codex 论文](../../codex/paper/) 为准；那篇写明：独立的生产版本驱动 Copilot。
 
 主要出处：
 
@@ -15,7 +15,7 @@ GitHub Copilot 没有对应一篇研究论文。本页转述 **2021 年技术预
 - 同期产品页与新闻稿中的功能描述（VS Code 扩展、候选项循环、技术预览名额有限）
 - OpenAI，2021-08-10 前后，将 Codex 以 API 私有测试形式提供时的产品说明（明确 Codex 即驱动 Copilot 的模型）
 
-本页不复制公告全文。
+这里不复制公告全文。
 
 ---
 

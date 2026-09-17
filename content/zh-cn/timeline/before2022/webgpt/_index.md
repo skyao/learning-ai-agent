@@ -12,7 +12,7 @@ description: >
 
 Nakano 等，2021，*WebGPT: Browser-assisted question-answering with human feedback*。微调 GPT-3，使其在文本网页浏览环境中搜索与导航，并用人类反馈优化长问答；答案必须带浏览过程中摘下的引用。
 
-1. [论文](./paper/) — 按原文结构转述：环境动作、行为克隆与人类反馈、ELI5 与 TruthfulQA。不加入后来的 ReAct / Agent 解释。
-2. [讲解](./explanation/) — 封闭问答环如何接通模型、环境与工具；为何回合止于作答，仍不是开放任务上的自主 Agent。
+1. [论文](./paper/)：按原文结构转述环境动作、行为克隆与人类反馈、ELI5 与 TruthfulQA，不加入后来的 ReAct 与 Agent 解释。
+2. [讲解](./explanation/)：封闭问答环如何接通模型、环境与工具；说明回合为什么止于作答，仍不是开放任务上的自主 Agent。
 
 原文：[arXiv:2112.09332](https://arxiv.org/abs/2112.09332)（[HTML](https://ar5iv.labs.arxiv.org/html/2112.09332)、[PDF](https://arxiv.org/pdf/2112.09332)）。

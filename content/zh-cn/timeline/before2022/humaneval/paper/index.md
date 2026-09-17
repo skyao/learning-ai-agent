@@ -7,7 +7,7 @@ description: >
   按 Chen 等 2021 年论文转述评测集本身：功能正确、pass@k、164 道手写题。
 ---
 
-评测集随 Codex 论文一次交出。本页只转述 **HumanEval 这张考卷**；模型训练与限度见 [Codex 论文](../../codex/paper/)。Chen 等，*Evaluating Large Language Models Trained on Code*，2021-07。[arXiv:2107.03374](https://arxiv.org/abs/2107.03374)。仓库：<https://github.com/openai/human-eval>。
+评测集随 Codex 论文一次交出。这里只转述 **HumanEval 这张考卷**；模型训练与限度见 [Codex 论文](../../codex/paper/)。Chen 等，*Evaluating Large Language Models Trained on Code*，2021-07。[arXiv:2107.03374](https://arxiv.org/abs/2107.03374)。仓库：<https://github.com/openai/human-eval>。
 
 ---
 
