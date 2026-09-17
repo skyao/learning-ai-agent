@@ -20,7 +20,7 @@ ReAct 的 Observation 是第一层。SWE-bench 一类是第二层。没有第一
 
 ## 通道先于仓库级尺子
 
-[CoT](/timeline/2022/chain-of-thought/) 无环境通道。[ReAct](/timeline/2022/react/) 把检索片段、仿真器状态、页面文本标成 Observation，下一步 Thought 以它为条件。解析仍脆弱，环境是论文集，但闭环语义已经写全。[PAL](/timeline/2022/pal/) 的通道是解释器返回值。[WebGPT](/timeline/before2022/webGPT/) / [Sparrow](/timeline/2022/sparrow/) 的通道是页面，谓词是「给出带引用的答案」。
+[CoT](/timeline/2022/chain-of-thought/) 无环境通道。[ReAct](/timeline/2022/react/) 把检索片段、仿真器状态、页面文本标成 Observation，下一步 Thought 以它为条件。解析仍脆弱，环境是论文集，但闭环语义已经写全。[PAL](/timeline/2022/pal/) 的通道是解释器返回值。[WebGPT](/timeline/before2022/webgpt/) / [Sparrow](/timeline/2022/sparrow/) 的通道是页面，谓词是「给出带引用的答案」。
 
 [HumanEval](/timeline/before2022/humaneval/)（2021）把执行引入评价：pass@k 看测试，不看流畅度。对象是函数，不是 issue。它给第四条提供「用副作用结果打分」的早期形态，覆盖面不够支撑编码 Agent 叙事。
 

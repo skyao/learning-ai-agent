@@ -57,11 +57,11 @@ description: >
 | --- | --- | --- | --- | --- |
 | 2017-06 | [Transformer](../transformer/)（[论文](../transformer/paper/)、[讲解](../transformer/explanation/)） | 论文 | 范式更替 | 用自注意力替代循环与卷积，成为后续 LLM 的骨架。没有可扩展的条件生成器，后面没有可讨论的决策核心。它不包含工具、不包含终止条件 |
 | 2020-05 | [GPT-3](../gpt-3/)（[论文](../gpt-3/paper/)、[讲解](../gpt-3/explanation/)） | 模型 | 首证 | 上下文学习：不更新权重也能做新任务。Agent 后来把 Observation 当作工作记忆，物理前提从这里开始。当时窗口约 2k–4k，工具调用只能赌可解析字符串 |
-| 2020-05 | [RAG](../RAG/)（[论文](../RAG/paper/)、[讲解](../RAG/explanation/)） | 论文 | 工程化 | 生成之前先检索。后来几乎所有「有外部知识的 Agent」都先经过这一刀；它本身仍是单次流水线，不是迭代循环 |
+| 2020-05 | [RAG](../rag/)（[论文](../rag/paper/)、[讲解](../rag/explanation/)） | 论文 | 工程化 | 生成之前先检索。后来几乎所有「有外部知识的 Agent」都先经过这一刀；它本身仍是单次流水线，不是迭代循环 |
 | 2021-06 | [GitHub Copilot](../github-copilot/)（[材料](../github-copilot/source/)、[讲解](../github-copilot/explanation/)） | 产品 | 工程化 | 把 Codex 能力做成 IDE 补全。按 AI Agent 定义**不是** Agent（无自主目标、无多步环境循环），但是「Copilot → Agent」这条演化的起点。有副作用，无目标环 |
 | 2021-07 | [Codex](../codex/)（[论文](../codex/paper/)、[讲解](../codex/explanation/)） | 模型 | 首证 | 语言模型写出可运行代码。没有代码生成，就不会有后来的编码 Agent。生产版本驱动 GitHub Copilot。核不是运行时 |
 | 2021-07 | [HumanEval](../humaneval/)（[论文](../humaneval/paper/)、[讲解](../humaneval/explanation/)） | 评测 | 首证、标准 | 用单元测试衡量函数级合成。完成谓词的早期形态：看执行，不看流畅度。覆盖面远窄于 2023 的 SWE-bench |
-| 2021-12 | [WebGPT](../webGPT/)（[论文](../webGPT/paper/)、[讲解](../webGPT/explanation/)） | 产品 | 首证 | GPT-3 在文本浏览器里搜索、导航、带引用作答，并用人类反馈优化。这是「模型 + 环境 + 工具」的实验室形态；目标仍是答好一道题，不是自主完成开放任务。通道是页面，谓词是答题 |
+| 2021-12 | [WebGPT](../webgpt/)（[论文](../webgpt/paper/)、[讲解](../webgpt/explanation/)） | 产品 | 首证 | GPT-3 在文本浏览器里搜索、导航、带引用作答，并用人类反馈优化。这是「模型 + 环境 + 工具」的实验室形态；目标仍是答好一道题，不是自主完成开放任务。通道是页面，谓词是答题 |
 
 这一段的共同限度：上下文窗口大约 2k–4k，指令跟随还不稳，没有结构化 function calling schema，没有大众可用的多轮对话产品。零件在，控制循环、可解析接线和可对话接口都未齐。
 

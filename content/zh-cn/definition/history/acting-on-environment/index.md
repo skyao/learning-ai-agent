@@ -15,7 +15,7 @@ description: >
 
 ## 2020–2022：检索、解释器、提示词演戏
 
-[RAG](/timeline/before2022/RAG/) 把文档读进上下文，流水线单次，无二次决策。[WebGPT](/timeline/before2022/webGPT/) 在受控文本浏览器里 search / click / quote，有动作也有页面观察，终止于答题。[MRKL](/timeline/2022/mrkl/) 给出模块图：语言模型必须外挂知识与离散计算；实现私有。[PAL](/timeline/2022/pal/) 把推理编译成程序，副作用关在解释器里，任务是解题不是改仓库。[Sparrow](/timeline/2022/sparrow/) 带规则的网页问答。[Copilot GA](/timeline/2022/copilot-ga/) 让补全成为付费路径。
+[RAG](/timeline/before2022/rag/) 把文档读进上下文，流水线单次，无二次决策。[WebGPT](/timeline/before2022/webgpt/) 在受控文本浏览器里 search / click / quote，有动作也有页面观察，终止于答题。[MRKL](/timeline/2022/mrkl/) 给出模块图：语言模型必须外挂知识与离散计算；实现私有。[PAL](/timeline/2022/pal/) 把推理编译成程序，副作用关在解释器里，任务是解题不是改仓库。[Sparrow](/timeline/2022/sparrow/) 带规则的网页问答。[Copilot GA](/timeline/2022/copilot-ga/) 让补全成为付费路径。
 
 工具调用的主流实现是 prompt 约束：模型在自然语言里嵌 JSON 或伪 DSL，宿主 `eval` 或正则抽取。失败模式是幻觉字段、截断、注入。ReAct 同期仍走文本 Action。可解析的函数选择要到下一阶段。
 
