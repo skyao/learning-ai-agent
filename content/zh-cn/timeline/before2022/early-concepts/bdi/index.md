@@ -7,7 +7,7 @@ linkTitle: "[论文]BDI"
 weight: 40
 date: 2026-09-14
 description: >
-  信念、目标、意图平级不可还原。解释器循环含观察与执行；决策是符号慎思，不是 LLM。
+  用信念、愿望、意图描述理性 Agent。有循环和动作，核心不是 LLM；今日的 goal、plan 是它的通俗版。
 ---
 
 形式化原文：[Rao & Georgeff, 1991](https://www.ai.rug.nl/mas/documents/rao.pdf)，*Modeling Rational Agents within a BDI-Architecture*，KR 1991，pp. 473–484。实现向的配套报告：Rao & Georgeff, 1995，*BDI Agents: From Theory to Practice*（ICMAS）。哲学来源：Michael Bratman, *Intention, Plans, and Practical Reason*（1987）。对照对象：Cohen & Levesque, 1990，把意图定义成信念与目标的时序公式。
@@ -92,6 +92,8 @@ Bratman 的论题是：意图在实践推理中有独立作用。它是尚未完
 
 ## 和 AI Agent 的关系
 
-BDI 解释器**有循环**：事件进队列、慎思、执行一步、再取外部事件。它也**有动作与观察**。决策核心是符号态度上的规则与承诺策略，不是语言模型。
+**BDI 用信念、愿望、意图三种态度描述理性 Agent。有循环和动作，核心不是 LLM；今日的 goal、plan 是它的通俗版。**
+
+解释器的循环是：事件进队列、慎思、执行一步、再取外部事件，动作与观察都在其中。决策核心是符号态度上的规则与承诺策略，不是语言模型。
 
 LLM 产品里出现的 memory、goal、plan、todo，与 BDI 三态度在**问题上**对应：系统对世界有一个当前看法，有一个要达成的目标，有一个正在执行、不应每一步都推翻的计划。在**实现上**不对应：没有可能世界可达关系，也没有上述解释器中那种形式化的选项生成与承诺策略。上下文窗口、检索、频道记忆承担的是信念的工程替代；系统提示或用户请求承担的是目标；运行时任务列表承担的是意图。这一页不把「长期记忆」写成 BDI 的复活，也不把 2023 至 2025 年的 Agent 运行时写成 BDI 解释器换核心。

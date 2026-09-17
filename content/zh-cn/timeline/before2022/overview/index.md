@@ -32,13 +32,13 @@ description: >
 | 时间 | 事件 | 分类 | 标签 | 为什么记录 |
 | --- | --- | --- | --- | --- |
 | 1971 | [STRIPS](../early-concepts/strips/)（Fikes & Nilsson） | 论文 | 首证 | 把世界写成谓词，用算子搜出计划。有循环和动作，核心不是 LLM；其动作效果清单，正是今日 Agent 所缺 |
-| 1980 | [Contract Net Protocol](../early-concepts/contract-net/)（Smith） | 协议 | 首证 | 任务招标、投标、授予：多 Agent 分工的早期协议。它与 2025 年的 [A2A](/protocal/a2a/) 不是同一套技术，但说明「Agent 之间如何对话」是一个老问题，协议可以先于生态 |
-| 1986 | [Brooks 包容架构](../early-concepts/subsumption/) | 论文 | 首证、范式更替 | 主张智能来自与环境的耦合，而不是先建立完整的世界模型。它改写了「智能系统按功能还是按行为分解」这条前提，也说明并非所有 Agent 路线都走「先推理再行动」 |
-| 1991 | [BDI](../early-concepts/bdi/)（Rao & Georgeff） | 论文 | 首证 | 用信念、愿望、意图描述理性 Agent。今天产品里的 goal、plan、memory 常是这套词汇的通俗版本，实现已经更换。决策核心是符号，不是 LLM |
-| 1995 | [Wooldridge & Jennings](../early-concepts/wooldridge-jennings/), *Intelligent Agents: Theory and Practice* | 论文 | — | 把理论、架构、语言三块分开讨论，是「什么算 Agent」的常用入口，不是一篇模型论文。它给出的是分类与定义口径，没有交付物 |
-| 1995 | [Russell & Norvig](../early-concepts/russell-norvig/)《人工智能：一种现代方法》第一版 | 文献 | — | 用「理性 Agent」统摄教材：感知、行动、环境、性能度量。后来人们普遍使用 Agent 一词，很大程度上来自这里；它传播的是定义，教材定义宽于本站的工作定义 |
-| 1996 起 | [FIPA 与 ACL](../early-concepts/fipa-acl/) | 协议 | 警示 | 试图规定 Agent 通信语言与工作流。生态没有长成后来的互联网协议：规范写完，多方默认没有出现。标准可以先于生态，也可以因缺少生态而终止 |
-| 2011–2014 | [Siri / Alexa / 任务型对话](../early-concepts/task-oriented-dialogue/) | 产品 | 工程化 | 槽位填充加后端 API，是大规模的「语音助手」。循环由状态机驱动，控制图在上线前就已闭合，不是 LLM 规划；它说明大众对「助手」的想象早于 ChatGPT |
+| 1980 | [Contract Net Protocol](../early-concepts/contract-net/)（Smith） | 协议 | 首证 | 任务招标、投标、授予：多 Agent 分工的早期协议。有循环和动作，核心不是 LLM；与 [A2A](/protocal/a2a/) 同属节点间如何连接，但协议先于生态 |
+| 1986 | [Brooks 包容架构](../early-concepts/subsumption/) | 论文 | 首证、范式更替 | 按对外行为分层的机器人控制：高层抑制下层。有循环和动作，核心不是 LLM；它改写了「按功能还是按行为分解」这条前提 |
+| 1991 | [BDI](../early-concepts/bdi/)（Rao & Georgeff） | 论文 | 首证 | 用信念、愿望、意图描述理性 Agent。有循环和动作，核心不是 LLM；今日的 goal、plan、memory 是它的通俗版，实现已换 |
+| 1995 | [Wooldridge & Jennings](../early-concepts/wooldridge-jennings/), *Intelligent Agents: Theory and Practice* | 论文 | — | 把 Agent 研究分为理论、架构、语言三块，给出弱四条口径。它是分类，不是实现；本站的工作定义在其上再加约束 |
+| 1995 | [Russell & Norvig](../early-concepts/russell-norvig/)《人工智能：一种现代方法》第一版 | 文献 | — | 教材用理性 Agent 统摄 AI：感知、行动、环境、性能度量。有循环和动作，但核心不限 LLM；「人人会说 Agent」多来自这里 |
+| 1996 起 | [FIPA 与 ACL](../early-concepts/fipa-acl/) | 协议 | 警示 | 为异构 Agent 规定平台、通信语言与交互协议。有循环，核心不在规范里；规范写完，多方默认没有出现 |
+| 2011–2014 | [Siri / Alexa / 任务型对话](../early-concepts/task-oriented-dialogue/) | 产品 | 工程化 | 封闭任务上填槽、调用后端的语音助手。有循环和副作用，核心不是 LLM；它说明大众对「助手」的想象早于 ChatGPT |
 
 刻意不展开的有：ELIZA（1966，对话幻觉的前史）、办公助手、语义网 Agent，以及绝大多数专家系统。它们可以说明「会说话不等于 Agent」，但带不走本站的主线。
 
