@@ -105,7 +105,7 @@ POMDP 一线（Williams & Young 等，2000 年代至 2010 年代初）把对话�
 
 1. 2011 年已经存在规模化、会调后端的助手，所缺的是以 LLM 为决策核心、以及开放的工具循环。
 2. 2022 年 ChatGPT 把入口从填槽改成开放对话，按 AI Agent 定义仍不是 Agent：多轮文本不等于对环境行动的循环。
-3. 2023 年的插件与 Function Calling 开始把「助手调服务」接到 LLM 的工具选择上；是否构成 Agent，仍要看是否进入多步迭代。
+3. 2023 年的 [ChatGPT plugins](/timeline/2023/chatgpt-plugins/) 与 [Function Calling](/timeline/2023/function-calling/) 开始把「助手调服务」接到 LLM 的工具选择上；是否构成 Agent，仍要看是否进入多步迭代。
 
 GitHub Copilot（2021）是另一条助手：对代码的行级补全，人在环路，无目标循环。与 Siri 同列于助手，模态不同，结构同类。
 
