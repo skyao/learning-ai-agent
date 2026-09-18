@@ -37,7 +37,7 @@ description: >
 | 1991 | [BDI](../early-concepts/bdi/)（Rao & Georgeff） | 论文 | 首证 | 用信念、愿望、意图描述理性 Agent。有循环和动作，核心不是 LLM；今日的 goal、plan、memory 是它的通俗版，实现已换 |
 | 1995 | [Wooldridge & Jennings](../early-concepts/wooldridge-jennings/), *Intelligent Agents: Theory and Practice* | 论文 | — | 把 Agent 研究分为理论、架构、语言三块，给出弱四条口径。它是分类，不是实现；本站的工作定义在其上再加约束 |
 | 1995 | [Russell & Norvig](../early-concepts/russell-norvig/)《人工智能：一种现代方法》第一版 | 文献 | — | 教材用理性 Agent 统摄 AI：感知、行动、环境、性能度量。有循环和动作，但核心不限 LLM；「人人会说 Agent」多来自这里 |
-| 1996 起 | [FIPA 与 ACL](../early-concepts/fipa-acl/) | 协议 | 警示 | 为异构 Agent 规定平台、通信语言与交互协议。有循环，核心不在规范里；规范制定完成，但未成为多方默认 |
+| 1996 起 | [FIPA 与 ACL](../early-concepts/fipa-acl/) | 协议 | 警示 | 为异构 Agent 规定平台、通信语言与交互协议。有循环，核心不在规范里；规范制定完成，但未成为业界默认规范 |
 | 2011–2014 | [Siri / Alexa / 任务型对话](../early-concepts/task-oriented-dialogue/) | 产品 | 工程化 | 封闭任务上填槽、调用后端的语音助手。有循环和副作用，核心不是 LLM；它说明大众对「助手」的想象早于 ChatGPT |
 
 刻意不展开的有：ELIZA（1966，对话幻觉的前史）、办公助手、语义网 Agent，以及绝大多数专家系统。它们可以说明「会说话不等于 Agent」，但带不走本站的主线。
