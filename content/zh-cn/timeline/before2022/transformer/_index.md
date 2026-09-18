@@ -7,7 +7,7 @@ linkTitle: "[论文]Transformer"
 weight: 100
 date: 2026-09-14
 description: >
-  2017。自注意力序列转换器。后来 LLM 的骨架；是表示结构，不是策略循环。
+  2017。自注意力序列转换器。后来 LLM 的骨架，也是核心能读长上下文、能逐 token 生成的前提。
 ---
 
 Vaswani 等，2017，*Attention Is All You Need*（NIPS 2017）。完全基于注意力的序列转换模型，去掉了循环与卷积。

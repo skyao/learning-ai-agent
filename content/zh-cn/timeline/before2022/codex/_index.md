@@ -7,7 +7,7 @@ linkTitle: "[模型]Codex"
 weight: 150
 date: 2026-09-14
 description: >
-  2021-07。公开代码上微调的 GPT。可运行函数级合成；核心不是运行时。
+  2021-07。公开代码上微调的 GPT。可运行函数级合成，编码 Agent 的模型侧前提。
 ---
 
 Chen 等，2021，*Evaluating Large Language Models Trained on Code*。在公开 GitHub 代码上微调 GPT，得到 **Codex**。独立的生产版本驱动 GitHub Copilot 与 API。同篇论文交出的考卷见 [HumanEval](../humaneval/)。

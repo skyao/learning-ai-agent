@@ -7,7 +7,7 @@ linkTitle: "[论文]RAG"
 weight: 120
 date: 2026-09-14
 description: >
-  2020。生成之前先检索。单次流水线，不是根据回执再决定是否再搜。
+  2020。生成之前先检索。后来几乎所有带外部知识的 Agent 都要先经过这一步。
 ---
 
 Lewis 等，2020，*Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*（NeurIPS 2020）。预训练 seq2seq 接可检索的维基百科稠密索引，端到端微调。

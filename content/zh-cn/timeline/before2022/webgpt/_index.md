@@ -7,7 +7,7 @@ linkTitle: "[产品]WebGPT"
 weight: 160
 date: 2026-09-14
 description: >
-  2021-12。文本浏览器里的封闭问答循环。有观察与动作；回合止于作答，不是开放任务。
+  2021-12。文本浏览器里的封闭问答循环。模型、环境与工具在这里第一次接成一个循环。
 ---
 
 Nakano 等，2021，*WebGPT: Browser-assisted question-answering with human feedback*。微调 GPT-3，使其在文本网页浏览环境中搜索与导航，并用人类反馈优化长问答；答案必须带浏览过程中摘下的引用。
