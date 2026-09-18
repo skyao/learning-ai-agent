@@ -5,7 +5,7 @@ linkTitle: "[文献]Russell & Norvig"
 weight: 60
 date: 2026-09-14
 description: >
-  教材用理性 Agent 统摄 AI：感知、行动、环境、性能度量。有循环和动作，但核心不限 LLM，本站收窄了这一条。
+  教材用理性 Agent 统摄 AI：感知、行动、环境、性能度量。人们普遍使用 Agent 一词，很大程度上来自这里。
 ---
 
 材料：Stuart Russell & Peter Norvig，*Artificial Intelligence: A Modern Approach*，第 1 版，Prentice Hall，1995。这是教科书，不是会议论文。对 Agent 的集中表述在第 2 章 *Intelligent Agents*。后续版本（2003、2010、2020）在同一框架上补充了环境性质的分类表，以及用 PEAS（Performance, Environment, Actuators, Sensors）组织设计问题的写法。下面以第 1 版的定义为主，不把后版才固定的口号倒填为 1995 年原文。
@@ -79,7 +79,7 @@ AIMA 把人工智能的研究对象统一写成 **Agent**：任何可以被视�
 
 ## 和 AI Agent 的关系
 
-**教材用理性 Agent 统摄 AI：感知、行动、环境、性能度量。有循环和动作，但核心不限 LLM，本站收窄了这一条。**
+**教材用理性 Agent 统摄 AI：感知、行动、环境、性能度量。今天人们普遍使用 Agent 一词，很大程度上来自这里。**
 
 教材四元组里，循环、动作、观察已经画在第 2 章的图上。收窄发生在决策核心与迭代条款：
 

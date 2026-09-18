@@ -7,7 +7,7 @@ linkTitle: "[论文]BDI"
 weight: 40
 date: 2026-09-14
 description: >
-  用信念、愿望、意图描述理性 Agent。有循环和动作，核心不是 LLM；今日的 goal、plan 是它的通俗版。
+  用信念、愿望、意图描述理性 Agent。今日的 goal、plan 是这套词汇的通俗版。
 ---
 
 形式化原文：[Rao & Georgeff, 1991](https://www.ai.rug.nl/mas/documents/rao.pdf)，*Modeling Rational Agents within a BDI-Architecture*，KR 1991，pp. 473–484。实现向的配套报告：Rao & Georgeff, 1995，*BDI Agents: From Theory to Practice*（ICMAS）。哲学来源：Michael Bratman, *Intention, Plans, and Practical Reason*（1987）。对照对象：Cohen & Levesque, 1990，把意图定义成信念与目标的时序公式。
@@ -117,7 +117,7 @@ BDI 把**实践推理**（practical reasoning）拆成两个问题，各有专�
 
 ## 和 AI Agent 的关系
 
-**BDI 用信念、愿望、意图三种态度描述理性 Agent。有循环和动作，核心不是 LLM；今日的 goal、plan 是它的通俗版。**
+**BDI 用信念、愿望、意图三种态度描述理性 Agent。今日产品里的 goal、plan、memory，是这套词汇的通俗版。**
 
 解释器的循环是：事件进队列、慎思、执行一步、再取外部事件，动作与观察都在其中。决策核心是符号态度上的规则与承诺策略，不是语言模型。
 

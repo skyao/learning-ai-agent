@@ -7,7 +7,7 @@ linkTitle: "[协议]Contract Net"
 weight: 20
 date: 2026-09-14
 description: >
-  协商协议：招标、投标、授予分配任务。有循环和动作，核心不是 LLM；与 A2A 同属节点间连接，但协议先于生态。
+  协商协议：招标、投标、授予在节点之间分配任务。独立的 Agent 如何连接，这个问题比 A2A 早了四十五年。
 ---
 
 原文：[Reid G. Smith, 1980](https://www.reidgsmith.com/The_Contract_Net_Protocol_Dec-1980.pdf)，*The Contract Net Protocol: High-Level Communication and Control in a Distributed Problem Solver*，*IEEE Transactions on Computers* C-29(12): 1104–1113。协议在实验系统 CNET（INTERLISP）中实现。Smith 的博士论文与此前关于分布式传感、启发式搜索的应用报告属于同一条工作。
@@ -71,7 +71,7 @@ Contract Net（合同网）是一套给**分布式问题求解**用的高层通�
 
 ## 和 AI Agent 的关系
 
-**合同网用招标、投标、授予分配任务。有循环和动作，核心不是 LLM；与 A2A 同属节点间连接，但协议先于生态。**
+**合同网用招标、投标、授予在节点之间分配任务。独立的 Agent 如何连接，这个问题比 A2A 早了四十五年。**
 
 它的循环是公告、投标、授予、汇报，合同期内可分包、可终止。消息是节点之间的动作，观察是对方回过来的结构化槽位。决策核心是各节点上的知识源与局部评价函数，不是语言模型。
 

@@ -5,7 +5,7 @@ linkTitle: "[论文]Wooldridge & Jennings"
 weight: 50
 date: 2026-09-14
 description: >
-  把 Agent 研究分为理论、架构、语言三块，给出弱四条口径。它是分类，不是实现；本站定义再加约束。
+  把 Agent 研究分为理论、架构、语言三块，给出弱四条口径。本站的栏目结构与之对应。
 ---
 
 原文：[Wooldridge & Jennings, 1995](https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/ker95.pdf)，*Intelligent Agents: Theory and Practice*，*The Knowledge Engineering Review* 10(2): 115–152。[DOI](https://doi.org/10.1017/S0269888900008122)。这是一篇面向当时研究社区的长综述，不是新模型论文。作者在摘要中写明：目的是标出设计与构造智能体时最重要的理论与实践问题，并指向展开这些问题的工作；不打算写成对所有议题的教程。
@@ -70,7 +70,7 @@ description: >
 
 ## 和 AI Agent 的关系
 
-**它把 Agent 研究分为理论、架构、语言三块，给出弱四条口径。它是分类，不是实现；本站定义再加约束。**
+**它把 Agent 研究分为理论、架构、语言三块，并给出沿用至今的弱四条口径。本站的栏目结构与之对应。**
 
 本站的栏目分工与这三块对应，但对象已经收窄为 LLM Agent：定义页对应「是什么」；时间线对应性质何时变得可工程化；协议栏对应社交能力这一条如何被写成 MCP / A2A；Agents 与基础设施对应架构与运行时。Wooldridge 与 Jennings 没有讨论语言模型。
 

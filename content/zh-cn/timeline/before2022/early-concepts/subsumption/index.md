@@ -8,7 +8,7 @@ linkTitle: "[论文]包容架构"
 weight: 30
 date: 2026-09-14
 description: >
-  按行为分层的机器人控制，高层抑制下层。有循环和动作，核心不是 LLM；Agent 不必先有完整世界模型。
+  按对外行为分层的机器人控制，高层抑制下层。它证明 Agent 不必先建完整世界模型。
 ---
 
 架构原文：Rodney A. Brooks, 1986，*A Robust Layered Control System for a Mobile Robot*，*IEEE Journal of Robotics and Automation* 2(1): 14–23（[DOI](https://doi.org/10.1109/JRA.1986.1087032)）。配套论辩：Brooks, 1991，*Intelligence Without Representation*，*Artificial Intelligence* 47: 139–159。1986 年一文给出可实现的分层与模块语言，1991 年一文论证为什么不以中央表征为分解主轴。
@@ -76,7 +76,7 @@ description: >
 
 ## 和 AI Agent 的关系
 
-**按行为分层的机器人控制，高层抑制下层。有循环和动作，核心不是 LLM；它证明 Agent 不必先有完整世界模型。**
+**包容架构按对外行为分层控制机器人，高层抑制下层。它证明 Agent 不必先建完整世界模型。**
 
 它的循环由传感器与电机持续驱动，层与层异步并行，动作与观察都在其中。决策核心是有限状态布线，不是语言模型；没有中央世界模型，也没有先搜索出来的完整计划。
 
