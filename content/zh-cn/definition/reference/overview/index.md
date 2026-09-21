@@ -65,3 +65,9 @@ OpenAI 也把 chatbot、单轮调用划出去，和我在「什么不是AI Agent
 
 结构上最像本笔记那两页的，是 [Hugging Face Agents Course · What is an Agent](https://huggingface.co/learn/agents-course/unit1/what-are-agents)（定义 + agency 光谱 + Think/Act/Observe）。光谱那张表可以看，但不要拿它替换本笔记的四要素门槛。
 
+## 补充内容
+
+Agent 到底是什么？ By orange.ai 橘子
+
+https://blog.orangesai.com/p/agent-what-is-it
+
