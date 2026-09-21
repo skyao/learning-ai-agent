@@ -80,9 +80,6 @@ AI Agent 需要的决策核心，要能读一段开放文本并生成下一步�
 ## 扩展阅读
 
 - [大型語言模型 LLM 究竟是什麼？如何用 LLM 對付假新聞？](https://research.sinica.edu.tw/llm-transformer-misinformation-mitigation-lun-wei-ku/)
-
 - [Transformer 论文精读路线：从 Attention 到现代 LLM 架构](https://blog.csdn.net/weixin_44369324/article/details/163420500)
-
 - [盘一盘，2017年Transformer之后，LLM领域的重要论文](https://developer.cloud.tencent.com/article/2535946)
-
 - [1.5 里程碑时刻：从学术论文到产业变革](https://yeasy.gitbook.io/llm_internals/di-yi-bu-fen-ji-chu-pian/01_introduction/1.5_milestones)
