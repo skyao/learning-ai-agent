@@ -1,7 +1,7 @@
 ---
 title: "Muse 架构：智能体循环、专用 VM、记忆与后台工作"
 linkTitle: "Muse 架构"
-weight: 110
+weight: 100
 date: 2026-10-10
 description: >
   CodePick：Muse 架构，智能体循环、专用 VM、记忆与后台工作

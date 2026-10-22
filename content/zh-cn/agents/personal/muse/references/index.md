@@ -1,0 +1,123 @@
+---
+title: "Muse 资料索引与学习路线"
+linkTitle: "资料索引"
+weight: 70
+date: 2026-10-21
+description: >
+  Muse 六个学习主题的资料索引、阅读路线、更新记录与待实测问题
+aliases:
+  - /agents/personal/muse/research/
+  - /agents/personal/muse/updates/
+---
+
+Muse 是我深入调研的第一个 Personal Agent 案例。本页保留阅读线索、来源和未解决的问题，便于后续回看、补充和比较。
+
+**本轮资料检索截至 2026-10-21。** 资料按学习主题归类，来源、语言和时间保留在文章信息中；本页集中提供来源索引与按时间阅读的入口。
+
+## 1. 按主题查找资料
+
+| 学习主题 | 主要材料 |
+| --- | --- |
+| [产品与设计](../product/) | 发布介绍、设计理念、中文产品讨论、Connect 更新、小企业场景 |
+| [架构与运行机制](../architecture/) | 智能体循环、专用 VM、记忆、上下文与后台工作的架构分析 |
+| [模型与评估](../models/) | Wonder、Spark Open、Wonder 模型卡、Realtime Avatar |
+| [工具与生态](../integrations/) | Connector 截图、Windows 接入计划、Gadget SDK |
+| [安全与权限](../security/) | 官方安全设计、Sentinel、人工接管与 GhostShares |
+| [实践与评测](../practice/) | 原创个人分析、第三方评测、外部服务访问限制 |
+
+[个人分析](../practice/analysis/)记录了我的实际探索，整篇保存在“实践与评测”。我会区分界面截图、代理自述和观察到的系统行为，引用时保留当时的账号与探索语境。
+
+## 2. 我的阅读脉络
+
+### 从产品目标梳理系统职责
+
+我先从发布介绍和设计理念理解它希望承接的委托，再用架构与官方安全文章梳理入口、模型、执行环境、记忆、调度、连接器和审批的关系。对于资料未说明的部分，我先保留空白，再寻找实践线索。
+
+### 按更新追踪能力变化
+
+Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面的变化。我会记录改变的是入口、工具、运行环境、模型还是授权，同时区分已提供的能力和仍在计划中的内容。
+
+### 用外部观察补充边界问题
+
+人工接管、GhostShares、服务访问限制和第三方评测，让我进一步关注执行者变化、数据出口和外部依赖。这些观察需要回到具体时间和样本条件中理解，再与设计资料对照。
+
+### 用自己的实践检验理解
+
+已有的环境、文件和定时任务探索，留下了一些可以继续追踪的疑问。下方记录我想补充的实验，尚未完成的部分保持为待验证问题。
+
+### 整理阶段性理解
+
+我在 [Muse 调研总结](../summary/)中把资料与实践线索串起来，回到运行平台和 Agent 开发中的问题。随着后续证据增加，这些判断也会继续更新。
+
+## 3. 按资料时间查找
+
+日期是资料的原始发布或更新日期；本地文章的 `date` 为整理日期，避免用采集日期替代事件日期。
+
+| 原始日期 | 资料 | 语言 / 类型 | 本地阅读笔记 |
+| --- | --- | --- | --- |
+| 09-23 | [Bringing Your Muse to Life](https://research.meta.ai/blog/bringing-your-muse-to-life) | 英文 / 官方技术 | [实时交互](../models/realtime-avatar/) |
+| 09-24 | [The Biggest News From Connect 2026](https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/) | 英文 / 官方公告 | [Connect 更新](../product/connect-2026/) |
+| 09-29；10-08 更新 | [Muse for Small Business](https://about.fb.com/news/2026/09/introducing-muse-small-business/) | 英文 / 官方公告 | [小企业场景](../product/small-business/) |
+| 持续更新；10-21 阅读 | [Muse Gadget SDK](https://github.com/facebookincubator/muse-gadget-sdk) | 英文 / 官方公开源码 | [设备扩展](../integrations/muse-gadgets/) |
+| 10-05 | [Muse Gadgets 中文报道](https://www.ithome.com/1/009/743.htm) | 中文 / IT之家 | [设备扩展](../integrations/muse-gadgets/) |
+| 10-07 | [Building Windows for hybrid intelligence](https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/) | 英文 / 微软公告 | [Windows 计划](../integrations/windows/) |
+| 10-08 | [Muse 将登陆 Windows](https://www.ithome.com/1/010/310.htm) | 中文 / IT之家 | [Windows 计划](../integrations/windows/) |
+| 10-12 | [Muse Wonder](https://research.meta.ai/blog/muse-wonder) | 英文 / 官方模型公告 | [记忆与长期任务](../models/muse-wonder/) |
+| 模型发布 10-12；文档无单独修订日 | [Muse Wonder Model Card](https://research.meta.ai/static/muse-wonder-model-card) | 英文 / 官方 PDF | [评估口径](../models/wonder-model-card/) |
+| 10-13 | [Muse Wonder 中文报道](https://www.ithome.com/1/012/138.htm) | 中文 / IT之家 | [记忆与长期任务](../models/muse-wonder/) |
+| 10-15 | [Muse Spark Open](https://research.meta.ai/blog/muse-spark-open) | 英文 / 官方模型公告 | [开放范围](../models/muse-spark-open/) |
+| 09-22 / 09-23 | [Reuters 电话任务报道](https://www.marketscreener.com/news/meta-testing-a-human-concierge-for-its-new-personal-ai-agent-muse-ce785ad8de8cf025) / [IT之家转述](https://www.ithome.com/1/006/286.htm) | 英文与中文 / 媒体 | [人工接管](../security/human-concierge/) |
+| 09-21 / 10-19 | [购物网站限制](https://www.ithome.com/1/005/418.htm) / [金融平台限制](https://m.ithome.com/html/1014856.htm) | 中文 / 媒体 | [外部服务边界](../practice/service-boundaries/) |
+| 10-18；10-20 更新 | [GhostShares](https://blog.claroc.io/ghostshares-muse-passive-dns/) | 英文 / 研究团队披露 | [分享边界](../security/ghostshares/) |
+| 10-21 | [分享功能暂停中文报道](https://www.digitaltoday.co.kr/cn/view/117284/meta-suspends-muse-chat-sharing-amid-privacy-exposure-concerns) | 中文 / DigitalToday | [分享边界](../security/ghostshares/) |
+| 10-20 | [Axios 使用评测](https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test) | 英文 / 第三方使用 | [评测阅读](../practice/muse-dots-review/) |
+
+中文报道与其引用的英文原文可能来自同一来源，不视为独立验证。金融平台的具体政策尚待原始声明复核。
+
+## 4. 本轮需要更新的认知
+
+下表仅列本轮资料明确涉及的变化；展开与来源见对应笔记。
+
+| 资料 | 相对早期素材的补充 | 当前保留的状态边界 |
+| --- | --- | --- |
+| 小企业公告 | 场景和连接器扩大，也更新了地区表述 | 公告列出的地区不等于每项功能均可用 |
+| Windows 公告 | 增加个人电脑入口与执行环境的研究方向 | 原文为即将推出，未做安装验证 |
+| Wonder 公告 | 强调记忆与持续推进 | 当日 API / Code 开放与 Muse 后续接入分开记 |
+| Spark Open 公告 | 增加开放权重模型的学习入口 | 不推定完整 Muse 服务已开源 |
+| GhostShares 更新 | 补充分享功能的实际边界与处置 | 区分暂停前行为、研究复查和将来版本 |
+
+## 5. 待实测问题 {#待实测问题}
+
+这是我后续想补充的实验，尚无新增结果。
+
+| 问题 | 拟采用的方法 | 留存材料 |
+| --- | --- | --- |
+| 记忆准确吗？ | 新会话回忆偏好，再更正事实 | 原始输入、回忆结果、修正结果 |
+| 会持续推进吗？ | 小型任务中改变一个约束，观察恢复 | 任务状态、工具调用、人工介入 |
+| 关闭客户端后怎样？ | 在有明确完成条件的任务中离开再返回 | 关闭与恢复时间、产物更新时间 |
+| 连接器权限怎样生效？ | 对测试账号分别授权读与写 | 授权界面、拒绝记录、外部结果 |
+| 审批可以约束什么？ | 准备草稿并停在发送之前 | 请求范围、审批内容、实际动作 |
+| 设备权限会扩大吗？ | 在专用测试设备上查询测试目录 | 本机账号、允许目录、动作日志 |
+| 撤销能否及时生效？ | 断开连接后尝试下一项允许的测试任务 | 撤销时点、拒绝结果、残留任务 |
+
+后续记录会保留日期、地区、套餐、客户端、可见模型信息和数据来源。我会先用模拟数据和可验收的小任务积累证据，再扩展观察范围。
+
+## 6. 证据与学习笔记的约定
+
+- **官方说明**：厂商描述的设计、能力或开放计划，保留原文时态。
+- **外部观察**：研究者、媒体或用户的特定观察，保留版本和样本限制。
+- **本人实测**：只有实际运行、保留过程并检查结果后才标注。
+- **研究判断**：从资料提出的解释或实验方向，不改写成官方事实。
+- **待核验**：缺少当前账号、原始政策、版本或可复核结果。
+
+综合文章保持完整，每篇材料只有一个主要目录归属；跨主题通过链接参照。VM 内部服务、记忆存储结构等实现细节仍须结合原有观察与后续证据判断；不从模型名称或新闻标题推导内部组件。
+
+## 7. 继续关注的入口与缺口
+
+我会继续关注 [Meta Muse 产品入口](https://ai.meta.com/tools/muse/)、[Meta AI Research](https://research.meta.ai/)、[Meta Newsroom AI](https://about.fb.com/news/tag/ai/)和 [Gadget SDK 仓库](https://github.com/facebookincubator/muse-gadget-sdk)。
+
+本轮尚未解决：当前账号的套餐与额度、Confidential VM 的实际开放状态、不同地区的功能差异、记忆遗忘与导出、设备断线恢复，以及数日以上任务的可靠性。帮助中心和动态功能页需要在具体问题出现时逐项核验。本页不据检索未发现新公告，就认定某项功能没有更新。
+
+## 8. 后续学习的线索
+
+后续我想继续围绕“从知道偏好到长期受托办事”学习，结合个人上下文、持续执行、权限与数据出口，以及实际失败和恢复的案例。阶段性判断继续回到这些笔记和实践记录，学习过程中留下的问题也一并保留。

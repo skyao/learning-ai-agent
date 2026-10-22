@@ -1,10 +1,11 @@
 ---
-title: "[博客]我们如何将安全构建进 Muse"
+title: "我们如何将安全构建进 Muse"
 linkTitle: "我们如何将安全构建进 Muse"
-weight: 40
+weight: 100
 date: 2026-10-10
 description: >
   Meta官方博客文章： How We Built Safety Into Muse
+materialType: "博客"
 ---
 
 来源：[How We Built Safety Into Muse](https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse)  

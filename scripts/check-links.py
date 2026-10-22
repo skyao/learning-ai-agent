@@ -30,6 +30,23 @@ EXTERNAL = ("http://", "https://", "mailto:", "tel:", "ftp://")
 BUNDLE_NAMES = ("index.md", "_index.md")  # 叶子包 / 分支包
 
 
+def is_content_page(md_path: str, content_dir: str) -> bool:
+    """叶子包 index.md 下的其他 Markdown 是页面资源，不是独立页面。"""
+    src = os.path.abspath(md_path)
+    root = os.path.abspath(content_dir)
+    parent = os.path.dirname(src)
+    while True:
+        leaf_index = os.path.join(parent, "index.md")
+        if os.path.isfile(leaf_index) and src != leaf_index:
+            return False
+        if parent == root:
+            return True
+        ancestor = os.path.dirname(parent)
+        if ancestor == parent:
+            return True
+        parent = ancestor
+
+
 def detect_content_dir(repo_root: str, override: str | None) -> str:
     """内容目录：优先命令行参数，其次从 hugo.toml 的 contentDir 读，最后退回 content/。"""
     if override:
@@ -90,6 +107,8 @@ def check(repo_root: str, content_dir: str, build_dir: str) -> int:
             if not fn.endswith(".md"):
                 continue
             src = os.path.join(dirpath, fn)
+            if not is_content_page(src, content_dir):
+                continue
             with open(src, encoding="utf-8") as fh:
                 text = fh.read()
 

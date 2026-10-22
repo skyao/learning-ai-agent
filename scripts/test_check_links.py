@@ -2,20 +2,60 @@
 # -*- coding: utf-8 -*-
 """check-links.py 的回归用例。跑法：python3 scripts/test_check_links.py
 
-只覆盖锚点匹配，因为这里出过一次静默回归：Hugo 压缩后属性值不带引号，
-而检查器只认 id="x"，于是把有效锚点报成失效。回归不会有任何报错，
-只会让检查器说谎——所以用例要钉死两侧：该命中的必须命中，不该命中的
-（更长的 id、别的属性名）必须不命中。
+覆盖锚点匹配与页面资源识别：既要抓出真实断链，也不能把叶子包的原始素材
+当成独立页面，误报其中的链接样例。
 """
 
+import contextlib
 import importlib.util
+import io
 import os
+from pathlib import Path
+import tempfile
 import unittest
 
 _PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "check-links.py")
 _spec = importlib.util.spec_from_file_location("check_links", _PATH)
 check_links = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(check_links)
+
+
+class TestContentPages(unittest.TestCase):
+    def test_bundle_resources_do_not_hide_real_broken_links(self):
+        with tempfile.TemporaryDirectory() as root:
+            content = Path(root, "content")
+            build = Path(root, "public")
+            build.mkdir()
+            pages = {
+                "_index.md": "",
+                "article/index.md": "[附件](files/tree.txt)",
+                "article/files/prompt.md": "[样例](url)",
+                "article/files/nested/index.md": "[嵌套素材](missing)",
+                "section/_index.md": "",
+                "section/page.md": "[真实断链](missing)",
+            }
+            for rel, text in pages.items():
+                path = content / rel
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(text, encoding="utf-8")
+            attachment = build / "article/files/tree.txt"
+            attachment.parent.mkdir(parents=True)
+            attachment.write_text("tree", encoding="utf-8")
+
+            for rel in ("_index.md", "article/index.md", "section/_index.md", "section/page.md"):
+                with self.subTest(page=rel):
+                    self.assertTrue(check_links.is_content_page(str(content / rel), str(content)))
+            for rel in ("article/files/prompt.md", "article/files/nested/index.md"):
+                with self.subTest(resource=rel):
+                    self.assertFalse(check_links.is_content_page(str(content / rel), str(content)))
+
+            output = io.StringIO()
+            with contextlib.redirect_stdout(output):
+                result = check_links.check(root, str(content), str(build))
+            self.assertEqual(result, 1)
+            self.assertIn("检查内部链接 2 条，问题 1 处", output.getvalue())
+            self.assertIn("section/page.md", output.getvalue())
+            self.assertNotIn("prompt.md", output.getvalue())
 
 
 class TestHasAnchor(unittest.TestCase):

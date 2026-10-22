@@ -1,6 +1,8 @@
 ## AI Agent 学习笔记
 
-这是个人学习 AI Agent 的笔记，请点击下面的链接阅读:
+这是我持续学习 AI Agent 的笔记。我目前从事 AI Agent 运行平台和 Agent 开发，在这里记录业界进展、技术调研、源码阅读与实践中的理解和疑问，通过比较不同方案积累自己的知识体系。
+
+阅读入口：
 
 - [在线阅读](https://skyao.io/learning-ai-agent/)：hugo格式 + docsy主题，界面清爽。托管于腾讯云香港节点。
 - [@github](https://github.com/skyao/learning-ai-agent/)：源码托管于github，如有谬误或需讨论，请提issue，欢迎提交PR

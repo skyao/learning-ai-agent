@@ -1,7 +1,7 @@
 ---
 title: "Muse 智能体位于内核级 Sentinel 之后"
 linkTitle: "内核级 Sentinel"
-weight: 100
+weight: 110
 date: 2026-10-10
 description: >
   Forkast：Muse 智能体位于内核级 Sentinel 之后，架构所揭示的智能体安全走向
