@@ -76,6 +76,8 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 10-21 | Meta Q3 2026 财报电话会（经 AP / TechCrunch 报道） | 英文 / 官方口径 | [财报与用户数据](../product/earnings-and-scale/) |
 | 10-20 | Sensor Tower 估计（经 TechCrunch 报道） | 英文 / 第三方估计 | [财报与用户数据](../product/earnings-and-scale/) |
 | 10-22 | Yahoo Finance 理财评测（Kendall Little；经转载阅读） | 英文 / 媒体评测 | [理财功能评测](../practice/money-review/) |
+| 约 10-23 | [Fox News 浪漫伴侣报道](https://foxnews.com/tech/why-people-falling-metas-muse-ai)（核心 Reddit 原帖已删，个案、无规模数据） | 英文 / 媒体报道 | [内容政策冲突](../security/content-policy/) |
+| 10-26（报道日） | [盖茨 Decoder 访谈评价](https://timesofindia.indiatimes.com/technology/tech-news/bill-gates-is-a-fan-of-metas-ai-agent-muse-says-i-talked-to-alexandr-wang-about-it-congratulated-him-and-even-though-/articleshow/135208987.cms)（经 TOI/NewsBytes 转述，Verge 原文未直接读取） | 英文 / 第三方表态转述 | [盖茨评价](../practice/gates-assessment/) |
 | 10-23 | Meta 日本 Newsroom 日本上线公告（经 DigitalToday 等交叉核实） | 日文与英文 / 官方公告 | [日本上线](../product/japan-launch/) |
 
 中文报道与其引用的英文原文可能来自同一来源，不视为独立验证。金融平台的具体政策尚待原始声明复核。
