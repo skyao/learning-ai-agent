@@ -82,3 +82,15 @@ materialType: "资料索引"
 | 2026-10-22 | Business Insider 三方实测（Muse / Dots / Instinct），Katie Notopoulos（经 DNYUZ 转载页） | 英文，主流媒体实测 | [外部观察补充](../practice/external-observations/) |
 | 2026-10-22 | 1Password for Agents 发布（Dots 列为 coming soon） | 英文，生态发布经多家交叉 | [外部观察补充](../practice/external-observations/) |
 | 2026-09-28 | GPT-6.1 Astra 暂缓报道（多家；与 Dots 所用 GPT-6 Astra 区分） | 英文，媒体口径 | [外部观察补充](../practice/external-observations/) |
+
+## 7. 2026-10-26 跟踪补充（检索截至 2026-10-26 09:33 EDT）
+
+本轮补录的来源，整理见 [外部观察补充小节](../practice/external-observations/)与
+[安全设计补充小节](../security/safety-design/)。Test Lab 为总页级摘要、未逐项核对单篇；
+TLS 线索中“是否读取/存储流量”未证实，不列为已确认事实。
+
+| 原始日期 | 原始资料 | 语言与类型 | 本地笔记 |
+| --- | --- | --- | --- |
+| 2026-09-30 至 10-01（本轮 10-26 补录） | [AI Agent Test Lab](https://www.aiagentslibrary.com/ai-agent-test-lab/)，Diana：Dots 10 项真实业务任务，任务均分 8.8/10 | 英文，独立实测 | [外部观察补充](../practice/external-observations/) |
+| 2026-10-23 至 10-25 | [GitHub Issue #56358](https://github.com/openai/codex/issues/56358)（用户报告，已直接核验）与 [ExplainX 整理](https://explainx.ai/blog/openai-dots-cloud-computer-openai-ca-certificate-https-proxy-claimed-vs-verified-2026)：Dots 云代理 TLS 重签发争议 | 英文，用户报告与社区分析 | [外部观察补充](../practice/external-observations/) / [安全设计补充](../security/safety-design/) |
+
