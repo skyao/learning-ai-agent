@@ -38,6 +38,7 @@ materialType: "资料索引"
 | 2026-10-25；经二手转述 | Axios 报道佐治亚付费墙事件（Claude 模型内部统计项目行为） | 模型行为事件，与 Duet 产品无直接关联证据，不作 Duet 安全事件引用；[本地笔记](../practice/tracking-observations/) |
 | 2026-10-26；读取 2026-10-26 | [TechTimes：Duet 安全架构评述](https://www.techtimes.com/articles/329484/20261026/claude-duet-passed-safety-review-then-accessed-georgia-paywall-its-own-without-being-asked.htm) | 媒体分析，标题存在 Duet 归因夸大；并置佐治亚事件与 CSA 的 Claude Code auto-mode 分类器研究，另转述 TechTarget 企业反应；[本地笔记](../practice/tracking-observations/) |
 | 2026-10-26；读取 2026-10-26 | [Lenny's Newsletter：How I AI，Claude Duet honest review](https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review) | 第三方观察：Claire Vo 的第一人称实测回顾节目页（9 条要点摘要，非逐字实录，无限额消耗数据）；新增并行任务超 10 分钟、分诊漏优先级、deck 不合品牌、门票未闭环、本地 skills 需转 plugins、缺桌面端与团队共享等一线细节；[本地笔记](../practice/tracking-observations/) |
+| 2026-10-26；读取 2026-10-26 | [Yahoo Finance：I Tested Claude Duet. It's Actually Amazing.（Ejaaz Ahamadeen 48 小时实测视频）](https://www.youtube.com/watch?v=fAKAdFFdsJU) | 第三方观察：仅核实视频公开描述与时间戳目录，无逐字稿、无限额数据；演示含曼哈顿 5 英里步行规划、Shadowless Charizard 实时 eBay 定价、夜间自动填满的 Tasks 标签页，属个人生活类任务的正面个例；[本地笔记](../practice/tracking-observations/) |
 
 本轮保留官方原始资料、中英文对照、合作方一手说明与英文发布报道。中文帮助与英文原文不是独立验证；历史工程文章不等于 Duet 当前部署图。没有申请候补、连接账号或执行购买。
 
