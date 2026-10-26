@@ -1,0 +1,1673 @@
+{
+  "title": "Personal Agent：从个人上下文到长期委托",
+  "snapshot": "2026-10-21 首轮资料（含 Personal Computer、Cowork）；2026-10-22 补充资料（含 WorkBuddy）；2026-10-23 Duet 与关系补记",
+  "totalSeconds": 2400,
+  "mainSlides": 30,
+  "slides": [
+    {
+      "kind": "cover",
+      "title": "Personal Agent",
+      "seconds": 30,
+      "chapter": "开场",
+      "notes": "我最近在系统跟踪 Personal Agent。出发点与我的日常工作直接相关：一方面开发 Agent，另一方面建设它的运行平台。我希望借这些产品理解，个人上下文、任务状态和现实动作怎样组织起来，才能让一个人持续委托工作。\n今天我不会逐一演示十六款产品，而是先建立路线图，再沿一项熟悉的研究工作，拆解背后的系统问题。分享来自已有学习笔记，各对象分别保留十月二十一、二十二和二十三日的资料快照；当前两批各八个，WorkBuddy 在第一批，Personal Computer 与 Cowork 在第二批。除 Muse 原有个人探索外，没有新增产品账号实测。最后留四分钟讨论。",
+      "refs": [],
+      "subtitle": "从个人上下文到长期委托",
+      "eyebrow": "16 个产品的学习比较",
+      "takeaway": "Agent 运行平台与开发视角",
+      "date": "2026.10 · 40 分钟技术交流 · 10.23 更新",
+      "id": 1
+    },
+    {
+      "kind": "agenda",
+      "title": "我想带走三个判断",
+      "seconds": 30,
+      "chapter": "开场",
+      "notes": "听完后，我希望大家能用同一套语言描述三件事：个人代理的产品形态有哪些代表路线；一个长期委托背后有哪些独立状态和控制点；这些认识怎样转成运行平台的建设优先级。\n全程大约四十分钟，先用六分钟左右建立范围，再用十分钟左右看产品样本，随后把最多时间放到架构问题，最后讨论验证与建设顺序。这里的分钟数是讲述安排，并不是产品能力评分。",
+      "refs": [],
+      "items": [
+        [
+          "01",
+          "看清路线",
+          "16 个样本 · 6 条阅读线索",
+          "约 6 分钟"
+        ],
+        [
+          "02",
+          "理解机制",
+          "从产品差异回到系统对象",
+          "约 10 分钟"
+        ],
+        [
+          "03",
+          "形成判断",
+          "状态、授权、验证与建设顺序",
+          "约 20 分钟"
+        ]
+      ],
+      "ribbon": "讲解约 36 分钟 · 讨论 4 分钟",
+      "id": 2
+    },
+    {
+      "kind": "scenario",
+      "title": "从一项我熟悉的委托开始",
+      "seconds": 60,
+      "chapter": "范围与方法",
+      "notes": "假设我把这次调研本身交给个人代理：每天跟踪十六个产品的中英文更新，把相关材料整理到学习笔记，记住我的架构关注点，并在周末交付一份可以检查的比较总结。\n这件事会反复出现：来源更新、产品改名、某个版本回滚，我也会临时改变研究范围。它需要的不只是第一次搜索，也不只是准时提醒。每一轮都要知道上次做到了哪里、哪些判断已经过期、哪些改动需要我确认。\n后面的所有机制都尽量回到这个场景。它是用于解释系统的合成场景，不能当成任何产品已经完成的演示。",
+      "refs": [],
+      "steps": [
+        [
+          "给出长期目标",
+          "持续跟踪 16 个产品"
+        ],
+        [
+          "维护个人上下文",
+          "偏好、范围、证据标准"
+        ],
+        [
+          "应对变化",
+          "改名、版本、资料更新"
+        ],
+        [
+          "交付可检查结果",
+          "文档、引用、差异记录"
+        ]
+      ],
+      "ribbon": "贯穿案例：持续维护一套 AI Agent 学习笔记",
+      "tag": "合成场景 · 非产品实测",
+      "id": 3
+    },
+    {
+      "kind": "definition",
+      "title": "我如何界定 Personal Agent",
+      "seconds": 60,
+      "chapter": "范围与方法",
+      "notes": "我的工作定义是：长期服务于一个人，理解其上下文，并能受托推进任务的智能体。个人生活和个人工作都在范围内。筛选对象时，我关注上下文、实际执行、持续运行、长期委托和用户控制，不要求每个候选已经全部实现。\n这个定义有意保留观察空间。一个自建底座也可能提供直接可用的个人工作助手，因此 DeepSeek Harness 可以纳入；但纳入清单不等于已经验证了它的跨周记忆或主动目标跟进。反过来，名称带 personal，也不能替代具体能力证据。\n下面的分类是我的学习路线，产品之间有交叉，并非互斥的市场分类。",
+      "refs": [
+        "research-list"
+      ],
+      "quote": "长期服务于一个人，理解其上下文，\n并能受托推进任务。",
+      "items": [
+        [
+          "个人上下文",
+          "偏好、资料、项目约束"
+        ],
+        [
+          "实际执行",
+          "工具、应用、电脑与交付"
+        ],
+        [
+          "持续运行",
+          "时间、事件与恢复"
+        ],
+        [
+          "长期委托",
+          "目标变化与持续跟进"
+        ],
+        [
+          "用户控制",
+          "审批、撤权与审计"
+        ]
+      ],
+      "ribbon": "这是研究定义；入选表示值得观察，能力仍逐项核验。",
+      "id": 4
+    },
+    {
+      "kind": "landscape",
+      "title": "16 个样本，沿六条路线阅读",
+      "seconds": 75,
+      "chapter": "范围与方法",
+      "notes": "这张图覆盖了主清单的十六个对象。我按最有助于学习的切口分组：Muse、Dots 和新增的 Claude Duet 看长期委托；Cue、Grok Bot、Poke 看身份与消息；Spark 和 Autopilot 看生态上下文；Cowork、Personal Computer 和 WorkBuddy 看个人工作执行；OpenClaw 与 Hermes 看自建运行；Kimi Claw 和 Harness 看底座如何成为可直接使用的产品。\n这些组不是排他分类。例如 WorkBuddy 也有云端任务，Kimi Claw 也有消息入口。为了避免从公开程度推断能力，我不会在这里做功能对勾或排行榜。接下来每组只取最值得带回平台开发的机制。",
+      "refs": [
+        "research-list"
+      ],
+      "groups": [
+        [
+          "持续个人委托",
+          "Muse · Dots · Claude Duet",
+          "目标、工作环境、上下文"
+        ],
+        [
+          "身份与消息",
+          "Cue · Grok Bot · Poke",
+          "联系人、角色、交接"
+        ],
+        [
+          "办公生态",
+          "Gemini Spark / Task · Autopilot",
+          "应用数据、组织身份"
+        ],
+        [
+          "知识工作与电脑",
+          "Cowork · Personal Computer · WorkBuddy",
+          "文件、应用、云端与本地"
+        ],
+        [
+          "开源自建",
+          "OpenClaw · Hermes Agent",
+          "状态、宿主、运行维护"
+        ],
+        [
+          "底座产品化",
+          "Kimi Claw · DeepSeek Harness",
+          "托管、配置、版本责任"
+        ]
+      ],
+      "ribbon": "分组表达阅读重点；同一产品可以跨越多条路线。",
+      "id": 5
+    },
+    {
+      "kind": "evidence",
+      "title": "比较前，我先标明证据到哪里",
+      "seconds": 45,
+      "chapter": "范围与方法",
+      "notes": "这轮笔记保留四类证据。官方说明解释产品设计和开放条件；外部观察保留特定测试、版本和样本；我自己的实际探索单独记录；从资料提出的平台模型则标为个人分析。\n目前只有 Muse 原有探索可以谈到我实际看过的界面和行为。其他对象主要是公开资料整理，不存在十六款同条件实测数据。动态帮助可能与旧公告或安装包版本不同，我也保留了这些差异。\n因此，这次适合分享设计问题和可验证的假设，尚不能回答谁在我们的工作中最好用。后面引用的每项机制，都能回到讲者备注和附录的来源。",
+      "refs": [
+        "first-batch-summary",
+        "second-batch-summary"
+      ],
+      "items": [
+        [
+          "官方说明",
+          "设计、帮助、版本记录",
+          "保留日期与开放条件"
+        ],
+        [
+          "外部观察",
+          "媒体、研究、用户样本",
+          "保留测试与样本范围"
+        ],
+        [
+          "本人探索",
+          "Muse 既有记录",
+          "行为与代理自述分开"
+        ],
+        [
+          "我的分析",
+          "参考模型、取舍、实验",
+          "不冒充厂商实现"
+        ]
+      ],
+      "ribbon": "按对象保留 10.21–10.23 核验日期；第一批 8 个，第二批 8 个。",
+      "id": 6
+    },
+    {
+      "kind": "products",
+      "title": "Muse 与 Dots：长期委托怎样延续",
+      "seconds": 105,
+      "chapter": "产品路线",
+      "notes": "Muse 让我首先关注持续工作环境与任务连续性。此前探索观察到运行实例变化，以及定时工作的线索，但这些现象不足以还原完整外部调度器或数据库拓扑。一个文件还在，也不代表任务恢复逻辑已经完整。\nDots 则让我把长期职责与派生任务分开：跟踪项目是一项持续职责，搜集资料、改写笔记是具体任务。委派以后，新要求怎样传给子任务，结果又依据哪个版本的事实返回，是很关键的一致性问题。\n我把两者放在一起，不是比较谁更可靠，而是引出三个系统对象：职责或目标、任务、运行实例。生命周期不同，停止和恢复时需要保留的状态也不同。",
+      "refs": [
+        "muse",
+        "dots"
+      ],
+      "cards": [
+        {
+          "name": "Muse",
+          "focus": "持续工作环境",
+          "points": [
+            "专用工作环境与长期目标",
+            "文件、记忆与后台工作的联系",
+            "已有个人探索仍保留实现假设"
+          ],
+          "question": "实例变化后，谁重新唤醒工作？"
+        },
+        {
+          "name": "Dots",
+          "focus": "长期职责与任务委派",
+          "points": [
+            "个人上下文进入持续职责",
+            "职责派生任务，任务返回结果",
+            "关注新要求在派生工作中的传播"
+          ],
+          "question": "目标变化后，哪些任务必须更新？"
+        }
+      ],
+      "ribbon": "我的启发：目标、任务、运行实例要能独立描述。",
+      "id": 7
+    },
+    {
+      "kind": "products",
+      "title": "Claude Duet：主动委托与用户决策",
+      "seconds": 90,
+      "chapter": "产品路线",
+      "notes": "我在十月二十三日补读了 Claude Duet，并将它列为第一批对象，Cowork 已调整到第二批。官方发布日期是十月二十一日，当前为美国 Pro 和 Max 用户的候补研究预览，不能把订阅条件当作已经获邀。\n它补充的是主动委托样本：通过晨间简报和间隔检查发现值得注意的事务，接受消息委托，在云端继续工作，并把需要决定的事情交回给用户。检查有时间间隔，因此主动性要同时记录采样延迟、漏报和无效打扰。\nDuet 共享 Claude 的部分记忆、方法和连接配置，但不能据此认定全部项目或本机文件都可以访问。任务接近完成的判断、产物交付和用户最终验收，也需要分开。\n我保留 Cowork 的知识工作研究，不将 Duet 写成更名或替代。Cowork 已有后台与周期任务；这里比较的是主动发现与用户发起工作的组织方式，不是简单做能力有无判断。",
+      "refs": [
+        "claude-duet",
+        "claude-cowork"
+      ],
+      "cards": [
+        {
+          "name": "主动发现",
+          "focus": "关注与持续执行",
+          "points": [
+            "晨间简报与间隔检查",
+            "云端工作，关闭客户端可继续",
+            "通过任务与产物承接委托"
+          ],
+          "question": "怎样判断现在值得来找我？"
+        },
+        {
+          "name": "共享上下文",
+          "focus": "记忆与用户控制",
+          "points": [
+            "沿用账号记忆、方法与连接",
+            "项目与本机文件另有范围",
+            "敏感动作批准与任务验收"
+          ],
+          "question": "哪些事情仍需要用户决定？"
+        }
+      ],
+      "ribbon": "10 月 21 日发布 · 美国 Pro / Max 候补预览 · 与 Cowork 分别研究。",
+      "id": 8
+    },
+    {
+      "kind": "products",
+      "title": "Cue、Grok Bot、Poke：代理成为联系对象",
+      "seconds": 105,
+      "chapter": "产品路线",
+      "notes": "Cue 围绕代理组织邮箱、电话、钱包和电脑，促使我把身份与资源作为长期对象。外部回复可能在任务结束后才到达，它必须找到原委托，也要重新判断原授权是否有效。\nGrok Bot 提供长期角色与共享工作环境的样本。多个角色可以减少上下文干扰，但共享文件、登录态和服务凭证时，角色分开并没有自然形成安全隔离。\nPoke 把入口放到日常消息中，并包含人工协助的产品形态。交互更自然，不代表任务与授权状态可以省略；当执行者变成人工，数据范围、现实支出和回执也需要解释。\n这组共同的学习点是：把收到消息、接受委托、实际执行和完成交付分别记录。",
+      "refs": [
+        "cue",
+        "grok-bot",
+        "poke"
+      ],
+      "cards": [
+        {
+          "name": "Cue",
+          "focus": "独立身份与资源",
+          "points": [
+            "邮箱、电话、钱包、电脑",
+            "团队工作交接与晚到事件"
+          ],
+          "question": "资源属于谁，批准传到哪里？"
+        },
+        {
+          "name": "Grok Bot",
+          "focus": "长期角色与共享电脑",
+          "points": [
+            "职责与方法持续存在",
+            "共享文件、登录态与并发"
+          ],
+          "question": "分工以后，哪些资源仍共享？"
+        },
+        {
+          "name": "Poke",
+          "focus": "消息入口与人工协助",
+          "points": [
+            "消息、Recipes、MCP / API",
+            "人工协助另有执行与费用范围"
+          ],
+          "question": "联系人背后的执行者怎样追踪？"
+        }
+      ],
+      "ribbon": "我的启发：用户、代理、连接账号和执行者分别建模。",
+      "id": 9
+    },
+    {
+      "kind": "products",
+      "title": "Spark 与 Autopilot：生态上下文进入委托",
+      "seconds": 90,
+      "chapter": "产品路线",
+      "notes": "Gemini Spark 的当前官方帮助使用 Task 名称，需要与 Google Tasks 和聊天里的普通定时动作分开。它给我最有价值的切口是个人应用上下文：资料接入方便以后，事实更新、执行位置与确认规则仍要逐项处理。\nAutopilot 则把个人代理放在组织环境里。当前公告描述云托管、独立身份和组织上下文，但仍为私人预览。旧 Scout 的桌面文档可以帮助理解产品演进，却不能直接补成新版云端的内部实现。\n因此，我会分别核对用户许可、组织策略和实际动作身份。生态整合可以减少配置，但不会自动统一所有控制层。",
+      "refs": [
+        "gemini-spark",
+        "copilot-autopilot"
+      ],
+      "cards": [
+        {
+          "name": "Gemini Spark / Task",
+          "focus": "个人应用生态",
+          "points": [
+            "当前入口与名称按帮助记录",
+            "个人上下文、计划与多条执行路径",
+            "来源更新与动作确认分别核验"
+          ],
+          "question": "应用里的新事实怎样进入下一轮？"
+        },
+        {
+          "name": "Copilot Autopilot",
+          "focus": "组织中的个人代理",
+          "points": [
+            "云托管公告与独立身份",
+            "Private Preview，未做账号实测",
+            "旧 Scout 桌面机制分期保留"
+          ],
+          "question": "组织资源最终由哪个主体访问？"
+        }
+      ],
+      "ribbon": "我的启发：生态接入减少搬运，权限与来源仍需沿动作核对。",
+      "id": 10
+    },
+    {
+      "kind": "products",
+      "title": "知识工作代理：把文档交付做成持续工作",
+      "seconds": 105,
+      "chapter": "产品路线",
+      "notes": "Cowork 让我关注统一入口以后，云端任务、桌面资源和不同工具路径怎样被解释。调研记录了新旧任务环境的迁移条件，因此不能继续把所有任务都说成本地虚拟机。\nPersonal Computer 让我分开描述模型、数据和动作的位置。某个 Mac 本地模式的条件，不适合直接外推到全部桌面任务和外部服务。\nWorkBuddy 则补充国内办公生态、个人项目与云端任务。手机发消息控制本机，仍依赖本机与客户端在线；云端排程和企业托管又是另外的运行路径。\n对这三类产品，我希望最终比较的是：相同材料能否产生可编辑、引用正确的产物，资源不可用时能否说明阻塞位置。",
+      "refs": [
+        "claude-cowork",
+        "personal-computer",
+        "workbuddy"
+      ],
+      "cards": [
+        {
+          "name": "Claude Cowork",
+          "focus": "统一任务入口",
+          "points": [
+            "Projects、记忆与连接器",
+            "云端任务和桌面资源桥接"
+          ],
+          "question": "断线后哪类工作还能推进？"
+        },
+        {
+          "name": "Personal Computer",
+          "focus": "个人环境参与",
+          "points": [
+            "Brain 与周期工作",
+            "本地 / 混合执行各有条件"
+          ],
+          "question": "模型、数据、动作分别在哪？"
+        },
+        {
+          "name": "WorkBuddy",
+          "focus": "个人办公与项目",
+          "points": [
+            "桌面、手机入口与云端作业",
+            "客户端和企业版本分别核验"
+          ],
+          "question": "远程控制本机还是云端执行？"
+        }
+      ],
+      "ribbon": "我的启发：交付质量与运行路径一起验收。",
+      "id": 11
+    },
+    {
+      "kind": "products",
+      "title": "开源与产品化：运行责任怎样分配",
+      "seconds": 105,
+      "chapter": "产品路线",
+      "notes": "OpenClaw 让我从 Gateway、设备节点、会话路由和自动化理解个人代理运行。控制面接受请求，不等于设备、模型与业务服务此刻都可用；自己运营也需要承担升级和恢复责任。\nHermes 补充原生文件记忆、Profile、Bot、目标推进与 Cron。它的资料更适合继续拆解经验积累和状态边界，但开源可读不能替代部署验证。\nKimi Claw 把开源底座与会员、托管、通信和设备整合，需要按实际形态核对版本。Harness 则同时提供工作助手与插件组合运行时，是否有长期记忆取决于实际配置。\n所以我会同时看部署成本和长期维护成本，不把启动门槛低直接等同于运行责任已经消失。",
+      "refs": [
+        "openclaw",
+        "hermes-agent",
+        "kimi-claw",
+        "deepseek-harness"
+      ],
+      "cards": [
+        {
+          "name": "OpenClaw",
+          "focus": "个人自建运行",
+          "points": [
+            "Gateway / Node 与自动化"
+          ],
+          "question": "谁负责宿主和恢复？"
+        },
+        {
+          "name": "Hermes Agent",
+          "focus": "记忆与经验技能",
+          "points": [
+            "Profile / Bot、Goal、Cron"
+          ],
+          "question": "状态在什么范围生效？"
+        },
+        {
+          "name": "Kimi Claw",
+          "focus": "开源底座产品化",
+          "points": [
+            "托管、设备、会员与适配"
+          ],
+          "question": "版本与升级由谁维护？"
+        },
+        {
+          "name": "DeepSeek Harness",
+          "focus": "工作助手与可组合底座",
+          "points": [
+            "插件、Session、调度、Goal"
+          ],
+          "question": "当前 Profile 实际装了什么？"
+        }
+      ],
+      "ribbon": "我的启发：运行形态改变的是责任分配，也影响状态和成本。",
+      "id": 12
+    },
+    {
+      "kind": "objects",
+      "title": "我用五类对象串起这些产品",
+      "seconds": 30,
+      "chapter": "机制与架构",
+      "notes": "走完产品样本后，我需要一个稳定的比较框架。这里是我的参考模型，不是某个厂商的内部类图。\n第一类是用户与代理身份，说明谁委托、谁执行；第二类是职责与目标，说明持续想达到什么；第三类是计划与触发，说明何时发起工作；第四类是任务与运行，说明某一轮正在做什么；第五类是产物与回执，说明工作给现实留下了什么。\n会话贯穿交互，但不适合独自承载这些对象的全部生命周期。下面就沿这些对象拆运行平台。",
+      "refs": [
+        "first-batch-summary",
+        "second-batch-summary"
+      ],
+      "items": [
+        [
+          "身份",
+          "谁在委托、代表谁执行"
+        ],
+        [
+          "目标",
+          "长期要达到什么"
+        ],
+        [
+          "计划",
+          "什么时候开始或再做"
+        ],
+        [
+          "运行",
+          "这一轮进行到哪一步"
+        ],
+        [
+          "产物",
+          "现实中完成了什么"
+        ]
+      ],
+      "ribbon": "我的参考模型 · 用于比较与平台设计，非厂商内部对象图。",
+      "id": 13
+    },
+    {
+      "kind": "architecture",
+      "title": "长期个人代理的一张参考架构",
+      "seconds": 90,
+      "chapter": "机制与架构",
+      "notes": "我把平台分成四层。最上面是消息、网页和设备入口，负责收集意图并呈现状态。下一层维护身份、上下文、目标、计划与任务，是工作连续性的主要控制面。再下一层组织单次执行：上下文构建、模型决策、工具调用、审批等待、重试与交付检查。最下面才是云端电脑、本机、连接器和外部系统。\n两侧贯穿权限与凭证、事件与成本。它们不能只在入口做一次判断，真正动作发生时还要能执行控制，并能把结果关联回来。\n这张图是基于调研形成的设计模型。我更看重各层可以独立失败，例如任务已接受但设备离线，而不是假设每次对话都从头到尾顺利运行。",
+      "refs": [
+        "first-batch-summary",
+        "second-batch-summary"
+      ],
+      "layers": [
+        [
+          "交互入口",
+          "消息 / Web / 语音 / 设备",
+          "意图输入与状态反馈"
+        ],
+        [
+          "持续控制",
+          "身份 · 上下文 · 目标 · 计划 · 任务",
+          "保存跨会话、跨运行的关系"
+        ],
+        [
+          "单次执行",
+          "上下文构建 → 模型 → 工具 → 检查",
+          "执行、等待、恢复与交付"
+        ],
+        [
+          "资源与动作",
+          "云端电脑 / 本机 / API / 外部服务",
+          "真实文件、账号和业务副作用"
+        ]
+      ],
+      "sides": [
+        "权限 · 凭证 · 撤销",
+        "事件 · 产物 · 成本"
+      ],
+      "ribbon": "我的参考架构 · 不是任一产品的内部部署图。",
+      "id": 14
+    },
+    {
+      "kind": "lifecycle",
+      "title": "一项委托跨越多个运行实例",
+      "seconds": 105,
+      "chapter": "机制与架构",
+      "notes": "回到研究场景。用户提出持续目标后，系统产生第一次整理任务，任务运行可能在抓取资料时等待，在写入文件时失败，或在等待我批准时长时间挂起。之后同一目标还可能产生下一次运行。\n这里值得保留三条时间线：目标是否仍有效，计划何时触发，以及这一轮已提交了哪些动作。宿主停止只影响某些执行对象，不会自动宣布目标结束；任务回复完成也不保证外部写入已经被核验。\n恢复时最危险的一处是，工具已经成功写入外部系统，但本地还没保存结果。简单重跑可能造成第二份记录。后面的幂等和回执检查，就是为这类间隙设计的。\n这张时间线是我的故障分析模型，不是从厂商内部日志直接画出的拓扑。",
+      "refs": [
+        "muse",
+        "deepseek-harness",
+        "workbuddy"
+      ],
+      "ribbon": "恢复要回答：从哪里继续、哪些动作已发生、还缺什么证据。",
+      "id": 15
+    },
+    {
+      "kind": "scheduling",
+      "title": "目标、计划与运行分别停止",
+      "seconds": 90,
+      "chapter": "机制与架构",
+      "notes": "几个容易被混用的操作，在底层影响不同对象。暂停计划主要阻止未来触发；取消运行主要终止当前工作；完成目标意味着不再继续推进这项长期职责；撤销凭证则让后续动作失去访问能力。\n资料里可以看到具体边界：WorkBuddy 的暂停计划不直接等于停止已开始运行；Harness 的调度投递确认不等于模型执行完成，删除作业也不自动清除已入队消息。Hermes 同样把执行、投递交接和真实发送分开。\n我从中提炼的要求是，界面要让用户选清楚停止对象，运行时也要有传播和收敛记录。某项动作已经对外生效，还需要核查和补偿，不能由删除聊天自动抹去。",
+      "refs": [
+        "hermes-agent",
+        "workbuddy",
+        "deepseek-harness"
+      ],
+      "items": [
+        [
+          "目标",
+          "达到什么结果",
+          "完成 / 暂停 / 改变范围"
+        ],
+        [
+          "计划",
+          "何时发起下一轮",
+          "暂停未来触发"
+        ],
+        [
+          "运行",
+          "这一轮实际执行",
+          "取消 / 等待 / 恢复"
+        ],
+        [
+          "权限",
+          "还允许做哪些动作",
+          "撤销 / 到期 / 缩小范围"
+        ]
+      ],
+      "ribbon": "产品阅读线索：Hermes Goal / Cron · WorkBuddy 排程 · Harness Host Schedule。",
+      "id": 16
+    },
+    {
+      "kind": "memory",
+      "title": "记忆需要沿写入、更新、使用检查",
+      "seconds": 90,
+      "chapter": "机制与架构",
+      "notes": "为了长期维护笔记，代理需要记住我的写作偏好、项目边界和事实判断，但这些信息并不是同一种东西。我的架构关注点可以长期使用，某个版本号则必须保留来源和日期。\n我把链路拆成来源、提取、持久保存、召回和实际使用。每一段都可能出错：保存时丢失限定条件，纠错没覆盖旧副本，召回时取出过期信息，或者模型看到新事实仍然沿用旧判断。\n因此评估时不能只问能否复述一句话。我会先给一个偏好，再更正、制造冲突、跨项目询问，最后删除。检查的是存储、召回和产物实际使用是否一致。\n这里的来源与作用域也关系到权限：个人事务中的信息，未必应该因为同一个账号就被用于团队项目。",
+      "refs": [
+        "first-batch-summary",
+        "second-batch-summary"
+      ],
+      "steps": [
+        [
+          "来源",
+          "对话 / 文件 / 应用"
+        ],
+        [
+          "提取",
+          "事实 / 偏好 / 方法"
+        ],
+        [
+          "保存",
+          "来源、范围与版本"
+        ],
+        [
+          "召回",
+          "相关性、时效与预算"
+        ],
+        [
+          "使用",
+          "反映到动作与产物"
+        ]
+      ],
+      "checks": [
+        [
+          "更正",
+          "新事实何时生效？"
+        ],
+        [
+          "冲突",
+          "依据哪个来源判断？"
+        ],
+        [
+          "遗忘",
+          "删除后还剩哪些副本？"
+        ]
+      ],
+      "ribbon": "评价记忆：保存正确 → 取回正确 → 使用正确。",
+      "id": 17
+    },
+    {
+      "kind": "memorycompare",
+      "title": "三种记忆样本，三个不同边界",
+      "seconds": 90,
+      "chapter": "机制与架构",
+      "notes": "Hermes 的原生文件记忆给了很具体的快照机制：会话启动读取固定提示快照，会话内写入落盘，并不直接改写最初那份快照，工具返回则能显示实时状态。超出预算也需要整理，而不是无限积累。\nLindy 的样本让我看到个人、团队、系统等不同作用域，记忆与方法可以编辑，但编辑和共享也应检查真实访问范围。\nHarness 的反例很重要：会话持久化有明确机制，第三方长期记忆 MCP 是可选配置，默认未启用。恢复会话不能据此写成已经拥有完整个人长期记忆。\n这些差异没有构成优劣排名，却直接改变实验方法。我必须知道正在测的是会话快照、工作区文件，还是第三方服务。\n新增 Duet 继续沿用账号记忆，因此跨入口更正也要验证；不能把话题频道直接当成记忆隔离。",
+      "refs": [
+        "hermes-agent",
+        "lindy",
+        "deepseek-harness",
+        "claude-duet"
+      ],
+      "rows": [
+        [
+          "Hermes Agent",
+          "文件记忆 + 会话快照",
+          "写入后在同会话与新会话分别检查"
+        ],
+        [
+          "Lindy",
+          "个人 / 团队 / 系统作用域",
+          "事实纠错与共享范围分别检查"
+        ],
+        [
+          "DeepSeek Harness",
+          "会话日志；记忆 MCP 另配",
+          "先确认记忆服务是否实际启用"
+        ]
+      ],
+      "ribbon": "公开设计用于确定实验对象；实际记忆效果仍需验证。",
+      "id": 18
+    },
+    {
+      "kind": "locations",
+      "title": "把“本地 / 云端”拆成三个坐标",
+      "seconds": 75,
+      "chapter": "机制与架构",
+      "notes": "本地和云端两个标签太粗。一个任务可以由云端模型规划，读取本机文件，再通过本机浏览器提交结果；另一个任务也可能在云端宿主执行，却访问第三方托管的记忆服务。\n我会分别问：模型推理在哪里，数据被保存或传到哪里，实际动作在哪里发生。三个坐标可以独立变化，凭证归属又会增加一层条件。\n对应到产品，Personal Computer 的本地模式、Cowork 的云端与桌面桥接、WorkBuddy 的手机遥控和云端任务，都需要按实际路径描述。某个设备下线以后，只有依赖它的步骤不可用，不能把整个产品简单说成能或不能离线。\n这也是我希望平台向用户解释的最小信息：当前任务在等哪个资源，继续需要什么条件。",
+      "refs": [
+        "personal-computer",
+        "claude-cowork",
+        "workbuddy"
+      ],
+      "headers": [
+        "推理位置",
+        "数据位置",
+        "动作位置"
+      ],
+      "rows": [
+        [
+          "云端模型",
+          "本机资料 → 任务上下文",
+          "本机工具 / 浏览器"
+        ],
+        [
+          "云端模型",
+          "云端工作区 / 连接器",
+          "云端电脑 / 服务 API"
+        ],
+        [
+          "本地模型（有条件）",
+          "本机文件与状态",
+          "本机工具"
+        ]
+      ],
+      "ribbon": "路径示意，不代表任一产品的完整部署；条件按账号、设备、版本核验。",
+      "id": 19
+    },
+    {
+      "kind": "handoff",
+      "title": "多代理协作需要可验收的交接",
+      "seconds": 75,
+      "chapter": "机制与架构",
+      "notes": "研究工作很容易拆成搜集、核验、写作和审阅。但拆成四个角色之后，真正重要的是交出去的内容和收回来的证据。\n我希望交接包含目标、来源、输入版本、约束、权限、预算和验收标准。上游说暂定，下游不能自动变成已确认。用户修改范围以后，也应该知道哪些子任务还拿着旧版本输入。\nCue 与 Grok Bot 提供身份和共享资源的样本，Kimi Claw 的群聊又增加协调者和 Worker。它们都不能仅凭角色数量判断隔离强度。对我而言，只有最终质量、人工协调和等待成本一起记录，才知道分工是否值得。",
+      "refs": [
+        "cue",
+        "grok-bot",
+        "kimi-claw"
+      ],
+      "steps": [
+        [
+          "研究",
+          "收集来源与限制"
+        ],
+        [
+          "核验",
+          "查日期、版本与冲突"
+        ],
+        [
+          "写作",
+          "依据确认材料交付"
+        ],
+        [
+          "验收",
+          "检查引用与实际产物"
+        ]
+      ],
+      "payload": [
+        "目标 / 输入版本",
+        "来源 / 不确定性",
+        "授权 / 预算",
+        "产物 / 完成标准"
+      ],
+      "ribbon": "角色数量解释分工；资源范围与完成质量另行验证。",
+      "id": 20
+    },
+    {
+      "kind": "extensions",
+      "title": "Skills、Plugins、MCP 各解决哪一层",
+      "seconds": 60,
+      "chapter": "机制与架构",
+      "notes": "这一页是我的比较词汇，具体产品命名仍以各自文档为准。Skill 主要描述怎么做，承载可复用方法；Plugin 常把配置、依赖或服务能力组合起来；MCP 等协议负责让工具和资源能被调用。\n这三层可以共同降低接入成本，但方法文件存在，不等于工具已安装；工具已经连上，不等于凭证范围允许动作；插件升级也不保证所有任务都自动使用新方法。\n对平台开发，我希望把方法版本、依赖清单、连接身份和动作审批关联起来。这样一次执行变化时，才知道是提示、工具、模型还是授权发生了变化。",
+      "refs": [
+        "hermes-agent",
+        "deepseek-harness",
+        "claude-cowork"
+      ],
+      "items": [
+        [
+          "Skill",
+          "复用工作方法",
+          "指令、示例、脚本与版本"
+        ],
+        [
+          "Plugin",
+          "组合配置或服务",
+          "依赖、安装、生命周期"
+        ],
+        [
+          "MCP / API",
+          "接入工具与资源",
+          "协议、可用性与调用结果"
+        ]
+      ],
+      "ribbon": "方法、能力与授权共同决定一次动作能否完成。",
+      "id": 21
+    },
+    {
+      "kind": "identity",
+      "title": "把批准绑定到真实动作和主体",
+      "seconds": 90,
+      "chapter": "机制与架构",
+      "notes": "同一句允许整理资料，可能只允许读取，也可能涉及改写学习笔记。如果动作变成向外发送文件，还需要确认接收人、内容和时效。审批要绑定到具体动作条件，而不是只给任务一个笼统标志。\n团队代理让关系更复杂：提问者是我，连接属于团队成员，代理用共享凭证写系统，审核者又可能是管理员。Cue、Autopilot 和 Lindy 分别提供了不同样本，但我们仍需要沿实际动作核实主体。\n我希望任务审计能串起请求者、代理、批准者、凭证主体和目标对象。批准以后数据被修改、目标对象变化或权限撤回，都需要在真正动作前重新检查。\n这是一条平台设计要求，并不意味着调研对象已经完整实现相同审批模型。\nDuet 的 Link 购买还提示另一个边界：金额获得批准与商户真正完成交易，是不同状态。原始资料：https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet。",
+      "refs": [
+        "cue",
+        "copilot-autopilot",
+        "lindy",
+        "claude-duet"
+      ],
+      "steps": [
+        [
+          "请求者",
+          "谁提出委托"
+        ],
+        [
+          "代理",
+          "谁组织执行"
+        ],
+        [
+          "批准者",
+          "谁同意这次动作"
+        ],
+        [
+          "凭证主体",
+          "动作代表哪个账号"
+        ],
+        [
+          "业务对象",
+          "改了什么、给谁发送"
+        ]
+      ],
+      "ribbon": "批准范围 = 动作 + 对象 + 内容 / 金额 + 条件 + 有效期。",
+      "id": 22
+    },
+    {
+      "kind": "controls",
+      "title": "审批、隔离与出口分别检查",
+      "seconds": 75,
+      "chapter": "机制与架构",
+      "notes": "我把控制拆为三类：审批决定某次动作能不能做，隔离限制运行进程能接触什么，出口控制限制数据和请求能去哪里。任何一项存在，都不能自动代表其他两项已经完备。\nLindy 的详细文档限定 Guardrails 适用的入口，不能把共享 Slack 线程规则直接泛化到私聊。Harness 的沙箱词汇主要描述文件系统范围，网络和进程可见性有另外的边界。OpenClaw 又明确区分个人可信运营与互不信任用户托管。\n这些阅读让我更愿意从执行路径检查安全机制。用户批准的 API 失败以后，换用浏览器完成同样动作，也需要继续遵守原批准范围。",
+      "refs": [
+        "lindy",
+        "deepseek-harness",
+        "openclaw"
+      ],
+      "items": [
+        [
+          "动作审批",
+          "这次是否允许做？",
+          "检查对象、内容与有效条件"
+        ],
+        [
+          "执行隔离",
+          "进程能接触什么？",
+          "检查文件、进程、设备边界"
+        ],
+        [
+          "出口限制",
+          "数据与请求能去哪里？",
+          "检查网络、服务和替代通道"
+        ]
+      ],
+      "ribbon": "验证实际执行路径：连接器、浏览器、Shell 可能到达同一副作用。",
+      "id": 23
+    },
+    {
+      "kind": "revocation",
+      "title": "结束委托，要让派生状态收敛",
+      "seconds": 75,
+      "chapter": "机制与架构",
+      "notes": "研究目标已经结束时，我希望关闭的不只是一条聊天。应该检查未来触发是否停止、当前运行是否终止、子任务是否还在继续、外部凭证是否撤销，以及既有资料和产物保留在哪里。\n已经发送的消息或已经创建的订单，不会因为进程取消就自动回滚。某些动作需要检查回执、通知接收人或者做补偿。\n所以用户界面最好明确表达停止范围，后台则保留传播过程和结果。我把这称为收敛，而不是瞬间让所有世界状态消失。调研中的生命周期资料给了很多线索，完整语义仍需用在途任务与撤权实验验证。",
+      "refs": [
+        "gemini-spark",
+        "dots",
+        "workbuddy"
+      ],
+      "items": [
+        [
+          "未来工作",
+          "计划与触发",
+          "是否还会再次启动"
+        ],
+        [
+          "在途执行",
+          "运行与派生任务",
+          "是否继续调用工具"
+        ],
+        [
+          "资源访问",
+          "令牌、连接与设备",
+          "撤权何时真实生效"
+        ],
+        [
+          "既有结果",
+          "文件、消息与订单",
+          "保留、删除或补偿"
+        ]
+      ],
+      "ribbon": "停止与删除各有范围；外部副作用需要独立核查。",
+      "id": 24
+    },
+    {
+      "kind": "trace",
+      "title": "可观测性要能解释一次真实委托",
+      "seconds": 60,
+      "chapter": "机制与架构",
+      "notes": "如果只看到最终回答失败，我无法判断是资料过期、模型误判、服务拒绝、设备断线还是用户取消。对一个长期运行平台，这些区别决定下一步应该重试、等待还是交回给用户。\n我希望以同一条委托标识关联目标、运行、模型请求、工具动作、批准、回执和产物，再标注输入版本与发生时间。日志采集只是起点，能否据此复盘业务才是验收标准。\n调研里的 OTel、Session 事件和运行历史提供了不同层面的参考。我不会把任一产品事件目录直接当成完整业务审计；仍需要通过失败注入验证事件是否足以解释结果。",
+      "refs": [
+        "claude-cowork",
+        "deepseek-harness",
+        "openclaw"
+      ],
+      "steps": [
+        [
+          "目标 / 计划",
+          "为什么开始"
+        ],
+        [
+          "运行 / 输入",
+          "依据什么执行"
+        ],
+        [
+          "工具 / 审批",
+          "实际做了什么"
+        ],
+        [
+          "回执 / 产物",
+          "怎样证明完成"
+        ]
+      ],
+      "ribbon": "同一委托贯穿：来源版本 · 执行身份 · 时间线 · 费用 · 人工介入。",
+      "id": 25
+    },
+    {
+      "kind": "evaluation",
+      "title": "先用共同场景验证，再讨论效果",
+      "seconds": 90,
+      "chapter": "验证与启发",
+      "notes": "下一阶段我准备收敛到共同的合成材料包，避免每个产品各演示一项最擅长的任务。先做研究文档交付，再修改一个关键事实，中断一轮执行，最后在运行期间撤销测试连接。\n每项都要先定义完成标准。例如文档能打开、来源可追踪、引用支持对应事实、过期数据被更正。恢复任务则要检查最终产物和重复副作用，不能只用出现一段回复作判定。\n记录里还包括账号、地区、版本、模型、工具配置、时间、人工介入和费用。条件不相同的样本先保留范围，不能强行归一成一个成功率。这些仍是待执行实验，不是我已经跑出的横向测试结果。",
+      "refs": [
+        "first-batch-summary",
+        "second-batch-summary"
+      ],
+      "rows": [
+        [
+          "调研交付",
+          "来源与文档正确",
+          "文件、引用、人工修订"
+        ],
+        [
+          "事实纠错",
+          "后续实际使用新信息",
+          "更新记录、输出差异"
+        ],
+        [
+          "中断恢复",
+          "继续且不重复写入",
+          "中断点、回执、产物"
+        ],
+        [
+          "周期工作",
+          "处理离线和错过周期",
+          "计划、运行、失败原因"
+        ],
+        [
+          "运行时撤权",
+          "派生工作收敛",
+          "撤权时间、拒绝与审计"
+        ]
+      ],
+      "ribbon": "待执行方案 · 用业务完成证据评价，保留全部实验条件。",
+      "id": 26
+    },
+    {
+      "kind": "cost",
+      "title": "以完整委托计算成本",
+      "seconds": 60,
+      "chapter": "验证与启发",
+      "notes": "我现在更愿意计算完成一项工作的成本，而不是比较某个模型的单次调用价格。长期代理会有搜索、子代理、重试、宿主、连接器、审核和人工修订，失败以后还可能出现重新整理和维护成本。\n订阅和模型用量可以直接记账，人工等待、接管和运维则要另外记录。这里也要固定交付质量，否则低成本地交出一个不能用的文档，没有比较价值。\n因此我会把成本与产物验收、人工介入和恢复能力一起观察。本页是成本框架，没有使用尚未验证的产品价格或虚构的节省比例。\nDuet 的后台检查也消耗账号共享额度，这使检查频率、有效发现和用户任务之间的预算取舍成为可观察对象。",
+      "refs": [
+        "first-batch-summary",
+        "second-batch-summary",
+        "claude-duet"
+      ],
+      "formula": "完整工作成本",
+      "items": [
+        [
+          "服务用量",
+          "模型 · 搜索 · 工具"
+        ],
+        [
+          "运行资源",
+          "云端宿主 · 本机硬件"
+        ],
+        [
+          "人工投入",
+          "审批 · 修订 · 接管"
+        ],
+        [
+          "长期维护",
+          "升级 · 备份 · 恢复"
+        ]
+      ],
+      "ribbon": "固定完成标准，再比较费用、耗时与人工介入；不只看调用单价。",
+      "id": 27
+    },
+    {
+      "kind": "roadmap",
+      "title": "我会按这个顺序建设运行平台",
+      "seconds": 60,
+      "chapter": "验证与启发",
+      "notes": "把这些学习带回平台开发，我会分三步推进。先打通可检查的单次执行，能够保存输入版本、运行事件和真实产物，动作授权也有明确对象。没有这层基础，长任务只是把不可解释的问题拉长。\n第二步是可靠地继续工作：目标、计划和运行分开，支持中断恢复、幂等检查、超时、取消和撤权传播。这个阶段优先证明任务可以正确停止和恢复。\n第三步再扩展跨会话记忆、技能积累和多代理分工。每次增加自主性，都配一个可以检验和撤回的范围。\n这是我从调研得到的建设顺序，不是对具体产品成熟度的排名，也不是一个未经估算的项目排期。",
+      "refs": [
+        "first-batch-summary",
+        "second-batch-summary"
+      ],
+      "items": [
+        [
+          "01",
+          "可检查地执行",
+          "输入 / 工具 / 审批 / 产物",
+          "先能解释一轮工作"
+        ],
+        [
+          "02",
+          "可靠地继续",
+          "计划 / 恢复 / 幂等 / 撤权",
+          "再处理时间与故障"
+        ],
+        [
+          "03",
+          "可控地积累",
+          "记忆 / 技能 / 协作 / 评估",
+          "逐步扩大委托范围"
+        ]
+      ],
+      "ribbon": "我的建设判断：每增加一项自主能力，都补齐验证与控制。",
+      "id": 28
+    },
+    {
+      "kind": "takeaways",
+      "title": "我目前形成的三个认识",
+      "seconds": 45,
+      "chapter": "验证与启发",
+      "notes": "第一，Personal Agent 的核心价值在于减少持续委托的用户负担。这要求个人上下文、目标、状态和动作连接起来，不能只评价第一次回答。\n第二，长期可靠性需要模型和运行平台共同成立。模型要理解变化并作出决策，平台要保存事实、检查权限、执行工具、恢复状态和验收交付。\n第三，更多自主性需要更明确的边界和更好的证据。先证明任务完成了什么、能否正确停止，再扩大职责范围。\n这些是当前的学习判断。我会继续通过统一场景积累真实记录，而不是让一份功能清单替代对系统的理解。接下来留四分钟交流。",
+      "refs": [],
+      "items": [
+        [
+          "持续委托",
+          "把个人上下文、目标与现实动作连接起来"
+        ],
+        [
+          "共同成立",
+          "模型决策与平台状态、执行、控制一起评价"
+        ],
+        [
+          "证据驱动",
+          "以产物、恢复、撤权和人工介入修正判断"
+        ]
+      ],
+      "ribbon": "从“知道我的偏好”，走向“可以长期受托办事”。",
+      "id": 29
+    },
+    {
+      "kind": "discussion",
+      "title": "交流：我们最先验证哪一段？",
+      "seconds": 240,
+      "chapter": "讨论",
+      "notes": "可以围绕三个问题交流。第一，在我们熟悉的工作里，哪个持续委托值得先做成可重复实验？例如资料跟踪、项目周报或文档维护。先说清产物与完成标准。\n第二，当前 Agent 开发遇到的主要阻力在哪里：信息更新、任务恢复、外部工具还是授权与状态解释？尽量举一个真实失败点，而不是只讨论抽象能力。\n第三，哪一段需要由通用运行平台承担，哪一段保留在业务 Agent？这个边界会影响复用、责任与维护成本。\n如果需要产品资料，可以直接跳到附录的十六个样本速查和来源页。附录不计入四十分钟主流程。",
+      "refs": [],
+      "items": [
+        "哪项持续委托值得先做成共同实验？",
+        "当前最难解释的是记忆、恢复，还是权限？",
+        "哪些能力由平台提供，哪些留在业务 Agent？"
+      ],
+      "ribbon": "先明确一个场景、一个完成标准、一个最重要的故障点。",
+      "id": 30
+    },
+    {
+      "kind": "catalog",
+      "title": "附录 A｜第一批八个样本速查",
+      "seconds": 0,
+      "chapter": "附录",
+      "notes": "第一批包含 Muse、Dots、Cue、Gemini Spark / Task、Grok Bot、OpenClaw、WorkBuddy 和 Claude Duet。前六个对象保留 10 月 21 日资料，WorkBuddy 为 10 月 22 日，Duet 为 10 月 23 日。本页是资料速查，不是同条件实测。",
+      "refs": [
+        "research-list"
+      ],
+      "rows": [
+        [
+          "Muse",
+          "长期目标、持续环境与安全",
+          "原有个人探索 + 公开资料"
+        ],
+        [
+          "Dots",
+          "持续职责、委派与个人上下文",
+          "公开资料；未做账号实测"
+        ],
+        [
+          "Cue",
+          "独立身份、钱包与团队交接",
+          "Early Access；条件按账号核验"
+        ],
+        [
+          "Gemini Spark / Task",
+          "应用上下文、计划与执行路径",
+          "当前名称与地区、套餐分开核验"
+        ],
+        [
+          "Grok Bot",
+          "长期角色、共享电脑与团队资源",
+          "共享资源不推定强隔离"
+        ],
+        [
+          "OpenClaw",
+          "自建运行、设备路由与自动化",
+          "固定版本；宿主在线与运营责任"
+        ],
+        [
+          "WorkBuddy",
+          "个人办公、项目、本地与云端",
+          "桌面 5.8.3 与企业套件版本分开"
+        ],
+        [
+          "Claude Duet",
+          "主动检查、云端委托与用户决策",
+          "10-23 补读；美国 Pro / Max 候补预览"
+        ]
+      ],
+      "id": 31
+    },
+    {
+      "kind": "catalog",
+      "title": "附录 B｜第二批八个样本速查",
+      "seconds": 0,
+      "chapter": "附录",
+      "notes": "第二批包含 Hermes、Autopilot、Poke、Lindy、Kimi Claw、Personal Computer、DeepSeek Harness 和 Cowork。Personal Computer 作为参考，保留 10 月 21 日资料；Cowork 保留 10 月 21 日资料及 10 月 23 日关系补记，其余六个对象读取至 10 月 22 日。",
+      "refs": [
+        "research-list"
+      ],
+      "rows": [
+        [
+          "Hermes Agent",
+          "记忆、Profile、经验技能",
+          "10-21 稳定版 v0.22.3；分发不同步"
+        ],
+        [
+          "Copilot Autopilot",
+          "组织内个人云托管代理",
+          "Private Preview；旧 Scout 单独解释"
+        ],
+        [
+          "Poke",
+          "消息入口、Recipes、人工协助",
+          "团队现加入 Cognition；不推断架构共用"
+        ],
+        [
+          "Lindy",
+          "团队记忆、Routines、Guardrails",
+          "Skills 逐步开放；审批按入口核验"
+        ],
+        [
+          "Kimi Claw",
+          "OpenClaw 产品化与多设备",
+          "云端会员条件与其他路径分开"
+        ],
+        [
+          "Personal Computer",
+          "参考：Brain、本地 / 混合运行",
+          "设备、模型与入口分别核验"
+        ],
+        [
+          "DeepSeek Harness",
+          "助手形态与插件化运行底座",
+          "v0.2.1-rc.2 预发布；记忆 MCP 另配"
+        ],
+        [
+          "Claude Cowork",
+          "知识任务、云端与桌面桥接",
+          "新旧环境和组织条件分开记录"
+        ]
+      ],
+      "id": 32
+    },
+    {
+      "kind": "appendixdetail",
+      "title": "附录 C｜三个值得复核的实现细节",
+      "seconds": 0,
+      "chapter": "附录",
+      "notes": "这些细节来自公开参考文档，适合作为实验检查点。精确实现随版本变化，本轮没有部署或复现。",
+      "refs": [
+        "hermes-agent",
+        "deepseek-harness",
+        "lindy"
+      ],
+      "items": [
+        [
+          "Hermes：快照与写入",
+          "会话启动快照与会话内落盘分开；测试同会话 / 新会话的生效范围。"
+        ],
+        [
+          "Harness：入箱与完成",
+          "调度确认是持久收件箱交付；崩溃窗口可能重复投递，检查业务幂等。"
+        ],
+        [
+          "Lindy：Guardrails 的入口",
+          "详细帮助限定共享 Slack 线程的写操作；私聊与其他入口分别核验。"
+        ]
+      ],
+      "ribbon": "资料机制 → 明确假设 → 设计故障实验 → 回到真实产物。",
+      "id": 33
+    },
+    {
+      "kind": "sources",
+      "title": "附录 D｜原始来源：第一批",
+      "seconds": 0,
+      "chapter": "来源",
+      "notes": "完整的来源日期、资料性质和学习过程保留在仓库各产品 references/index.md。本页每个产品提供一个原始入口，逐页相关来源也放在讲者备注。",
+      "refs": [],
+      "source_products": [
+        "muse",
+        "dots",
+        "cue",
+        "gemini-spark",
+        "grok-bot",
+        "openclaw",
+        "workbuddy",
+        "claude-duet"
+      ],
+      "id": 34
+    },
+    {
+      "kind": "sources",
+      "title": "附录 E｜原始来源：第二批",
+      "seconds": 0,
+      "chapter": "来源",
+      "notes": "这些原始入口配合本地索引阅读。Personal Computer 保留 10 月 21 日资料，Cowork 保留 10 月 21 日资料及 10 月 23 日关系补记，其余六个对象读取至 10 月 22 日；没有把读取日期当成无日期页面的发布日期。",
+      "refs": [],
+      "source_products": [
+        "hermes-agent",
+        "copilot-autopilot",
+        "poke",
+        "lindy",
+        "kimi-claw",
+        "personal-computer",
+        "deepseek-harness",
+        "claude-cowork"
+      ],
+      "id": 35
+    },
+    {
+      "kind": "record",
+      "title": "附录 F｜后续实验记录模板",
+      "seconds": 0,
+      "chapter": "附录",
+      "notes": "实验模板用于日后沉淀真实观察，本轮没有填入虚构结果。不同配置先保留条件，结果有对应产物和过程后再讨论比较。",
+      "refs": [],
+      "rows": [
+        [
+          "任务条件",
+          "目标、输入材料、完成标准、截止时间"
+        ],
+        [
+          "运行条件",
+          "产品 / 模型版本、账号、地区、设备、Profile"
+        ],
+        [
+          "能力与授权",
+          "工具、连接、审批范围、凭证主体"
+        ],
+        [
+          "执行时间线",
+          "触发、排队、模型、工具、回执、通知"
+        ],
+        [
+          "交付与恢复",
+          "产物、错误、重试、重复副作用、人工介入"
+        ],
+        [
+          "成本与结论",
+          "费用、时间、维护投入、限制与待验证问题"
+        ]
+      ],
+      "id": 36
+    }
+  ],
+  "references": {
+    "muse": {
+      "name": "Muse",
+      "local": "content/zh-cn/agents/personal/muse/references/index.md",
+      "url": "https://introducing.muse.ai/",
+      "urls": [
+        "https://research.meta.ai/blog/bringing-your-muse-to-life",
+        "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+        "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+        "https://github.com/facebookincubator/muse-gadget-sdk",
+        "https://www.ithome.com/1/009/743.htm",
+        "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
+        "https://www.ithome.com/1/010/310.htm",
+        "https://research.meta.ai/blog/muse-wonder",
+        "https://research.meta.ai/static/muse-wonder-model-card",
+        "https://www.ithome.com/1/012/138.htm",
+        "https://research.meta.ai/blog/muse-spark-open",
+        "https://www.marketscreener.com/news/meta-testing-a-human-concierge-for-its-new-personal-ai-agent-muse-ce785ad8de8cf025",
+        "https://www.ithome.com/1/006/286.htm",
+        "https://www.ithome.com/1/005/418.htm",
+        "https://m.ithome.com/html/1014856.htm",
+        "https://blog.claroc.io/ghostshares-muse-passive-dns/",
+        "https://www.digitaltoday.co.kr/cn/view/117284/meta-suspends-muse-chat-sharing-amid-privacy-exposure-concerns",
+        "https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test",
+        "https://ai.meta.com/tools/muse/",
+        "https://research.meta.ai/",
+        "https://about.fb.com/news/tag/ai/"
+      ]
+    },
+    "dots": {
+      "name": "Dots",
+      "local": "content/zh-cn/agents/personal/dots/references/index.md",
+      "url": "https://learn.chatgpt.com/docs/dots",
+      "urls": [
+        "https://openai.com/index/introducing-dots/",
+        "https://openai.com/zh-Hans-CN/index/introducing-dots/",
+        "https://learn.chatgpt.com/docs/dots",
+        "https://learn.chatgpt.com/docs/dots/getting-started",
+        "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+        "https://help.openai.com/zh-hans-cn/articles/20001530-getting-started-with-your-dot",
+        "https://community.openai.com/t/dots-received-another-round-of-updates/1405896",
+        "https://learn.chatgpt.com/docs/dots/tasks-and-memory",
+        "https://learn.chatgpt.com/docs/dots/computers-and-apps",
+        "https://learn.chatgpt.com/docs/dots/channels",
+        "https://openai.com/index/how-we-build-safety-security-and-privacy-into-dots/",
+        "https://learn.chatgpt.com/docs/dots/controls",
+        "https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs",
+        "https://help.openai.com/zh-hans-cn/articles/20001529-dots-privacy-security-and-safety-faqs",
+        "https://deploymentsafety.openai.com/gpt-6-astra/change-log",
+        "https://learn.chatgpt.com/docs/enterprise/dots-admin-guide",
+        "https://learn.chatgpt.com/docs/enterprise/cloud-local-access",
+        "https://www.thepaper.cn/newsDetail_forward_34177258",
+        "https://github.com/openai/codex/issues/55795",
+        "https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test",
+        "https://learn.chatgpt.com/docs/changelog"
+      ]
+    },
+    "cue": {
+      "name": "Cue",
+      "local": "content/zh-cn/agents/personal/cue/references/index.md",
+      "url": "https://www.manus.im/blog/introducing-manus-2-0",
+      "urls": [
+        "https://www.manus.im/blog/introducing-manus-2-0",
+        "https://manus.im/zh-cn/blog/introducing-manus-2-0",
+        "https://help.manus.im/zh-CN/articles/17190150-manus-2-0-有哪些新变化",
+        "https://apps.apple.com/us/app/cue-by-manus/id6808613358",
+        "https://play.google.com/store/apps/details?hl=en&id=ai.manus.agents",
+        "https://help.manus.im/en/articles/14178640-can-i-connect-multiple-messaging-agents-at-once-in-cue",
+        "https://help.manus.im/en/articles/14753565-how-to-share-and-use-skills-in-manus",
+        "https://help.manus.im/en/articles/11711111-what-is-the-current-membership-pricing-for-manus",
+        "https://help.manus.im/en/articles/12059745-how-can-i-use-mail-manus",
+        "https://help.manus.im/en/articles/11711087-how-can-i-cancel-my-subscription",
+        "https://help.manus.im/en/articles/11711102-how-can-i-request-a-refund-for-a-purchased-membership",
+        "https://help.manus.im/en/articles/11711969-how-can-i-delete-my-account",
+        "https://help.manus.im/en/articles/11711823-will-my-personal-data-be-deleted-after-i-delete-my-account",
+        "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus",
+        "https://zentor.ai/blog/what-is-manus-cue",
+        "https://www.36kr.com/p/4003830453686403",
+        "https://www.36kr.com/p/4004213133596291",
+        "https://www.cue.im/",
+        "https://manus.im/privacy",
+        "https://www.manus.im/blog"
+      ]
+    },
+    "gemini-spark": {
+      "name": "Gemini Spark / Task",
+      "local": "content/zh-cn/agents/personal/gemini-spark/references/index.md",
+      "url": "https://support.google.com/gemini/answer/17094507?hl=en",
+      "urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
+        "https://support.google.com/gemini/answer/17171264?hl=en",
+        "https://support.google.com/gemini/answer/17094507?hl=en",
+        "https://support.google.com/gemini/answer/17094507?hl=zh-Hans",
+        "https://support.google.com/gemini/answer/17094710?hl=en",
+        "https://support.google.com/gemini/answer/16598406?hl=en",
+        "https://support.google.com/gemini/answer/16598469?hl=en",
+        "https://support.google.com/gemini/answer/18648722?hl=en",
+        "https://support.google.com/gemini/answer/17094296?hl=en",
+        "https://support.google.com/gemini/answer/17209137",
+        "https://support.google.com/chrome/answer/16821166?hl=en",
+        "https://support.google.com/gemini/answer/17208717?hl=en",
+        "https://support.google.com/gemini/answer/17094196?hl=en",
+        "https://blog.google/security/architecting-security-for-agentic/",
+        "https://www.ithome.com/0/952/525.htm",
+        "https://www.ithome.com.tw/news/179380",
+        "https://9to5google.com/2026/10/12/gemini-spark-task-redesign/",
+        "https://discuss.google.dev/t/gemini-spark-cannot-write-to-any-google-sheets-sheets-agent-call-blocked-by-policy-check/404155"
+      ]
+    },
+    "grok-bot": {
+      "name": "Grok Bot",
+      "local": "content/zh-cn/agents/personal/grok-bot/references/index.md",
+      "url": "https://docs.x.ai/grok-bot/overview",
+      "urls": [
+        "https://x.ai/news/introducing-grok-bot",
+        "https://x.ai/news/designing-grok-bot",
+        "https://docs.x.ai/grok-bot/overview",
+        "https://x.ai/changelog/bot",
+        "https://cursor.com/help/grok-bot/plans",
+        "https://docs.x.ai/grok-bot/bots",
+        "https://docs.x.ai/grok-bot/team-bots",
+        "https://docs.x.ai/grok-bot/chat-and-collaboration",
+        "https://docs.x.ai/grok-bot/computer-and-apps",
+        "https://docs.x.ai/grok-bot/skills-routines-and-automations",
+        "https://docs.x.ai/grok-bot/tag-on-x",
+        "https://docs.x.ai/grok-bot/settings-and-notifications",
+        "https://docs.x.ai/grok-bot/approvals-security-and-privacy",
+        "https://docs.x.ai/grok-bot/security",
+        "https://docs.x.ai/grok-bot/security-faq",
+        "https://docs.x.ai/grok-bot/computers",
+        "https://www.ithome.com.tw/news/179380",
+        "https://dash.security/blog/dash-launches-runtime-protection-for-grok-bot"
+      ]
+    },
+    "openclaw": {
+      "name": "OpenClaw",
+      "local": "content/zh-cn/agents/personal/openclaw/references/index.md",
+      "url": "https://docs.openclaw.ai/",
+      "urls": [
+        "https://github.com/openclaw/openclaw",
+        "https://docs.openclaw.ai/",
+        "https://docs.openclaw.ai/zh-CN",
+        "https://github.com/openclaw/openclaw/releases",
+        "https://docs.openclaw.ai/releases/2026.8.1/automations-and-scheduling",
+        "https://docs.openclaw.ai/concepts/architecture",
+        "https://docs.openclaw.ai/concepts/session",
+        "https://docs.openclaw.ai/concepts/multi-agent",
+        "https://docs.openclaw.ai/concepts/memory",
+        "https://docs.openclaw.ai/zh-CN/concepts/memory",
+        "https://docs.openclaw.ai/concepts/dreaming",
+        "https://docs.openclaw.ai/automation/cron-jobs",
+        "https://docs.openclaw.ai/automation/cron-jobs/how-it-works",
+        "https://docs.openclaw.ai/gateway/heartbeat",
+        "https://docs.openclaw.ai/concepts/models",
+        "https://docs.openclaw.ai/concepts/personal-agent-benchmark-pack",
+        "https://docs.openclaw.ai/tools/skills",
+        "https://docs.openclaw.ai/tools/browser",
+        "https://docs.openclaw.ai/gateway/security",
+        "https://docs.openclaw.ai/start/why-openclaw/the-trust-boundary",
+        "https://docs.openclaw.ai/start/why-openclaw/policy-as-code",
+        "https://docs.openclaw.ai/tools/exec-approvals",
+        "https://docs.openclaw.ai/install/backups",
+        "https://docs.openclaw.ai/install/updating",
+        "https://www.microsoft.com/en-us/security/blog/2026/02/19/running-openclaw-safely-identity-isolation-runtime-risk/",
+        "https://arxiv.org/abs/2603.23064"
+      ]
+    },
+    "personal-computer": {
+      "name": "Personal Computer",
+      "local": "content/zh-cn/agents/personal/personal-computer/references/index.md",
+      "url": "https://www.perplexity.ai/personal-computer",
+      "urls": [
+        "https://www.perplexity.ai/products/computer",
+        "https://www.perplexity.ai/personal-computer",
+        "https://www.perplexity.ai/en-GB/hub/products/computer-for-windows",
+        "https://www.perplexity.ai/changelog/personal-computer-on-mac-launch-and-computer-updates---april-17-2026",
+        "https://www.perplexity.ai/changelog/personal-computer-for-all-users-on-mac",
+        "https://www.perplexity.ai/changelog/effort-mode-gpt-6-astra-and-skills-marketplace",
+        "https://www.perplexity.ai/changelog/automations-inline-visualizations-and-gpt-6-1-sol",
+        "https://www.perplexity.ai/en-GB/hub/blog/perplexity-computer-now-runs-fully-local-on-mac",
+        "https://www.perplexity.ai/en-GB/hub/blog",
+        "https://www.perplexity.ai/personal-computer-setup",
+        "https://www.perplexity.ai/zh/personal-computer-setup",
+        "https://www.perplexity.ai/en-GB/hub/academy/personal-computer-for-mac",
+        "https://www.perplexity.ai/help-center/en/articles/19700001-what-is-brain",
+        "https://www.perplexity.ai/help-center/en/articles/11680686-perplexity-max",
+        "https://www.perplexity.ai/help-center/en/articles/11521526-perplexity-tasks",
+        "https://www.perplexity.ai/help-center/en/articles/20260917-effort-mode-in-perplexity-computer",
+        "https://www.perplexity.ai/help-center/en/articles/13838041-how-credits-work-on-perplexity",
+        "https://www.perplexity.ai/help-center/en/articles/13914413-how-to-use-computer-skills",
+        "https://www.perplexity.ai/help-center/en/articles/13837784-what-is-computer",
+        "https://www.perplexity.ai/help-center/en/articles/19800006-work-with-browsers-and-apps",
+        "https://www.perplexity.ai/en-GB/hub/blog/open-sourcing-space",
+        "https://github.com/perplexityai/SPACE",
+        "https://github.com/perplexityai/SPACE/blob/main/docs/architecture.md",
+        "https://www.perplexity.ai/en-GB/hub/blog/escaping-space-part-i",
+        "https://www.techradar.com/pro/ai-is-the-computer-perplexity-reveals-personal-computer-a-cloud-based-ai-agent-running-on-your-mac",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs"
+      ]
+    },
+    "claude-duet": {
+      "name": "Claude Duet",
+      "local": "content/zh-cn/agents/personal/claude-duet/references/index.md",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "urls": [
+        "https://claude.com/resources/articles/claude-duet",
+        "https://claude.com/product/claude-duet",
+        "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+        "https://support.claude.com/zh-CN/articles/17631495-开始使用-claude-duet",
+        "https://support.claude.com/en/articles/12138966-release-notes",
+        "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+        "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",
+        "https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet",
+        "https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet",
+        "https://stripe.com/newsroom/news/anthropic-and-stripe",
+        "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work",
+        "https://support.claude.com/en/articles/17007452-what-is-a-limit-reset",
+        "https://www.anthropic.com/research/managed-agents",
+        "https://www.anthropic.com/research/claude-code-auto-mode",
+        "https://www.anthropic.com/research/prompt-injection-defenses",
+        "https://www.anthropic.com/research/trustworthy-agents",
+        "https://www.macrumors.com/2026/10/21/anthropic-claude-duet/"
+      ]
+    },
+    "hermes-agent": {
+      "name": "Hermes Agent",
+      "local": "content/zh-cn/agents/personal/hermes-agent/references/index.md",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory",
+      "urls": [
+        "https://hermes-agent.nousresearch.com/",
+        "https://hermes-agent.nousresearch.com/docs/",
+        "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.3",
+        "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2",
+        "https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/bot-mode",
+        "https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/profiles",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory-providers",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/features/cron",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/features/goals",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation",
+        "https://hermes-agent.nousresearch.com/docs/user-guide/features/skills",
+        "https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/configuring-models",
+        "https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/security",
+        "https://hermesagent.org.cn/"
+      ]
+    },
+    "copilot-autopilot": {
+      "name": "Copilot Autopilot",
+      "local": "content/zh-cn/agents/personal/copilot-autopilot/references/index.md",
+      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "urls": [
+        "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+        "https://news.microsoft.com/source/asia/2026/09/29/%E5%BE%AE%E8%BD%AF%E6%8E%A8%E5%87%BA%E5%85%A8%E6%96%B0%E6%99%BA%E8%83%BD-microsoft-copilot%E5%89%AF%E9%A9%BE%E9%A9%B6%EF%BC%9A%E5%B8%A6%E6%9D%A5-home%E3%80%81code-%E5%92%8C-autopilot/?lang=zh-hans",
+        "https://www.microsoft.com/en-us/copilot",
+        "https://learn.microsoft.com/en-us/microsoft-scout/overview",
+        "https://learn.microsoft.com/en-us/microsoft-scout/get-started",
+        "https://learn.microsoft.com/en-us/microsoft-scout/faq",
+        "https://learn.microsoft.com/en-us/microsoft-scout/use-microsoft-scout",
+        "https://learn.microsoft.com/en-us/microsoft-scout/work-with-microsoft-365",
+        "https://learn.microsoft.com/en-us/microsoft-scout/whats-new",
+        "https://learn.microsoft.com/en-us/microsoft-scout/manage-group-policy",
+        "https://learn.microsoft.com/en-us/microsoft-scout/microsoft-scout-responsible-ai-overview",
+        "https://learn.microsoft.com/en-us/microsoft-scout/microsoft-scout-responsible-ai-faq"
+      ]
+    },
+    "poke": {
+      "name": "Poke",
+      "local": "content/zh-cn/agents/personal/poke/references/index.md",
+      "url": "https://poke.com/docs",
+      "urls": [
+        "https://poke.com/",
+        "https://poke.com/docs",
+        "https://poke.com/docs/release-notes",
+        "https://cognition.com/blog/interaction",
+        "https://poke.com/pricing",
+        "https://poke.com/docs/usage-and-resets",
+        "https://poke.com/docs/managing-integrations",
+        "https://poke.com/docs/creating-recipes",
+        "https://poke.com/docs/mcp-servers",
+        "https://poke.com/docs/api",
+        "https://poke.com/docs/merging-accounts",
+        "https://poke.com/faq",
+        "https://poke.com/privacy",
+        "https://www.unite.ai/zh-cn/poke-review/"
+      ]
+    },
+    "lindy": {
+      "name": "Lindy",
+      "local": "content/zh-cn/agents/personal/lindy/references/index.md",
+      "url": "https://docs.lindy.ai/integrations/overview",
+      "urls": [
+        "https://www.lindy.ai/",
+        "https://docs.lindy.ai/",
+        "https://www.lindy.ai/changelog",
+        "https://docs.lindy.ai/teammate/memory",
+        "https://docs.lindy.ai/teammate/routines",
+        "https://docs.lindy.ai/teammate/skills",
+        "https://www.lindy.ai/product/watch-and-learn",
+        "https://www.lindy.ai/product/phone",
+        "https://docs.lindy.ai/teammate/meeting-library",
+        "https://docs.lindy.ai/integrations/overview",
+        "https://docs.lindy.ai/integrations/credentials",
+        "https://docs.lindy.ai/integrations/mcp",
+        "https://docs.lindy.ai/teammate/artifacts",
+        "https://www.lindy.ai/pricing",
+        "https://docs.lindy.ai/account-billing/usage",
+        "https://www.lindy.ai/security",
+        "https://www.lindy.ai/privacy",
+        "https://ainovatools.com/zh/tools/lindy-ai"
+      ]
+    },
+    "kimi-claw": {
+      "name": "Kimi Claw",
+      "local": "content/zh-cn/agents/personal/kimi-claw/references/index.md",
+      "url": "https://www.kimi.com/help/kimi-claw/overview",
+      "urls": [
+        "https://www.kimi.com/help/kimi-claw/overview",
+        "https://www.kimi.com/en/help/kimi-claw/overview",
+        "https://www.kimi.com/help/others/product-comparison",
+        "https://www.kimi.com/help/kimi-claw",
+        "https://www.kimi.com/en/help/kimi-claw/desktop-deployment-guide",
+        "https://www.kimi.com/en/help/kimi-claw/android-user-guide",
+        "https://www.kimi.com/en/help/kimi-claw/kimiclaw-group-chat",
+        "https://www.kimi.com/help/kimi-claw/memory-loss",
+        "https://www.kimi.com/en/help/kimi-claw/usage-tips",
+        "https://www.kimi.com/help/plugins-and-skills/use-skills-in-claw",
+        "https://www.kimi.com/en/help/kimi-claw/conversation-limits",
+        "https://www.kimi.com/en/help/kimi-claw/upgrade-notice",
+        "https://www.kimi.com/help/kimi-claw/wechat-bot",
+        "https://www.kimi.com/help/kimi-claw/file-transfer"
+      ]
+    },
+    "workbuddy": {
+      "name": "WorkBuddy",
+      "local": "content/zh-cn/agents/personal/workbuddy/references/index.md",
+      "url": "https://www.workbuddy.cn/docs/workbuddy/Changelog",
+      "urls": [
+        "https://cloud.tencent.com/product/workbuddy",
+        "https://www.workbuddy.cn/docs/workbuddy/Overview",
+        "https://www.workbuddy.cn/docs/workbuddy/Changelog",
+        "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Assistant",
+        "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide",
+        "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Memory",
+        "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Project",
+        "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
+        "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Connector",
+        "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Model",
+        "https://www.workbuddy.cn/docs/workbuddy/Credits",
+        "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Permission-Modes",
+        "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Data",
+        "https://cloud.tencent.com/document/product/1831/139478",
+        "https://cloud.tencent.com/document/product/1831/138968",
+        "https://open.workbuddy.cn/en/docs/third-party-app",
+        "https://www.tencent.com/you-work-across-six-apps-your-ai-should-too/",
+        "https://cloud.tencent.com/document/product/1813/137263"
+      ]
+    },
+    "deepseek-harness": {
+      "name": "DeepSeek Harness",
+      "local": "content/zh-cn/agents/personal/deepseek-harness/references/index.md",
+      "url": "https://deepseek-harness.github.io/deepseek-harness/en/reference/subsystems/schedule",
+      "urls": [
+        "https://www.deepseek.com/en/harness/",
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.2",
+        "https://github.com/deepseek-ai/deepseek-harness/releases",
+        "https://deepseek-harness.github.io/deepseek-harness/guide/quickstart",
+        "https://deepseek-harness.github.io/deepseek-harness/en/reference/",
+        "https://deepseek-harness.github.io/deepseek-harness/en/reference/agent-lifecycle",
+        "https://deepseek-harness.github.io/deepseek-harness/en/reference/subsystems/session",
+        "https://deepseek-harness.github.io/deepseek-harness/en/guide/mcp-memory",
+        "https://deepseek-harness.github.io/deepseek-harness/en/reference/subsystems/schedule",
+        "https://deepseek-harness.github.io/deepseek-harness/en/guide/schedule",
+        "https://deepseek-harness.github.io/deepseek-harness/en/reference/subsystems/goal",
+        "https://deepseek-harness.github.io/deepseek-harness/en/guide/providers",
+        "https://deepseek-harness.github.io/deepseek-harness/en/reference/subsystems/skills",
+        "https://deepseek-harness.github.io/deepseek-harness/en/guide/plugin-market",
+        "https://deepseek-harness.github.io/deepseek-harness/en/reference/subsystems/permission-presets",
+        "https://deepseek-harness.github.io/deepseek-harness/reference/subsystems/permission-presets",
+        "https://deepseek-harness.github.io/deepseek-harness/en/reference/subsystems/approval",
+        "https://deepseek-harness.github.io/deepseek-harness/en/reference/subsystems/sandbox",
+        "https://deepseek-harness.github.io/deepseek-harness/en/guide/public-deployments",
+        "https://github.com/deepseek-ai/deepseek-harness/blob/master/SAFETY.md",
+        "https://arxiv.org/abs/2608.16393"
+      ]
+    },
+    "research-list": {
+      "name": "调研清单",
+      "local": "content/zh-cn/agents/personal/research-list/index.md",
+      "url": null,
+      "urls": []
+    },
+    "claude-cowork": {
+      "name": "Claude Cowork",
+      "local": "content/zh-cn/agents/personal/claude-cowork/references/index.md",
+      "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+      "urls": [
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+        "https://support.claude.com/zh-TW/articles/16761823-claude-cowork-%E5%92%8C%E8%81%8A%E5%A4%A9%E6%98%AF%E4%B8%80%E5%80%8B-claude",
+        "https://claude.com/resources/articles/cowork-is-now-claude",
+        "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+        "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+        "https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview",
+        "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",
+        "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+        "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork",
+        "https://support.claude.com/en/articles/12138966-release-notes",
+        "https://claude.com/product/cowork",
+        "https://support.claude.com/en/articles/12512180-use-skills-in-claude",
+        "https://support.claude.com/en/articles/13837440-use-plugins-in-claude",
+        "https://support.claude.com/en/articles/16607400-use-the-built-in-browser-in-claude-cowork",
+        "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
+        "https://support.claude.com/en/articles/13364135-use-claude-cowork-safely",
+        "https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans",
+        "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization",
+        "https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry",
+        "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork",
+        "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+        "https://claude.com/resources/articles/claude-duet",
+        "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet"
+      ]
+    },
+    "first-batch-summary": {
+      "name": "第一批八个阶段性比较",
+      "local": "content/zh-cn/agents/personal/first-batch-summary/index.md",
+      "url": null,
+      "urls": []
+    },
+    "second-batch-summary": {
+      "name": "第二批八个阶段性比较",
+      "local": "content/zh-cn/agents/personal/second-batch-summary/index.md",
+      "url": null,
+      "urls": []
+    }
+  },
+  "snapshotLabel": "10.21–10.23（分批核验）",
+  "productCount": 16,
+  "firstBatchCount": 8,
+  "secondBatchCount": 8
+}

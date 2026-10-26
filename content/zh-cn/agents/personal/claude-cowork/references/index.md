@@ -3,6 +3,7 @@ title: "Claude Cowork 资料索引"
 linkTitle: "资料索引"
 weight: 70
 date: "2026-10-21"
+lastmod: "2026-10-23T00:00:00+08:00"
 description: "保留中英文资料、原始日期、证据范围与待核实问题"
 materialType: "资料索引"
 ---
@@ -34,6 +35,16 @@ materialType: "资料索引"
 | 动态帮助 | [OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry) | 可观测事件与内容采集条件；[本地笔记](../security/observability/) |
 | 当前帮助；新用户不可用 | [Dispatch](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork) | 历史桌面分派路径；[本地笔记](../product/access-and-updates/) |
 | 2026-09-16 | [TechCrunch：界面合并报道](https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/) | 英文媒体交互观察，非执行评测；[本地笔记](../practice/source-observations/) |
+
+## 2026-10-23 补充：Duet 与 Cowork 的关系
+
+本轮只补读两条路线的关系，不把它视为全部 Cowork 材料重新核验。Duet 已独立整理为 [分类笔记](../../claude-duet/)，产品边界与共享账号基础见 [定位补记](../product/positioning/)和 [总结补记](../summary/)。
+
+| 原始日期 / 状态 | 新增来源 | 阅读范围 |
+| --- | --- | --- |
+| 2026-10-21 发布；10-23 读取 | [Introducing Claude Duet](https://claude.com/resources/articles/claude-duet) | 独立主动代理应用，与 Cowork 分别保留 |
+| 动态帮助；10-23 读取 | [Duet 入门](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet) | 账号上下文、项目与文件访问的具体限制 |
+| 动态帮助；10-23 读取 | [Chat search and memory](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) | Duet 使用与新增记忆；不同入口条件分别记录 |
 
 ## 我怎样处理这批证据
 

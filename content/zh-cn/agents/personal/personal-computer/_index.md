@@ -1,6 +1,6 @@
 ---
 title: "Perplexity Personal Computer"
-weight: 160
+weight: 230
 date: "2026-10-21"
 description: "我对 Perplexity Personal Computer 的产品、运行平台、开发与控制边界的学习笔记"
 ---
@@ -8,6 +8,8 @@ description: "我对 Perplexity Personal Computer 的产品、运行平台、开
 我继续研究 Perplexity Personal Computer，重点是个人文件、原生应用、浏览器与云端编排怎样共同完成长期工作。近期资料又增加了混合计算与本地推理，需要按执行路径分别理解。
 
 本轮检索与阅读截至 **2026-10-21**，覆盖英文官方帮助、中文设置资料、近期发布、SPACE 仓库与外部观察。没有安装客户端、下载模型或进行账号实测；产品家族的共用能力不直接等同于每个端都已开放。
+
+我将 Personal Computer 列入[第二批补充调研](../second-batch-summary/)，作为个人工作环境、本地与混合执行路线的参考样本。批次调整表示研究重点变化，不改变它的个人代理归类。
 
 ## 学习主题
 

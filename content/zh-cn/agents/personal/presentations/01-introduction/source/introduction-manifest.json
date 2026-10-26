@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-25",
+  "slides": 34,
+  "totalSeconds": 3000,
+  "sections": [
+    240,
+    240,
+    120,
+    300,
+    1500,
+    300,
+    300
+  ],
+  "featuredProducts": [
+    "Muse",
+    "Dots",
+    "Claude Duet",
+    "WorkBuddy"
+  ],
+  "firstBatch": [
+    "Muse",
+    "Dots",
+    "Cue",
+    "Gemini Spark / Task",
+    "Grok Bot",
+    "OpenClaw",
+    "WorkBuddy",
+    "Claude Duet"
+  ],
+  "secondBatch": [
+    "Hermes Agent",
+    "Copilot Autopilot",
+    "Poke",
+    "Lindy",
+    "Kimi Claw",
+    "Personal Computer",
+    "DeepSeek Harness",
+    "Claude Cowork"
+  ],
+  "records": [
+    {
+      "number": 1,
+      "title": "Personal Agent：概念、产品与应用场景",
+      "part": 1,
+      "seconds": 30,
+      "notes": "建议讲述 30 秒。\n我最近围绕 Personal Agent 做了一轮产品调研。这次先建立共同认识：它是什么、可以承担哪些工作，与 OpenClaw 和 Harness 的关系是什么，再看发展脉络，随后重点展开 Muse、Dots、Claude Duet 和 WorkBuddy 的产品与具体委托场景。每款有独立的产品页和场景页。这里保留公开资料、我的理解与实测证据的区别，不展开技术实现。全程约 50 分钟：前四部分 15 分钟作引导，产品与场景 25 分钟，演示 5 分钟，总结 2 分钟、交流 3 分钟。原有资料阅读日期为 2026-10-24，演进与四款重点资料于 2026-10-25 补充；没有新增产品实测。",
+      "start": 0,
+      "end": 30
+    },
+    {
+      "number": 2,
+      "title": "先理解 AI Agent",
+      "part": 1,
+      "seconds": 50,
+      "notes": "建议讲述 50 秒。\nAI Agent 是以大语言模型为决策核心，在多步循环里对环境采取行动，并根据反馈继续迭代，直到目标完成或失败的软件系统。\n这里采用已有学习笔记的 LLM Agent 工作定义，不覆盖传统人工智能中所有 Agent。下一步由模型决定，能够多步行动，并依据工具与环境反馈继续调整。只看对话轮数，或者看到一次工具调用，都不足以确认执行循环。自主程度可以不同，用户审批和人工介入不妨碍 Agent 形态成立。\n本地依据：content/zh-cn/definition/what-is-ai-agent/index.md",
+      "start": 30,
+      "end": 80
+    },
+    {
+      "number": 3,
+      "title": "用一次调研看清执行循环",
+      "part": 1,
+      "seconds": 30,
+      "notes": "建议讲述 30 秒。\n以调研为例，我给出目标，Agent 决定检索方向，调用搜索与阅读工具，观察实际取得的资料。如果发现来源已过期或不同文档互相矛盾，模型需要决定补查哪些来源，然后整理文件并检查引用。图中是一条便于理解的路径，实际执行中每一步都可能依据反馈调整，不是写死的四步工作流。\n这个例子用于解释判断方法，不表示某款产品已经完成此项实测。",
+      "start": 80,
+      "end": 110
+    },
+    {
+      "number": 4,
+      "title": "Personal Agent 中的“Personal”指什么",
+      "part": 1,
+      "seconds": 75,
+      "notes": "建议讲述 75 秒。\nPersonal Agent 是以具体个人为服务对象，利用其个人上下文，在授权范围内自主组织并执行任务的 AI 智能体。\n这是结合研究论文与社区资料归纳的工作定义，不是统一行业标准。2024 年综述关注与个人数据、设备和服务结合；W3C 社区组材料关注代表具体用户与用户利益，后者不是正式 W3C 标准。\n我理解的个人，首先是围绕具体个人的目标；其次是资料、偏好、工作背景与约束会真正影响判断；最后是根据委托代表用户推进任务。生活与工作都可以纳入。仍用调研示例，如果系统能结合我的方向、已有笔记和写作习惯补充缺口，个人上下文才实际进入工作。\n资料：https://arxiv.org/html/2401.05459v2#S3\n社区材料：https://www.w3.org/2024/01/webevolve-series-events/annual-2025/slides/ai-agent-protocol-cg.pdf\n阅读日期：2026-10-24；论文为 2024-05-08 修订的 v2，社区材料来自 2025 年活动。",
+      "start": 110,
+      "end": 185
+    },
+    {
+      "number": 5,
+      "title": "先判断归类，再比较持续服务能力",
+      "part": 1,
+      "seconds": 55,
+      "notes": "建议讲述 55 秒。\n我先检查是否有 Agent 执行循环，再看它是否围绕具体个人工作，个人上下文是否实际影响执行。在基础归类之上，本系列更关注长期服务：跨会话使用并修正上下文，延续任务或承担重复工作，以及根据变化持续跟进。\n这三类能力不能相互代替；有定时任务，不等于可以自行持续推进一个长期目标。我也不把所有能力齐备作为统一准入门槛，单次委托可以发生在个人代理中。独立电脑、云端常驻和多代理协作属于具体路线。后续按个人模式、团队模式和运行底座分别判断，官方说明与实测结果分别记录。",
+      "start": 185,
+      "end": 240
+    },
+    {
+      "number": 6,
+      "title": "Personal Agent 能做什么",
+      "part": 2,
+      "seconds": 30,
+      "notes": "建议讲述 30 秒。\n第一部分给出定义后，我更关心哪些工作可以交出去。我把调研中看到的应用归为三类：信息与事务、调研与交付、持续跟踪。三类是帮助理解场景的归纳，不是官方产品分类，也不要求每个产品都具备全部能力。接下来各用一个具体委托说明输入、处理过程、结果和用户参与。\n\n证据范围：以下委托是作者归纳的场景示例，没有新增产品实测。公开能力以具体产品、版本、地区、套餐、连接服务和授权为准。引用资料为动态文档，均于 2026-10-24 读取；不将读取日期作为发布日期。\n官方来源：https://support.claude.com/en/articles/17631495-get-started-with-claude-duet\n官方来源：https://support.google.com/gemini/answer/17094507?hl=en\n官方来源：https://www.workbuddy.cn/docs/workbuddy/Overview",
+      "start": 240,
+      "end": 270
+    },
+    {
+      "number": 7,
+      "title": "信息整理与个人事务处理",
+      "part": 2,
+      "seconds": 70,
+      "notes": "建议讲述 70 秒。\n建议从每天的邮件和会议说起。我需要的往往是知道哪些消息要回复、会议前要读什么，以及后续动作怎么落实。这个示例要求 Agent 读取获准访问的邮件和日历，结合本周交付重点筛选，再形成待办、会议材料和回复草稿。\n晨间邮件与日历简报、回复草稿已有 Claude Duet 的官方功能说明，但这里不是对它的实测。我的参与仍包括检查遗漏、确认安排和决定发送。生活中也可以用相同方式整理行程；能否修改日程或预订，取决于具体接入与授权。资料汇总、准备方案、实际对外提交，要按不同的交付程度理解。\n\n证据范围：以下委托是作者归纳的场景示例，没有新增产品实测。公开能力以具体产品、版本、地区、套餐、连接服务和授权为准。引用资料为动态文档，均于 2026-10-24 读取；不将读取日期作为发布日期。\n官方来源：https://support.claude.com/en/articles/17631495-get-started-with-claude-duet\n官方来源：https://support.google.com/gemini/answer/17094507?hl=en",
+      "start": 270,
+      "end": 340
+    },
+    {
+      "number": 8,
+      "title": "调研分析与工作成果交付",
+      "part": 2,
+      "seconds": 70,
+      "notes": "建议讲述 70 秒。\n与我的工作更相关的是调研和成果交付。我希望委托的不只是检索，还包括筛选来源、核对差异、组织分析，并按要求更新文档和表格。这里以三个产品比较为例，既要使用已有资料，也要补充缺口、核对来源与日期；缺少依据的部分单列，不补猜。\n输出可以是笔记、分析表、PPT，也可以是展示结果的小工具。WorkBuddy 官方介绍给出了文件处理、自主执行和可验收成果的例子，Gemini Task 文档也说明带引用的调研与文件交付。具体效果还需要实际验收。我会检查来源、条件、事实与推断，以及文件是否可继续修改，不能把生成文件直接当作可靠分析已经完成。\n\n证据范围：以下委托是作者归纳的场景示例，没有新增产品实测。公开能力以具体产品、版本、地区、套餐、连接服务和授权为准。引用资料为动态文档，均于 2026-10-24 读取；不将读取日期作为发布日期。\n官方来源：https://www.workbuddy.cn/docs/workbuddy/Overview\n官方来源：https://support.google.com/gemini/answer/17094507?hl=en",
+      "start": 340,
+      "end": 410
+    },
+    {
+      "number": 9,
+      "title": "持续跟踪与周期性工作",
+      "part": 2,
+      "seconds": 70,
+      "notes": "建议讲述 70 秒。\n还有些工作需要重复进行，并在变化发生后接着处理。我可以把前面的调研延伸成四周职责：指定对象与来源，工作日检查、周五汇总，开放条件变化时单独通知，准备笔记草稿但合入前交给我确认。相比只说每天发新闻，这明确了范围、交付和通知条件。\nGemini Task 文档列出持续任务、信息跟踪和文件交付，但具体触发与动作仍要按产品确认。运行环境同样重要。WorkBuddy 官方文档区分本地、项目与云端任务：本地由本机客户端执行，云端在沙箱执行，无需电脑在线，不能把一种路径的条件套到另一种。\n我关注每次是否执行、变化是否判断正确、结果是否交付，以及如何调整和结束职责。周期执行不自动等于持续推进目标，后台工作仍受资源、权限和用量限制。表达委托时，我会交代目标、资料、成果、时间和需要我决定的动作，后面也据此比较产品的侧重。\n\n证据范围：以下委托是作者归纳的场景示例，没有新增产品实测。公开能力以具体产品、版本、地区、套餐、连接服务和授权为准。引用资料为动态文档，均于 2026-10-24 读取；不将读取日期作为发布日期。\n官方来源：https://support.google.com/gemini/answer/17094507?hl=en\n官方来源：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide",
+      "start": 410,
+      "end": 480
+    },
+    {
+      "number": 10,
+      "title": "三个名称，描述不同层面",
+      "part": 3,
+      "seconds": 40,
+      "notes": "建议讲述 40 秒。\n我先区分层次：Personal Agent 是面向具体个人的产品或使用形态；OpenClaw 是可以自行运行的软件方案；Harness 是支撑执行的运行软件。它们可以重叠，不能看成三个互斥类别。这里不展开组件结构，只为后面比较产品建立共同语言。\n\n资料：\nOpenClaw 文档：https://docs.openclaw.ai/\nDeepSeek Harness 产品页：https://www.deepseek.com/en/harness/\n整理／读取日期：2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 480,
+      "end": 520
+    },
+    {
+      "number": 11,
+      "title": "托管与自建：运行责任怎样分配",
+      "part": 3,
+      "seconds": 40,
+      "notes": "建议讲述 40 秒。\n用每周更新笔记举例：托管产品主要由厂商安排运行条件，我配置资料与委托；自建方案还要由我或维护者安排部署、接入和维护。两者都可能服务个人，差别是责任怎样分配。先看具体交付，再考虑投入与掌控程度。\n\n资料：\nOpenClaw 文档：https://docs.openclaw.ai/\nMuse 公告，2026-09-08：https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/\n整理／读取日期：2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 520,
+      "end": 560
+    },
+    {
+      "number": 12,
+      "title": "Harness 可以成为个人代理的底座",
+      "part": 3,
+      "seconds": 40,
+      "notes": "建议讲述 40 秒。\nDeepSeek Harness 同时提供工作助手与运行底座，但外部记忆接入示例默认关闭。支持扩展，不等于已经得到长期个人助手。因此分别看运行能力、实际配置与成果，不按名称归类。这页只保留边界，后面回到直接面向用户的产品。\n\n资料：\nDeepSeek Harness 产品页：https://www.deepseek.com/en/harness/\nHarness 记忆接入：https://deepseek-harness.github.io/deepseek-harness/en/guide/mcp-memory\n整理／读取日期：2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 560,
+      "end": 600
+    },
+    {
+      "number": 13,
+      "title": "2022—2026：执行能力与个人服务逐步汇合",
+      "part": 4,
+      "seconds": 50,
+      "notes": "建议讲述 50 秒。\n这张时间线用两条线理解变化：越来越能完成工作，以及越来越能持续为同一个人工作。2022—2023 年看反馈、工具、任务与记忆；2024 年看工作环境；2025 年重点看成果委托与运行系统；随后再看个人状态、渠道和触发如何结合。年份定位代表节点，不是统一阶段或能力诞生时间。下面每页只解释一个联系，具体论文与工程细节留在正文回看。\n\n资料：\nReAct，2022-10-06：https://arxiv.org/abs/2210.03629\nToolformer，2023-02-09：https://arxiv.org/abs/2302.04761\nMemGPT，2023-10-12 首次提交：https://arxiv.org/abs/2310.08560\n原始日期／版本条件：2023-10-12；当前 v2 修订于 2024-02-12；阅读：2026-10-25。\nDevin 公告，2024-03-12：https://cognition.com/blog/introducing-devin\n原始日期／版本条件：2024-03-12；当时为早期访问；阅读：2026-10-25。\nManus 上下文工程，2025-07-18：https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus\n原始日期／版本条件：2025-07-18；团队技术自述；阅读：2026-10-25。\nClaude Agent SDK，2025-09-29：https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk\n原始日期／版本条件：2025-09-29；Claude Code SDK 更名及非编码用途；阅读：2026-10-25。\nOpenClaw Gateway 架构：https://docs.openclaw.ai/concepts/architecture\n原始日期／版本条件：动态文档，无统一固定版本号；不外推初版能力；阅读：2026-10-25。\nManus 2.0 / Cue，2026-09-28：https://manus.im/blog/introducing-manus-2-0\n原始日期／版本条件：2026-09-28；Cue 当时为需邀请码的 early access；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 600,
+      "end": 650
+    },
+    {
+      "number": 14,
+      "title": "2022—2024：从执行循环到可以工作的环境",
+      "part": 4,
+      "seconds": 50,
+      "notes": "建议讲述 50 秒。\n反馈循环接上工具后，还需要能工作的场所。Devin 的早期材料提供终端、编辑器和浏览器，computer use 扩展到屏幕操作，MCP 降低连接成本。与此同时，MemGPT 等研究已经探索记忆。因此操作软件、延续背景与完成工作要分别看。这里是技术对产品范围的影响，不展开论文结构，也不把早期预览当作长期可靠性证明。\n\n资料：\nReAct，2022-10-06：https://arxiv.org/abs/2210.03629\nToolformer，2023-02-09：https://arxiv.org/abs/2302.04761\nBabyAGI 作者回顾：https://yoheinakajima.com/birth-of-babyagi/\n原始日期／版本条件：回顾 2023 年春季原型；阅读：2026-10-25。\nDevin 公告，2024-03-12：https://cognition.com/blog/introducing-devin\n原始日期／版本条件：2024-03-12；当时为早期访问；阅读：2026-10-25。\nClaude computer use，2024-10-22：https://www.anthropic.com/news/3-5-models-and-computer-use\nMCP 公告，2024-11-25：https://www.anthropic.com/news/model-context-protocol\n原始日期／版本条件：2024-11-25；阅读：2026-10-25。\nMemGPT，2023-10-12 首次提交：https://arxiv.org/abs/2310.08560\n原始日期／版本条件：2023-10-12；当前 v2 修订于 2024-02-12；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 650,
+      "end": 700
+    },
+    {
+      "number": 15,
+      "title": "2025：Manus 把目标委托组织成成果交付",
+      "part": 4,
+      "seconds": 50,
+      "notes": "建议讲述 50 秒。\nManus 是 2025 年的重要产品例子。模型、工具和云端电脑组合起来，用户可以委托一个成果，再由系统组织步骤。我关注从逐步安排操作到围绕成果委托的变化，而不是判断谁首次发明通用 Agent。云端任务的环境寿命、权限与实际完成质量仍需具体看。这一页保留它在演进中的位置，原始来源和版本差异放在正文。\n\n资料：\nManus 回顾，2025-06-26：https://manus.im/blog/what-we-saw-in-the-past-three-months-and-what-we-see-in-the-future\n原始日期／版本条件：2025-06-26；回顾同年 3 月推出的产品；阅读：2026-10-25。\nE2B / Manus，2025-05-06：https://e2b.dev/customers/how-manus-uses-e2b-to-provide-agents-with-virtual-computers\n原始日期／版本条件：2025-05-06；基础设施供应商对当时合作的说明；阅读：2026-10-25。\nClaude 3.7 / Code，2025-02-24：https://www.anthropic.com/news/claude-3-7-sonnet\n原始日期／版本条件：2025-02-24；Code 当时为 limited research preview；阅读：2026-10-25。\nManus 上下文工程，2025-07-18：https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus\n原始日期／版本条件：2025-07-18；团队技术自述；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 700,
+      "end": 750
+    },
+    {
+      "number": 16,
+      "title": "2025：任务变长，Harness 承担更多工作",
+      "part": 4,
+      "seconds": 50,
+      "notes": "建议讲述 50 秒。\n任务变长后，需要在有限上下文中管理资料，保存进度，检查结果并继续工作。Harness 就是在模型周围组织执行的软件，范围因项目而异。Claude Code SDK 更名为 Agent SDK，提供编码运行基础向研究和助理任务复用的例子。MCP、Skills 与 Harness 可以配合，并不是相互替代的阶段。这里只建立产品背后的工程原因，不展开内部实现。\n\n资料：\nManus 上下文工程，2025-07-18：https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus\n原始日期／版本条件：2025-07-18；团队技术自述；阅读：2026-10-25。\nClaude Agent SDK，2025-09-29：https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk\n原始日期／版本条件：2025-09-29；Claude Code SDK 更名及非编码用途；阅读：2026-10-25。\n长期 Agent harness，2025-11-26：https://www.anthropic.com/research/effective-harnesses-for-long-running-agents\n原始日期／版本条件：2025-11-26；多上下文工作交接实例；阅读：2026-10-25。\nMCP 公告，2024-11-25：https://www.anthropic.com/news/model-context-protocol\n原始日期／版本条件：2024-11-25；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 750,
+      "end": 800
+    },
+    {
+      "number": 17,
+      "title": "2025 年底—2026：OpenClaw 把执行接入日常",
+      "part": 4,
+      "seconds": 50,
+      "notes": "建议讲述 50 秒。\nOpenClaw 说明一次执行怎样接入日常：有持续可达的渠道，有可延续的工作状态，还能按时间或事件启动。常驻的是服务和状态管理，模型可以按需调用。前身在 2025 年底，当前名称和能力又有后续变化，不能混成一个时点。这个组织方式为持续个人服务提供条件，但定时唤醒仍不等于正确处理所有事务。\n\n资料：\nOpenClaw 历史记录：https://docs.openclaw.ai/start/lore\n原始日期／版本条件：官方项目历史叙事；前身在 2025 年底，2026 年初更名；阅读：2026-10-25。\nOpenClaw Gateway 架构：https://docs.openclaw.ai/concepts/architecture\n原始日期／版本条件：动态文档，无统一固定版本号；不外推初版能力；阅读：2026-10-25。\nOpenClaw 运行时：https://docs.openclaw.ai/concepts/agent\n原始日期／版本条件：动态文档，无统一固定版本号；按本次读取状态理解；阅读：2026-10-25。\nOpenClaw Automations：https://docs.openclaw.ai/automation/cron-jobs\n原始日期／版本条件：动态文档；调度、持久化任务与结果投递；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 800,
+      "end": 850
+    },
+    {
+      "number": 18,
+      "title": "走向 Personal Agent：能做事，也能接着为我做事",
+      "part": 4,
+      "seconds": 50,
+      "notes": "建议讲述 50 秒。\n最后把两条线接起来。记忆有更早研究，Manus Projects 也已在 2025 年保存项目背景；到后续产品，个人资源、工作环境和持续入口进一步结合。我会分别问：能把什么工作做完，能在多大程度上持续为我工作。长任务、记忆、定时执行都不是单独的充分证明。带着这两个问题进入重点产品和场景。\n\n资料：\nManus Projects，2025-12-01：https://manus.im/blog/manus-projects\n原始日期／版本条件：2025-12-01；阅读：2026-10-25。\nProjects / Connectors，2025-12-19：https://manus.im/blog/projects-connectors\n原始日期／版本条件：2025-12-19；当时公告称向所有用户开放；阅读：2026-10-25。\nManus 2.0 / Cue，2026-09-28：https://manus.im/blog/introducing-manus-2-0\n原始日期／版本条件：2026-09-28；Cue 当时为需邀请码的 early access；阅读：2026-10-25。\nMemGPT，2023-10-12 首次提交：https://arxiv.org/abs/2310.08560\n原始日期／版本条件：2023-10-12；当前 v2 修订于 2024-02-12；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 850,
+      "end": 900
+    },
+    {
+      "number": 19,
+      "title": "第一批八个产品：先看定位",
+      "part": 5,
+      "seconds": 60,
+      "notes": "建议讲述 60 秒。\n先建立第一批八款的地图，这里不逐行念功能。接下来重点看 Muse、Dots、Claude Duet 和 WorkBuddy，每款先讲产品，再用一个完整委托说明。四款大致提供个人目标、持续职责、主动工作关注和办公成果四个观察入口，但能力可以交叉。这是我选择讲述的侧重，不是能力排名。其余四款与第二批对象用于补充不同组织路线，名单仍保持两批各八个。\n\n资料：\nMuse 公告，2026-09-08：https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/\nDots 官方文档：https://learn.chatgpt.com/docs/dots/tasks-and-memory\nCue / Manus 官方帮助：https://help.manus.im/zh-CN/articles/17190150-manus-2-0-有哪些新变化\nGemini Task 帮助：https://support.google.com/gemini/answer/17094507?hl=en\nGrok Bot 官方概览：https://docs.x.ai/grok-bot/overview\nOpenClaw 文档：https://docs.openclaw.ai/\nWorkBuddy 官方介绍：https://www.workbuddy.cn/docs/workbuddy/Overview\nDuet 当前帮助：https://support.claude.com/en/articles/17631495-get-started-with-claude-duet\n整理／读取日期：2026-10-25（重点四款）；其余样本沿用 2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 900,
+      "end": 960
+    },
+    {
+      "number": 20,
+      "title": "Muse｜把个人目标变成持续行动",
+      "part": 5,
+      "seconds": 150,
+      "product": "Muse",
+      "focus": "product",
+      "notes": "建议讲述 150 秒。\n我把 Muse 作为个人目标型产品来理解。先从使用入口看：通过应用或 WhatsApp 交谈，把背景和目标交给同一个代理。产品设计又提供 Goals、Activity 和 Artifacts，分别帮助查看目标、过程和成果。这让工作从一次回答扩展成可继续讨论和修订的事情。上述入口来自官方产品资料，不是本轮新增实测。\n我选择三类场景说明适用范围：生活里的行程与家庭安排；围绕个人时间和既有记录维护的计划；经营者围绕资料和应用做内容或业务分析。后者有单独的小企业技能与连接器公告，因此 Muse 不能只按生活聊天助手理解。\n这里看重的不是每件事都要交给它，而是资料分散、目标有多个步骤、后续可能变化时，系统能否减少我的整理和跟进。需要哪些应用、能够执行到哪一步，仍由实际连接与授权决定。发消息、发布和花费在公告中有批准要求。下一页用一个尚未执行的旅行委托，说明这种产品体验到底承接哪些步骤。\n\n资料：\nMuse 发布介绍：https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/\n原始日期／版本条件：2026-09-08；发布时的推出范围，不外推当前全部能力；阅读：2026-10-25。\nMuse 产品设计：https://introducing.muse.ai/\n原始日期／版本条件：2026 年 9 月；Mona Sarantakos 与 Christine Awad 的产品设计说明；阅读：2026-10-25。\nMuse 经营场景：https://about.fb.com/news/2026/09/introducing-muse-small-business/\n原始日期／版本条件：2026-09-29，更新 2026-10-08；公告写美国和加拿大，具体功能以账号为准；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 960,
+      "end": 1110
+    },
+    {
+      "number": 21,
+      "title": "Muse 场景｜两天行程，从方案到变化后的调整",
+      "part": 5,
+      "seconds": 150,
+      "product": "Muse",
+      "focus": "scenario",
+      "notes": "建议讲述 150 秒。\n这是我构造的场景，没有实际预订或产品运行结果。假设下月有两天可用时间，我提供预算、出行偏好、同行人和已经确定的安排。委托的结果是两套可比较方案，而不是让系统一次推荐几个景点。\n预期工作分为几步：先整理约束，找出缺的信息；比较交通与住宿，给出行程和费用；把需要我决定的地方单列。如果我中途改变出发时间，就让它说明哪些原安排受影响，在已有方案上继续修订。预订和付款暂不授权。\n这个案例的适用条件很具体：我确实愿意提供相关资料，授权的网站能访问，产品能交付可检查的方案。并不因为官方有旅行场景，就能保证每个网站都可用、每个价格都正确。验收时我会查看票价时点、退改条件、时间冲突和待定项有没有消失。它说明的是目标委托怎样延续，后面的现场 Muse 演示仍用短材料周报，只观察基本操作和修订。\n\n资料：\nMuse 发布介绍：https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/\n原始日期／版本条件：2026-09-08；发布时的推出范围，不外推当前全部能力；阅读：2026-10-25。\nMuse 产品设计：https://introducing.muse.ai/\n原始日期／版本条件：2026 年 9 月；Mona Sarantakos 与 Christine Awad 的产品设计说明；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 1110,
+      "end": 1260
+    },
+    {
+      "number": 22,
+      "title": "Dots｜把持续职责交给同一个代理",
+      "part": 5,
+      "seconds": 150,
+      "product": "Dots",
+      "focus": "product",
+      "notes": "建议讲述 150 秒。\n我理解 Dots 时，把一次任务和一份职责分开。一份比较表可以一次生成，但某个主题的资料维护，需要在新版本、新决定和新约束出现时继续处理。dot 可以承担多份职责，用户补充优先级时，主对话仍然延续。官方也说明它可以委派后台任务，让具体工作并行，而用户继续和主 dot 交谈。\n个人背景不意味着全部历史都自动可用。当前对话、相关 ChatGPT 记忆与 dot 自己的笔记各有作用，新任务又有自己的上下文。这里不展开实现，只看用户是否减少了重复解释，以及后续结论是否保留来源。\n我用研究资料维护、项目变化跟进、反馈转成修订三类职责观察它。Activity 用来查看任务过程与成果，Scheduled 用来确认周期工作。主动研究、已分配工作和按时运行也各有范围，不能把接入一个应用当作已经开始监控。这个定位来自官方文档，本轮没有 Dots 账号实测。下一页把它落到一份四周的研究职责。\n\n资料：\nDots 产品文档：https://learn.chatgpt.com/docs/dots\n原始日期／版本条件：动态文档；账号、地区与工作空间条件分别确认；阅读：2026-10-25。\nDots 任务与记忆：https://learn.chatgpt.com/docs/dots/tasks-and-memory\n原始日期／版本条件：动态文档；当前上下文、相关 ChatGPT 记忆与 dot 自身笔记分别理解；阅读：2026-10-25。\nDots 工作检查与控制：https://learn.chatgpt.com/docs/dots/controls\n原始日期／版本条件：动态文档；主任务、委派任务与周期排程分别停止；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 1260,
+      "end": 1410
+    },
+    {
+      "number": 23,
+      "title": "Dots 场景｜持续维护 Agent 框架比较笔记",
+      "part": 5,
+      "seconds": 150,
+      "product": "Dots",
+      "focus": "scenario",
+      "notes": "建议讲述 150 秒。\n这个四周研究职责是我的构造示例。先提供三个框架、关注的运行平台维度、旧表和来源清单。第一轮工作是建立有版本、日期和引用的基线，后续再核对新资料对旧结论的影响。每周给我变更表，有可能影响部署选择的内容则单独说明依据和待决问题，笔记修改先给草稿。\n我希望看到持续职责与具体任务的关系：生成一张比较表只是一次交付，跟踪和修订才是延续。周期工作要确认实际保存的时区、时间与结束条件，事件监控也要确认来源是否支持。\n还要检查执行位置。云端电脑可以做研究与文件工作；需要本机项目时，个人电脑应在线且 ChatGPT 打开。消息渠道、应用与电脑连接不自动互相授权。主任务、派生任务与排程也需要分别查看和结束。这个案例不证明它已经能可靠完成四周工作，我会在未来实际运行时保存变更、遗漏、修订和人工决定。\n\n资料：\nDots 任务与记忆：https://learn.chatgpt.com/docs/dots/tasks-and-memory\n原始日期／版本条件：动态文档；当前上下文、相关 ChatGPT 记忆与 dot 自身笔记分别理解；阅读：2026-10-25。\nDots 电脑与应用：https://learn.chatgpt.com/docs/dots/computers-and-apps\n原始日期／版本条件：动态文档；本机工作需要设备在线且 ChatGPT 应用打开；阅读：2026-10-25。\nDots 工作检查与控制：https://learn.chatgpt.com/docs/dots/controls\n原始日期／版本条件：动态文档；主任务、委派任务与周期排程分别停止；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 1410,
+      "end": 1560
+    },
+    {
+      "number": 24,
+      "title": "Claude Duet｜主动带回待办与待决事项",
+      "part": 5,
+      "seconds": 150,
+      "product": "Claude Duet",
+      "focus": "product",
+      "notes": "建议讲述 150 秒。\nDuet 更直接地从人的工作关注切入。它不仅接受我明确列出的任务，还尝试从授权的邮件、日历和其他应用中找出该准备、该回复或该决定的事情。晨间简报、任务状态、待输入项和成果入口构成了可见的产品体验。这里主动性的价值，需要看是否减少了我查找材料和回忆待办的负担，不能只看通知有多少。\n我用会前准备、未回复事项、经营账单三类场景解释。它也能完成明确的研究、表格或幻灯片委托，因此不是只能发简报。与 Cowork 的交集仍然存在：一个更突出主动发现与跟进，一个更容易从知识成果委托观察；后台与周期工作并不是二者的绝对分界。\n当前是美国 Pro / Max 候补邀请的研究预览，后台会消耗同一套餐用量，检查也有间隔。没有 Microsoft 365 连接，不能观看或接管其浏览器；读到的内容和可执行动作都要按具体连接看。我们不把发布愿景写成可随时接管全部工作的保证。下一页用一次项目评审准备说明它怎样把信息转成待办。\n\n资料：\nDuet 发布公告：https://claude.com/resources/articles/claude-duet\n原始日期／版本条件：2026-10-21；美国 Pro / Max 候补邀请研究预览；阅读：2026-10-25。\nDuet 当前功能与条件：https://support.claude.com/en/articles/17631495-get-started-with-claude-duet\n原始日期／版本条件：动态帮助；后台计入套餐用量、存在检查间隔、当前 Microsoft 365 尚未提供；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 1560,
+      "end": 1710
+    },
+    {
+      "number": 25,
+      "title": "Claude Duet 场景｜准备项目评审与待决清单",
+      "part": 5,
+      "seconds": 150,
+      "product": "Claude Duet",
+      "focus": "scenario",
+      "notes": "建议讲述 150 秒。\n这里是我构造的一周项目评审场景，不是 Duet 的运行记录。我明确提供评审文件，授权相应邮件和日历，要求整理会前材料、未回复问题与需要我决定的事项。它不能凭空读取所有项目或我电脑上的资料，也没有自动参加会议这个环节。\n我期望收到的是可以用于准备的材料：这次评审谈什么、哪份文档需要先读、哪些问题还没回复、我需要决定什么。回复先起草，安排先提出，不能擅自对外承诺。收到结果之后，我检查引用、遗漏和紧急程度，再决定是否发送或变更安排。\n场景的重点不是生成一张漂亮清单，而是信息筛选是否准确、有用，打扰是否合适。官方有类似会前资料与工作跟进示例，但当前检查存在间隔，不能当实时告警。关闭应用后云端工作可以继续，也不等于无需额度和权限。后续验证时，我会把漏掉了什么、错误升级了什么、草稿改了多少分别记下来，而不把通知出现视为任务完成。\n\n资料：\nDuet 发布公告：https://claude.com/resources/articles/claude-duet\n原始日期／版本条件：2026-10-21；美国 Pro / Max 候补邀请研究预览；阅读：2026-10-25。\nDuet 当前功能与条件：https://support.claude.com/en/articles/17631495-get-started-with-claude-duet\n原始日期／版本条件：动态帮助；后台计入套餐用量、存在检查间隔、当前 Microsoft 365 尚未提供；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 1710,
+      "end": 1860
+    },
+    {
+      "number": 26,
+      "title": "WorkBuddy｜把已有材料变成办公成果",
+      "part": 5,
+      "seconds": 150,
+      "product": "WorkBuddy",
+      "focus": "product",
+      "notes": "建议讲述 150 秒。\nWorkBuddy 从国内办公中已有的材料进入工作。它可以围绕文件和应用执行任务，官方还给出了 Excel 或 CSV 数据分析、图表和报告的工作方式，以及腾讯文档的搜索、引用与回写。这些说明便于理解资料怎样变成可继续使用的成果，不代表我本轮已经验证了每种文件格式和生成质量。\n我重点看文件整理、周期汇总、研究材料转文档和 PPT。个人记忆可以延续偏好；项目又有团队共享配置与协作范围，两者要分别看，不能把所有项目资料都写成个人记忆。\n国内入口是另一个实际条件。远程助理可以从微信、企业微信、QQ、钉钉或飞书触发电脑端工作，但需要主机开机、客户端运行。定时任务另有本地、项目和云端来源，云端标识任务无需本机在线。这里先讲用户需要理解的差异，不展开底层组件。它是否适合具体工作，仍要看资料可用性、处理位置和产物是否能验收。下一页用一组项目材料到一组办公成果来说明。\n\n资料：\nWorkBuddy 产品简介：https://www.workbuddy.cn/docs/workbuddy/Overview\n原始日期／版本条件：动态文档；个人、团队与企业范围分别看；阅读：2026-10-25。\nWorkBuddy 数据分析案例：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Three\n原始日期／版本条件：动态官方案例；支持的工作方式，不是作者执行结果；阅读：2026-10-25。\nWorkBuddy 腾讯文档接入：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Knowledge-Base/Tencent-Doc\n原始日期／版本条件：动态文档；授权后的搜索、引用、回写，版本菜单可能不同；阅读：2026-10-25。\nWorkBuddy 个人记忆：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Memory\n原始日期／版本条件：动态文档；个人记忆与项目共享配置分开；阅读：2026-10-25。\nWorkBuddy 项目：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Project\n原始日期／版本条件：动态文档；项目为团队共享配置与任务，不等于个人记忆；阅读：2026-10-25。\nWorkBuddy 远程助理：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Assistant\n原始日期／版本条件：动态文档；远程触发本机任务需要电脑开机且客户端运行；阅读：2026-10-25。\nWorkBuddy 定时任务：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide\n原始日期／版本条件：动态文档；本地、项目、云端来源分开，云端任务无需电脑在线；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 1860,
+      "end": 2010
+    },
+    {
+      "number": 27,
+      "title": "WorkBuddy 场景｜从项目材料到表格、图表和 PPT",
+      "part": 5,
+      "seconds": 150,
+      "product": "WorkBuddy",
+      "focus": "scenario",
+      "notes": "建议讲述 150 秒。\n这是一项我设计的组合委托，没有新增 WorkBuddy 执行结果。我准备指定的进度表、问题记录和会议纪要，说明本周范围、指标口径、输出位置和模板；要求交付汇总表、进度图及五页 PPT，并区分完成、进行中和待确认状态。\n期望的处理顺序是先对齐资料，再做统计与呈现：项目名称和日期不一致时先找问题，重复项先合并，缺数不要补猜。图表与 PPT 必须保留相同口径，关键结论要能回到来源。继续修订时，验收的是是否沿用这些事实和口径，而不只是修改措辞。\n这个案例展示的是文件到成果的产品入口。腾讯文档可以在授权后参与引用与更新，但本例先不覆盖原件，也不默认把目录全部传到某个云端。选定本机或云端执行前，我会核对材料位置和权限。未来真正运行时，再保存输入、产物、修订与人工核验，不能把官方文件处理能力自动等同于报告已经准确。\n\n资料：\nWorkBuddy 产品简介：https://www.workbuddy.cn/docs/workbuddy/Overview\n原始日期／版本条件：动态文档；个人、团队与企业范围分别看；阅读：2026-10-25。\nWorkBuddy 数据分析案例：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Three\n原始日期／版本条件：动态官方案例；支持的工作方式，不是作者执行结果；阅读：2026-10-25。\nWorkBuddy 腾讯文档接入：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Knowledge-Base/Tencent-Doc\n原始日期／版本条件：动态文档；授权后的搜索、引用、回写，版本菜单可能不同；阅读：2026-10-25。\nWorkBuddy 定时任务：https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide\n原始日期／版本条件：动态文档；本地、项目、云端来源分开，云端任务无需电脑在线；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 2010,
+      "end": 2160
+    },
+    {
+      "number": 28,
+      "title": "其余四款：补充不同的组织路线",
+      "part": 5,
+      "seconds": 90,
+      "notes": "建议讲述 90 秒。\n其余四款仍在第一批，简要补充不同路线。Cue 用角色团队组织工作，重点看交接是否减少协调；Gemini 这里具体指 Task 形态，从 Google 应用与已有背景进入任务；Grok Bot 用长期角色与可复用方法组织云端工作，个人与团队范围分开；OpenClaw 由运行者组合渠道、工具和状态，同时承担部署维护。这些是已有资料的观察入口，不能说只有该产品能做对应工作。此处没有新增四款的版本审计，详细材料继续留在各产品目录。\n\n资料：\nCue / Manus 官方帮助：https://help.manus.im/zh-CN/articles/17190150-manus-2-0-有哪些新变化\nGemini Task 帮助：https://support.google.com/gemini/answer/17094507?hl=en\nGrok Bot 官方概览：https://docs.x.ai/grok-bot/overview\nOpenClaw 文档：https://docs.openclaw.ai/\n整理／读取日期：2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 2160,
+      "end": 2250
+    },
+    {
+      "number": 29,
+      "title": "同一类工作，四个不同的委托入口",
+      "part": 5,
+      "seconds": 90,
+      "notes": "建议讲述 90 秒。\n回到同一类工作：准备项目评审材料。我可以从个人目标组织整体安排，可以让一份研究职责持续维护，可以从邮件日历发现要准备的事项，也可以先把明确文件加工成汇报成果。四款产品都可能覆盖更多场景，这里的区别是我选择的委托入口。\n它们是否真的减少工作负担，要用实际资料和相同验收标准继续检查。Muse 观察计划与修订，Dots 观察新旧结论的延续，Duet 观察简报和待决信息是否有用，WorkBuddy 观察数字、来源和文件是否便于继续处理。这不是已经完成的四款对照实验，也不构成产品排名。这样比较比只记住一张功能表更接近我的日常工作。\n\n资料：\nMuse 发布介绍：https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/\n原始日期／版本条件：2026-09-08；发布时的推出范围，不外推当前全部能力；阅读：2026-10-25。\nDots 产品文档：https://learn.chatgpt.com/docs/dots\n原始日期／版本条件：动态文档；账号、地区与工作空间条件分别确认；阅读：2026-10-25。\nDuet 发布公告：https://claude.com/resources/articles/claude-duet\n原始日期／版本条件：2026-10-21；美国 Pro / Max 候补邀请研究预览；阅读：2026-10-25。\nWorkBuddy 产品简介：https://www.workbuddy.cn/docs/workbuddy/Overview\n原始日期／版本条件：动态文档；个人、团队与企业范围分别看；阅读：2026-10-25。\n整理／读取日期：2026-10-25。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 2250,
+      "end": 2340
+    },
+    {
+      "number": 30,
+      "title": "第二批八个对象：各补充一个观察点",
+      "part": 5,
+      "seconds": 60,
+      "notes": "建议讲述 60 秒。\n第二批只记一个观察点：Hermes 的自建记忆与技能，Autopilot 的组织内个人工作，Poke 的消息入口，Lindy 的个人团队边界，Kimi Claw 的 OpenClaw 产品化，Personal Computer 的个人电脑执行，Harness 的底座与助手交集，以及 Cowork 的知识交付。Personal Computer 仅作为参考。Harness 是边界样本，不能把十六个研究对象都说成已证实持续个人代理。Autopilot 和 Duet 的预览状态不等于归类不成立，能力与开放条件需分别记录。\n\n资料：\nHermes 官方介绍：https://hermes-agent.nousresearch.com/\nAutopilot 官方产品说明：https://www.microsoft.com/en-ca/copilot/\nPoke 产品页：https://poke.com/\nLindy 记忆作用域：https://docs.lindy.ai/teammate/memory\nKimi Claw 帮助：https://www.kimi.com/help/kimi-claw/overview\nPersonal Computer 产品页：https://www.perplexity.ai/personal-computer\nHarness 记忆接入：https://deepseek-harness.github.io/deepseek-harness/en/guide/mcp-memory\nCowork 多端与云端：https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile\n整理／读取日期：2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 2340,
+      "end": 2400
+    },
+    {
+      "number": 31,
+      "title": "Muse 演示：三份材料，整理一页周报",
+      "part": 6,
+      "seconds": 60,
+      "notes": "建议讲述 60 秒。\n我准备一个小任务观察基本使用过程。三份输入是学习背景、本周记录和后续计划，全部标明模拟，不是真实经历。材料明确区分草稿、待核验与未执行实验，并含一次计划变更。目标是生成六百字以内的中文 Markdown 周报，三部分并注明来源，不能把计划写成结果。只使用输入材料，不连接真实邮箱、不联网、不发给别人。人工预期样例仅用于检查，不能当作 Muse 输出，也不作为输入。\n\n资料：\n作者归纳或已准备的模拟演示材料。\n整理／读取日期：2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 2400,
+      "end": 2460
+    },
+    {
+      "number": 32,
+      "title": "演示：委托、观察、修订、验收",
+      "part": 6,
+      "seconds": 240,
+      "notes": "建议讲述 240 秒。\n进入 Muse 新对话，使用实际账号支持的文件入口上传三份短文；没有该入口时按文件名分段粘贴。首次委托与修订文字保存在材料包 instructions.txt。先要求只依据材料整理三部分周报、附文件来源、不编日期、不把实验写成完成，并请求 Markdown 文件，不能生成附件就输出正文。初稿后要求把下周计划缩为三项，按依赖排序，保持实验尚未执行，其他部分不改。检查事实与来源，打开或保存结果。若等待较长，按真实状态解释卡点，展示材料与人工预期结构，明确不是实际输出。本节不能据一次任务证明长期记忆、离线执行或产品总体成功率。\n\n资料：\n作者归纳或已准备的模拟演示材料。\n整理／读取日期：2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 2460,
+      "end": 2700
+    },
+    {
+      "number": 33,
+      "title": "这轮学习形成的三个基本认识",
+      "part": 7,
+      "seconds": 120,
+      "notes": "建议讲述 120 秒。\n第一，先有 Agent 执行循环，再看个人服务关系与个人上下文，不能只看名字和部署。第二，事务、成果和持续跟踪都可以作为委托，但范围、结果、条件和待决动作要说清；记忆、周期执行与持续目标分别观察。第三，不同产品从不同入口出发，比较先选工作场景，再看资料、质量、人工参与和投入。这是本次阅读与比较的认识，不是产品排名。后续用实际记录修正。\n\n资料：\n作者归纳或已准备的模拟演示材料。\n整理／读取日期：2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 2700,
+      "end": 2820
+    },
+    {
+      "number": 34,
+      "title": "交流：最想委托哪一项工作？",
+      "part": 7,
+      "seconds": 180,
+      "notes": "建议讲述 180 秒。\n留三分钟交流，围绕具体工作选择下一步实践。最想交出去的一项重复劳动是什么？怎样的成果可以接受，哪些决定希望自己作出？哪一个产品或场景值得下一次用同一份材料实际验证？我会先把选定场景做成可复核记录，保存输入、结果、修订与条件，再研究个人上下文、工作延续与用户控制的实现。这次不提前铺开底层技术细节。\n\n资料：\n作者归纳或已准备的模拟演示材料。\n整理／读取日期：2026-10-24。原始日期按来源标注；动态帮助页不以读取日期代替发布日期。公开能力与实际验证分开，预览、套餐、地区、设备及授权条件分别保留。",
+      "start": 2820,
+      "end": 3000
+    }
+  ]
+}

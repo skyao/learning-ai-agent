@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-25",
+  "presentations": [
+    {
+      "name": "00-personal-agent-introduction",
+      "slides": 34,
+      "notesPages": 34,
+      "pdfPages": 34,
+      "totalSeconds": 3000,
+      "missingRenderedText": [],
+      "renderedWith": "LibreOffice Impress",
+      "nativeEditableTextAndShapes": true,
+      "windowsPowerPointTested": false
+    },
+    {
+      "name": "02-what-personal-agents-can-do",
+      "slides": 4,
+      "notesPages": 4,
+      "pdfPages": 4,
+      "totalSeconds": 240,
+      "missingRenderedText": [],
+      "renderedWith": "LibreOffice Impress",
+      "nativeEditableTextAndShapes": true,
+      "windowsPowerPointTested": false
+    },
+    {
+      "name": "03-product-openclaw-harness",
+      "slides": 3,
+      "notesPages": 3,
+      "pdfPages": 3,
+      "totalSeconds": 120,
+      "missingRenderedText": [],
+      "renderedWith": "LibreOffice Impress",
+      "nativeEditableTextAndShapes": true,
+      "windowsPowerPointTested": false
+    },
+    {
+      "name": "04-evolution",
+      "slides": 6,
+      "notesPages": 6,
+      "pdfPages": 6,
+      "totalSeconds": 300,
+      "missingRenderedText": [],
+      "renderedWith": "LibreOffice Impress",
+      "nativeEditableTextAndShapes": true,
+      "windowsPowerPointTested": false
+    },
+    {
+      "name": "05-products-and-scenarios",
+      "slides": 12,
+      "notesPages": 12,
+      "pdfPages": 12,
+      "totalSeconds": 1500,
+      "missingRenderedText": [],
+      "renderedWith": "LibreOffice Impress",
+      "nativeEditableTextAndShapes": true,
+      "windowsPowerPointTested": false
+    },
+    {
+      "name": "06-muse-demo",
+      "slides": 2,
+      "notesPages": 2,
+      "pdfPages": 2,
+      "totalSeconds": 300,
+      "missingRenderedText": [],
+      "renderedWith": "LibreOffice Impress",
+      "nativeEditableTextAndShapes": true,
+      "windowsPowerPointTested": false
+    },
+    {
+      "name": "07-takeaways",
+      "slides": 2,
+      "notesPages": 2,
+      "pdfPages": 2,
+      "totalSeconds": 300,
+      "missingRenderedText": [],
+      "renderedWith": "LibreOffice Impress",
+      "nativeEditableTextAndShapes": true,
+      "windowsPowerPointTested": false
+    }
+  ]
+}

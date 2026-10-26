@@ -2,6 +2,7 @@
 title: "Claude Cowork：我如何理解知识工作 Agent"
 weight: 10
 date: "2026-10-21"
+lastmod: "2026-10-23T00:00:00+08:00"
 description: "Claude Cowork：我如何理解知识工作 Agent"
 materialType: "官方资料阅读与个人分析"
 ---
@@ -28,3 +29,11 @@ materialType: "官方资料阅读与个人分析"
 一个统一入口可以承载聊天、研究和执行，但平台内部仍要保留清晰的任务状态。当系统从回答问题转为修改文件时，用户需要知道将产生什么副作用、如何停止、如何检查结果。我希望后续沿着同一条对话观察这次转换，而不是只比较入口数量。
 
 原始资料：[Cowork 入门](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)；[统一体验发布文章](https://claude.com/resources/articles/cowork-is-now-claude)。动态帮助按 2026-10-21 读取内容记录，未进行账号实测。
+
+## 2026-10-23 补记：与 Duet 分别研究
+
+Claude Duet 的官方发布日期为 10 月 21 日，我在 10 月 23 日补读。它把主动发现事务、持续跟进与用户决策交回放在独立应用中；我继续保留 Cowork 作为知识工作执行路线，另建 [Duet 目录](../../../claude-duet/)。这不是 Cowork 更名，也不意味着 Cowork 没有后台或周期任务。
+
+对我做平台，最值得对照的是共享账号基础上怎样组织不同委托：上下文能复用，项目和文件访问仍需限定；用户主动发起的文档任务，与系统判断需要关注的新事务，也需要保留各自触发来源。具体比较见 [Duet 与 Cowork](../../../claude-duet/product/positioning-and-cowork/)。
+
+新增来源：[Duet 官方发布](https://claude.com/resources/articles/claude-duet)、[Duet 入门](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet)。原有 Cowork 功能未在本轮全面重新核验。

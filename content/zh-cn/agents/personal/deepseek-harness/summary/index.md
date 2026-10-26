@@ -11,7 +11,7 @@ materialType: "调研总结"
 
 读完这一轮资料，我保留此前的分类：DeepSeek Harness 可以纳入 Personal Agent，具体属于可配置的个人工作代理。它既有桌面 / Web 使用形态，也提供可组合运行时；是否具备完整的长期个人服务能力，还要看实际配置与验证。
 
-与第一批的 Cowork、Personal Computer 比较，它能让我研究个人任务怎样落到工作区和产物；与 OpenClaw、Hermes 比较，它又提供了另一种插件组合和状态建模样本。这个双重视角是我将它纳入清单的主要原因。
+与第一批的 WorkBuddy，以及第二批的 Cowork、Personal Computer 比较，它能让我研究个人任务怎样落到工作区和产物；与 OpenClaw、Hermes 比较，它又提供了另一种插件组合和状态建模样本。这个双重视角是我将它纳入清单的主要原因。
 
 ## 我最想带回平台开发的三个问题
 

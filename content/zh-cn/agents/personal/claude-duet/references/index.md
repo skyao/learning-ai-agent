@@ -1,0 +1,37 @@
+---
+title: "Claude Duet 资料索引"
+linkTitle: "资料索引"
+weight: 70
+date: "2026-10-23T00:00:00+08:00"
+description: "保留中英文资料、原始日期、证据范围与待核实问题"
+materialType: "资料索引"
+---
+
+本轮检索与阅读截至 **2026-10-23**。以下资料区分官方发布、动态帮助、合作方公告、历史技术背景与媒体转述。没有账号实测；没有绝对更新日期的页面只记录读取日期，不把阅读日当成发布日期。
+
+## 原始资料与本地笔记
+
+| 日期 / 状态 | 原始资料 | 性质与本地笔记 |
+| --- | --- | --- |
+| 2026-10-21；读取 2026-10-23 | [Introducing Claude Duet](https://claude.com/resources/articles/claude-duet) | 官方发布；产品能力、预览条件与计划分别记录；[本地笔记](../product/access-and-timeline/) |
+| 动态产品页；读取 2026-10-23 | [Claude Duet 产品页](https://claude.com/product/claude-duet) | 官方定位、FAQ 与演示；演示不是本人实测；[本地笔记](../product/positioning-and-cowork/) |
+| 动态英文帮助；读取 2026-10-23 | [Get started with Claude Duet](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet) | 官方准入、状态、范围与限制；[本地笔记](../product/access-and-timeline/) |
+| 动态简体中文帮助；读取 2026-10-23 | [开始使用 Claude Duet](https://support.claude.com/zh-CN/articles/17631495-开始使用-claude-duet) | 与英文同文档交叉阅读，不计独立证据；[本地笔记](../practice/source-observations/) |
+| 2026-10-21 Duet 条目；读取 2026-10-23 | [Claude 发布说明](https://support.claude.com/en/articles/12138966-release-notes) | 官方日期与产品演进时间线；[本地笔记](../product/access-and-timeline/) |
+| 动态账号记忆帮助；读取 2026-10-23 | [Chat search and memory](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) | 明确 Duet 使用和新增记忆；各入口范围需分别判断；[本地笔记](../architecture/memory-and-channels/) |
+| 2026-09-16 统一体验；读取 2026-10-23 | [Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude) | Cowork 路线背景，不能视为 Duet 更名；[本地笔记](../product/positioning-and-cowork/) |
+| 动态帮助；读取 2026-10-23 | [Use connectors to extend Claude capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) | 通用连接器权限背景；Duet 限制以自身帮助为准；[本地笔记](../integrations/connectors-skills-and-browser/) |
+| 动态支付帮助；读取 2026-10-23 | [How to use Link by Stripe with Claude Duet](https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet) | 官方购买批准、一次性卡与失败边界；[本地笔记](../integrations/wallets-and-business-services/) |
+| 动态支付帮助；读取 2026-10-23 | [How to use Shop Pay with Claude Duet](https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet) | 官方钱包接入与购买授权；[本地笔记](../integrations/wallets-and-business-services/) |
+| 2026-10-21；读取 2026-10-23 | [Stripe 与 Anthropic 的 Duet 合作公告](https://stripe.com/newsroom/news/anthropic-and-stripe) | 合作方一手资料，区分 Stripe MCP 与 Link 钱包；[本地笔记](../integrations/wallets-and-business-services/) |
+| 动态帮助；读取 2026-10-23 | [How do usage and length limits work](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work) | 账号用量与上下文长度限制的区别；[本地笔记](../models/model-and-usage/) |
+| 页面标注 2026-09-22；读取 2026-10-23 | [What is a limit reset](https://support.claude.com/en/articles/17007452-what-is-a-limit-reset) | 通用重置规则，不替代 Duet 特定权益与期限；[本地笔记](../models/model-and-usage/) |
+| 2026-04-08；读取 2026-10-23 | [Scaling Managed Agents](https://www.anthropic.com/research/managed-agents) | 官方工程背景；与 Duet 相关的凭证设计由发布文关联；[本地笔记](../architecture/cloud-runtime/) |
+| 2026-03-25；读取 2026-10-23 | [How we built Claude Code auto mode](https://www.anthropic.com/research/claude-code-auto-mode) | 历史分类器技术背景，不能外推 Duet 全部配置；[本地笔记](../security/approvals-credentials-and-sensitive-data/) |
+| 2025-11-24；读取 2026-10-23 | [Mitigating prompt injections in browser use](https://www.anthropic.com/research/prompt-injection-defenses) | 历史浏览器研究；不是 Duet 的实测成绩；[本地笔记](../security/approvals-credentials-and-sensitive-data/) |
+| 2026-04-09；读取 2026-10-23 | [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents) | 官方 Agent 控制原则背景；[本地笔记](../security/approvals-credentials-and-sensitive-data/) |
+| 2026-10-21 13:52 PDT；读取 2026-10-23 | [MacRumors：Anthropic Launches Claude Duet](https://www.macrumors.com/2026/10/21/anthropic-claude-duet/) | Juli Clover 发布报道，主要转述官方信息，不是独立可靠性评测；[本地笔记](../practice/source-observations/) |
+
+本轮保留官方原始资料、中英文对照、合作方一手说明与英文发布报道。中文帮助与英文原文不是独立验证；历史工程文章不等于 Duet 当前部署图。没有申请候补、连接账号或执行购买。
+
+本轮没有安装产品、连接个人服务或执行安全测试。实际效果仍需 [实践验证](../practice/validation-plan/)，阶段性认识见 [调研总结](../summary/)。
