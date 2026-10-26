@@ -13,6 +13,7 @@ description: >
 2. [内核级 Sentinel](meta-muse-agent-lives-behind/)：已有第三方架构材料。
 3. [电话任务与人工接管](human-concierge/)：执行链中人工服务的披露与授权问题。
 4. [GhostShares 分享边界](ghostshares/)：发布后的分享链接研究与后续处置。
+5. [内容政策冲突](content-policy/)：公开用户规则与系统提示不一致的媒体实测。
 
 设计目标、第三方披露和当前产品行为分别核验，不能用其中一种代替其他证据。
 

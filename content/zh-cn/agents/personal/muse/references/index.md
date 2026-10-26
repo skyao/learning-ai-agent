@@ -12,7 +12,7 @@ aliases:
 
 Muse 是我深入调研的第一个 Personal Agent 案例。本页保留阅读线索、来源和未解决的问题，便于后续回看、补充和比较。
 
-**本轮资料检索截至 2026-10-21。** 资料按学习主题归类，来源、语言和时间保留在文章信息中；本页集中提供来源索引与按时间阅读的入口。
+**本轮资料检索截至 2026-10-21；持续跟踪补充至 2026-10-26。** 资料按学习主题归类，来源、语言和时间保留在文章信息中；本页集中提供来源索引与按时间阅读的入口。
 
 ## 1. 按主题查找资料
 
@@ -71,6 +71,12 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 10-18；10-20 更新 | [GhostShares](https://blog.claroc.io/ghostshares-muse-passive-dns/) | 英文 / 研究团队披露 | [分享边界](../security/ghostshares/) |
 | 10-21 | [分享功能暂停中文报道](https://www.digitaltoday.co.kr/cn/view/117284/meta-suspends-muse-chat-sharing-amid-privacy-exposure-concerns) | 中文 / DigitalToday | [分享边界](../security/ghostshares/) |
 | 10-20 | [Axios 使用评测](https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test) | 英文 / 第三方使用 | [评测阅读](../practice/muse-dots-review/) |
+| 10-04；10-08 更新 | [53AI 国内注册实测](https://llm.putaojie.top/news/LargeLanguageModel/2026100421084.html) | 中文 / 社区原创实测 | [中文注册实测](../practice/chinese-registration/) |
+| 10-12 | WIRED 成人对话实测（Reece Rogers；原文确切链接待补，转述见 aiweekly） | 英文 / 媒体一手实测 | [内容政策冲突](../security/content-policy/) |
+| 10-21 | Meta Q3 2026 财报电话会（经 AP / TechCrunch 报道） | 英文 / 官方口径 | [财报与用户数据](../product/earnings-and-scale/) |
+| 10-20 | Sensor Tower 估计（经 TechCrunch 报道） | 英文 / 第三方估计 | [财报与用户数据](../product/earnings-and-scale/) |
+| 10-22 | Yahoo Finance 理财评测（Kendall Little；经转载阅读） | 英文 / 媒体评测 | [理财功能评测](../practice/money-review/) |
+| 10-23 | Meta 日本 Newsroom 日本上线公告（经 DigitalToday 等交叉核实） | 日文与英文 / 官方公告 | [日本上线](../product/japan-launch/) |
 
 中文报道与其引用的英文原文可能来自同一来源，不视为独立验证。金融平台的具体政策尚待原始声明复核。
 
@@ -85,6 +91,11 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | Wonder 公告 | 强调记忆与持续推进 | 当日 API / Code 开放与 Muse 后续接入分开记 |
 | Spark Open 公告 | 增加开放权重模型的学习入口 | 不推定完整 Muse 服务已开源 |
 | GhostShares 更新 | 补充分享功能的实际边界与处置 | 区分暂停前行为、研究复查和将来版本 |
+| 日本上线（10-23） | 可用地区从美加扩展到日本，本地服务分已接通与推进中两类 | 公告与负责人表态不等于本地功能已全量可用 |
+| 财报会数据（10-21） | 首次出现官方设置量（超 1,000 万）与日用比例（约 25%）口径 | 设置量不是日活，长期收入目标是预期而非现状 |
+| WIRED 实测（10-12） | 公开用户规则与系统提示在成人内容上直接冲突 | 媒体单一样本实测，未独立复现 |
+| 53AI 实测（10-04） | 出现第一篇中文原创注册实测与邀请机制样本 | 绕过地区限制的注册不等于官方开放 |
+| Yahoo Finance 评测（10-22） | 补齐理财功能清单与独立机构的谨慎态度 | 经转载阅读，细粒度授权问题待核对 |
 
 ## 5. 待实测问题 {#待实测问题}
 

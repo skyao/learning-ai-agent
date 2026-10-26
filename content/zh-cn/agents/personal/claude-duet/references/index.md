@@ -7,7 +7,7 @@ description: "保留中英文资料、原始日期、证据范围与待核实问
 materialType: "资料索引"
 ---
 
-本轮检索与阅读截至 **2026-10-23**。以下资料区分官方发布、动态帮助、合作方公告、历史技术背景与媒体转述。没有账号实测；没有绝对更新日期的页面只记录读取日期，不把阅读日当成发布日期。
+本轮检索与阅读截至 **2026-10-23**；持续跟踪补充至 **2026-10-26**，新增条目列在表末。以下资料区分官方发布、动态帮助、合作方公告、历史技术背景与媒体转述。没有账号实测；没有绝对更新日期的页面只记录读取日期，不把阅读日当成发布日期。
 
 ## 原始资料与本地笔记
 
@@ -31,6 +31,10 @@ materialType: "资料索引"
 | 2025-11-24；读取 2026-10-23 | [Mitigating prompt injections in browser use](https://www.anthropic.com/research/prompt-injection-defenses) | 历史浏览器研究；不是 Duet 的实测成绩；[本地笔记](../security/approvals-credentials-and-sensitive-data/) |
 | 2026-04-09；读取 2026-10-23 | [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents) | 官方 Agent 控制原则背景；[本地笔记](../security/approvals-credentials-and-sensitive-data/) |
 | 2026-10-21 13:52 PDT；读取 2026-10-23 | [MacRumors：Anthropic Launches Claude Duet](https://www.macrumors.com/2026/10/21/anthropic-claude-duet/) | Juli Clover 发布报道，主要转述官方信息，不是独立可靠性评测；[本地笔记](../practice/source-observations/) |
+| 2026-10-21；核实 2026-10-25 | CNBC 发布报道（Ashley Capoot） | 主流媒体发布报道，原文已核实可读，内容仍以官方口径为主；[本地笔记](../practice/tracking-observations/) |
+| 2026-10-22 / 10-23；读取 2026-10-25 | Riley Brown 与 Brock Mesarich 使用 walkthrough（经 kingy.ai 编译页转述） | 二手转述的使用演示，无独立复现，不作新的能力证据；[本地笔记](../practice/tracking-observations/) |
+| 2026-10-24 前后；读取 2026-10-25 | Runtime Wire 转述产品负责人 X 帖：Mac App 在开发中 | 二级线索，非官方公告，待官方页面确认；[本地笔记](../practice/tracking-observations/) |
+| 动态帮助；复查 2026-10-24 至 10-26 | [Get started with Claude Duet](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet) | 更新时间仍为 2026-10-23，开放范围与额度重置期限未变；[本地笔记](../practice/tracking-observations/) |
 
 本轮保留官方原始资料、中英文对照、合作方一手说明与英文发布报道。中文帮助与英文原文不是独立验证；历史工程文章不等于 Duet 当前部署图。没有申请候补、连接账号或执行购买。
 

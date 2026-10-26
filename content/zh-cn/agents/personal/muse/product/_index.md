@@ -19,5 +19,7 @@ aliases:
 | 4 | [从 ChatGPT 到 Muse](from-chatgpt-to-muse/) | 中文文章对个人智能体形态的讨论 |
 | 5 | [Connect 2026 更新](connect-2026/) | 新交互入口、身份和生态扩展 |
 | 6 | [小企业场景](small-business/) | 从个人助手延伸到经营任务 |
+| 7 | [日本上线](japan-launch/) | 北美以外的第一站与本地服务接通顺序 |
+| 8 | [财报与用户数据](earnings-and-scale/) | 设置量、日用比例与第三方留存估计如何分开读 |
 
 模型实现见 [模型与评估](../models/)，具体服务和设备接入见 [工具与生态](../integrations/)。综合文章保留完整，跨主题内容通过链接互相参照。

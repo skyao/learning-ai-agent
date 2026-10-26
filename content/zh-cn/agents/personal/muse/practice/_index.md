@@ -17,6 +17,8 @@ description: >
 
 - [外部服务访问边界](service-boundaries/)：购物网站与金融平台的访问限制报道。
 - [Muse 与 Dots 实测阅读](muse-dots-review/)：第三方使用评测入口和任务验收方法。
+- [理财功能评测](money-review/)：Yahoo Finance 梳理的管钱能力清单与信任门槛。
+- [中文注册实测](chinese-registration/)：53AI 记录的国内注册全流程与邀请机制样本。
 
 ## 后续实践
 
