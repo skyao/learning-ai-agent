@@ -68,3 +68,17 @@ materialType: "资料索引"
 我会继续查看官方 Dots 文档、帮助中心和 [ChatGPT & Codex changelog](https://learn.chatgpt.com/docs/changelog)，社区报告用于发现具体问题，再回到相应版本核查。检索没有发现某项公告，不代表该功能没有变化。
 
 后续学习继续沿两条线索展开：持续职责如何拆成可执行的任务，以及权限和状态如何跨这些任务保持一致。更完整的跨产品结论留待后续资料与实践补充。
+
+## 6. 2026-10-26 跟踪基线补充
+
+建跟踪资料库（`~/work/data/agents/openai-dots/`）时补充的来源，整理见 [外部观察补充小节](../practice/external-observations/)。Axios 全文（注册墙后）与 WIRED 成人对话测试原文仍待核实，不列为已确认事实。
+
+| 原始日期 | 原始资料 | 语言与类型 | 本地笔记 |
+| --- | --- | --- | --- |
+| 2026-10-02 | [OpenAI Dots Review: How It Works and Our First Day](https://www.theslidefactory.com/post/openai-dots-review)，The Slide Factory | 英文，独立实测 | [外部观察补充](../practice/external-observations/) |
+| 2026-10-09 | Dots 更新：移动端创建、Codex 跟进、Work 自动化（@ChatGPT X 与 Learn 更新说明；社区 10-13 转贴） | 英文，官方更新经二手转述 | [开放状态与近期更新](../product/access-and-updates/)（已有 10-13 线索，本轮补官方更新口径） |
+| 2026-10-19 | [Dots: A Double-Edged Sword in the Workplace](https://www.cyera.com/research/dots-a-double-edged-sword-in-the-workplace)，Cyera | 英文，安全实测 | [外部观察补充](../practice/external-observations/) |
+| 2026-10-20 | [I tested Dots and Muse](https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test)，Axios，Ina Fried（部分读取） | 英文，主流媒体评测 | [外部观察补充](../practice/external-observations/) |
+| 2026-10-22 | Business Insider 三方实测（Muse / Dots / Instinct），Katie Notopoulos（经 DNYUZ 转载页） | 英文，主流媒体实测 | [外部观察补充](../practice/external-observations/) |
+| 2026-10-22 | 1Password for Agents 发布（Dots 列为 coming soon） | 英文，生态发布经多家交叉 | [外部观察补充](../practice/external-observations/) |
+| 2026-09-28 | GPT-6.1 Astra 暂缓报道（多家；与 Dots 所用 GPT-6 Astra 区分） | 英文，媒体口径 | [外部观察补充](../practice/external-observations/) |
