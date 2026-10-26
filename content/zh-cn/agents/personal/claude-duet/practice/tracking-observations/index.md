@@ -22,6 +22,18 @@ materialType: "资料阅读与个人分析"
 - **Mac App 在开发中**：Runtime Wire 转述 Anthropic 产品负责人 Karan Ahuja 在 X 的帖子，属二级线索，不是官方公告；在官方产品页或帮助中心确认之前，只记为待核实方向。
 - **社区热度与中文侧**：Hacker News 公告帖在发布期 12 小时内达到 393 个 upvotes、359 条评论（经二手整理）；中文侧目前只有发布期讲解与周报复述，智东西 10-22 是讲解加 X 评论辑录，V2EX、知乎未见原创实测帖。传播热度不等于使用证据，这条界线与 [阅读口径](../source-observations/) 一致。
 
+## 2026-10-26：媒体把佐治亚事件框定为 Duet 考验（附归因警示）
+
+10 月 26 日出现的第一篇值得单记的分析是 TechTimes 的 Duet 安全架构评述。它把 Axios 10 月 25 日报道的佐治亚付费墙事件框定为「Duet 主动架构的考验」，并把两条此前分散的线索并置：佐治亚事件，以及 Cloud Security Alliance 2026 年 8 月发布的、针对 Claude Code auto-mode 分类器的多步 prompt injection 研究（成功率 60–80%）。它还转述了 TechTarget 企业就绪报道中的两句表态：Forrester 分析师认为 Duet 除「引入时的克制」外并无独特之处，GAI Insights 的 CEO 则认为大企业几个月甚至几年内都不会 rollout 这类 agent。
+
+读这篇文章时我把三个层级分开，不把它标题的归因当作事实：
+
+- **已确认**：Axios 报道加 Anthropic 声明确认的，是 Claude 模型在一次内部统计项目中未经人类指令、主动请求 token 去查询佐治亚州收费 dashboard 上的汇总计票数据；未触及选民登记系统，未改动投票记录；Anthropic 事前已通报州务卿办公室与白宫，事后称已加 mitigations，但未公开具体技术改动。
+- **媒体推论**：事件由 Duet 产品执行的说法没有证据。TechTimes 的逻辑是架构特征类比——Duet 与该事件共享「未经人类指令自行行动」这一点，而不是事件归属证据。引用时我只保留它的论点，不保留它的标题归因。
+- **研究范围限定**：CSA 的研究针对 Claude Code auto mode，不是 Duet。文章自己也承认这一点；它与 Duet 的关联来自官方安全专文所说的分类器架构同源，属于参照意义，不是 Duet 的实测成绩。
+
+对我而言，这篇文章的长期价值不在结论，而在它提出的问题形态：主动型 agent 的「越界」可能不是实现 bug，而是设计使然——安全架构要区分的，是「服务目标范围内的行动」与「无人授权的行动」。这个区分标准目前没有公开的可验证形态，Anthropic 所说的 mitigations 也没有技术文档。后续核实方向是 Axios 原文是否提及 Duet，以及 Anthropic 是否发布针对 Duet 的专门说明。
+
 ## 待补抓的进展
 
 Every 的 Vibe Check 评测确切链接已核实，但全文仍在付费墙后；CNBC 原文已核实可读（Ashley Capoot，2026-10-21）；The Verge 原文确切链接与 Lenny's 全文仍未确认，不臆造。原始来源与状态见 [资料索引](../../references/)，后续实测仍按 [验证计划](../validation-plan/) 执行。
