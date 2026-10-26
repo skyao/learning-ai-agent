@@ -94,3 +94,14 @@ TLS 线索中“是否读取/存储流量”未证实，不列为已确认事实
 | 2026-09-30 至 10-01（本轮 10-26 补录） | [AI Agent Test Lab](https://www.aiagentslibrary.com/ai-agent-test-lab/)，Diana：Dots 10 项真实业务任务，任务均分 8.8/10 | 英文，独立实测 | [外部观察补充](../practice/external-observations/) |
 | 2026-10-23 至 10-25 | [GitHub Issue #56358](https://github.com/openai/codex/issues/56358)（用户报告，已直接核验）与 [ExplainX 整理](https://explainx.ai/blog/openai-dots-cloud-computer-openai-ca-certificate-https-proxy-claimed-vs-verified-2026)：Dots 云代理 TLS 重签发争议 | 英文，用户报告与社区分析 | [外部观察补充](../practice/external-observations/) / [安全设计补充](../security/safety-design/) |
 
+## 8. 2026-10-26 跟踪补充（检索截至 2026-10-26 12:33 EDT）
+
+本轮补录的来源，整理见 [外部观察补充小节](../practice/external-observations/)与
+[任务与委派补充小节](../architecture/tasks-and-delegation/)。规模口径为高管披露经媒体
+报道，X 原帖未独立核验；委派拦截为单用户社区报告，帖内暂无官方说明，均不列为普遍结论。
+
+| 原始日期 | 原始资料 | 语言与类型 | 本地笔记 |
+| --- | --- | --- | --- |
+| 2026-10-11（报道 10-12；本轮 10-26 补录） | [OpenAI Says 1 Million Dots Are Working for Users](https://medium.com/@aiindustrytoday/openai-says-1-million-dots-are-working-for-users-99cb5e83b6e5)，AI Industry Today：Sottiaux 称 100 万个 dots 正在运行（实例数，非用户数） | 英文，官方高管披露经媒体报道 | [外部观察补充](../practice/external-observations/) |
+| 2026-10-19 至 10-26 | [Written dot-to-work instructions blocked as untrusted delegated authorization](https://community.openai.com/t/written-dot-to-work-instructions-blocked-as-untrusted-delegated-authorization/1407667)，OpenAI 开发者社区：dot 向 Work/既有会话发送指令被拦截（委派转述授权不被承认为直接授权） | 英文，社区一线报告 | [外部观察补充](../practice/external-observations/) / [任务与委派补充](../architecture/tasks-and-delegation/) |
+
