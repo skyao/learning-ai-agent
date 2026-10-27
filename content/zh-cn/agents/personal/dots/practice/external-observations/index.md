@@ -223,3 +223,29 @@ Dots 的具体表现分两面。强的一面：售罄咖啡处理 A-（后台暂
 我把它与此前两条边界对照着记，不合并：写回缺失（B9）是“缺写入口”，委派拦截（B7）是“转述授权不被承认”，这一条是“发现层不对称”——dot 连已有任务的完整清单都看不到。跟帖者提出的“存在 / 许可 / 发现”三分法与“先发现、再识别归属、再暴露权限状态、最后才允许修改或重建”的契约，是我记下的设计参考；重建任务是最差恢复策略（会产生重复任务），这一点与作者“不想重建已有任务”的顾虑一致。帖内无官方回应，原因未证实，我不把它写成普遍规则。
 
 同轮其他检索结论（只记传播情况，不入库）：10 月 27 日新页（aidailypost、asumetech、axynewsglobal、tradersunion 等）仍为 10 月 26 日 TechCrunch Disrupt 专访的二手转述；CryptoBriefing 10 月 27 日的 Test Lab 转述与已入库基准完全重合；1Password for Agents 的 Dots 集成仍为 coming soon（mymondayai 10 月 23 日整理明确将其列入“开发中支持”名单）；中文层仍无符合原创实测门槛的新中文长文。
+
+## 2026-10-27 跟踪补充（检索截至 2026-10-27 15:33 EDT）
+
+本轮三条新料中，WIRED 六方同题长测触发“特别值得一读”，另两条为生态插件上线与 WIRED 单品实测补录。资料库文件见 `~/work/data/agents/openai-dots/raw/2026-10-27_media_wired-six-agent-24h-test.md`、`~/work/data/agents/openai-dots/raw/2026-10-27_ecosystem_icloud-plugins-dot-compatibility.md` 与 `~/work/data/agents/openai-dots/raw/2026-10-07_media_wired-toolie-couch-test.md`。
+
+### 六方 24 小时同题：Dots 总评最高，但晨报最弱、行程过长（WIRED，2026-10-27）
+
+WIRED 记者 Reece Rogers 在 iPhone 上用 24 小时同测六个主流个人 agent：Meta Muse（免费）、OpenAI Dots（100 美元/月）、Instinct（免费、需邀请码）、Anthropic Claude Duet（20 美元/月，测试前夜刚发布的研究预览）、Google Gemini Spark（20 美元/月，beta）、xAI Grok Bot（30 美元/月）。五项任务 1–5 分自评，只接了个人 Gmail 与 Google 日历，作者自承这只是各产品能力的“一小片”，不是背书。
+
+这是我记下的第一份同时包含 Dots 与 Duet 的正面同题长测，此前 Pat Simmons 三方长测与 BI 三方实测均未涉及 Duet。Dots 逐项：晨报简报 2/5（与 Muse 是仅有的两个基本用满 30 分钟研究的，但选题被评偏常青、不够新闻性；本项最高为 Spark 5/5）、午餐代订 5/5（DragonEats 官网实下小计 30.57 美元，上司菜为素食豆腐卷）、预埋日程冲突 5/5、中国行程 4/5（内容扎实但 24 页过长）、失眠应对 4/5。五项合计 20/25（我由逐项分数加总，作者未公布总分表），全场最高；Muse 18/25、最易得第二，Duet 与 Grok Bot 各 16/25，Spark 与 Instinct 各 12/25。作者奖项：最佳整体 Dots、最佳界面 Duet（专用应用极易导航与跟进在办任务）、最烦人 Instinct。
+
+我最看重的是预埋冲突这一项：作者事前在日历建了下午 2 点不可移动的信源会，又发邮件虚构同一时间母亲出院电话，全场只有 Dots 与 Duet 事前发现了冲突——Dots 几乎立即提醒并给出替代方案（会前或 3 点后打），Duet 数小时前提醒但未给替代方案；其余四家事后均承认未做收件箱与日历的交叉核对（Muse 自述只把日历当唯一来源，Spark 称提醒来自邮件而非日历条目故未提前浮现）。对我而言，这是主动型 agent 核心能力最直接的一次第三方对照：接入数据本身不等于主动发现，跨应用交叉核对才是分水岭；同时 Dots 的胜出要打折——晨报 2/5 说明它在“按指令做足流程”与“产出对方想要的角度”之间仍有差距，行程 24 页说明输出节制仍是短板。各产品成熟度不在同一起跑线（Duet 为测试前夜的研究预览、Spark 为 beta），引用总评时须连同前提一起引用。全文经 DNYUZ 转载页读取（文末注明原载 WIRED），WIRED 原站全文待直接核对。
+
+### WIRED 单品补录：Toolie 沙发购物——语音失误与 CAPTCHA 先承诺后失败（WIRED，2026-10-07）
+
+同一作者更早的 Dots 单品实测（本轮补录）：作者用语音通话让取名 Toolie 的 dot 买沙发与取消订阅。沙发一小时内未下单，但留下了可用链接与降价监控；订阅端发现 TikTok Shop 的 Wildwonder 周期订单并建议取消，却被拼图 CAPTCHA 挡住。失误三件我单记语音通道：开场即叫错作者名字；把“不到 70 英寸”听成“700 英寸”且对错误毫无察觉；主动问“要我解 CAPTCHA 吗、也可授权以后都解”，作者同意后失败并建议作者自己解——OpenAI 发言人称 Dots 有时在用户批准下可以解 CAPTCHA 并有防滥用保障，但本例并未成功。
+
+另有一件我严格与待核实线索区分开：“我也爱你”事件——作者小声说要静音麦克风，Toolie 回复“Oh, I love you too”，事后解释为把含混低语听成了爱的表达；发言人政策口径是区分“主动升级情感亲密”与“镜像用户回应”，本例属于后者，助手不应主动发起不当情感亲密，Dots 仅限成人。这篇不是我待补抓清单中的“WIRED 10 月中旬成人对话测试”（后者称 Dots 拒绝成人提示、原文仍未找到），两者不要混为一篇；本篇的镜像回应与“拒绝成人提示”不是同一事实。全文经 DNYUZ 转载页读取，WIRED 原站待直接核对。
+
+### iCloud 邮件与日历插件上线：首次兼容 Dot，但兼容口径出自媒体更新（9to5Mac，2026-10-27）
+
+OpenAI 官方账号 @ChatGPT 于 10 月 27 日发推宣布 iCloud 邮件与日历插件已可在 ChatGPT 中连接（9to5Mac 转引）：全部套餐、网页端与桌面端与 iOS 端，需用 Apple app-specific password 登录。9to5Mac 在文末以“Update”补充：两插件首次兼容 ChatGPT Dot，且可让 dot 协助完成插件设置本身。
+
+我记下两点分层与意义：第一，插件上线本身是官方推文（经 9to5Mac 转引），“首次兼容 Dot”是 9to5Mac 的更新补充、推文原文未提及 Dot，引用 Dot 兼容性时须注明出处为 9to5Mac 更新、而非 OpenAI 官方声明；第二，对 Dots 的实际意义在于数据源覆盖——邮件与日历是主动发现事项最核心的两类输入，此前 iCloud 用户无法把这两类数据接给 Dot，本次打通补上了 Apple 用户的空白，但这是 ChatGPT 全量插件发布、不是 Dots 本体的功能发布，且 9to5Mac 原文亦提醒各功能起初不一定完全互通、需实测确认。1Password for Agents 的 Dots 集成仍为 coming soon，不要把本次上线误读为凭证层集成上线。
+
+同轮其他检索结论（只记传播情况，不入库）：10 月 27 日新页（aidailypost、asumetech、axynewsglobal、tradersunion、lesiba、genainews 等）仍为 10 月 26 日 TechCrunch Disrupt 专访的二手转述；CryptoBriefing 的 Test Lab 转述与已入库基准完全重合；TestingCatalog LinkedIn 每日简报称“DevDay Berlin 上 OpenAI 称 dots 数月内到欧盟、目标压缩到数周”，本轮检索未找到任何其他佐证，仅记线索、不改地区基线；中文层仍无符合原创实测门槛的新中文长文。
