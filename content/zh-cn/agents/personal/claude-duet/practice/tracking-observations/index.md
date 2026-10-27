@@ -60,6 +60,22 @@ Vo 用的任务包括收件箱与 Slack 分诊、销售 pipeline、Google Docs �
 
 这则材料的长期价值不在「好评」本身，而在任务类型：它与 Shipper、Vo 的工作场景演示不同，属于个人生活类任务的正面个例。官方自述里个人跑腿是 Duet 的弱项，Yang 的 Uber 预订也确实卡在人机验证上；单个演示不能推翻这个判断，但它给「个人任务」这个维度补了一个可讨论的样本：步行规划与卡片定价这类信息整合型个人任务，与需要完成交易闭环的订票、订车不是同一难度。后续再有个人任务实测时，我会按「信息整合」与「交易闭环」分开记，而不是笼统地记「个人任务行或不行」。
 
+## 2026-10-27：WIRED 六 agent 一日横评，Duet 任务分居中、界面单项获奖
+
+10 月 27 日，WIRED 的 Reece Rogers 发表了六 agent 一日横评《I Tested Every Major AI Agent for a Day. Here's the Best One》，我读到的是 DNYUZ 的转载全文，转载页页脚注明原载 WIRED，但 WIRED 原文确切链接我没有捕获，这里不臆造。测试本身在 Duet 发布次日（约 10 月 22 日，周四）进行：测试者在 iPhone 上同时装了 Muse、Dots、Instinct、Duet、Gemini Spark、Grok Bot，用同一组五项任务打分，OpenClaw 因普通用户上手门槛高被排除在外。
+
+证据形态先说清楚：单日、单人测试，测试者只向各 agent 开放了个人 Gmail 与日历，没有限额消耗数据，也没有后台 check-in 频率实测。下面是 Duet 的五项得分与我的取舍：
+
+- 晨间简报 4/5：Duet 给出的 pitch 是《ChatGPT's Locked Chats Hide Your Secrets From Everyone but OpenAI》，讲 PIN 保护聊天只防室友同事、不防公司本身，被评为「another interesting and timely pitch」。
+- 午餐订餐 3/5：选 Freshroll，问用户走 DoorDash 还是 Uber Eats（用户选了 Uber Eats），两人份小计 49.25 美元（税费前），高于 Dots 的 30.57 美元，作者评其购物车「a bit too pricey」。
+- 日程冲突 4/5：六个 agent 中仅 Dots 与 Duet 发现了下午 2 点 source meeting 与妈妈出院电话提醒的撞期，Duet 提前数小时提醒，但没有给出替代方案。原文是：「Reece, good morning. Your 2 pm source meeting runs until 3, right when your own reminder says to call your mom.」
+- 度假行程 3/5：两周中国行程本身扎实（2027 年 10 月 9 日周六飞北京，北京→西安→成都→上海，10 月 23 日周六从上海返程，13 晚、四家酒店、两段高铁、一段短途航班），但「not using any images or other visual elements」。
+- 失眠夜 2/5：本项最弱答案之一。Duet 让用户先结清前日两件 loose ends——已交付的周四 pitch、已被 DragonEats 订单覆盖的午餐购物车；作者评半夜重提午餐订单与工作项目并不贴合当时的语境。
+
+总评是分层的：总冠军是 Dots，最易上手是免费的 Muse，而 Duet 拿了「最佳界面」单项奖。原文说，尽管 Duet 在多数测试中得分居中，它的专用 App「extremely user-friendly to navigate and follow up on ongoing tasks」，痴迷生产力与流畅软件体验的用户未来几个月可能会真正用上它；作者同时提醒目前仍需 waitlist 与 20 美元月费门槛——这里的 20 美元是 Pro 订阅价，Duet 预览期本身不额外收费，引用时不要写成 Duet 单独定价。
+
+把这篇放进 Shipper 与 Vo 的对照里，分歧的形态又多了一侧。Shipper 的论证是工作流深度（「第一个称得上 pro tool 的个人 agent」），Vo 的论证是习惯养成（打磨出色但 nudge 不足、响应慢），WIRED 的论证则是界面与任务跟进体验：Duet 的 App 本身是长板，开放式、夜间这类需要语境感的场景是短板。两点与既有基线互相印证：日程冲突的跨应用核对能力，在横评里得到了相对成绩的支撑；订餐偏贵且未直接下单，则与官方「个人跑腿较弱」的自述方向一致。Yahoo 视频里信息整合型个人任务的正面个例，与这里交易闭环偏弱的表现也不冲突——我仍按「信息整合」与「交易闭环」分开记个人任务，不笼统下结论。
+
 ## 待补抓的进展
 
 Every 的 Vibe Check 评测确切链接已核实，但全文仍在付费墙后；CNBC 原文已核实可读（Ashley Capoot，2026-10-21）；Lenny's 完整实测回顾节目页已于 2026-10-26 补上（确切链接见资料索引表末）；The Verge 原文确切链接仍未确认，不臆造。原始来源与状态见 [资料索引](../../references/)，后续实测仍按 [验证计划](../validation-plan/) 执行。
