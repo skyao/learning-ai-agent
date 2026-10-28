@@ -299,3 +299,17 @@ Space 的互通观察我按作者的区分照录：云端 dot 与本地 Codex �
 正向样本我也照录，不因短板多就抹掉：Dot 发现一笔订单上有未使用的折扣码，经作者一句“Sure!”同意后代作者给商家发邮件，拿到部分退款；单一持续线程加语音电话梳理多任务（文章想法、日本签证流程、落地页反馈混在一起说，Dot 抽出可执行部分分别开线程），作者称这是此前未体验过的“卸下心智负担”。这两处与此前记的主动发现样本（BI 税务申报、Axios 行程冲突、GeekyHuman 待回邮件）同向，但任务类型不同，引用时不要互相抵消。
 
 同轮其他检索结论（只记传播情况，不入库）：10 月 27 日至 28 日新页（asumetech、axynewsglobal、techbriefly、siliconreport、dataconomy 等）仍为已入库 iCloud 插件或 TechCrunch Disrupt 专访的二手转述；CryptoBriefing 的 Test Lab 转述与已入库基准完全重合；1Password for Agents 的 Dots 集成仍为 coming soon（Ultrathink 整理明确：Muse、Grok Bot 先行，Dots 与 Work、Duet、Townie 为 coming soon）；johnmaartifacts Substack 2026-10-26 四方 agent 五项任务对照为测试计划与赛前判断、结果尚未发布，仅记线索；usecasy 2026-10-28 用例页转述的 Omar Shahine 10 月 24/25 日 X 帖（dot 经 Plaid 只读银行数据做税务分类）为用例目录二手整理、X 原帖未全文核验，仅记线索；官方层无新 Dots 发布（最新官方更新仍为 2026-10-09），首月后用量条款与额外 dot 定价仍未公布，下一轮继续紧盯 10 月 29 日前后的窗口。
+
+## 2026-10-28 跟踪补充（检索截至 2026-10-28 15:33 EDT）
+
+本轮有一条当日新料，是 10 月 9 日之后第一个 Dots 专属的新渠道上线，因此触发“特别值得一读”；它同时把我此前记的短信资料差异推进了一步。资料库文件见 `~/work/data/agents/openai-dots/raw/2026-10-28_official_feature_dot-texting-imessage-rcs.md`。
+
+### 短信通道上线：美国 Pro 有限 beta，经 Linq 中转、非端到端加密（官方，2026-10-28）
+
+官方 @ChatGPT 在 2026-10-28 发文“you can now text your dot”，称可用文字、照片或语音备忘给 dot 派任务或让它持续留意某事，dot 也会主动短信汇报相关进展；Engadget 与 9to5Mac 转引一致，我未直接打开 X 原帖，因此公告措辞以转引为准。更关键的一手证据是帮助中心同一入门页的 Texting 章节，我已直接全文读取：短信处于 beta，仅面向有限数量的美国 Pro 用户，Business 与 Enterprise 工作区不支持；需 iMessage 或 RCS，SMS 不支持（发 SMS 可能收到要求改用 iMessage、RCS 或 ChatGPT 应用的自动回复）；开通方式为 dot 个人资料选 Texting 并验证手机号，看不到该入口即表示账号尚未开通。
+
+我把隐私限定与功能本身同等看待，因为两者来自同一官方来源、却指向不同结论：官方 X 文案说“Safe, secure texting via iMessage or RCS”，帮助中心则明言短信经第三方 Linq 中转，Linq 在途中处理消息，因此即使 iMessage/RCS 也不是端到端加密；Linq 交付后不保留消息内容，但可保留有限的投递信息（如时间戳、投递状态），并限制员工访问情形；OpenAI 按隐私政策把短信存为 dot 在 ChatGPT 内的对话；回复 STOP 或在个人资料中关闭短信只断开手机号，不删除已有对话与记忆。引用时我必须把这两处并列，不能只取“安全短信”一句。Engadget 称 OpenAI 做了“extensive”渗透测试，这是官方自述，我未见测试报告原文，不把它写成独立审计结论；9to5Mac 称此举“理论上”可把 dot 带到 Apple Watch、并开辟超出内置通话模拟的语音用法，同样只是未实测推测。
+
+对我已有的分析线，这条新料有三处落点。第一，渠道清单要改：短信不再是“即将推出 / waitlist”，而是美国 Pro 有限 beta，但不是全量上线、不是资格放宽——Plus/Free 仍不在内，EEA/英/瑞的 Pro 排除口径未见变化，首月后用量条款与额外 dot 定价也仍未公布；下一轮紧盯的首月窗口（约 10 月 29 日前后结束、10 月 30 日起 Pro 200 委派任务计量桶收窄）不受本条影响。第二，隐私章节要新增一个分支：短信通道的第三方处理问题与此前云代理 TLS 重签发线索机制不同，前者是消息通道中转，后者是云电脑出站代理，引用时不要混为一谈；“只有你能给你的 dot 发短信、你的 dot 也只能给你发短信”是一对一限定，不等于端到端加密。第三，审批与主动提醒的触达面变了：dot 可经短信主动推送进展，这意味着主动消息的决策理由可见性、以及短信渠道上的批准链路（本轮未见短信内批准的专门说明）成为后续要核验的点，我不从现有材料推断短信内批准与应用内批准等价。
+
+同轮其他检索结论（只记传播情况，不入库）：CryptoBriefing、RuntimeWire、TechDefused、mezha 等 10 月 28 日报道均为同一短信上线事件的平行报道，无新增事实；asumetech、newsbytesapp、siliconreport、techbriefly 的 10 月 27/28 日 iCloud 插件报道与已入库内容一致；NeoTeo 10 月 28 日文档解说为官方口径重述；GadgetReview 把 Dots 列入 1Password 发布时支持名单的宽松表述与 1Password 官方 coming soon 口径不一致，仍以 coming soon 为准；开发者社区命中均为已入库旧帖或既有故障簇；中文层仍无新的符合原创实测门槛的中文长文（首篇仍为 10 月 1 日火星财经象先志）。
