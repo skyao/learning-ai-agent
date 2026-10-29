@@ -20,6 +20,7 @@ description: >
 - [理财功能评测](money-review/)：Yahoo Finance 梳理的管钱能力清单与信任门槛。
 - [中文注册实测](chinese-registration/)：53AI 记录的国内注册全流程与邀请机制样本。
 - [盖茨评价](gates-assessment/)：盖茨称 Muse 为首个真正伟大的消费级 AI 产品，附带高能力模型须运行于可认证防护平台的安全红线。
+- [WIRED 六 Agent 横测](wired-six-agent-cross-test/)：WIRED 2026-10-27 同题横测，Muse、Dots、Duet 等六方五项任务，Muse 18/25、结论第二且「最易用」；WIRED 原文未直接读取，依据转载全文核实。
 
 ## 后续实践
 

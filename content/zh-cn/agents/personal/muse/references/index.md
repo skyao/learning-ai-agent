@@ -81,6 +81,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 10-05 / 10-06 | WIRED 系统提示词提取与 TIME 内部指令分析：每小时人物页、非用户亦被建档、未言明目标推断与提醒效果记录（经 Digital Watch / MediaNama / Malwarebytes / AlphaForge 转述交叉，原文未直接读取） | 英文 / 媒体调查转述 | [人物页](../security/people-dossiers/) |
 | 10-26（报道日） | [盖茨 Decoder 访谈评价](https://timesofindia.indiatimes.com/technology/tech-news/bill-gates-is-a-fan-of-metas-ai-agent-muse-says-i-talked-to-alexandr-wang-about-it-congratulated-him-and-even-though-/articleshow/135208987.cms)（经 TOI/NewsBytes 转述，Verge 原文未直接读取） | 英文 / 第三方表态转述 | [盖茨评价](../practice/gates-assessment/) |
 | 10-23 | Meta 日本 Newsroom 日本上线公告（经 DigitalToday 等交叉核实） | 日文与英文 / 官方公告 | [日本上线](../product/japan-launch/) |
+| 10-27 | WIRED 六 Agent 一日横测（Reece Rogers；原文未直接读取，依据 DNYUZ 全文转载核实） | 英文 / 媒体一手横测 | [WIRED 六 Agent 横测](../practice/wired-six-agent-cross-test/) |
 
 中文报道与其引用的英文原文可能来自同一来源，不视为独立验证。金融平台的具体政策尚待原始声明复核。
 
@@ -98,6 +99,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 日本上线（10-23） | 可用地区从美加扩展到日本，本地服务分已接通与推进中两类 | 公告与负责人表态不等于本地功能已全量可用 |
 | 财报会数据（10-21） | 首次出现官方设置量（超 1,000 万）与日用比例（约 25%）口径 | 设置量不是日活，长期收入目标是预期而非现状 |
 | WIRED 实测（10-12） | 公开用户规则与系统提示在成人内容上直接冲突 | 媒体单一样本实测，未独立复现 |
+| WIRED 六 Agent 横测（10-27） | 首次三方赛道同题对照：Muse 日常任务顺手、跨应用核对漏报，免费与易上手为相对优势 | 单作者单日、仅共享 Gmail 与日历，Duet 为发布次日状态；原文未直接读取 |
 | 53AI 实测（10-04） | 出现第一篇中文原创注册实测与邀请机制样本 | 绕过地区限制的注册不等于官方开放 |
 | Yahoo Finance 评测（10-22） | 补齐理财功能清单与独立机构的谨慎态度 | 经转载阅读，细粒度授权问题待核对 |
 
