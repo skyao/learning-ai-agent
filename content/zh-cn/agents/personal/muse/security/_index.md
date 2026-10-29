@@ -15,6 +15,7 @@ description: >
 4. [GhostShares 分享边界](ghostshares/)：发布后的分享链接研究与后续处置。
 5. [内容政策冲突](content-policy/)：公开用户规则与系统提示不一致的媒体实测。
 6. [上线前 KVM 逃逸](kvm-escape-prelaunch/)：404 Media 披露的上线前隔离边界抢修与未解疑问。
+7. [人物页](people-dossiers/)：WIRED 与 TIME 披露的每小时关系档案，以及非用户的同意缺口。
 
 设计目标、第三方披露和当前产品行为分别核验，不能用其中一种代替其他证据。
 

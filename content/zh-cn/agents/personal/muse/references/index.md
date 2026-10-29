@@ -12,7 +12,7 @@ aliases:
 
 Muse 是我深入调研的第一个 Personal Agent 案例。本页保留阅读线索、来源和未解决的问题，便于后续回看、补充和比较。
 
-**本轮资料检索截至 2026-10-21；持续跟踪补充至 2026-10-26。** 资料按学习主题归类，来源、语言和时间保留在文章信息中；本页集中提供来源索引与按时间阅读的入口。
+**本轮资料检索截至 2026-10-21；持续跟踪补充至 2026-10-29。** 资料按学习主题归类，来源、语言和时间保留在文章信息中；本页集中提供来源索引与按时间阅读的入口。
 
 ## 1. 按主题查找资料
 
@@ -22,7 +22,7 @@ Muse 是我深入调研的第一个 Personal Agent 案例。本页保留阅读�
 | [架构与运行机制](../architecture/) | 智能体循环、专用 VM、记忆、上下文与后台工作的架构分析 |
 | [模型与评估](../models/) | Wonder、Spark Open、Wonder 模型卡、Realtime Avatar |
 | [工具与生态](../integrations/) | Connector 截图、Windows 接入计划、Gadget SDK |
-| [安全与权限](../security/) | 官方安全设计、Sentinel、人工接管、GhostShares 与上线前 KVM 逃逸 |
+| [安全与权限](../security/) | 官方安全设计、Sentinel、人工接管、GhostShares、上线前 KVM 逃逸与人物页披露 |
 | [实践与评测](../practice/) | 原创个人分析、第三方评测、外部服务访问限制 |
 
 [个人分析](../practice/analysis/)记录了我的实际探索，整篇保存在“实践与评测”。我会区分界面截图、代理自述和观察到的系统行为，引用时保留当时的账号与探索语境。
@@ -78,6 +78,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 10-22 | Yahoo Finance 理财评测（Kendall Little；经转载阅读） | 英文 / 媒体评测 | [理财功能评测](../practice/money-review/) |
 | 约 10-23 | [Fox News 浪漫伴侣报道](https://foxnews.com/tech/why-people-falling-metas-muse-ai)（核心 Reddit 原帖已删，个案、无规模数据） | 英文 / 媒体报道 | [内容政策冲突](../security/content-policy/) |
 | 约 10-05/06 | 404 Media 上线前 KVM 逃逸抢修报道（经 Mathrubhumi / aiweekly / Gadget Review 转述交叉，原文未直接读取） | 英文 / 媒体披露转述 | [上线前 KVM 逃逸](../security/kvm-escape-prelaunch/) |
+| 10-05 / 10-06 | WIRED 系统提示词提取与 TIME 内部指令分析：每小时人物页、非用户亦被建档、未言明目标推断与提醒效果记录（经 Digital Watch / MediaNama / Malwarebytes / AlphaForge 转述交叉，原文未直接读取） | 英文 / 媒体调查转述 | [人物页](../security/people-dossiers/) |
 | 10-26（报道日） | [盖茨 Decoder 访谈评价](https://timesofindia.indiatimes.com/technology/tech-news/bill-gates-is-a-fan-of-metas-ai-agent-muse-says-i-talked-to-alexandr-wang-about-it-congratulated-him-and-even-though-/articleshow/135208987.cms)（经 TOI/NewsBytes 转述，Verge 原文未直接读取） | 英文 / 第三方表态转述 | [盖茨评价](../practice/gates-assessment/) |
 | 10-23 | Meta 日本 Newsroom 日本上线公告（经 DigitalToday 等交叉核实） | 日文与英文 / 官方公告 | [日本上线](../product/japan-launch/) |
 
