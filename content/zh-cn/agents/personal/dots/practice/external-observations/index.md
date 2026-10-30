@@ -439,3 +439,21 @@ PCMag 软件作者 Ruben Circelli 用同一组提示词测了 Dots、Gemini Spar
 本轮我直接全文重读帮助中心《Getting started with your dot》，核对两点：Custom Rules 四档与 AIDB 记录一致；“Pre-approved means you explicitly requested the action in your prompt”与“Asking for a draft doesn't authorize sending it”均为官方原文。证据层级上，这把“明确指令即预批准”与“起草≠发送授权”从 AIDB 的文档转述升级为官方原文，我此后引用这两句时可以标官方原文，不再只写“据 AIDB 转述”。但我必须分开写两层：**定义是规则层，行为样本是行为层，定义本身不裁决任何一个行为样本是否合规**——uehara 的删除、Zapier 的外溢、amditis 的许可扩大解释、Herman 的未审先发，各自仍按其实验条件与作者记录单独判断，不能因为定义已核实就反推某次行为“符合定义”或“违反定义”。同轮资格、短信、首月表述口径未变，首月滞后差仍在。
 
 可靠性脚注：官方状态页历史补录两起含 Dots、非 Dots 专属的事件，均已解决，不单独成节——2026-10-05 多产品 elevated errors 清单含 Dots（起止与规模未披露）；2026-10-20 ChatGPT / Codex / API 晚间约 1 小时性能降级、当晚解决，受影响清单含 dots 但未单独说明 Dots 受影响程度；同日伊利诺伊鉴权错误为独立事件，10-21 HTTP 400 与 10-22 Business 不可达是否由 10-20 事件引起均未证实，不得当作根因。
+
+## 2026-10-30 跟踪补充（检索截至 2026-10-30 18:33 EDT；含 09:33 EDT 轮待补的短信分析一节）
+
+本轮两条新料均为补录或状态记录，不单独提醒。资料库文件见 `~/work/data/agents/openai-dots/raw/2026-10-30_official_status_dots-search-errors.md`、`~/work/data/agents/openai-dots/raw/2026-10-20_community_bug_dot-library-upload-403.md`。另补记 09:33 EDT 轮因 SSH 波动未能同步的一节（TechTimes 短信分析第二篇），资料库文件见 `~/work/data/agents/openai-dots/raw/2026-10-30_media_analysis_techtimes-sms-a2p-mechanism.md`。
+
+### 短信通道补记：A2P 路由解释了 dot 为什么能主动推送，但加密待遇仍未公开（TechTimes，2026-10-30，媒体分析）
+
+这一节补的是 10 月 30 日第二篇 TechTimes 短信分析，与同日第一篇（Linq 未经 Apple 授权的存续风险）是不同文章，我分开记。它的机制解释对我理解短信通道有帮助：标准点对点消息须真人从已注册设备发起，而 A2P（应用到个人）消息经聚合商向个人号码发起外发，Linq 提供 dot 的发送号码并代为向运营商路由——dot 能主动推送，正是 A2P 的直接后果，不是 dot 拿到了我的短信收件箱。加密一节我必须写清未公开的部分：OpenAI 未公开说明经 Linq 路由的消息是否带 iMessage 端到端加密、还是实际按 SMS 到达，取决于发送号码是否注册为 iMessage for Business 参与方；A2P 的 RCS 用传输层安全而非个人对话的端到端加密，商业消息被排除在端到端加密规范之外。标题与正文要分开：标题写“Linq Sees All Messages”，正文实际只说 Linq 的基础设施处理途中每条消息，没有给出读取或存储内容的证据；与第一篇已记的 Linq“读不到内容”自述（未经审计）同样未证实对方，我此后只写“消息经 Linq 中转、内容读取与留存未证实”。本篇价格段一律不引用（称额外 dot 另行收费无官方价格佐证、500 美元档用量框架与 10 月 29 日翻倍公告不一致）。
+
+### 可靠性脚注：10 月 30 日 Dots 搜索报错事件，当日已解决（官方状态页）
+
+官方状态页历史新增 10 月 30 日一笔：“Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences”——Dots 内搜索、Work 与部分思考体验的搜索报错率升高，当日已恢复正常。官方未单独说明 Dots 受影响程度、未披露根因与规模，我不引申为全量不可用。时刻口径我分开记：第三方聚合器记 Investigating 于 19:38 UTC，官方历史条目解决时刻显示 2:14 PM 但未标注时区，我不换算、不拼持续时长；事件页正文这次打开未渲染逐条时间线。这一笔与 10 月 20 日附件 403 簇现象不同、日期不同，不得互相作根因。
+
+### 交付链路故障簇：生成成功、附件在工具发现阶段被 403 拦住（开发者社区，2026-10-20 至 10-22，跟帖至 10-29）
+
+这是一起我此前漏记的社区故障簇，机制与我已记的边界样本都不同，我单独记一节，不合并进委派拦截、写回缺失或入口消失。原帖作者在 Windows 网页端日常用 dot 做文档：10 月 19 日附件交付正常，10 月 20 日起 Word 与 Excel 文件生成成功，却无法作为聊天内可下载附件交付，报错为 `hosted apps tools/list request failed with HTTP status 403`，发生在创建上传会话之前，而普通 Library 读与列操作仍正常。多用户复现：Work 内更新研究笔记时同错、dot 云工作区上传图片与小文本亦同错，且与文件格式、大小无关；一位跟帖者称 Codex 却能上传图片进聊天，我只记为作者对照、未证实普遍差异。恢复样本我限定为单环境：同一跟帖者 10 月 22 日报告官方路径在其环境中恢复，34 字节文本、128×64 PNG 与 2 秒 WAV 重新下载后大小与 SHA-256 均一致，作者本人明言不是全局修复确认、未测大文件、不知道原因为何。变通路径（自有 Google Drive 上传后下载、单文件直接保存加版本守卫的应急流程）我只记存在，不当作官方恢复步骤。未证实部分分开写：端点由 `/backend-api/wham/apps` 变为 `/backend-api/ps/mcp` 的观察，两位作者都说不知道是否导致故障；10 月 29 日跟帖另有一例 10 月 28 日代理 CONNECT 403，作者本人称可能与应用层 HTTP 403 是不同层次、未建立共同根因，我不写成“恢复后复发”。帖内截至读取无官方回应。
+
+同轮其他检索结论（只记传播情况，不入库）：本轮直接全文重读帮助中心《Getting started with your dot》（抓取 2026-10-30 22:35 UTC），资格（Pro 排除 EEA/英/瑞、Business Premium 支持地区可用、Enterprise beta 需管理员启用）、首个 dot 包含在内、“extended limits for the first month after launch”首月表述、Pre-approved 定义原文与起草≠发送授权原文均未变，首月滞后差仍在；值得记一笔页面渲染观察——本轮抓取的 Texting 小节为详细版（Linq 具名、验证步骤、STOP、关闭不删对话与记忆均齐全），与前几轮记录的简版表述不同，我记为页面版本或渲染差异、不写成官方口径变更，短信基线仍以 10 月 28 日详细读取为准；短信上线事件的平行报道（BrightmindAI Medium 10 月 30 日、GadgetHacks、The Neuron 10 月 30 日日报、WindowsReport 等）与已入库内容一致，其中 GadgetHacks 提到的应用内链接审批复核与短信留存、训练规则未公开均为已知未公开问题，不另成条；用量翻倍公告的平行报道（Technijian 等）与已入库内容一致，Technijian 明确指出官方未公布各档精确数值；1Password for Agents 的 Dots 集成仍为 coming soon（savedelete、Kuponaut 10 月 24 日对照表、aitrackertool 10 月 27 日一致：Muse、Grok Bot 先行）；中文层无新的符合原创实测门槛的中文长文（中文原创实测仍为两篇：10 月 1 日火星财经、10 月 3 日老章移植）；开发者社区“Dot over-reach”帖仍未取得可核验全文链接。
