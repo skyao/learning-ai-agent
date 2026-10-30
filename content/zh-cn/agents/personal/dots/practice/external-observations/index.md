@@ -372,3 +372,21 @@ Test Lab Duet 更新我只记一行对照关系，不单独提醒：同一 Test 
 
 同轮其他检索结论（只记传播情况，不入库）：本轮重读帮助中心入门页，Pro 排除 EEA/英/瑞、Business Premium 支持地区可用、Enterprise beta 需管理员启用、“首月 extended limits”口径均未变，首月后用量条款与额外 dot 定价仍未公布（首月窗口约 10 月 29 日前后结束，10 月 30 日起 Pro 200 委派任务计量桶收窄仍待官方口径核实）；短信上线事件的平行报道与已入库内容一致；1Password for Agents 的 Dots 集成仍为 coming soon；欧盟 Business/Enterprise 线索帖重读仍仅 10 月 28 日原帖、无新增佐证，继续为待核实线索；johnmaartifacts 四方对照结果仍未发布；开发者社区“Dot over-reach”帖仍未取得可核验全文链接；中文层仍无新的符合原创实测门槛的中文长文（首篇仍为 10 月 1 日火星财经象先志）。
 
+
+## 2026-10-29 跟踪补充（检索截至 2026-10-29 21:33 EDT）
+
+本轮只有一条新料，但它标★，因为它改写了我此前多轮一直留待核实的一句话：OpenAI 高管 Tibo Sottiaux 在 10 月 29 日的 Day 25 发文中宣布 Pro / Business Premium 用量翻倍、取消原定 10 月 30 日的 Pro 200 减半，并称 Dots 扩展额度目前继续提供、dot 用量仍单独计量。资料库文件见 `~/work/data/agents/openai-dots/raw/2026-10-29_official-announcement_pro-limits-doubled-dots-extended.md`。
+
+### 用量公告：Pro 200 减半在生效前一日被取消，Dots 扩展额度继续且单独计量（官方高管发文，2026-10-29）
+
+我先把三句已核对的官方表述原样记下来，因为后续所有换算都不能越过它们。第一句：“We are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.”——Pro 100、200、500 与 Business Premium 的全部用量上限即日起翻倍。第二句：“We heard your kind feedback and won't be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same.”——听取反馈后不再下调 Pro 200，Work 与 Codex 用量保持不变；也就是说，我此前在多轮补充里写的“10 月 30 日起 Pro 200 委派任务计量桶收窄仍待官方口径核实”这一待核实项，现在有了官方答案，而且答案是反向的：原定 10 月 30 日起 Pro 200 Work/Codex 由 20 倍 Plus 降至 10 倍、GPT-6 Pro 聊天由每周 200 条降至 100 条的计划，在生效前一日被取消，引用旧口径时必须同时注明已被取消。第三句：“We're also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.”——Dots 的扩展额度目前继续提供，dot 用量仍与默认用量分开计量；这是对我最直接的一句：我此前写的“首月窗口约 10 月 29 日前后结束”这一推断不再适用，扩展额度没有按首月到期收掉，但“for now”也没有给出结束日期，我不把它写成永久保留。
+
+证据分层我必须写清，因为这篇的来源形态不如帮助中心文档干净。X 原帖本轮我没有直接打开；核对依赖三处互相印证：OpenAI 官方账号对该帖的转发镜像（存档标注 2026-10-29T17:16:41Z）含三句完整引文；BleepingComputer 10 月 29 日 19:35 EDT 的报道全文，引文逐字一致，并明确写 OpenAI 不提供各档精确数值上限；The Decoder 同日报道全文亦一致。PANews、AI News Daily、Undercode News 与 SW Architect 的 28 天日历为平行报道，口径一致，我只用它们佐证“发文存在”，不拿它们的换算当官方数字。
+
+各档最终倍数是我必须单独留白的一处，因为两家媒体的读法直接冲突。The Decoder 与 Oossa 的读法是：Pro 100 与 Pro 500 在原配额上翻倍，Pro 200 是把已下调后的较低配额（10 倍）翻倍，净效果是回到原有 20 倍水平——即“取消减半 + 翻倍较低配额”合起来等于不降；而 ExplainX 的字面读法称翻倍“applies on top of the existing allowance”（在现有额度之上翻倍），按字面会得出 Pro 200 达 40 倍。官方未公布各档精确倍数，我在笔记里只写“宣布翻倍、Pro 200 不下调、Dots 扩展额度继续且单独计量”三句，不写 40 倍，也不把“净回 20 倍”写成官方定论；等帮助中心或定价页更新出各档数值后再补。价格本身未变（各档月费不动、Plus 不在此次调整之列），额外 dot 定价仍未公布，这两点我不因翻倍而改写。
+
+还有一处口径差要并列记，否则日后回看会误以为文档已同步：本轮直接重读帮助中心《Getting started with your dot》（抓取 2026-10-30 01:34 UTC），其中仍写“extended limits for the first month after launch”，资格（Pro 排除 EEA/英/瑞）、短信有限 beta（美国 Pro）等口径亦未变。页面文本滞后不等于公告作废，但引用时要区分“高管发文口径”与“帮助中心页面口径”，不能写成“帮助中心已更新为继续提供”。与既有线索的关系我也划清：本次翻倍的对象是 Work/Codex 共用计量桶，与我已记的“dot 对话不计 ChatGPT 用量、dot 发起的 Work/Codex 任务照计”口径一致，dot 委派任务的实际可用空间随之变化，但 dot 自身对话与扩展额度的“单独计量”属性未变；它与“Your Dot is resting”防滥用量上限机制不同，后者是 dot 自身的独立上限、帖内官方支持回复承认文档未说明计量方式，本次公告未提及该上限是否调整，两者不得混为一谈；此前配套的 62,500 用量积分赠予（标注价值 2,500 美元、2026-12-31 到期）是否随翻倍延续或变更，本次公告未说明，我记为待核实，不默认延续或作废。
+
+未证实线索我单列，不让它混进事实：ExplainX 同页顶部另称 X 上开始流传“12 月起 ChatGPT 与 Codex 将共用单一用量池”的说法，源头为用户 @nicdunz 指出的网页结账流程免责声明；ExplainX 本人亦明确未找到帮助中心页面、发布说明或 Tibo 发文佐证。我只记为结账文案线索，下轮看官方文档是否出现，不作为政策引用。
+
+同轮其他检索结论（只记传播情况，不入库）：本轮重读帮助中心入门页，资格与地区口径未变，短信通道口径未变（美国 Pro 有限 beta，Business/Enterprise 不支持），Texting 小节仍为简版表述（第三方提供方未具名），与此前多轮记录的页面版本/渲染差异观察一致，不改短信基线（Linq 具名与验证步骤以 10 月 28 日 15:33 轮详细读取为准）；短信上线事件的平行报道（ETV Bharat、NDTV Profit、9to5Mac、Digital Trends、Ground Truth 等）与已入库内容一致；WIRED 六方长测的中文转述与已入库内容完全重合；Truviber 的 Grok Bot vs Dots 对照为已有长测的二手综合、无一线新数据；Medium Ercan ATAY 综述自述未实际使用 Dots，低于原创实测门槛；1Password for Agents 的 Dots 集成仍为 coming soon（Ultrathink 10 月 23/24 日更新明确：Muse、Grok Bot 先行，Dots 与 Work、Duet、Townie 为 coming soon；把 Dots 列入支持名单的宽松表述不改基线）；官方状态页无新的 Dots 专属事件（最新仍为 10 月 22 日企业版降级）；johnmaartifacts 四方对照结果仍未发布；开发者社区“Dot over-reach”帖仍未取得可核验全文链接；中文层仍无新的符合原创实测门槛的中文长文（首篇仍为 10 月 1 日火星财经象先志）。
