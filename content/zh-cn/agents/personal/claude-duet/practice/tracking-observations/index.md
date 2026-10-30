@@ -110,6 +110,14 @@ Vo 用的任务包括收件箱与 Slack 分诊、销售 pipeline、Google Docs �
 
 对我而言，这篇的长期价值在于它补上了「Duet + 作者自有系统」协作产出可验证线上修复的链条形态：批准环节真实发生（12:22 推送、12:23 上线），修复结果可在服务器侧复核，这比纯演示类视频多了一层可检验性。但它的短板同样典型：没有限额数据、没有失败面、关键对话未出镜、演示画面非实拍。后续再有自建 MCP 或 custom connector 的 Duet 实测时，我会先问一句：调用走的是定时任务还是交互对话——这个区分决定了它能不能与 Shipper 的结论放在同一张表里比较。
 
+## 2026-10-30：官方帮助中心与产品页修订，资格措辞新增「Ultra」档（含义待核实）
+
+2026-10-31 凌晨的跟踪轮次里，我发现帮助中心的更新时间从 2026-10-23T23:04:28Z 变成了 2026-10-30T17:08:13Z，这是自建库以来帮助中心第一次动时间戳，所以我把产品页和帮助中心全文重新对了一遍。变化只有一处：资格与价格口径里多了「Ultra」。帮助中心 Pricing 节写的是 "During the research preview, Claude Duet is included with Pro, Max, and Ultra plans at no extra cost"；产品页首屏与 FAQ 写的是 "Available in Pro, Max, and Ultra plans in the US" 和 "on a waitlist for Claude Pro, Max, and Ultra subscribers in the US"。其余口径都没有动：仍是 research preview、waitlist 机制，Team / Enterprise 仍明确排除，非美仍未开，共享 usage limits 与 11 月 30 日的 limit reset 截止日也都还在。
+
+但我不能从这里推出「Duet 扩围到了一个新档」。我查的 Claude 定价对照（截至 2026-10-27 的第三方对照页）最高档仍是 Max 20x，没有名为 Ultra 的订阅档；另外一篇标题带 Ultra Plan 的文章讲的是 Claude Code 的 `/ultra plan` 规划功能，与订阅档无关，不能混同。三种可能都还开着：Ultra 是 10 月 30 日前后悄悄上线的新档、是某个档位的更名、或是文案先于产品改动。在拿到定价页或订阅档帮助的一手确认之前，我只记录「官方 Duet 文档措辞新增 Ultra」这个已确定的事实，不写价格、不写扩围结论，也不把它当作 GA 或定价政策变化来提醒。
+
+这次修订的长期价值不在 Ultra 本身，而在于它验证了跟踪清单里「帮助中心更新时间」这个哨兵是有效的：它确实在 10 月 30 日动了，而且动因不是功能上线，只是一处资格措辞。这也提醒我，之后看到类似措辞变化时要先问「这个档位在订阅体系里是否存在」，再决定它算不算扩围。
+
 ## 待补抓的进展
 
-Every 的 Vibe Check 评测确切链接已核实，但全文仍在付费墙后；CNBC 原文已核实可读（Ashley Capoot，2026-10-21）；Lenny's 完整实测回顾节目页已于 2026-10-26 补上（确切链接见资料索引表末）；The Verge 原文确切链接仍未确认，不臆造（新增线索：scoopfeeds 标注其时间为 2026-10-21 19:53 EDT，但仍未给出确切链接）。新增待核实：Ahuja 2026-10-28 X 原帖全文（Pro wave 的确切表述与启动日期），目前只有 Nerdschalk 的截断引用；fig.blue 实测中 per-channel repo 访问隔离的独立印证；DanManREAL 视频中自建 MCP 调用的机制归属（定时 routine 还是交互式对话），该区分决定其与 Shipper「scheduled runs 够不到 custom connectors」结论的关系。原始来源与状态见 [资料索引](../../references/)，后续实测仍按 [验证计划](../validation-plan/) 执行。
+Every 的 Vibe Check 评测确切链接已核实，但全文仍在付费墙后；CNBC 原文已核实可读（Ashley Capoot，2026-10-21）；Lenny's 完整实测回顾节目页已于 2026-10-26 补上（确切链接见资料索引表末）；The Verge 原文确切链接仍未确认，不臆造（新增线索：scoopfeeds 标注其时间为 2026-10-21 19:53 EDT，但仍未给出确切链接）。新增待核实：Ahuja 2026-10-28 X 原帖全文（Pro wave 的确切表述与启动日期），目前只有 Nerdschalk 的截断引用；fig.blue 实测中 per-channel repo 访问隔离的独立印证；DanManREAL 视频中自建 MCP 调用的机制归属（定时 routine 还是交互式对话），该区分决定其与 Shipper「scheduled runs 够不到 custom connectors」结论的关系；2026-10-30 官方文档修订中「Ultra」档在 Claude 订阅体系里的确切含义与生效时间（定价页或订阅档帮助复核前不作扩围结论）。原始来源与状态见 [资料索引](../../references/)，后续实测仍按 [验证计划](../validation-plan/) 执行。

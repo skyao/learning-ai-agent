@@ -7,7 +7,7 @@ description: "保留中英文资料、原始日期、证据范围与待核实问
 materialType: "资料索引"
 ---
 
-本轮检索与阅读截至 **2026-10-23**；持续跟踪补充至 **2026-10-30**，新增条目列在表末。以下资料区分官方发布、动态帮助、合作方公告、历史技术背景与媒体转述。没有账号实测；没有绝对更新日期的页面只记录读取日期，不把阅读日当成发布日期。
+本轮检索与阅读截至 **2026-10-23**；持续跟踪补充至 **2026-10-31**，新增条目列在表末。以下资料区分官方发布、动态帮助、合作方公告、历史技术背景与媒体转述。没有账号实测；没有绝对更新日期的页面只记录读取日期，不把阅读日当成发布日期。
 
 ## 原始资料与本地笔记
 
@@ -43,6 +43,7 @@ materialType: "资料索引"
 | 2026-10-28；读取 2026-10-28 | [Nerdschalk：Anthropic Lead Says Claude Duet Invites Reach US Max First, With Pro Next（转述 Ahuja 同日 X 帖）](https://nerdschalk.com/claude-duet-waitlist-us-max-pro-invites/) | 二手转述：美国 Max 订阅者先行出 waitlist（10-27/28 已发大量邀请、当周继续），美国 Pro 紧随其后，非美仍无日期；X 原帖未直接核实（x.com 文本抓取被策略拦截），关键句在「Right after Max, we'll start…」处截断，「大量邀请」无具体数字；小幅新料，不作官方放行公告引用；[本地笔记](../practice/tracking-observations/) |
 | 约 2026-10-29；读取 2026-10-30 | [fig.blue：Duet is the future of chatbot interaction](https://fig.blue/posts/duet-is-the-future/) | 第三方观察：独立用户一手实测短文（与 Muse/Dots/NanoClaw 横向对比），首响应快、channels 自组织、GitHub repo 访问按 channel 隔离、Duet 不存凭证；毛刺为运行中线程不可见、delegated repo 授权挂载失败（作者推测 race condition）；语音仍只是 STT；短篇、无限额数据，正文本页未显示日期，HN 讨论规模未核实；文中「Desktop app 触及 local hosts」未说明是 Duet 还是 Claude 桌面端，不作 Duet 桌面端上线证据；[本地笔记](../practice/tracking-observations/) |
 | 约 2026-10-27；读取 2026-10-30 | [DanManREAL：Claude Duet Ran My YouTube Channel This Week. It Caught Fake AI Bots.（一周实测视频）](https://www.youtube.com/watch?v=gUr8EkkVsDY) | 第三方观察：仅核实视频公开描述与时间戳目录，无逐字稿、无限额数据、无失败案例；每日 12:37 routine 推送视频选题、自建 MCP 服务器 DMR_REMOTE 接入个人 PC（自周六晚 2,858 次调用）、网站假爬虫案（269 次冒充请求、174 次探查敏感文件、Duet 写修复 583 项测试通过、批准后 12:22 推送 12:23 上线）；出镜者为作者 AI 分身、电影化镜头为 AI 插画、关键 Duet 对话未出镜；自建 MCP 调用走定时还是交互未说明，与 Shipper「scheduled runs 够不到 custom connectors」结论的机制张力未澄清，不作推翻依据；[本地笔记](../practice/tracking-observations/) |
+| 2026-10-30 修订；读取 2026-10-31 | [Get started with Claude Duet（帮助中心修订版）](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet) 与 [Claude Duet 产品页](https://claude.com/product/claude-duet) | 官方声明：帮助中心更新时间变为 2026-10-30T17:08:13Z，资格与价格措辞新增「Ultra」档（美国 Pro、Max 与 Ultra 计划 waitlist 范围内）；Team / Enterprise 仍排除、非美仍未开、共享限额与 11 月 30 日 limit reset 截止日未变；Ultra 在订阅体系中的确切含义未核实，不作新档推出或扩围结论；[本地笔记](../practice/tracking-observations/) |
 
 本轮保留官方原始资料、中英文对照、合作方一手说明与英文发布报道。中文帮助与英文原文不是独立验证；历史工程文章不等于 Duet 当前部署图。没有申请候补、连接账号或执行购买。
 
