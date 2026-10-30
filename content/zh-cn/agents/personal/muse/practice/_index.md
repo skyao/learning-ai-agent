@@ -21,6 +21,7 @@ description: >
 - [中文注册实测](chinese-registration/)：53AI 记录的国内注册全流程与邀请机制样本。
 - [盖茨评价](gates-assessment/)：盖茨称 Muse 为首个真正伟大的消费级 AI 产品，附带高能力模型须运行于可认证防护平台的安全红线。
 - [WIRED 六 Agent 横测](wired-six-agent-cross-test/)：WIRED 2026-10-27 同题横测，Muse、Dots、Duet 等六方五项任务，Muse 18/25、结论第二且「最易用」；WIRED 原文未直接读取，依据转载全文核实。
+- [纽约时报两周实测](nyt-five-killer-tasks/)：NYT 2026-10-25 两周实测，Muse 与 Dots 五项生活任务，位置触发训练计划与批量求职为 Muse 胜场、餐厅抢订 dots 到确认屏；NYT 原文未直接读取，依据 Indian Express 全文转载核实。
 
 ## 后续实践
 

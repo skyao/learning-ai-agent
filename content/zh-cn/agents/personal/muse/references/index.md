@@ -82,6 +82,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 10-26（报道日） | [盖茨 Decoder 访谈评价](https://timesofindia.indiatimes.com/technology/tech-news/bill-gates-is-a-fan-of-metas-ai-agent-muse-says-i-talked-to-alexandr-wang-about-it-congratulated-him-and-even-though-/articleshow/135208987.cms)（经 TOI/NewsBytes 转述，Verge 原文未直接读取） | 英文 / 第三方表态转述 | [盖茨评价](../practice/gates-assessment/) |
 | 10-23 | Meta 日本 Newsroom 日本上线公告（经 DigitalToday 等交叉核实） | 日文与英文 / 官方公告 | [日本上线](../product/japan-launch/) |
 | 10-27 | WIRED 六 Agent 一日横测（Reece Rogers；原文未直接读取，依据 DNYUZ 全文转载核实） | 英文 / 媒体一手横测 | [WIRED 六 Agent 横测](../practice/wired-six-agent-cross-test/) |
+| 10-25 | 纽约时报两周实测：Muse vs Dots 五项生活任务（Brian X. Chen；原文未直接读取，依据 Indian Express 全文转载核实并以 Substack 摘要交叉） | 英文 / 媒体一手实测 | [纽约时报两周实测](../practice/nyt-five-killer-tasks/) |
 | 10-11（播客）/ 10-12（整理） | [Wang 讲述 Muse 七个月建造过程](https://www.allthingsmuse.com/articles/alexandr-wang-david-senra-muse-build-story/)（高管口述经整理站转述，多家整理与文字稿摘录交叉；播客原声与完整文字稿未逐字核对） | 英文 / 访谈整理 | [七个月建造过程](../product/build-story/) |
 | 10-28 | [Spark Open 许可细读](https://xt.pt/ai/muse-spark-open-is-free-until-the-company-using-it-isn-t-small)（引用许可条文的二手分析；Hugging Face LICENSE.md 原文待逐条直读） | 英文 / 许可分析 | [Spark Open 的开放范围](../models/muse-spark-open/) |
 
@@ -102,6 +103,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 财报会数据（10-21） | 首次出现官方设置量（超 1,000 万）与日用比例（约 25%）口径 | 设置量不是日活，长期收入目标是预期而非现状 |
 | WIRED 实测（10-12） | 公开用户规则与系统提示在成人内容上直接冲突 | 媒体单一样本实测，未独立复现 |
 | WIRED 六 Agent 横测（10-27） | 首次三方赛道同题对照：Muse 日常任务顺手、跨应用核对漏报，免费与易上手为相对优势 | 单作者单日、仅共享 Gmail 与日历，Duet 为发布次日状态；原文未直接读取 |
+| 纽约时报两周实测（10-25） | 第二篇 Muse–Dots 直接对照：位置触发与批量求职为 Muse 胜场、餐厅抢订 dots 到确认屏、餐食与议价两方均成；日常任务性价比上 Muse 占优，与 WIRED 打分结论互补 | 单作者单账号两周、五项任务；原文未直接读取，依据转载全文核实；dots 浏览器故障是否为系统性短板待更多证据 |
 | Wang 建造访谈（10-11） | 首次系统披露 Muse 建造过程：2025-06 备忘录、2026-02 OpenClaw 定型、100 多项行为评估全绿放行 | 高管口述经多家整理交叉，播客原声与完整文字稿未逐字核对；行为清单未公开 |
 | Spark Open 许可细读（10-28） | 补上开放权重的合规边界：署名义务与衍生品定义、集团收入超 2,000 万美元的服务门槛 | 引用条文的二手分析，许可原文待逐条直读，不构成法律意见 |
 | 53AI 实测（10-04） | 出现第一篇中文原创注册实测与邀请机制样本 | 绕过地区限制的注册不等于官方开放 |
