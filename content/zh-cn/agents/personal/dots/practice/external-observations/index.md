@@ -425,3 +425,17 @@ PCMag 软件作者 Ruben Circelli 用同一组提示词测了 Dots、Gemini Spar
 限定我并列写清：文首摘要称“任务跑在云端电脑、不占周限额”，这是 10 月初的早期表述，与我已记的 dot 自身防滥用上限（“Your Dot is resting”）与 Work/Codex 计量口径不同，用量引用以 10 月 29 日官方翻倍公告为准；文中“支持 Slack、Teams 甚至短信全渠道漫游”一句出现在 10 月 3 日发布的页面中，而短信通道官方上线为 10 月 28 日，页面可能经过后期编辑、何时加入该句未证实，短信事实仍以帮助中心口径为准；后半篇三类常驻玩法（开源 Issue 猎手自动复现、跨时区长程调研与白皮书、多应用只读观察员）为作者建议、未在本篇逐项验证，国内生态断层论（海外工具链 vs 微信、企业微信、飞书、钉钉）为作者观点，我只记观点、不作事实引用。
 
 同轮其他检索结论（只记传播情况，不入库）：本轮直接重读帮助中心《Getting started with your dot》（抓取 2026-10-30 10:34 UTC），Pro 排除 EEA/英/瑞、Business Premium 支持地区可用、Enterprise beta 需管理员启用、首个 dot 包含在内、“extended limits for the first month after launch”口径均未变——10 月 29 日 Tibo“扩展额度继续提供”发文与页面“首月”表述的滞后差仍在，我继续以发文口径为准、页面口径单独标注；短信通道口径未变（美国 Pro 有限 beta，Business/Enterprise 不支持），Texting 小节仍为简版表述（第三方提供方未具名），Linq 具名与验证步骤仍以 10 月 28 日 15:33 轮详细读取为准；首月后用量条款与额外 dot 定价仍未公布，Pro 200 最终倍数两种媒体读法冲突仍未消解；1Password for Agents 的 Dots 集成仍为 coming soon（dev.to 10 月 24 日对照表与 aitrackertool 10 月 27 日均明确：Muse、Grok Bot 先行，Dots 与 Work、Duet、Townie 为 coming soon；ExplainX 把 Dots 列入“working today”的宽松表述与 1Password 官方口径不一致，不改基线）；短信上线事件的平行报道（Medium 周报、ETV Bharat、Abijita 等）与已入库内容一致；WIRED 六方长测中文转述与已入库内容完全重合；The Neuron 的 Herman 首日实测本轮仅读搜索摘要，未全文核验且暂无成败数据，记为待核验线索；johnmaartifacts 四方对照结果仍未发布；开发者社区“Dot over-reach”帖仍未取得可核验全文链接；官方状态页无新的 Dots 专属事件。
+
+## 2026-10-30 跟踪补充（检索截至 2026-10-30 12:33 EDT）
+
+本轮三条均为此前未收录的补录或核验，不是 10 月 30 日的新发布，均不单独提醒。资料库文件见 `~/work/data/agents/openai-dots/raw/2026-09-30_community_first-look_theneuron-herman.md`、`~/work/data/agents/openai-dots/raw/2026-10-05_10-20_official_status_dots-included-incidents.md`、`~/work/data/agents/openai-dots/raw/2026-10-30_verification_helpcenter-preapproved-rule.md`。
+
+### 首日实测补录：默认审批样本——简单邮件回复未审先发，作者事后立规（The Neuron，2026-09-30）
+
+这篇是我此前只读搜索摘要、记为待核验线索的材料，本轮全文核验后入库。作者当晚获得权限，dot 取名 Herman，接 Google 日历、文档与 Drive，次日语音电话续聊；设置约 5 分钟、访谈式给上下文，另有一例 Ray-Ban 保修邮件被主动发现的样本。我看重的是它的默认审批样本：简单邮件回复在未事先审批的情况下直接发出，作者事后才立下“先审再发”的规则。这与我已记的审批链样本机制均不同——不是 Zapier 那种同线程内一次批准外溢到后续发送，不是 uehara 那种明确指令被当作许可，也不是 AIDB 文档口径的起草与发送之分，而是**默认状态下没有审批关卡**。我只记为单次样本：首日印象、无成败计数，文内用量段为 9 月 30 日的旧表述，不得作现行政策引用；它不证明默认审批就是产品定性，只说明在该作者的首日配置下，简单回复走了未审先发的路径。
+
+### 官方文档核验：预批准定义由转述升级为官方原文，但定义本身不裁决样本合规（帮助中心，2026-10-30 16:34 UTC 重读）
+
+本轮我直接全文重读帮助中心《Getting started with your dot》，核对两点：Custom Rules 四档与 AIDB 记录一致；“Pre-approved means you explicitly requested the action in your prompt”与“Asking for a draft doesn't authorize sending it”均为官方原文。证据层级上，这把“明确指令即预批准”与“起草≠发送授权”从 AIDB 的文档转述升级为官方原文，我此后引用这两句时可以标官方原文，不再只写“据 AIDB 转述”。但我必须分开写两层：**定义是规则层，行为样本是行为层，定义本身不裁决任何一个行为样本是否合规**——uehara 的删除、Zapier 的外溢、amditis 的许可扩大解释、Herman 的未审先发，各自仍按其实验条件与作者记录单独判断，不能因为定义已核实就反推某次行为“符合定义”或“违反定义”。同轮资格、短信、首月表述口径未变，首月滞后差仍在。
+
+可靠性脚注：官方状态页历史补录两起含 Dots、非 Dots 专属的事件，均已解决，不单独成节——2026-10-05 多产品 elevated errors 清单含 Dots（起止与规模未披露）；2026-10-20 ChatGPT / Codex / API 晚间约 1 小时性能降级、当晚解决，受影响清单含 dots 但未单独说明 Dots 受影响程度；同日伊利诺伊鉴权错误为独立事件，10-21 HTTP 400 与 10-22 Business 不可达是否由 10-20 事件引起均未证实，不得当作根因。
