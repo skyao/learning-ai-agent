@@ -471,3 +471,15 @@ PCMag 软件作者 Ruben Circelli 用同一组提示词测了 Dots、Gemini Spar
 证据分层我分开写清。作者一手的是双机流程、飞书审校方式与手机追加任务体感；后半篇转述的三例（开发者 Antonio Leinea 的学生作业审阅——云电脑装 Whisper 转录演示视频、经 GitHub 连接器看学生代码后给初步检查意见；Hugo 用 dot 做 Space 产品发布视频 30 秒成品；Adem 让 dot 在云电脑用 Blender 做约 40 秒三维短片）不是作者亲测，我只记为转述，不与 amditis 的 Blender 正向样本合并计数。文末“比较建议选 GPT-6.1 Sol，推理强度用 high 或者 xhigh”是作者给 Codex 任务的个人配置建议，不得作 Dots 底层模型口径——我的模型基线仍为 GPT-6 Astra，10 月 16 日单用户 Sol Low 声称仍为待核实线索。文中“截至 10 月 3 日逐步向符合条件的 Pro、Business Premium 和 Enterprise 账号开放”与“dot 交给 Codex 的任务照常用量计”均为 10 月初时点表述，与我已记的 10 月 29 日官方翻倍公告口径一致，不另作新事实。
 
 同轮其他检索结论（只记传播情况，不入库）：本轮直接全文重读帮助中心《Getting started with your dot》（抓取 2026-10-31 04:34 UTC），资格（Pro 排除 EEA/英/瑞、Business Premium 支持地区可用、Enterprise beta 需管理员启用）、首个 dot 包含在内、“extended limits for the first month after launch”首月表述、Pre-approved 定义原文与起草≠发送授权原文均未变，首月滞后差仍在；短信通道口径未变（美国 Pro 有限 beta，Business/Enterprise 不支持；Linq 具名、非端到端加密、关闭不删对话与记忆）；首月后用量条款与额外 dot 定价仍未公布，Pro 200 最终倍数现为四种媒体读法冲突（新增 CryptoBriefing 称回到 20 倍），官方精确数值仍未公布；短信上线事件的平行报道（BrightmindAI Medium 10 月 30 日、datanorth、NDTV Profit 等）与已入库内容一致；1Password for Agents 的 Dots 集成仍为 coming soon（aitrackertool 10 月 27 日、Kuponaut 10 月 24 日对照表一致：Muse、Grok Bot 先行）；10 月 30 日搜索报错事件的第三方聚合时间线（19:38 UTC Investigating → 21:14 UTC Resolved）与已入库事件一致，仅补时间口径；johnmaartifacts 四方对照结果仍未发布；官方状态页无 10 月 30 日之后新的 Dots 专属事件。
+
+## 2026-10-31 跟踪补充（检索截至 2026-10-31 03:33 EDT）
+
+本轮两条新料，一条标★、一条为繁中印象记补录，不单独提醒后者。资料库文件见 `~/work/data/agents/openai-dots/raw/2026-10-30_community-review_xda-two-week-proactive.md`、`~/work/data/agents/openai-dots/raw/2026-10-04_community-zh-tw_impressions_gardener-secretary.md`。
+
+### 主动边界外扩：未交代职责，dot 仍从已连接信息里自己开口（XDA Developers，2026-10-30，两周长测）
+
+作者接 Gmail、日历、Asana、Slack、Notion、Outlook，用了约两周。我看重这篇是因为它把主动推到了此前样本未到的一步：此前的主动样本大多是交代了职责、dot 在职责内发现问题，这篇是作者根本没让 dot 盯任何事，dot 却自己从已连接信息里发现三件该提醒的事——客服的好消息回复并推送、标记两名客服说法冲突、第二次同类提款时记起前事主动追问是不是本人意图、发现学费截止日与下周出行撞期提前提醒（作者上学期曾因此交滞纳金）。这与帮助中心“可主动 review 已连接信息并形成记忆、即使你没问过”的口径方向一致，但我分开记两层：文档口径是能力描述，三起样本是作者一手记录，触发阈值与误报率官方未披露，我不写成 dot 默认都会这样主动。
+
+限定我并列写清：单作者、单账号、无成败计数与误报披露，作者获免费 Pro 测试账号（声明无编辑干预）；三起样本均为提醒与追问类，未涉及未经批准对外发送，不得与 Zapier 批准外溢、amditis 许可扩大解释那两起发送类样本混排；另有并行任务与云电脑接管、语音通话自然度高、速度明显慢于常规对话，作者结论为体验喜忧参半但总体积极、“目前不太值 100 美元/月以上”，后一句为作者个人价值判断，不作定价结论。
+
+繁中印象记脚注：園丁的 AI 練習手記 2026-10-04 一篇为本库首篇繁中一手印象，价值在视角而非任务样本——Grok Bot 自组小队 vs Dot 单一秘书的体感对照、首月期云端任务几乎不扣主用量的个人体感（无数字、无截图，不得作现行计费口径）、“防御性试用”策略与“收网”定价疑虑（作者观点，不得作 OpenAI 定价意图事实）；全文无具体任务与成败计数，不计入三篇简体任务级实测。
