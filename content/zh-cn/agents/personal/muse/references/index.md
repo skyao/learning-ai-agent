@@ -83,6 +83,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 10-23 | Meta 日本 Newsroom 日本上线公告（经 DigitalToday 等交叉核实） | 日文与英文 / 官方公告 | [日本上线](../product/japan-launch/) |
 | 10-27 | WIRED 六 Agent 一日横测（Reece Rogers；原文未直接读取，依据 DNYUZ 全文转载核实） | 英文 / 媒体一手横测 | [WIRED 六 Agent 横测](../practice/wired-six-agent-cross-test/) |
 | 10-25 | 纽约时报两周实测：Muse vs Dots 五项生活任务（Brian X. Chen；原文未直接读取，依据 Indian Express 全文转载核实并以 Substack 摘要交叉） | 英文 / 媒体一手实测 | [纽约时报两周实测](../practice/nyt-five-killer-tasks/) |
+| 10-09（发布）/ 10-20（更新） | 优哥跨境五类任务实测：比价、账单、Marketplace、餐厅活动、简报目标（全文已直接读取；视频口播改写文本，单作者单账号） | 中文 / 社区原创实测 | [简体中文五类任务实测](../practice/ugoearn-five-task-types/) |
 | 10-11（播客）/ 10-12（整理） | [Wang 讲述 Muse 七个月建造过程](https://www.allthingsmuse.com/articles/alexandr-wang-david-senra-muse-build-story/)（高管口述经整理站转述，多家整理与文字稿摘录交叉；播客原声与完整文字稿未逐字核对） | 英文 / 访谈整理 | [七个月建造过程](../product/build-story/) |
 | 10-28 | [Spark Open 许可细读](https://xt.pt/ai/muse-spark-open-is-free-until-the-company-using-it-isn-t-small)（引用许可条文的二手分析；Hugging Face LICENSE.md 原文待逐条直读） | 英文 / 许可分析 | [Spark Open 的开放范围](../models/muse-spark-open/) |
 | 约 10-23/24 | [Muse 如何把 OpenClaw 变成千万用户的个人 Agent](https://www.163.com/dy/article/L9U5L7PM05118HA4.html)（网易号；页面未显示确切发布日，图片路径为 2026/1023；作者实测结合 muse.ai 公开资源与安卓安装包静态分析，未登录读取、无鉴权调用、未安装运行） | 中文 / 社区原创分析 | [OpenClaw 渊源](../product/openclaw-lineage/) |
@@ -105,6 +106,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | WIRED 实测（10-12） | 公开用户规则与系统提示在成人内容上直接冲突 | 媒体单一样本实测，未独立复现 |
 | WIRED 六 Agent 横测（10-27） | 首次三方赛道同题对照：Muse 日常任务顺手、跨应用核对漏报，免费与易上手为相对优势 | 单作者单日、仅共享 Gmail 与日历，Duet 为发布次日状态；原文未直接读取 |
 | 纽约时报两周实测（10-25） | 第二篇 Muse–Dots 直接对照：位置触发与批量求职为 Muse 胜场、餐厅抢订 dots 到确认屏、餐食与议价两方均成；日常任务性价比上 Muse 占优，与 WIRED 打分结论互补 | 单作者单账号两周、五项任务；原文未直接读取，依据转载全文核实；dots 浏览器故障是否为系统性短板待更多证据 |
+| 优哥跨境五类任务实测（10-09） | 首篇简体中文任务执行类记录：比价三项带耗时与返回内容，餐厅活动止于候选清单，简报目标见目标—定时任务—前置条件提醒链条；训练开关默认开、权限起步选 Always ask、付款优先 Link 一次性卡 | 单作者单账号、视频口播改写文本；账单谈价与 Marketplace 两项无逐项成败记录；9 月 30 日地址个案转述出处未核对，不得与已入库地址个案合并 |
 | Wang 建造访谈（10-11） | 首次系统披露 Muse 建造过程：2025-06 备忘录、2026-02 OpenClaw 定型、100 多项行为评估全绿放行 | 高管口述经多家整理交叉，播客原声与完整文字稿未逐字核对；行为清单未公开 |
 | OpenClaw 静态拆解（约 10-23/24） | 补上建造线的静态证据一侧：沿用 SOUL.md／MEMORY.md 与出生仪式、简体中文文案 6,350 条约 89% 已译、647 个 skills 文件界面改叫连接器、搬家提示词与手机工具分寸规则 | 静态文案不等于运行时行为；翻译完备不等于中文区上线；共享智能体新邀请入口未核实上线 |
 | Spark Open 许可细读（10-28） | 补上开放权重的合规边界：署名义务与衍生品定义、集团收入超 2,000 万美元的服务门槛 | 引用条文的二手分析，许可原文待逐条直读，不构成法律意见 |

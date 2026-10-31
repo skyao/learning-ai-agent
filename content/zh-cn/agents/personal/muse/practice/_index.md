@@ -22,6 +22,7 @@ description: >
 - [盖茨评价](gates-assessment/)：盖茨称 Muse 为首个真正伟大的消费级 AI 产品，附带高能力模型须运行于可认证防护平台的安全红线。
 - [WIRED 六 Agent 横测](wired-six-agent-cross-test/)：WIRED 2026-10-27 同题横测，Muse、Dots、Duet 等六方五项任务，Muse 18/25、结论第二且「最易用」；WIRED 原文未直接读取，依据转载全文核实。
 - [纽约时报两周实测](nyt-five-killer-tasks/)：NYT 2026-10-25 两周实测，Muse 与 Dots 五项生活任务，位置触发训练计划与批量求职为 Muse 胜场、餐厅抢订 dots 到确认屏；NYT 原文未直接读取，依据 Indian Express 全文转载核实。
+- [简体中文五类任务实测](ugoearn-five-task-types/)：优哥跨境 2026-10-09 五类任务实测，手机套餐约 50 秒七家表、机票盯价约 3 分钟三条航班、麦克风三店核对约 2 分钟两方案、餐厅活动约 3／2 分钟三家候选、简报目标定时任务；本库首篇简体中文任务执行类记录，账单谈价与 Marketplace 两项无逐项成败记录。
 
 ## 后续实践
 
