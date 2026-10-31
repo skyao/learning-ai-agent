@@ -84,6 +84,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 10-27 | WIRED 六 Agent 一日横测（Reece Rogers；原文未直接读取，依据 DNYUZ 全文转载核实） | 英文 / 媒体一手横测 | [WIRED 六 Agent 横测](../practice/wired-six-agent-cross-test/) |
 | 10-25 | 纽约时报两周实测：Muse vs Dots 五项生活任务（Brian X. Chen；原文未直接读取，依据 Indian Express 全文转载核实并以 Substack 摘要交叉） | 英文 / 媒体一手实测 | [纽约时报两周实测](../practice/nyt-five-killer-tasks/) |
 | 10-09（发布）/ 10-20（更新） | 优哥跨境五类任务实测：比价、账单、Marketplace、餐厅活动、简报目标（全文已直接读取；视频口播改写文本，单作者单账号） | 中文 / 社区原创实测 | [简体中文五类任务实测](../practice/ugoearn-five-task-types/) |
+| 10-22（首发）/ 10-28（更新）与 10-09（发布） | AI Agents Library 同方法跨 Agent 对照：Duet vs Muse 对照页与 Dots／Spark／Muse 六任务匹配比较（全文已直接读取；单作者单账号、不同日期／账号／源材料、非受控实验；Muse 免费档） | 英文 / 独立实测对照 | [同方法跨 Agent 对照](../practice/aiagentslibrary-cross-agent-comparison/) |
 | 10-11（播客）/ 10-12（整理） | [Wang 讲述 Muse 七个月建造过程](https://www.allthingsmuse.com/articles/alexandr-wang-david-senra-muse-build-story/)（高管口述经整理站转述，多家整理与文字稿摘录交叉；播客原声与完整文字稿未逐字核对） | 英文 / 访谈整理 | [七个月建造过程](../product/build-story/) |
 | 10-28 | [Spark Open 许可细读](https://xt.pt/ai/muse-spark-open-is-free-until-the-company-using-it-isn-t-small)（引用许可条文的二手分析；Hugging Face LICENSE.md 原文待逐条直读） | 英文 / 许可分析 | [Spark Open 的开放范围](../models/muse-spark-open/) |
 | 约 10-23/24 | [Muse 如何把 OpenClaw 变成千万用户的个人 Agent](https://www.163.com/dy/article/L9U5L7PM05118HA4.html)（网易号；页面未显示确切发布日，图片路径为 2026/1023；作者实测结合 muse.ai 公开资源与安卓安装包静态分析，未登录读取、无鉴权调用、未安装运行） | 中文 / 社区原创分析 | [OpenClaw 渊源](../product/openclaw-lineage/) |
