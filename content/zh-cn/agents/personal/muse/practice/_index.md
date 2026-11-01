@@ -24,6 +24,7 @@ description: >
 - [纽约时报两周实测](nyt-five-killer-tasks/)：NYT 2026-10-25 两周实测，Muse 与 Dots 五项生活任务，位置触发训练计划与批量求职为 Muse 胜场、餐厅抢订 dots 到确认屏；NYT 原文未直接读取，依据 Indian Express 全文转载核实。
 - [简体中文五类任务实测](ugoearn-five-task-types/)：优哥跨境 2026-10-09 五类任务实测，手机套餐约 50 秒七家表、机票盯价约 3 分钟三条航班、麦克风三店核对约 2 分钟两方案、餐厅活动约 3／2 分钟三家候选、简报目标定时任务；本库首篇简体中文任务执行类记录，账单谈价与 Marketplace 两项无逐项成败记录。
 - [同方法跨 Agent 对照](aiagentslibrary-cross-agent-comparison/)：AI Agents Library 同方法对照，Duet vs Muse 对照页（2026-10-22 首发、10-28 更新加入 Duet 实测）与 Dots／Spark／Muse 六任务匹配比较（2026-10-09 发布）；Duet 九项均分 9.7 已排除失败项、Muse 免费档可评分 8 项均分 8.0／总体印象 6.5，六任务匹配平均 Dots 9.08／Spark 8.50／Muse 7.75；不同日期／账号／源材料、非受控实验，不得读作胜负定论。
+- [Claire Vo 九任务基准](claire-vo-nine-task-benchmark/)：Claire Vo 2026-10-28 四方同题基准，Grok Bot、Dot、Muse、Duet 九项真实任务；Muse 赢短视频剪辑、家庭报纸与作业讲解速度三项，鞋类购物接近胜出需推动，Figma 缩略图落选，Slack 与 Sentry 未参赛（未接 Slack／GitHub，作者定性为设置失败），发布视频编造产品内容；Duet 4 次批准 vs 其余各 1 次，Muse 审批侧边栏获作者点名肯定；Grok 93%／Duet 79% 为文字稿交 Claude 评分的总结、无透明公式，Muse 总分未给出，分数不得跨篇比较。
 
 ## 后续实践
 
