@@ -25,6 +25,8 @@ description: >
 - [简体中文五类任务实测](ugoearn-five-task-types/)：优哥跨境 2026-10-09 五类任务实测，手机套餐约 50 秒七家表、机票盯价约 3 分钟三条航班、麦克风三店核对约 2 分钟两方案、餐厅活动约 3／2 分钟三家候选、简报目标定时任务；本库首篇简体中文任务执行类记录，账单谈价与 Marketplace 两项无逐项成败记录。
 - [同方法跨 Agent 对照](aiagentslibrary-cross-agent-comparison/)：AI Agents Library 同方法对照，Duet vs Muse 对照页（2026-10-22 首发、10-28 更新加入 Duet 实测）与 Dots／Spark／Muse 六任务匹配比较（2026-10-09 发布）；Duet 九项均分 9.7 已排除失败项、Muse 免费档可评分 8 项均分 8.0／总体印象 6.5，六任务匹配平均 Dots 9.08／Spark 8.50／Muse 7.75；不同日期／账号／源材料、非受控实验，不得读作胜负定论。
 - [Claire Vo 九任务基准](claire-vo-nine-task-benchmark/)：Claire Vo 2026-10-28 四方同题基准，Grok Bot、Dot、Muse、Duet 九项真实任务；Muse 赢短视频剪辑、家庭报纸与作业讲解速度三项，鞋类购物接近胜出需推动，Figma 缩略图落选，Slack 与 Sentry 未参赛（未接 Slack／GitHub，作者定性为设置失败），发布视频编造产品内容；Duet 4 次批准 vs 其余各 1 次，Muse 审批侧边栏获作者点名肯定；Grok 93%／Duet 79% 为文字稿交 Claude 评分的总结、无透明公式，Muse 总分未给出，分数不得跨篇比较。
+- [Pat Simmons 三方对照](pat-simmons-three-job-comparison/)：Pat Simmons 2026-10-06 三方同题对照，Grok Bot、Muse、Dots 三项同题任务；Muse 行程绕行 Expedia 完成、YouTube 完成最快但标题与缩略图弱，4 小时虚构咖啡公司经营任务总评 D（丢件／售罄／退款／移交均为 F，诈骗邮件 A），九项由 Opus 5.5 按答案 key 打分、作者未自评；单作者单次、Grok 以多 bot 编排参赛，分数不得跨篇比较。
+- [7 天连续自动化实测](cunzhang-seven-day-automation/)：Web3 村长简体中文 7 天连续自动化实测（最后验证 2026-10-03），每天 3 档 10 秒短视频＋X／Threads／IG 共 7 次定时发布，7 天一次没落下、免费额度一周用 82%；Threads 每次发布须点确认卡，小红书因机房动态 IP 段被封禁无法登录，视频号直接自动发布不稳定、登录态仅一两天；链路含本地定时任务与手动发布环节，不得读作端到端独立闭环。
 
 ## 后续实践
 
