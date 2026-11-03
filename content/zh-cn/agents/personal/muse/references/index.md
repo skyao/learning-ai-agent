@@ -91,6 +91,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | 10-11（播客）/ 10-12（整理） | [Wang 讲述 Muse 七个月建造过程](https://www.allthingsmuse.com/articles/alexandr-wang-david-senra-muse-build-story/)（高管口述经整理站转述，多家整理与文字稿摘录交叉；播客原声与完整文字稿未逐字核对） | 英文 / 访谈整理 | [七个月建造过程](../product/build-story/) |
 | 10-28 | [Spark Open 许可细读](https://xt.pt/ai/muse-spark-open-is-free-until-the-company-using-it-isn-t-small)（引用许可条文的二手分析；Hugging Face LICENSE.md 原文待逐条直读） | 英文 / 许可分析 | [Spark Open 的开放范围](../models/muse-spark-open/) |
 | 约 10-23/24 | [Muse 如何把 OpenClaw 变成千万用户的个人 Agent](https://www.163.com/dy/article/L9U5L7PM05118HA4.html)（网易号；页面未显示确切发布日，图片路径为 2026/1023；作者实测结合 muse.ai 公开资源与安卓安装包静态分析，未登录读取、无鉴权调用、未安装运行） | 中文 / 社区原创分析 | [OpenClaw 渊源](../product/openclaw-lineage/) |
+| 10-27（法律页更新日；帮助页未标注发布日） | [Muse 上眼镜 Beta 帮助页](https://www.meta.com/help/ai-glasses/1391796469223757/)与 [Custom Name 隐私通知](https://www.meta.com/legal/ai-glasses/custom-name-privacy-notice/)（全文已直接读取；Beta 阶段、地区与机型范围未说明，10-27 为法律页更新日而非 Beta 开始日） | 英文 / 官方文档 | [眼镜 Beta](../product/glasses-beta/) |
 
 中文报道与其引用的英文原文可能来自同一来源，不视为独立验证。金融平台的具体政策尚待原始声明复核。
 
@@ -114,6 +115,7 @@ Connect、小企业、Windows、Wonder 和 Spark Open 分别涉及不同层面�
 | Wang 建造访谈（10-11） | 首次系统披露 Muse 建造过程：2025-06 备忘录、2026-02 OpenClaw 定型、100 多项行为评估全绿放行 | 高管口述经多家整理交叉，播客原声与完整文字稿未逐字核对；行为清单未公开 |
 | OpenClaw 静态拆解（约 10-23/24） | 补上建造线的静态证据一侧：沿用 SOUL.md／MEMORY.md 与出生仪式、简体中文文案 6,350 条约 89% 已译、647 个 skills 文件界面改叫连接器、搬家提示词与手机工具分寸规则 | 静态文案不等于运行时行为；翻译完备不等于中文区上线；共享智能体新邀请入口未核实上线 |
 | Spark Open 许可细读（10-28） | 补上开放权重的合规边界：署名义务与衍生品定义、集团收入超 2,000 万美元的服务门槛 | 引用条文的二手分析，许可原文待逐条直读，不构成法律意见 |
+| 眼镜 Beta 官方文档（法律页更新 10-27） | 眼镜线由“无落地证据”更新为“官方 Beta 文档已存在”：双 App 切换、权限按产品隔离、部分功能暂不支持、自定义唤名录音上云与本地数值代码识别、误唤醒 90 天删除 | Beta、测试阶段；地区、机型、开始日期与正式版时间均未说明，日本眼镜端仍未定 |
 | 53AI 实测（10-04） | 出现第一篇中文原创注册实测与邀请机制样本 | 绕过地区限制的注册不等于官方开放 |
 | Yahoo Finance 评测（10-22） | 补齐理财功能清单与独立机构的谨慎态度 | 经转载阅读，细粒度授权问题待核对 |
 
