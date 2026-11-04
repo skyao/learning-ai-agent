@@ -1,22 +1,23 @@
 ---
-title: "Personal Agent 系列（一）：概念、产品与应用场景"
+title: "深入 Personal Agent 系列之总览篇：从对话问答到持续委托"
 linkTitle: "总览篇"
 weight: 10
 date: 2026-10-24
-lastmod: "2026-10-25T00:00:00+08:00"
+lastmod: "2026-11-02T00:00:00+08:00"
 description: >
-  Personal Agent 系列总览篇：从概念、能力和发展脉络认识个人代理，结合主流产品、应用场景与 Muse 操作演示建立初步认识。
+  从概念、用途与演进出发认识主流产品，保留八款概览，并展开 Muse、Dots、Duet 与 Grok Bot 的功能和使用方式。
 ---
 
 ## 前言
 
 这篇笔记是我对 Personal Agent 的概念、能力、发展脉络和主流产品的阶段性认识的总结。我希望先把 Personal Agent 的产品形态与使用场景联系起来，再通过一个简单的 Muse 演示，观察任务委托与成果交付的过程。技术实现细节留到后续专题继续分享。
 
-分享计划：当前为完整修订稿，按约 **50 分钟**安排：前四部分 15 分钟，主流产品与场景 25 分钟，Muse 演示 5 分钟，总结与交流 5 分钟，其中交流约 3 分钟。正文用于阅读与复盘；现场以幻灯片和具体例子为主，产品表格不逐项宣读。
+分享计划：当前为完整修订稿，按约 **63 分钟**安排：前四部分 25 分钟，主流产品概览与重点产品 28 分钟，Muse 演示 5 分钟，总结与交流 5 分钟，其中交流约 3 分钟。正文用于阅读与复盘；现场以幻灯片和具体例子为主，产品表格不逐项宣读。
 
 - [完整 PowerPoint](images/00-personal-agent-introduction.pptx) 
 - [完整 PDF](images/00-personal-agent-introduction.pdf) 
 - [逐页讲述提示](images/00-introduction-speaker-notes.txt)
+- [七个部分的导航预览](images/00-navigation-preview.png)
 
 
 ## 什么是 Personal Agent
@@ -69,11 +70,43 @@ description: >
 
 **资料说明：** 本节整理于 2026-10-24。综述使用 2024-05-08 修订的 v2；社区组材料来自 2025 年活动，两项外部来源均于 2026-10-24 阅读。Personal Agent 的工作定义与判断方法是我的归纳，不代表统一行业标准。
 
+### 本次调研的 16 个对象
+
+我把名单放在概念介绍之后，先说明本次调研覆盖哪些对象。第一批用于建立主要产品认识，第二批补充不同路线与边界对照。这里的名单表示调研范围，不等于 16 个对象都已具备相同程度的长期个人服务能力。
+
+**第一批 8 个：**
+
+| 名称 | 厂商 / 团队 | 推出 / 公告时间 | 当前状态与注册 | 服务地域 |
+| --- | --- | --- | --- | --- |
+| Muse | Meta | 2026-09-08 | 公开提供；可注册 | 美国、加拿大、日本 |
+| Dots | OpenAI | 2026-09-29 | 符合套餐逐步开放；Pro / Business Premium / 企业 | 个人Pro除EEA/英/瑞；组织版全球逐步开放 |
+| Cue | Manus | 2026-09-28 | Early Access；邀请码进入 | 未公布完整地域清单 |
+| Gemini Spark；（现 Task） | Google | 2026-05-19；Spark 公告 | Task 已开放；个人 Google AI Pro / Ultra | Gemini支持地区，除；EEA/英/瑞/尼日利亚 |
+| Grok Bot | xAI / Grok | 2026-08-11 | 符合付费套餐可用；首发为 Beta | 未公布 Bot 完整地域表 |
+| OpenClaw | OpenClaw；社区 | 2025-11 前身；2026-01 现名 | 公开开源 / 可自建；源码无需注册 | 自建无统一服务地域；模型与渠道另有限制 |
+| WorkBuddy | 腾讯 | 2026-03；正式推出 | 公开下载；登录可用 | 中国版及海外版；具体范围以账号为准 |
+| Claude Duet | Anthropic | 2026-10-21 | Research Preview；美国 Pro / Max 候补邀请 | 美国 |
+
+**第二批 8 个：**
+
+| 名称 | 厂商 / 团队 | 推出 / 公告时间 | 当前状态与注册 | 服务地域 |
+| --- | --- | --- | --- | --- |
+| Hermes Agent | Nous；Research | 2026-02-25 | 公开开源 / 可自建；源码无需注册 | 自建无统一服务地域；模型及云服务另计 |
+| Copilot；Autopilot | Microsoft | 2026-09-25；现名公告 | Private Preview；面向受邀组织 | 未公布完整地域清单 |
+| Poke | Interaction；/ Cognition | 2025-09 | 公开注册；无候补名单 | 官方称全球可用；消息渠道条件另计 |
+| Lindy | Lindy | 2023-03；初代介绍 | 开放注册；按套餐使用 | 未公布完整地域清单 |
+| Kimi Claw | 月之暗面 | 2026-02；公测 | 可登录开通；云端部署；需 Allegretto 及以上 | 未公布完整地域清单 |
+| Personal；Computer | Perplexity | 2026-03 公告；2026-04 上线 | 已提供桌面下载；按套餐与设备使用 | 按 Perplexity 支持范围；未列独立完整地域表 |
+| DeepSeek；Harness | 深度求索 | 2026-08；已有公开记录 | Public Preview；可下载 / 开源 | 官方称全球公开预览 |
+| Claude Cowork | Anthropic | 2026-01-12；首次研究预览 | 付费套餐可用；统一体验逐步开放 | Claude 支持地区 |
+
+**资料说明：** 以上开放条件于 2026-10-26 回查官方公告与帮助页；没有新增账号或地域实测。推出时间区分首发、更名与早期公开记录，不能与当前可用状态混用。EEA 指欧洲经济区，套餐与地区须同时满足；未公布完整地域清单不代表全球可用。逐项来源与日期口径见[名单资料记录](images/01-agent-roster-references.txt)。PPT 将两批各排一页，只用于快速认识名字与开放条件。
+
 ![第一部分配套幻灯片：AI Agent 定义、执行示例、个人代理定义与判断方法](images/01-what-is-personal-agent-preview.png)
 
 ## Personal Agent 能做什么
 
-本节约 4 分钟，先概览三类委托，具体产品和场景在第五部分展开。
+本节约 14 分钟，保留三类常规委托，补充实际业务用途与 16 个对象的功能对照；第五部分按厂商、生态与业务侧重认识产品。
 
 有了定义，我更关心哪些工作可以交给 Personal Agent。我把调研中看到的应用归为三类：信息与事务、调研与交付、持续跟踪。下面用具体委托说明输入、处理过程和交付结果，不要求每个产品都具备全部能力。
 
@@ -119,7 +152,77 @@ description: >
 
 **资料说明：** 本节整理于 2026-10-24，引用的四篇官方帮助与产品说明均于当日读取，属于动态文档，不将阅读日期当作发布日期。以上委托为我归纳的场景示例，没有新增产品实测；可用能力取决于地区、套餐、版本、连接服务及具体授权，产品差异留到第五部分展开。
 
-![第二部分配套幻灯片：三类应用、信息与事务、调研交付及持续跟踪](images/02-what-personal-agents-can-do-preview.png)
+### 从三类常规工作，补充到实际业务用途
+
+我保留前面的三类用途，再补充购物付款、订阅账单、电话预订、个人经营、应用开发和设备操作。持续跟踪是一种工作方式，可以贯穿这些业务；以下方向不按互斥产品类别理解。
+
+### 购物与付款不只是比价
+
+[Muse 的官方购买说明](https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse)和 [Duet 的 Link 帮助](https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet)都有逐笔批准的购买流程。[Cue 的开发者应用说明](https://play.google.com/store/apps/details?hl=en&id=ai.manus.agents)则加入支持商家的扫码点单和确认付款。它们让“选什么”延伸到了“帮我买”。
+
+我会明确商品、数量、商家、总价、配送与退货条件，再检查最后是否有订单。不能只凭付款请求获批就说购买成功，商家仍可能拒绝或没有完成交易。
+
+### 订阅管理需要把几种动作分开
+
+我想研究的委托是：整理获准访问的账单与邮件，列出服务、金额、周期、续费日、试用截止和重复项，形成保留、降档或取消清单，确认后再执行。新服务开通、付费续订与取消是不同动作，仍需要相应服务和付款路径的支持。
+
+[Subscription Insider 的 2026-09-29 观察](https://www.subscriptioninsider.com/blog/meta-muse-shows-where-subscription-management-is-headed)介绍了 Muse 查找和批准后取消订阅的场景。这属于第三方报道，本轮未取得同条件实测，不能写成我验证了商家覆盖或成功率。[Perplexity 2026-05-10 更新](https://www.perplexity.ai/changelog/personal-computer-for-all-users-on-mac)提供配套 Personal CFO 的账户和预算分析依据，并注明美加范围；它不是所有 Mac 安装默认启用的功能，也不等于代用户转账。
+
+我特别区分四件事：**退订邮件列表、取消付费会员、周期执行任务、周期扣款。** Gemini 的帮助里“unsubscribe”指邮件退订，Duet 的 Link 则明确不支持周期付款。另一个独立问题是我自己购买 Agent 的会员，不能用产品的充值页证明它有代购物能力。
+
+### 预订与电话要看最终由谁完成
+
+[Lindy 的电话页](https://www.lindy.ai/product/phone)列出代拨、接听、改约与结果汇报；[Gemini Task 的中文帮助](https://support.google.com/gemini/answer/17094507?hl=zh-Hans)写到选购、旅行和餐厅预订。[Poke Human 发布记录](https://poke.com/docs/release-notes)则明确部分电话、下单、叫车与预订由真人加入完成。
+
+我会分别记录自动执行、需要用户接管和人工协助。一个服务最终能订妥，与底层是否全程由 AI 执行，是不同问题。
+
+### 个人经营既包含花钱，也包含收款和业务管理
+
+[Muse Small Business 公告](https://about.fb.com/news/2026/09/introducing-muse-small-business/)将店铺、财务与内容工具接入个人委托。[Duet 发布说明](https://claude.com/resources/articles/claude-duet)也覆盖客户、合同、发薪和店铺，但具体动作仍受连接器与审批条件约束。
+
+[Stripe 的合作公告](https://stripe.com/newsroom/news/anthropic-and-stripe)给出了一个清晰区别：Link 用于用户采购；Stripe MCP 面向商户发票、支付链接、价格、收入和退款。两者都是商业行为，代表的账号与授权对象却不同。我不会由此推为任意个人转账能力。
+
+### 应用与流程制作：做成可以继续使用的工具
+
+[WorkBuddy 网站发布帮助](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Web-App)说明预览、数据保存、发布、更新和下线，能够支持“做一个我以后继续使用的小工具”这类委托。Dots 与 DeepSeek Harness 的代码和插件能力，也让我把成果范围从静态文件扩展到程序与流程。
+
+### 设备与应用操作：动作进入我的环境
+
+[Personal Computer 的设置帮助](https://www.perplexity.ai/personal-computer-setup)覆盖 Mac 文件、应用与手机确认；[Kimi Claw Android](https://www.kimi.com/en/help/kimi-claw/android-user-guide)在手机本机执行；[Hermes 的工具页](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools)明确 Home Assistant 通过插件接入。这里都需要记录实际路径，不能把某一插件可扩展的能力说成所有安装都默认可用。
+
+### 逐个回查 16 个对象
+
+我把每个对象的厂商、推出时间、准入、地域与套餐快照归入它自己的“产品与设计”目录。下表比较用途与证据边界，不做统一条件排名；“未确认”只表示本轮没有取得足够依据。
+
+#### 第一批八个对象
+
+| 对象与功能笔记 | 我确认的用途入口 | 购买、付款与证据限制 |
+| --- | --- | --- |
+| [Muse](/agents/personal/muse/product/capabilities-and-availability-20261026/) | 购物、旅行与个人目标；个人经营；订阅管理有外部观察 | Link 购买逐笔批准；订阅取消案例未经我复现 |
+| [Dots](/agents/personal/dots/product/capabilities-and-availability-20261026/) | 持续职责、文档与研究；代码、应用与项目跟进 | 有动作审查与插件权限；专属支付钱包未确认 |
+| [Cue](/agents/personal/cue/product/capabilities-and-availability-20261026/) | 身份化助手与团队协作；支持商家扫码、点单与支付 | 开发者说明要求付款确认；商家与地域范围另核 |
+| [Gemini Spark （现 Task）](/agents/personal/gemini-spark/product/capabilities-and-availability-20261026/) | 邮件、研究、购物预订；航班酒店比价与持续任务 | 敏感步骤可能需接管；邮件退订非付费退订 |
+| [Grok Bot](/agents/personal/grok-bot/product/capabilities-and-availability-20261026/) | 长期 Bot、网页与应用；协作、内容和重复工作 | Stripe 列为 Link 合作对象；Bot 文档支付确认需接管 |
+| [OpenClaw](/agents/personal/openclaw/product/capabilities-and-availability-20261026/) | 自建消息、网页与设备；文件工作和重复任务 | 依赖所装插件和部署；未确认统一消费钱包 |
+| [WorkBuddy](/agents/personal/workbuddy/product/capabilities-and-availability-20261026/) | 办公文件、分析与应用；可预览、发布和继续修改 | 应用发布须另确认；购买积分非代购物能力 |
+| [Claude Duet](/agents/personal/claude-duet/product/capabilities-and-availability-20261026/) | 办公与经营、采购；商户发票、收入与退款 | Link 每笔批准，不支持周期付款；美国预览限制 |
+
+#### 第二批八个对象
+
+| 对象与功能笔记 | 我确认的用途入口 | 购买、付款与证据限制 |
+| --- | --- | --- |
+| [Hermes Agent](/agents/personal/hermes-agent/product/capabilities-and-availability-20261026/) | 自建研究、开发与定时；可加 Home Assistant 插件 | 有卡片填写非统一钱包；社区案例不作产品保证 |
+| [Copilot Autopilot](/agents/personal/copilot-autopilot/product/capabilities-and-availability-20261026/) | 组织上下文中的持续工作；邮件、日历和文件沿革 | 受邀预览，旧 Scout 资料不等于现名功能全量 |
+| [Poke](/agents/personal/poke/product/capabilities-and-availability-20261026/) | 消息、提醒与 Recipes；电话、预订和现实事务 | Poke Human 有真人参与；不概括为纯 AI 付款 |
+| [Lindy](/agents/personal/lindy/product/capabilities-and-availability-20261026/) | 电话、改约、客户支持；会议、CRM 与经营资料 | 预约有依据；未确认统一购买钱包与周期支付 |
+| [Kimi Claw](/agents/personal/kimi-claw/product/capabilities-and-availability-20261026/) | 消息与 OpenClaw 任务；手机应用与智能设备路径 | 云端、桌面、Android 分开；不能复制 Kimi 全站功能 |
+| [Personal Computer](/agents/personal/personal-computer/product/capabilities-and-availability-20261026/) | Mac 文件、应用与网页；配套 Computer 财务分析 | Personal CFO 属配套服务；美加范围，非自动交易 |
+| [DeepSeek Harness](/agents/personal/deepseek-harness/product/capabilities-and-availability-20261026/) | 文件、研究与代码；批处理、插件与流程扩展 | 运行能力非现成商业服务；未确认消费钱包 |
+| [Claude Cowork](/agents/personal/claude-cowork/product/capabilities-and-availability-20261026/) | 研究、文档、表格与代码；应用与桌面工作 | Duet 的 Link 不在 Cowork；财务分析不等于付款 |
+
+**本轮资料说明：** 2026-10-26 回查 16 个对象的公开功能，官方、合作方与第三方观察分别保留；没有新增购买、注册、付款或功能实测。来源与逐产品笔记见[用途回查](/agents/personal/capability-review/)，也可下载[来源记录](images/02-capabilities-research.txt)。
+
+![第二部分配套幻灯片：三类常规工作、六个补充用途、动作边界与 16 个产品对照](images/02-what-personal-agents-can-do-preview.png)
 
 ## 和 OpenClaw 与 Agent Harness 的关系
 
@@ -227,188 +330,316 @@ OpenClaw 的实现仍在变化，不能把今天的工作区、记忆或自动�
 
 ![第四部分配套幻灯片：2022—2026 年演进、工作环境、Manus、Harness、OpenClaw 与持续个人服务](images/04-evolution-preview.png)
 
-## 五、主流产品及其应用场景
+## 五、主流 Personal Agent 产品概览
 
-本节约 25 分钟。[配套 PowerPoint](images/05-products-and-scenarios.pptx) · [PDF 预览](images/05-products-and-scenarios.pdf)
+本节保留全部原页并补充展开，按约 28 分钟估算；完整版本约 63 分钟，现场页数与时间另行选择。[配套 PowerPoint](images/05-products-and-scenarios.pptx) · [PDF 预览](images/05-products-and-scenarios.pdf)
 
-有了前面的定义，我接下来更想看清楚产品实际把哪些工作交给了 Agent。这里重点展开 **Muse、Dots、Claude Duet 和 WorkBuddy**：各用一个产品视角和一个完整场景，连接输入、执行、交付与用户参与。其余产品帮助我观察不同路线，不做同样篇幅的展开。
+我先用相同的几个问题认识产品：谁推出的，什么时间出现，从哪里使用，属于什么生态，主要面向哪些工作。第一批八款的原有介绍全部保留，再对 Muse、Dots、Duet 和 Grok Bot 各补充四页功能与使用方式；第二批八款继续作为参考。这些业务侧重可以重叠，不把通用任务当作产品独有能力。
 
-下文的能力依据官方资料，适用场景是我的理解；委托文字和过程表都是我构造的示例，没有新增账号实测。不同产品可以覆盖相同工作，以下侧重不代表独占能力，也不用于排名。
+### 第一批八个产品
 
-### 第一批八个产品：先建立一张产品地图
+#### Muse｜Meta 的综合个人代理
 
-| 产品与本地笔记 | 我关注的定位 | 场景入口 | 本节安排 |
-| --- | --- | --- | --- |
-| [Muse](../../muse/) | 个人事务与长期目标 | 行程、个人计划、经营事务 | 重点展开 |
-| [Dots](../../dots/) | 个人上下文与持续职责 | 研究资料维护、项目变化跟进 | 重点展开 |
-| [Claude Duet](../../claude-duet/) | 主动发现与工作跟进 | 晨间简报、会前准备、待决事项 | 重点展开 |
-| [WorkBuddy](../../workbuddy/) | 国内个人办公与成果交付 | 文件整理、数据分析、文档与 PPT | 重点展开 |
-| [Cue](../../cue/) | 具有通信资源的个人代理团队 | 多角色调研、整理与交接 | 简要介绍 |
-| [Gemini Spark / Task](../../gemini-spark/) | Google 生态中的个人任务 | 邮件、日历、资料与持续跟踪 | 简要介绍 |
-| [Grok Bot](../../grok-bot/) | 长期角色与云端工作 | 职责分工、方法复用 | 简要介绍 |
-| [OpenClaw](../../openclaw/) | 可自行部署与组合的个人助手 | 惯用通信渠道、自选工具与运行 | 简要介绍 |
+**厂商与时间：** Meta；2026-09-08。
 
-### Muse：围绕个人目标，把分散事务组织起来
+我把 Muse 理解为 Meta 面向个人提供的综合代理。它既承接生活和消费事务，也试图围绕个人目标延续工作，并通过 Small Business 扩展到店铺、内容和经营资料。认识这个产品时，我会先联系 Meta 已有个人应用和它接入的外部服务，不用一个旅行计划来界定它的能力范围。
 
-#### 我怎样理解它的产品体验
+- **使用入口：** Muse 应用与网页；可通过支持的消息入口交谈。
+- **生态连接：** Meta 个人应用与第三方连接；商家、旅行及支付服务。
+- **业务侧重：** 生活事务、购物与预订；个人目标、内容与经营工作。
 
-Muse 是 Meta 提供的托管个人代理，可以通过 Muse 应用或 WhatsApp 交谈。它将个人背景、任务与目标放进持续交互中：用户说明想做成什么，系统组织步骤，在后台继续工作，再带回成果或需要用户决定的事项。[Muse 发布介绍](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)
+**当前条件：** 公开提供；美、加、日。具体功能与地域条件沿用 2026-10-26 快照。
 
-我读产品设计资料时，最有帮助的是几个可见入口：**Goals** 看跟踪中的目标，**Activity** 看当前工作和活动记录，**Artifacts** 承载文档、网页、跟踪表或交互式成果。它们把“告诉我怎么做”扩展成了“保存计划、推进工作、交付结果”的使用过程。长期对话、可调整的主动消息与可查看的记忆，则帮助减少重复交代。[官方产品设计](https://introducing.muse.ai/)
+[官方产品资料](https://introducing.muse.ai/) · [本地调研笔记](../../muse/product/capabilities-and-availability-20261026/)
 
-我会用三类工作理解它的范围：生活安排，例如旅行和家庭待办；持续个人目标，例如围绕时间与已有记录维护计划；个人经营，例如依据店铺资料整理内容、经营分析和回复草稿。第三类已有 Muse for Small Business 的技能与连接器公告，涉及 Shopify、Canva、QuickBooks 等工具，但实际动作仍以连接与授权为前提。[经营场景公告](https://about.fb.com/news/2026/09/introducing-muse-small-business/)
 
-#### 场景：准备一次两天行程，并在条件变化后继续调整
+##### 把分散的事情组织成长期目标
 
-我构造的委托是：
+我先从 Goals 理解 Muse 的个人服务方式。官方设计把长期目标、正在跟踪的事项和 Ideas 建议放在可见的位置；一段持续的主对话帮助用户补充要求，不必把每件事都重新开始。
 
-> 下个月安排一次两天行程，预算不超过 3000 元，尽量避开工作日上午出发。结合我提供的日历和出行偏好，比较交通与住宿，给我两套方案。先保留待定项，不预订、不付款；时间变化后再调整。
+本页的目标界面来自官方设计文章。它让我关注的是用户如何交代优先级、查看推进中的事项，以及在目标变化时继续沟通。这里的界面与说明属于官方展示，不能当作我已验证的跨周执行效果。
 
-| 环节 | 这个场景里具体要做什么 |
-| --- | --- |
-| 输入 | 日期范围、预算、同行人、交通偏好，以及允许使用的日历与资料 |
-| 推进 | 整理约束，比较交通和住宿，将需要用户补充的信息单列 |
-| 交付 | 两套方案、行程表、费用构成与待确认事项，而不只是景点推荐 |
-| 延续 | 如果我改了出发时间，在现有方案上说明受影响的安排并修订 |
-| 用户参与 | 选择方案，核对票价和退改条件；真正预订或付款另行确认 |
+相关资料：[Meta：How We Designed Muse](https://introducing.muse.ai/)。
 
-这个例子帮助我区分一次旅行问答与目标委托：有背景、有阶段成果，也有变化后的继续处理。它不是本轮已经跑通的案例，更不表示全部网站都可访问或所有价格都准确。
+##### 离开对话后，事情怎样继续
 
-#### 使用时我会关注什么
+官方的开学准备案例由产品设计作者讲述：学校邮件、日历、用品采购与截止时间被放在同一项持续事务中。我要借它说明，多步工作可以跨越一次对话，不能把这个案例写成我自己的使用经历。
 
-我会先限定资料与动作范围，再检查 Activity 中的过程和交付内容。公开公告要求发送、发布和花费经过批准；已有的 [Gmail 连接与审批探索](../../muse/practice/analysis/)可以补充我当时观察到的界面，不能代表全部账号和场景。后面的 Muse 演示仍采用三份模拟材料，先观察基本委托和修订，不用一次演示证明长期目标能力。
+活动视图让用户回看正在处理的事项。官方设计也强调，后台结果只有值得呈现或需要用户输入时才通知。我会把这一页讲成进度查看与介入方式，持续可靠性仍留待实践。
 
-### Dots：把持续职责交给同一个代理
+相关资料：[Meta：How We Designed Muse](https://introducing.muse.ai/)。
 
-#### 从一项任务到一份需要持续维护的工作
+##### 购物与预订，走到确认动作
 
-我理解 Dots 的入口是“给同一个 dot 一份职责”。它在 ChatGPT 中持续跟踪工作，用户可以补充背景、改变优先级，再让它接着处理。需要较大投入的部分，可以委派给后台任务；用户仍能继续与主 dot 交谈。[官方产品说明](https://learn.chatgpt.com/docs/dots)
+我把购物与预订作为 Muse 功能介绍的一个重点：产品尝试把选择方案、准备动作与用户确认接起来。左侧是官方结账控件，显示这类委托需要清楚的动作入口，不能只在聊天里笼统说同意。
 
-它使用当前工作上下文、相关 ChatGPT 记忆和自己的笔记。对我而言，这比把所有历史都塞进每次任务更容易理解：一项职责可以延续，具体任务使用的资料仍有范围。按时间执行、受支持事件触发，以及根据进展暂停和继续，也是不同的安排方式。[任务与记忆](https://learn.chatgpt.com/docs/dots/tasks-and-memory)
+Meta 的新加坡公告列出 Shopee、Grab、航空和旅行服务等本地伙伴，同时明确连接器分批开放。官方页面日期为 2026-10-27，说明 Muse 已扩展到新加坡；旧概览页保留 10 月 26 日的美、加、日快照，当前补记增加新加坡。地区开放不代表每个商家功能都已开放，支付批准也不等于订单已完成。
 
-我最想用它观察三类职责：持续维护研究资料、跟进一个项目的变化、将反馈转成待检查的修订任务。核心是“什么需要长期保持最新”，而不是一次要生成多长的报告。
+相关资料：[Meta：Muse 安全与购买确认](https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse) · [Meta：Muse in Singapore](https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/)。
 
-#### 场景：持续维护一份 Agent 框架比较笔记
+##### 交付可继续使用的成果
 
-> 接下来四周，维护这三个 Agent 框架的比较笔记。先用我提供的旧表和官方来源清单补齐基线，再跟踪与运行平台有关的更新。每周五给我变更表；如果某项变化影响部署选择，单独带回证据和需要我决定的问题。文件修改先给草稿。
+Artifacts 是我认为应该让听众直接看到的功能。官方设计展示文档、网页和交互式工具等成果，让任务结果可以脱离长段聊天继续使用。这里的支出跟踪、学习与健康展示属于官方示例，不是我的实验。
 
-| 环节 | 这个场景里具体要做什么 |
-| --- | --- |
-| 输入 | 三个框架、关注维度、旧笔记、允许访问的来源和交付位置 |
-| 首轮工作 | 检查旧结论和缺口，形成带版本、日期与引用的比较基线 |
-| 后续工作 | 识别新资料对旧结论的影响，区分一般更新与影响选型的变化 |
-| 交付 | 比较表、变更记录、修订草稿和待决事项；我可以继续追问依据 |
-| 用户参与 | 调整范围，判断结论是否成立，确认是否合入已有笔记 |
+Small Business 则把个人委托延伸到经营活动，例如结合店铺、财务、设计和社交业务信息准备工作。我会保留它与生活事务的连续性：服务对象仍可以是同一个人，只是资料和动作进入了经营环境。发布、发送和花费需要批准，不能从连接品牌直接推定所有业务动作可用。
 
-我看重的是研究工作能否沿用已有决定，并在背景变化后接着推进。这里的四周跟踪是场景设计；是否支持指定事件、实际保存了什么排程，都要让产品确认，不能因为接入了一个来源就认定已经开始监控。
+相关资料：[Meta：How We Designed Muse](https://introducing.muse.ai/) · [Meta：Muse for Small Business](https://about.fb.com/news/2026/09/introducing-muse-small-business/)。
 
-#### 云端与本机怎样影响使用
+[继续阅读本地主题笔记](../../muse/product/how-we-design-muse/)
 
-dot 有自己的云端电脑；需要本机文件、代码和应用时，可以另外连接个人电脑。本机工作要求电脑在线且 ChatGPT 应用打开。消息渠道、应用连接和电脑访问是三种不同的接入，不自动互相授权。[电脑与应用](https://learn.chatgpt.com/docs/dots/computers-and-apps)
+#### Dots｜ChatGPT 中的持续个人职责
 
-我会通过 Activity 看具体任务与结果，通过 Scheduled 核对周期工作。停止主任务、停止委派任务和取消后续排程需要分别处理；“一次运行结束”也不自动等于成果已经交付。它的适用性因此与来源接入、执行位置及账号可用范围直接相关。[工作检查与控制](https://learn.chatgpt.com/docs/dots/controls)
+**厂商与时间：** OpenAI；2026-09-29。
 
-### Claude Duet：把分散信息转成值得处理的事项
+Dots 位于 ChatGPT 产品体系中。我更容易把它理解为一份持续职责的承接者：结合相关个人上下文，跟踪需要维护的工作，并在后续对话中继续。它可以使用应用连接，也可以把具体工作交给 Work 或 Codex；本节只建立这层产品关系，不展开委派和运行机制。
 
-#### 主动性体现在哪里
+- **使用入口：** ChatGPT 中创建与交谈；可接入支持的消息渠道。
+- **生态连接：** ChatGPT 的记忆与应用连接；与 Work、Codex 协同完成任务。
+- **业务侧重：** 资料与项目持续维护；研究、文档及软件相关工作。
 
-我理解 Duet 的主要入口是日常消息和工作关注：早晨给出简报，期间检查已连接应用，准备能够先做的工作，再把结果或需要判断的事项带回来。它既能接受明确任务，也试图发现尚未被用户逐项交代的工作。[2026-10-21 发布公告](https://claude.com/resources/articles/claude-duet)
+**当前条件：** 符合套餐逐步开放；个人与组织账号条件不同，见 2026-10-26 快照。
 
-产品体验包括持续主对话、主题频道、查看进展与待输入事项的 **Tasks**，以及收取较大成果的 **Make**。它沿用 Claude 账号的记忆、Skills 和连接器，在自己的云端电脑工作；研究简报、表格模型、幻灯片或仪表板都在官方举例范围内。我更关心的是这些成果是否对应了我的实际待办，而不只看生成了什么文件。[入门与功能说明](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet)
+[官方产品资料](https://learn.chatgpt.com/docs/dots) · [本地调研笔记](../../dots/product/capabilities-and-availability-20261026/)
 
-我会用会前资料准备、未回复事项整理、客户与账单跟进理解它。Gmail、日历和文件可以提供工作背景；官方还用 Stripe 未付账单与提醒邮件草稿说明经营事务。这些动作各有连接条件，不表示所有连接器都支持相同操作。
 
-#### 场景：为一周项目评审准备简报和待决清单
+##### 把一份持续职责交出去
 
-> 结合我授权的邮件、日历和评审资料，准备本周项目评审清单。列出需要提前阅读的材料、尚未回复的问题，以及需要我作决定的事项。先准备简报和回复草稿；缺少材料时问我，不替我承诺时间，也不直接发送。
+我用官方团队活动安排示例理解持续职责：先交代计划与往来材料，指出预算、截止日期和等待答复的事项，再让 dot 带回需要决定的下一步。这与只生成一次活动方案的差别，在于后续仍需跟进变化。
 
-| 环节 | 这个场景里具体要做什么 |
-| --- | --- |
-| 输入 | 已授权邮件、日历、明确提供的评审文件，以及关注优先级 |
-| 筛选 | 找出相关会议、待回复线索和资料缺口，说明为什么值得处理 |
-| 准备 | 汇总背景、组织会前简报，起草回复并整理用户待决项 |
-| 交付 | 简报、草稿和任务状态；在完成或需要决定时联系用户 |
-| 用户参与 | 检查遗漏和紧急程度，决定回复内容、是否发送及是否调整安排 |
+图中是对官方使用方式的归纳，不是我的实测。用户可以在后续对话补充细节、修改优先级并审核结果；实际能接入哪些来源、怎样定期运行，仍取决于账号与配置。
 
-这个场景的价值在于减少我反复翻邮件、找材料和回忆待办的负担。它不包含自动参加会议，也不假定 Duet 已能读取所有 Claude 项目或本机文件。公告的“主动”也存在检查间隔，不能用作实时告警的保证。
+相关资料：[OpenAI：Get started with your dot](https://learn.chatgpt.com/docs/dots/getting-started) · [OpenAI：Meet dots](https://learn.chatgpt.com/docs/dots)。
 
-#### 当前条件，以及与 Cowork 的关系
+##### 已有上下文怎样参与工作
 
-截至本次读取，Duet 是面向美国 Pro / Max 用户、按候补邀请开放的研究预览，后台工作计入同一套餐用量。帮助页还说明当前不能查看或接管其浏览器，部分连接器有限制，Microsoft 365 尚未提供。判断能否落到某项工作时，这些条件比泛称“支持办公生态”更具体。
+任务文档区分当前对话、相关 ChatGPT 记忆和 dot 自己保留的笔记；连接应用又为具体工作提供资料。这些信息帮助延续偏好、决定与正在维护的事项，但并不表示每个任务都会拿到全部历史。
 
-我仍把 Duet 与 Cowork 分开理解：Duet 更突出主动发现和持续跟进，Cowork 更适合从明确的知识成果委托来观察。二者都有交集，Cowork 也有后台与计划工作，Duet 也能完成一次性任务。[已有差异笔记](../../claude-duet/product/positioning-and-cowork/)
+我会在产品层面解释这三类背景怎样减少重复交代，不展开内部存储。接入来源、实际读取与把资料交给某个任务，仍有各自范围；不能从认识用户推导出可以访问其全部文件和应用。
 
-### WorkBuddy：把已有材料变成可继续使用的办公成果
+相关资料：[OpenAI：Tasks and memory](https://learn.chatgpt.com/docs/dots/tasks-and-memory) · [OpenAI：Computers and apps](https://learn.chatgpt.com/docs/dots/computers-and-apps)。
 
-#### 从文件和办公应用进入工作
+##### 怎样与 Work、Codex 配合
 
-WorkBuddy 是腾讯提供的 AI 工作台，个人使用时可以围绕文件、资料和应用委托工作。对我来说，最直观的入口是读取材料、整理分析，再交付可编辑的文档、表格、PPT 或网页。[官方简介](https://www.workbuddy.cn/docs/workbuddy/Overview)
+官方文档将 dot 的持续职责，与 Work 的研究、分析和文件交付、Codex 的软件工作分别说明。dot 可以安排相关任务、检查结果并继续跟进，用户也可以在工作推进时保持对话。
 
-它的资料处理并不限于生成一段正文。官方案例说明了从 Excel / CSV 输入、指定指标和统计范围，到计算、绘图与报告交付的过程；腾讯文档接入则覆盖搜索、引用和回写。[数据分析案例](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Three)、[腾讯文档接入](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Knowledge-Base/Tencent-Doc)
+这张图是产品分工示意，既不是内部架构图，也不表示每次都必须经过所有入口。Dots 自己也能处理多步任务，Work 也能安排周期工作；这里强调的区别是产品组织重心，不是独占的能力边界。
 
-我会用周报与经营分析、批量文件整理、研究材料转文档或 PPT 来理解它。个人记忆可以保存与当前工作相关的偏好；需要周期汇总时，可以另外配置定时任务。项目功能则还有团队共享上下文的范围，不能与个人记忆混为一谈。[个人记忆](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Memory)、[项目](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Project)
+相关资料：[OpenAI：Meet dots](https://learn.chatgpt.com/docs/dots) · [OpenAI：Tasks and memory](https://learn.chatgpt.com/docs/dots/tasks-and-memory)。
 
-#### 场景：把一周项目材料整理成分析表和五页汇报
+##### 查看进度，在需要时继续参与
 
-> 根据指定目录里的进度表、问题记录和会议纪要，整理本周项目进展。给我一份可编辑汇总表、一张进度图和五页 PPT。区分已完成、进行中与待确认事项；每条结论保留来源，缺失数据不要补猜，先不覆盖原文件。
+我会把 Dots 的两种使用条件讲清楚：它自己的云端电脑可以继续处理工作；当任务需要本地文件或本机环境时，可以在支持条件下连接个人电脑。本地工作仍依赖相应设备在线和 ChatGPT 应用运行。
 
-| 环节 | 这个场景里具体要做什么 |
-| --- | --- |
-| 输入 | 授权目录或上传文件、指标口径、已有模板和文件输出位置 |
-| 处理 | 对齐项目名称、时间与状态，合并重复项，把冲突和缺失单列 |
-| 分析 | 按指定口径统计和绘图，区分材料事实与需要判断的风险 |
-| 交付 | 汇总表、图表与五页 PPT；继续修改时沿用相同来源和口径 |
-| 用户参与 | 复核数字、状态和引用，提出修订，确认是否更新正式材料 |
+用户可从 Activity 查看委派任务和结果，也可以补充要求。结束通话不必然停止工作，主任务、委派任务和周期任务的停止入口需要分别理解。本页只保留直接影响使用的条件，不展开执行环境实现。
 
-这里“一组材料到一组可编辑成果”是我设计的组合任务，不是官方案例的复述，也没有新增执行结果。我会重点检查数字能否回到原表、图表口径是否一致，以及 PPT 是否保留了必须说明的不确定性。
+相关资料：[OpenAI：Computers and apps](https://learn.chatgpt.com/docs/dots/computers-and-apps) · [OpenAI：Get started with your dot](https://learn.chatgpt.com/docs/dots/getting-started)。
 
-#### 远程入口与运行条件
+[继续阅读本地主题笔记](../../dots/architecture/tasks-and-delegation/)
 
-WorkBuddy 的助理支持从微信、企业微信、QQ、钉钉和飞书等入口触发电脑上的工作；这条路径需要电脑开机并运行客户端。定时任务另有本地、项目与云端来源，带云端标识的任务在云端沙箱执行，无需本机在线。我会先确认文件在哪里、任务在哪里运行，再决定采用哪种路径。[远程助理](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Assistant)、[定时任务](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide)
+#### Cue｜具有独立身份的个人助手
 
-### 其余四款：补充不同的入口与组织方式
+**厂商与时间：** Manus；2026-09-28。
 
-| 产品 | 我希望借它观察的差异 | 一个场景入口 |
+Cue 是 Manus 推出的独立应用。发布资料强调每个助手有自己的身份和通信资源，多个助手可以在群聊中协作。业务范围包括日常事务、沟通和受支持商家的服务代办。这里我只介绍 Cue 自身，不把同篇 Manus 2.0 公告中的视频、游戏和桌面工作台全部算到 Cue 身上。
+
+- **使用入口：** 独立的 Cue 网页与应用；围绕助手和群聊交办工作。
+- **生态连接：** 来自 Manus 的独立产品；通信资源与支持的商家服务。
+- **业务侧重：** 日常事务与沟通协作；支持商家的点单和服务代办。
+
+**当前条件：** Early Access，公告为邀请码准入；应用条目和当前资格需分开确认。
+
+[官方产品资料](https://www.manus.im/blog/introducing-manus-2-0) · [本地调研笔记](../../cue/product/capabilities-and-availability-20261026/)
+
+#### Gemini Spark / Task｜Google 生态中的个人任务
+
+**厂商与时间：** Google；2026-05-19 Spark 公告；当前按 Task 形态介绍。
+
+我把 Spark 与当前 Task 入口放在同一条产品演进线上介绍。它的背景是 Google 已有的账号、个人上下文、邮件、日历和浏览器生态。主要用途可以概括为个人事务、资料处理、购物预订和持续跟踪；具体连接和功能仍按当前 Task 帮助确认，不能由首发合作图推定全部服务已经开放。
+
+- **使用入口：** Gemini 应用与网页中的 Task；具体入口按客户端开放。
+- **生态连接：** Gemini、Gmail、日历与 Drive；通过 Chrome 等连接网页服务。
+- **业务侧重：** 邮件与资料、个人安排；购物预订、研究与持续跟踪。
+
+**当前条件：** 当前 Task 要求个人 Google AI Pro / Ultra；另有年龄与地域条件。
+
+[官方产品资料](https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/) · [本地调研笔记](../../gemini-spark/product/capabilities-and-availability-20261026/)
+
+#### Grok Bot｜Grok 生态中的长期助手
+
+**厂商与时间：** xAI / Grok（沿用发布品牌）；2026-08-11；首发为 Beta。
+
+Grok Bot 用有名字和职责的长期 Bot 组织工作。它与 Grok、Cursor 存在账号、套餐和工作工具方面的联系，也可以使用外部应用与网页。这里我主要建立“长期角色助手”的产品印象，介绍资料、文档、内容与业务协作等用途；账号关联不作为推断公司主体或所有功能统一开放的依据。
+
+- **使用入口：** Grok Bot 桌面与移动应用；另有受支持的 X 消息入口。
+- **生态连接：** Grok 与 Cursor 的账号及工具连接；外部应用、网页和工作服务。
+- **业务侧重：** 资料、文档与业务信息；内容工作、职责协作与重复任务。
+
+**当前条件：** 符合付费套餐可用；新旧账号路径和各入口地域分别核对。
+
+[官方产品资料](https://docs.x.ai/grok-bot/overview) · [本地调研笔记](../../grok-bot/product/capabilities-and-availability-20261026/)
+
+
+##### 按职责建立长期助手
+
+Grok Bot 把具名的长期助手放在产品中心。用户可以给 Bot 规定工作范围、常用来源、风格与需要批准的动作，再在多次对话中继续使用。
+
+下方三个角色是我为讲解构造的职责示意，不是系统预置角色或已完成的协作实验。它们帮助理解为什么产品侧栏是一组助手，以及用户怎样知道某项工作应该找谁。角色不同不自动代表资源或权限彼此隔离。
+
+相关资料：[Grok Bot：Create and manage Bots](https://docs.x.ai/grok-bot/bots) · [Grok Bot：Overview](https://docs.x.ai/grok-bot/overview)。
+
+##### 让多个助手协作
+
+官方资料描述了 Bot 并行工作、互相联系、在群聊中共享相关上下文和交接任务的方式。用户仍可以追加指令，并在需要时停止工作。
+
+图中的收集、核验和汇总是讲解示意，用来表达协作关系，不宣称这是产品内置工作流或我已经验证的结果。实际交接要看最终由谁汇报、谁可以修改产物以及哪些动作需要批准。
+
+相关资料：[Grok Bot：Message and collaborate](https://docs.x.ai/grok-bot/chat-and-collaboration) · [Grok Bot：Overview](https://docs.x.ai/grok-bot/overview)。
+
+##### 把有效做法保存为 Skill
+
+Skills 文档把可复用的方法与触发时间分开：Skill 保存怎样做一项工作。用户可以从一次已完成的任务归纳步骤、结果要求与批准边界，并供后续任务复用。
+
+在开放了 Teach a task 的账号中，也可以演示浏览器操作再审核产生的方法草稿。演示教学逐步开放，不能把录过一次当作已经学会全部异常情况；先检查方法再用于重复工作，这是产品使用层面的重点。
+
+相关资料：[Grok Bot：Skills and routines](https://docs.x.ai/grok-bot/skills-routines-and-automations)。
+
+##### 用 Routine 安排持续工作
+
+Routine 将可复用方法安排成重复工作。官方资料支持按时间或已支持的事件触发，创建时需要明确负责的 Bot、资料来源、预期结果与需要用户确认的动作。
+
+我会用这页说明用户怎样把一件事留给助手持续处理，以及之后去哪里看结果。接入一个应用不表示所有事件都已可触发；计划启用也不等于每次都成功，仍要查看运行记录和缺失信息的提示。
+
+相关资料：[Grok Bot：Skills and routines](https://docs.x.ai/grok-bot/skills-routines-and-automations)。
+
+[继续阅读本地主题笔记](../../grok-bot/integrations/skills-and-routines/)
+
+#### OpenClaw｜可以自行部署的个人助手
+
+**厂商与时间：** OpenClaw 开源社区；2025-11 前身；2026-01 使用现名。
+
+OpenClaw 为认识 Personal Agent 提供了一条可以自行部署的路线。使用者可组合模型、消息渠道、工具和服务，使助手进入自己的工作环境。它可以承接个人事务、资料和重复性工作，但具体覆盖什么取决于配置。我在这里仅介绍产品形态与生态，不展开 Gateway、状态和权限实现。
+
+- **使用入口：** 自行部署后，通过支持的消息渠道或客户端使用。
+- **生态连接：** 开源社区与插件生态；可选择模型、渠道和外部服务。
+- **业务侧重：** 个人消息与资料事务；网页、文件和重复性工作。
+
+**当前条件：** 公开开源、可自建；模型、渠道和第三方服务条件另计。
+
+[官方产品资料](https://docs.openclaw.ai/) · [本地调研笔记](../../openclaw/product/capabilities-and-availability-20261026/)
+
+#### WorkBuddy｜腾讯的 AI 工作台
+
+**厂商与时间：** 腾讯；2026-03；正式推出。
+
+WorkBuddy 是腾讯提供的 AI 工作台。它从文件、应用和项目材料进入任务，业务侧重包括办公资料、数据分析、内容与成果制作，也覆盖网站和应用开发。腾讯文档、企业微信等是理解其产品生态的入口；我不会据此认为所有腾讯应用均已接通，或所有工作都只能在它上面完成。
+
+- **使用入口：** WorkBuddy 工作台；可从支持的消息助理入口交办。
+- **生态连接：** 腾讯办公与通信生态；腾讯文档、企业微信等及外部连接。
+- **业务侧重：** 办公资料、文档和数据分析；内容创作、应用制作与发布。
+
+**当前条件：** 公开下载、登录可用；国内与海外、个人与企业条件分别看。
+
+[官方产品资料](https://www.workbuddy.cn/docs/workbuddy/Overview) · [本地调研笔记](../../workbuddy/product/capabilities-and-availability-20261026/)
+
+#### Claude Duet｜主动跟进工作的个人代理
+
+**厂商与时间：** Anthropic；2026-10-21；研究预览。
+
+Duet 是 Anthropic 新推出的主动个人代理，面向专业人士和小企业主。它可以结合已连接的工作信息形成简报和待办，并处理客户、账单、采购及较大的工作成果。认识它时，我会联系 Claude 的账号和业务应用连接，同时保留它与 Cowork 的产品区别；本节不展开钱包和审批流程。
+
+- **使用入口：** 独立 Duet 应用与网页入口；通过消息、任务与成果界面使用。
+- **生态连接：** Claude 账号及应用连接；客户、财务、店铺与支付服务。
+- **业务侧重：** 简报、待办与工作跟进；客户、账单、采购和个人经营。
+
+**当前条件：** 美国 Pro / Max 候补邀请；与 Cowork 的入口和支付能力分别看。
+
+[官方产品资料](https://claude.com/resources/articles/claude-duet) · [本地调研笔记](../../claude-duet/product/capabilities-and-availability-20261026/)
+
+
+##### 先带来值得处理的事
+
+Duet 的产品页把晨间简报与专业人士的日常决定联系起来：从已连接的信息中筛出需要关注的工作，准备回复或后续动作，并在需要用户时联系。
+
+左侧卡片按官方业务示例归纳，属于功能示意，不是我的账户界面或客户经历。主动检查有间隔，也可能误判轻重缓急；我会讲清楚它提供的帮助，而不承诺它不会漏掉事情。
+
+相关资料：[Anthropic：Claude Duet 产品页](https://claude.com/product/claude-duet) · [Anthropic：Introducing Claude Duet](https://claude.com/resources/articles/claude-duet)。
+
+##### 从发现事项到用户验收
+
+入门帮助把 Tasks 与 Make 的用途分开：Tasks 展示工作和需要输入的事项，较大的成果出现在 Make，用户可以查看和编辑文件。工作涉及对外动作时，产品会按相应规则请求确认。
+
+官方还说明，Duet 可以建议任务看起来已经完成，但由用户将任务标记为完成。我认为这能帮助听众理解持续委托的参与方式：并非一直盯着执行，也不是交出去以后完全不管。
+
+相关资料：[Anthropic：Get started with Claude Duet](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet)。
+
+##### 面向专业工作与个人经营
+
+Duet 的公开定位面向专业人士和小企业主。发布资料与帮助将客户、合同、账单和经营资料连接到具体任务，例如查询未付发票并准备待批的提醒邮件。
+
+我按业务事项介绍连接工具，不做应用标识墙。某个品牌出现在公告中，不意味着每个账号都有该应用的所有读写能力；采购付款、商户退款与个人转账也不能混为一谈。下面保留工作准备和人工批准的边界。
+
+相关资料：[Anthropic：Introducing Claude Duet](https://claude.com/resources/articles/claude-duet) · [Anthropic：Get started with Claude Duet](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet)。
+
+##### 与 Cowork 怎样分工
+
+我用 Cowork 路线理解明确任务的研究、文档与文件交付，用 Duet 理解主动关注、筛选待办和继续跟进。两者都可能处理较大任务，也都可能在后台工作，所以这是一种产品重心比较，不是能力排他判断。
+
+当前 Claude 的聊天与 Cowork 正逐步统一。Duet 使用同一账号已有的记忆、Skills 和连接配置，但不表示它可以访问所有项目与文件。11 月 2 日帮助列出的研究预览条件为美国 Pro、Max、Ultra 候补邀请；旧概览页保留的是 10 月 26 日的 Pro / Max 快照。
+
+相关资料：[Anthropic：Get started with Claude Duet](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet) · [Anthropic：Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude)。
+
+[继续阅读本地主题笔记](../../claude-duet/product/positioning-and-cowork/)
+
+### 四款重点产品的比较
+
+我把四款产品联系起来时，最值得记住的是它们怎样组织工作：Muse 围绕个人目标与生活事务，Dots 围绕持续职责，Duet 围绕专业待办与需要用户的决定，Grok Bot 围绕长期角色与可复用方法。
+
+它们的功能会相互覆盖。我不会据此断言某个通用任务只有其中一款能做，也不把资料展示当作同条件评测。实际选择仍需结合账号、来源、地区、任务与授权。
+
+| 产品 | 主要工作重心 | 怎样组织工作 | 典型成果 | 我怎样参与 |
+| --- | --- | --- | --- | --- |
+| Muse | 生活、消费、与个人经营 | 个人目标、持续跟踪事项 | 计划、交互工具、待批的事务动作 | 看 Goals / 活动、重要动作确认 |
+| Dots | 持续职责、与项目工作 | dot 跟进职责、结合 Work / Codex | 研究、文件、软件与项目成果 | 补充背景与要求、查看 Activity |
+| Duet | 专业事务、与个人经营 | 简报、主动待办、继续跟进与交付 | 待批动作、业务资料与文件 | 处理关键决定、检查并验收 |
+| Grok Bot | 长期角色、与重复工作 | 多个 Bot 分工、Skills 与 Routines | 协作成果、可复用工作方法 | 明确职责与分工、审核并看运行结果 |
+
+[新增产品功能资料与来源](images/05-product-feature-references.txt)
+
+### 第二批八个产品参考
+
+这一批只保留厂商、时间与产品印象，完整功能和开放条件继续回到各自笔记。
+
+#### 参考产品 1—4
+
+| 产品 | 厂商与时间 | 生态与大致业务定位 |
 | --- | --- | --- |
-| Cue | 用有通信与执行资源的多个角色组织工作 | 一个角色调研、一个整理，再交接成果；看分工是否减少协调 |
-| Gemini Spark / Task | 围绕已有 Google 应用与上下文承接任务 | 从邮件、日历和文件组织工作；具体指 Task 形态 |
-| Grok Bot | 用长期角色、云端环境与可复用方法工作 | 持续整理某类业务信息；个人与团队使用分别看 |
-| OpenClaw | 由运行者组合渠道、模型、工具与状态 | 从惯用通信渠道使用自建助手，同时承担部署维护 |
+| [Hermes Agent](../../hermes-agent/) | Nous Research；2026-02-25 | 开源自建、模型与插件生态；个人助手、知识与重复工作 |
+| [Copilot Autopilot](../../copilot-autopilot/) | Microsoft；2026-09-25 现名公告 | Microsoft 365 与组织工作环境；组织上下文中的个人工作；私有预览 |
+| [Poke](../../poke/) | Interaction，已加入 Cognition；2025-09 | 消息渠道、应用连接与 Recipes；邮件、日程和生活事务；部分有真人协助 |
+| [Lindy](../../lindy/) | Lindy；2023-03 初代介绍 | 办公 SaaS、电话与业务集成；电话预约、客户跟进和例行工作 |
 
-这些路线仍属于第一批研究范围。背景来源沿用 [Cue 官方帮助](https://help.manus.im/zh-CN/articles/17190150-manus-2-0-有哪些新变化)、[Gemini Task 帮助](https://support.google.com/gemini/answer/17094507?hl=en)、[Grok Bot 概览](https://docs.x.ai/grok-bot/overview)与 [OpenClaw 文档](https://docs.openclaw.ai/)，本轮不将四款重点资料的回查扩大为其他产品的版本审计。
+#### 参考产品 5—8
 
-### 把四个重点产品放回同一类工作
-
-读完具体场景后，我再回到“准备一份项目评审材料”这项共同工作。以下是我选择观察入口的方法，不是同条件测评得出的优劣。
-
-| 产品 | 我会从什么委托开始 | 重点看什么结果 |
+| 产品 | 厂商与时间 | 生态与大致业务定位 |
 | --- | --- | --- |
-| Muse | 围绕一个个人目标组织资料、安排和后续待办 | 目标、计划与变化后的修订是否接得起来 |
-| Dots | 持续维护研究笔记与项目变化 | 新资料怎样影响旧结论，职责能否延续 |
-| Claude Duet | 从邮件与日历发现会前准备和待回复事项 | 简报是否有用，待决项是否准确，打扰是否合适 |
-| WorkBuddy | 把明确提供的文件加工成表、图和 PPT | 数字、引用与口径是否一致，文件是否便于修改 |
+| [Kimi Claw](../../kimi-claw/) | 月之暗面；2026-02 公测 | Kimi、OpenClaw 与消息及设备入口；个人助手的托管和设备使用形态 |
+| [Personal Computer](../../personal-computer/) | Perplexity；2026-03 公告；04 上线 | Computer、Comet 与个人电脑；本地文件、应用与网页工作 |
+| [DeepSeek Harness](../../deepseek-harness/) | 深度求索；2026-08 已有公开记录 | 模型、开发工具和插件生态；工作助手与运行底座；保留为边界对照 |
+| [Claude Cowork](../../claude-cowork/) | Anthropic；2026-01 首次研究预览 | Claude、应用连接与个人工作环境；研究与文件交付；统一入口逐步开放 |
 
-四款都可能写报告、处理文件或持续工作。我先选这些不同入口，是为了看清产品怎样减少资料搬运、重复交代与人工跟进，再用相同材料和验收标准继续验证。
+### 我怎样把这些产品联系起来
 
-### 第二批八个产品的补充观察
+这一轮我先记住厂商、生态与产品入口，再看业务侧重。Muse、Dots、Gemini Task、Duet 等与已有个人账号和应用相连；Cue、Grok Bot 强调不同的助手组织方式；WorkBuddy 从工作台与材料进入任务；OpenClaw 展示自建路线。这些观察可以交叉，不能据此推断某类任务其他产品做不了。
 
-第二批我只保留一个观察点，作为后续阅读入口。
+现阶段我不据宣传清单判断独占能力。具体某项工作能否完成，还要结合版本、地区、工具和授权；同条件比较留待后续实践。原有旅行、笔记维护、评审准备和周报场景，完整保存在[产品场景附录](../01-introduction-scenario-appendix/)中。
 
-| 产品与本地笔记 | 补充观察点 | 按当前定义怎样处理 |
-| --- | --- | --- |
-| [Hermes Agent](../../hermes-agent/) | 自建助手的记忆、经验技能和持续工作 | 保留个人助手形态，运行需要可用宿主；[官方介绍](https://hermes-agent.nousresearch.com/) |
-| [Copilot Autopilot](../../copilot-autopilot/) | 在组织资料与治理范围内服务个人 | 公开定位符合，仍标注 Private Preview；[官方产品说明](https://www.microsoft.com/en-ca/copilot/) |
-| [Poke](../../poke/) | 从日常消息入口委托邮件、日历等事务 | 消息入口型个人代理；[产品说明](https://poke.com/) |
-| [Lindy](../../lindy/) | 个人上下文与团队例行工作共存 | 按个人使用形态纳入，团队模式单独看；[记忆作用域](https://docs.lindy.ai/teammate/memory) |
-| [Kimi Claw](../../kimi-claw/) | OpenClaw 的托管、会员和设备产品化 | 保留，属于 OpenClaw 谱系；[官方帮助](https://www.kimi.com/help/kimi-claw/overview) |
-| [Perplexity Personal Computer](../../personal-computer/) | 个人文件、原生应用和电脑环境参与执行 | 作为第二批参考；[产品页](https://www.perplexity.ai/personal-computer) |
-| [DeepSeek Harness](../../deepseek-harness/) | 工作助手与运行底座并存 | 边界对照，持续个人服务仍需证据；[记忆接入条件](https://deepseek-harness.github.io/deepseek-harness/en/guide/mcp-memory) |
-| [Claude Cowork](../../claude-cowork/) | 个人知识工作、文件交付与后台任务 | 保留个人工作代理形态；[多端与云端说明](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile) |
+**资料说明：** 推出时间及基础开放条件以 2026-10-26 名单资料为底稿；第一批八款的主产品页面和展示图片于 2026-10-27 回查，第二批沿用 10-26 记录。首发、前身、更名与当前形态分别标注，生态连接与计划合作分别理解；没有新增账号实测。逐页来源及图片出处见[产品概览来源记录](images/05-product-overview-references.txt)。
 
-**资料说明：** 四个重点产品的上述官方来源于 2026-10-25 回查；动态帮助页不以阅读日代替发布日期，具体来源与版本条件见[本节来源记录](images/05-product-scenarios-references.txt)。其余产品沿用 2026-10-24 的资料范围。场景为我构造的委托，不是执行报告；只有 Muse 已有的原创实践另有记录，不能将其扩展为四款同条件实测。两批名单保持 8 + 8，完整材料见[第一批比较](../../first-batch-summary/)与[第二批比较](../../second-batch-summary/)。
+**2026-11-02 增补：** 新增 16 页产品功能和 1 页比较，官方界面图与作者功能示意分别标注，没有新增账号实测。Muse 新加坡开放、Duet 美国 Pro / Max / Ultra 研究预览条件在新增页保留日期；原有概览与两批名单继续保留历史快照。[新增来源与图像说明](images/05-product-feature-references.txt)。
 
-![第五部分配套幻灯片：四个重点产品各两页、具体委托场景与其他产品入口](images/05-products-and-scenarios-preview.png)
+![四款重点产品新增页面预览](images/05-product-details-preview.png)
 
+![第五部分配套幻灯片：保留原有概览，四款重点产品各增加四页，并补充比较](images/05-products-and-scenarios-preview.png)
 
 ## 六、Muse 操作演示
 

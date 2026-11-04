@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "hermes",
+    "page": "https://hermes-agent.nousresearch.com/",
+    "url": "https://web-assets.nousresearch.com/marketing/6ae3c5b07622a9219fa0cd2d3cbc2e833d9c5aba/assets/hermes-agent/icon.png",
+    "caption": "Hermes Agent 官方站点图标",
+    "path": "product-icons/hermes.png",
+    "size": [
+      48,
+      48
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "copilot",
+    "page": "https://www.microsoft.com/en-us/copilot",
+    "url": "https://copilot.microsoft.com/favicon.ico",
+    "caption": "Microsoft Copilot 品牌图标，用于 Autopilot 所属产品体系",
+    "path": "product-icons/copilot.png",
+    "size": [
+      48,
+      48
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "lindy",
+    "page": "https://www.lindy.ai/",
+    "url": "https://www.lindy.ai/_sherpa/assets/static/lindy/69f7b166c2e11ba39f7b2b9e_lindy-avatar-favicon.png",
+    "caption": "Lindy 官网应用图标",
+    "path": "product-icons/lindy.png",
+    "size": [
+      512,
+      512
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "kimi",
+    "page": "https://www.kimi.com/",
+    "url": "https://www.kimi.com/pwa-192.png",
+    "caption": "Kimi 品牌图标，用于 Kimi Claw",
+    "path": "product-icons/kimi.png",
+    "size": [
+      192,
+      192
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "deepseek",
+    "page": "https://www.deepseek.com/en/harness/",
+    "url": "https://www.deepseek.com/favicon.ico",
+    "caption": "DeepSeek 官网品牌图标，用于 Harness",
+    "path": "product-icons/deepseek.png",
+    "size": [
+      225,
+      225
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "cowork",
+    "page": "https://claude.com/product/cowork",
+    "url": "https://assets.claude.com/95a868946ac8a31e5ff832e2899f294aa368b836.png?w=256&h=256",
+    "caption": "Claude 官网图标，用于 Cowork",
+    "path": "product-icons/cowork.png",
+    "size": [
+      32,
+      32
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "perplexity",
+    "page": "https://www.perplexity.ai/personal-computer",
+    "url": "https://www.perplexity.ai/favicon.ico",
+    "caption": "Perplexity 官网品牌图标，用于 Personal Computer",
+    "path": "product-icons/perplexity.png",
+    "size": [
+      48,
+      48
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "poke",
+    "page": "https://cognition.com/blog/interaction",
+    "url": "https://cognition.com/images/interaction/cog-poke-blog-image-v3.jpg",
+    "caption": "Poke 官方所属公司公告中的标识；PPT 内裁剪到右侧 Poke 标识，完整原图保留",
+    "path": "product-icons/poke.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "retrieved": "2026-10-27",
+    "crop": {
+      "x": 1040,
+      "y": 350,
+      "w": 400,
+      "h": 400
+    }
+  }
+]

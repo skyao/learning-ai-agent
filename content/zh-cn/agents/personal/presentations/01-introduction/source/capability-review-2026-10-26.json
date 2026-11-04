@@ -1,0 +1,581 @@
+{
+  "readDate": "2026-10-26",
+  "products": [
+    {
+      "slug": "muse",
+      "name": "Muse",
+      "vendor": "Meta",
+      "release": "2026-09-08",
+      "status": "公开提供；可注册",
+      "region": "美国、加拿大、日本",
+      "subscription": "官方公告确认大部分用途免费，另有付费订阅；本轮没有取得各地区统一、可核对的价格与额度表，因此不把媒体报道的美元价格当作全球现价。",
+      "capabilities": [
+        "官方发布列出购物、旅行预订与个人目标推进；安全文章说明结账前逐笔展示购买细节并请求批准。",
+        "Small Business 公告将经营工作纳入个人委托，包括使用已连接的店铺、财务、设计和社交账号；发布、发送、花费仍要批准。",
+        "订阅排查与批准后取消在 Subscription Insider 的行业观察中有描述；这是第三方转述与案例线索，本轮没有独立复现。"
+      ],
+      "payment": "官方确认 Link 购买与逐笔批准；首发材料中的 Shop Pay 为 coming soon，不能把首发承诺当作当前所有地区均已开放。",
+      "limit": "连接器规范覆盖预订、状态检查、取消、退货和退款的完整流程，但它是开发者要求；其中 Cedar Stays 是虚构示例，不是已接通酒店。订阅取消的成功率、商家覆盖与自动续费权限仍待实际验证。",
+      "sources": [
+        {
+          "title": "首次发布",
+          "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+          "date": "2026-09-08",
+          "kind": "官方公告"
+        },
+        {
+          "title": "购买审批说明",
+          "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse",
+          "date": "2026-09，首发安全设计",
+          "kind": "官方技术说明"
+        },
+        {
+          "title": "个人经营场景",
+          "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+          "date": "2026-09-29；更新 10-08",
+          "kind": "官方公告"
+        },
+        {
+          "title": "日本上线",
+          "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
+          "date": "2026-10-23",
+          "kind": "官方公告"
+        },
+        {
+          "title": "连接器完整任务要求",
+          "url": "https://platform.muse.ai/docs",
+          "date": "动态文档，未列独立修订日",
+          "kind": "官方开发者规范"
+        },
+        {
+          "title": "订阅管理观察",
+          "url": "https://www.subscriptioninsider.com/blog/meta-muse-shows-where-subscription-management-is-headed",
+          "date": "2026-09-29",
+          "kind": "第三方行业观察"
+        }
+      ]
+    },
+    {
+      "slug": "dots",
+      "name": "Dots",
+      "vendor": "OpenAI",
+      "release": "2026-09-29",
+      "status": "符合套餐逐步开放；Pro / Business Premium / 企业",
+      "region": "个人Pro除EEA/英/瑞；；组织版全球逐步开放",
+      "subscription": "Pro 100 / 200 / 500、Business Premium 与 Enterprise 按各自条件逐步开放；Enterprise 默认关闭，需要管理员启用。官方说明普通 dot 对话与它发起的 Work / Codex 工作分别计入对应产品用量。",
+      "capabilities": [
+        "持续维护销售方案、产品发布材料和研究记录，变化后继续推进；可准备客户反馈相关代码修改。",
+        "连接 Gmail、Drive、GitHub 等获准使用的应用；云端处理研究、文档、分析或软件任务，本机工作需要电脑在线并打开 ChatGPT。",
+        "可审查后台任务与排程，并对具体动作设置规则；这些规则不扩大插件权限，也不取消内建限制。"
+      ],
+      "payment": "本轮读取的 Dots 专属文档未确认独立支付钱包或周期扣款能力；不把 ChatGPT 商务能力或通用浏览器操作自动计入 Dots。",
+      "limit": "职责指令、应用授权与动作审批是不同条件。没有找到钱包说明只表示证据不足，不能据此断言永远不能购买。个人 Pro 需年满 18 岁，排除 EEA、英国、瑞士；组织版按官方范围逐步开放。",
+      "sources": [
+        {
+          "title": "当前产品与准入",
+          "url": "https://learn.chatgpt.com/docs/dots",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "电脑和应用接入",
+          "url": "https://learn.chatgpt.com/docs/dots/computers-and-apps",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "动作审查与规则",
+          "url": "https://learn.chatgpt.com/docs/dots/controls",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        }
+      ]
+    },
+    {
+      "slug": "cue",
+      "name": "Cue",
+      "vendor": "Manus；应用发布主体 BUTTERFLY EFFECT PTE. LTD.",
+      "release": "2026-09-28",
+      "status": "Early Access；邀请码进入",
+      "region": "未公布完整地域清单",
+      "subscription": "发布公告仍写 Early Access、邀请码进入、早期免费；当前 Google Play 条目标有应用内购买。两者保留为不同日期和范围的证据，不能将 Manus 主站会员价格直接套给 Cue，也不保证旧邀请码仍有效。",
+      "capabilities": [
+        "代理可使用独立邮箱、电话、电脑和钱包；在授权范围内处理通信与数字服务。",
+        "开发者的商店说明明确写到批准后购买与付款；在受支持餐厅、咖啡馆扫描服务二维码，协助选菜、下单，由用户确认支付。",
+        "多个代理可在群聊中围绕共同目标协作；同一发布文章中的视频、游戏和 Manus Studio 不因此自动成为 Cue 自身功能。"
+      ],
+      "payment": "官方应用说明确认钱包、批准后支付和支持商家的扫码点单；发布文中的预算设定不等于所有交易都可跳过逐次确认。",
+      "limit": "未找到完整商家、服务地域、支付方式及周期扣款清单。官网可访问、商店可下载、账号可注册和钱包可用是不同状态。",
+      "sources": [
+        {
+          "title": "Cue 首发与 Early Access",
+          "url": "https://www.manus.im/blog/introducing-manus-2-0",
+          "date": "2026-09-28",
+          "kind": "官方公告"
+        },
+        {
+          "title": "Cue 当前应用说明",
+          "url": "https://play.google.com/store/apps/details?hl=en&id=ai.manus.agents",
+          "date": "商店持续更新；本轮以开发者描述为准",
+          "kind": "开发者官方应用条目"
+        }
+      ]
+    },
+    {
+      "slug": "gemini-spark",
+      "name": "Gemini Spark （现 Task）",
+      "vendor": "Google",
+      "release": "2026-05-19；Spark 公告",
+      "status": "Task 已开放；个人 Google AI Pro / Ultra",
+      "region": "Gemini支持地区，除；EEA/英/瑞/尼日利亚",
+      "subscription": "当前 Task 要求个人 Google 账号、18 岁以上、Google AI Pro 或 Ultra，并开启 Keep Activity 与 Personal Intelligence；工作与学校账号暂不支持。当前范围已不再只是 Spark 首发时的美国 Ultra 预览。",
+      "capabilities": [
+        "官方帮助列出浏览器选购商品、预订行程与餐厅，以及航班和酒店价格跟踪。",
+        "整理邮件、归档简报、退订邮件列表，形成有来源的研究和可下载文件。",
+        "可连接本地 Chrome 或使用云端浏览器；需要用户操作的登录或敏感步骤会暂停等待接管。"
+      ],
+      "payment": "确认有购物与预订流程说明；付款信息须在接管的网页中输入，未据此确认独立钱包、任意商户支付或周期扣款。",
+      "limit": "退订邮件列表不等于取消付费会员。地区为 Gemini 支持范围，另排除 EEA、尼日利亚、瑞士和英国；浏览器路径与客户端条件分别记录。",
+      "sources": [
+        {
+          "title": "Task 英文说明",
+          "url": "https://support.google.com/gemini/answer/17094507?hl=en",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "Task 中文说明",
+          "url": "https://support.google.com/gemini/answer/17094507?hl=zh-Hans",
+          "date": "动态文档，与英文同源",
+          "kind": "官方中文帮助"
+        }
+      ]
+    },
+    {
+      "slug": "grok-bot",
+      "name": "Grok Bot",
+      "vendor": "xAI / Grok",
+      "release": "2026-08-11",
+      "status": "符合付费套餐可用；首发为 Beta",
+      "region": "未公布 Bot 完整地域表",
+      "subscription": "The X Subscription 的 Premium / Super / Ultra 包含 Bot，Plus 不包含；旧 Cursor 付费计划、关联 SuperGrok 等路径仍需分别核对，不能按新旧方案累加额度。",
+      "capabilities": [
+        "长期 Bot 在云端电脑处理网页、应用与文件工作，支持多个 Bot 协作和 Routines。",
+        "可从消息和 X 的 @bot 入口交办工作；X 入口尚非所有地区可用。",
+        "审批帮助把发送、发布、购买和财务转账列为需要明确边界的动作，并说明支付确认等敏感步骤应交回用户。"
+      ],
+      "payment": "Stripe 2026-10-21 公告将 Grok Bot 列为 Link 支持的代理；Bot 的通用帮助同时要求用户接管支付确认。合作方声明与当前产品流程分别保留，具体钱包入口和账号资格待核。",
+      "limit": "不能把 Stripe 合作名单推为任意地区、任意付费账号已能完整结账，也不能把购买和财务转账的审批示例当作后者已经提供。",
+      "sources": [
+        {
+          "title": "当前 Bot 概览",
+          "url": "https://docs.x.ai/grok-bot/overview",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "审批与接管",
+          "url": "https://docs.x.ai/grok-bot/approvals-security-and-privacy",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "新订阅的 Bot 资格",
+          "url": "https://docs.x.ai/x-subscription/grok-bot",
+          "date": "动态文档",
+          "kind": "官方计费帮助"
+        },
+        {
+          "title": "Link 合作名单",
+          "url": "https://stripe.com/newsroom/news/anthropic-and-stripe",
+          "date": "2026-10-21",
+          "kind": "合作方官方公告"
+        }
+      ]
+    },
+    {
+      "slug": "openclaw",
+      "name": "OpenClaw",
+      "vendor": "OpenClaw 开源社区（文档列 OpenClaw Foundation 项目）",
+      "release": "2025-11 前身；2026-01 现名",
+      "status": "公开开源 / 可自建；源码无需注册",
+      "region": "自建无统一服务地域；模型与渠道另有限制",
+      "subscription": "公开开源、可自行运行，获取源码不要求购买统一的 Personal Agent 会员；模型调用、服务器、通信渠道和第三方插件可能另外收费。",
+      "capabilities": [
+        "官方功能页列出多通信渠道、浏览器与命令执行、定时任务、设备节点及插件。",
+        "设备节点可提供相机、屏幕、位置等具体能力；应用和设备操作由用户部署、配置并授权。",
+        "我可以据此研究自建个人助手怎样承担文件整理、网页工作和重复性任务，但每项实际工作仍要检查所接工具。"
+      ],
+      "payment": "通用执行和插件扩展不等于内建消费钱包；本轮没有确认默认即可使用的统一购物支付服务。",
+      "limit": "自建方案无单一托管地域表，模型和渠道仍有自己的条件。不同部署的业务覆盖与可靠性不能直接比较。官方文档页脚列 OpenClaw Foundation，但不将基金会与某一收费托管厂商混同。",
+      "sources": [
+        {
+          "title": "官方功能列表",
+          "url": "https://docs.openclaw.ai/concepts/features",
+          "date": "动态文档",
+          "kind": "官方文档"
+        },
+        {
+          "title": "官方项目与安装入口",
+          "url": "https://docs.openclaw.ai/",
+          "date": "动态文档",
+          "kind": "官方文档"
+        }
+      ]
+    },
+    {
+      "slug": "workbuddy",
+      "name": "WorkBuddy",
+      "vendor": "腾讯",
+      "release": "2026-03；正式推出",
+      "status": "公开下载；登录可用",
+      "region": "中国版及海外版；具体范围以账号为准",
+      "subscription": "国内个人版定价页列体验版、标准版、高级版、旗舰版，普通月付分别为免费、99、199、999 元；连续订阅、赠送积分和海外版另有条件。该页还说明同账号 WorkBuddy / CodeBuddy 积分共享；不把国内价外推到海外或其他产品。",
+      "capabilities": [
+        "处理文件、文档、数据、PPT、网站，支持本地与云端任务、应用连接和定时工作。",
+        "网站应用可预览修改，按需要启用数据库、登录与文件存储，并通过独立链接发布。",
+        "已发布应用的修改需要再次更新上线；下线保留应用与数据，删除则是另一种操作。"
+      ],
+      "payment": "本轮官方简介与应用发布说明没有确认内建消费者钱包；费用页中的购买积分是用户为 Agent 服务付费，不能当作 Agent 能代用户购物的证据。",
+      "limit": "国内与海外、个人与企业分别记录。生成了可运行应用与已正式发布应用是不同状态；网站公开访问的范围需另外确认。",
+      "sources": [
+        {
+          "title": "官方简介",
+          "url": "https://www.workbuddy.cn/docs/workbuddy/Overview",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "网站应用开发与发布",
+          "url": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Web-App",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "国内个人版定价",
+          "url": "https://www.workbuddy.cn/docs/workbuddy/Pricing",
+          "date": "2026-07-01 起方案，动态文档",
+          "kind": "官方定价"
+        }
+      ]
+    },
+    {
+      "slug": "claude-duet",
+      "name": "Claude Duet",
+      "vendor": "Anthropic",
+      "release": "2026-10-21",
+      "status": "Research Preview；美国 Pro / Max 候补邀请",
+      "region": "美国",
+      "subscription": "美国 Pro / Max 用户按候补邀请进入 Research Preview；后台检查与较大任务计入同一 Claude 套餐用量，暂不支持 Team / Enterprise。Link 另外要求美国支付方式。",
+      "capabilities": [
+        "通过 Link 进行用户批准的购买，也可使用 Shop Pay 结账；商品选择、付款批准和商家接受订单是不同步骤。",
+        "Stripe MCP 可处理发票、支付链接、收入分析与退款；公告还列 QuickBooks、Gusto、DocuSign、HubSpot、Canva、Shopify 等业务动作。",
+        "接管邮件、日程、晨间简报和较大交付任务；官方仍说明生活订票等事务不如核心工作场景成熟。"
+      ],
+      "payment": "购买需逐次批准；Link 用针对商家和金额的一次性卡，明确不支持周期付款。目前 Link 不用于 Claude、Cowork 或 Claude Code。",
+      "limit": "不能把员工发薪、商户退款等特定业务连接器动作扩大成任意个人转账；公告明确限制证券交易和账户间转账。计划中的店铺视觉编辑器与 1Password 接入保留未来时态。",
+      "sources": [
+        {
+          "title": "发布与业务场景",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "date": "2026-10-21",
+          "kind": "官方公告"
+        },
+        {
+          "title": "当前准入",
+          "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "Link 条件和周期付款限制",
+          "url": "https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "支付与商户经营分别接入",
+          "url": "https://stripe.com/newsroom/news/anthropic-and-stripe",
+          "date": "2026-10-21",
+          "kind": "合作方官方公告"
+        }
+      ]
+    },
+    {
+      "slug": "hermes-agent",
+      "name": "Hermes Agent",
+      "vendor": "Nous Research",
+      "release": "2026-02-25",
+      "status": "公开开源 / 可自建；源码无需注册",
+      "region": "自建无统一服务地域；模型及云服务另计",
+      "subscription": "公开开源、可自建；模型供应商、Nous Portal 和可选云端浏览器按各自账号与计费条件接入，不把源码免费理解为运行无成本。",
+      "capabilities": [
+        "内建工具覆盖研究、文件与终端、浏览器、持久记忆、定时任务和媒体生成。",
+        "官方工具文档明确列出 Home Assistant 由插件提供，因此设备控制有具体扩展依据，但需要安装和授权。",
+        "官方故事集汇集购物车、预约、家庭和经营实例；它们仍是社区用户自述，不能统一升级为产品保证或我的实测。"
+      ],
+      "payment": "浏览器凭证库文档支持填写卡片和地址；这不等于有统一钱包、商户覆盖与逐笔购买保障。",
+      "limit": "浏览器能力取决于启用的工具与环境。社区截图或成功案例与默认安装的功能范围分别记录。",
+      "sources": [
+        {
+          "title": "官方发布索引",
+          "url": "https://nousresearch.com/releases",
+          "date": "2026-02-25",
+          "kind": "官方发布记录"
+        },
+        {
+          "title": "工具与插件列表",
+          "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/tools",
+          "date": "动态文档",
+          "kind": "官方文档"
+        },
+        {
+          "title": "浏览器与凭证库",
+          "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/browser",
+          "date": "动态文档",
+          "kind": "官方文档"
+        },
+        {
+          "title": "社区故事集",
+          "url": "https://hermes-agent.nousresearch.com/docs/user-stories",
+          "date": "持续收录；每项有原作者和日期",
+          "kind": "官方汇编的社区观察"
+        }
+      ]
+    },
+    {
+      "slug": "copilot-autopilot",
+      "name": "Copilot Autopilot",
+      "vendor": "Microsoft",
+      "release": "2026-09-25；现名公告",
+      "status": "Private Preview；面向受邀组织",
+      "region": "未公布完整地域清单",
+      "subscription": "当前名称于 2026-09-25 公告，随后扩大 Private Preview；公开材料仍有 Microsoft Scout 的预发布文档。没有统一公开零售订阅和完整地域表，Frontier 资格不自动等于 Autopilot 已开通。",
+      "capabilities": [
+        "当前公告强调围绕个人工作持续、主动地推进，结合组织工作上下文。",
+        "前身 Scout 的 Microsoft 365 文档具体列出邮件、日历、列表与文件操作，以及影响其他人的动作审批。",
+        "我将旧文档作为功能沿革参考，不把同次发布里的 Copilot Code 或 Copilot Cowork 全部当成 Autopilot 当前功能。"
+      ],
+      "payment": "本轮未确认面向消费者的购物钱包、商户支付或周期付款能力。",
+      "limit": "旧称 Scout 的预览范围和当前 Autopilot 的受邀组织可能不同；后续需以实际组织入口继续核对。",
+      "sources": [
+        {
+          "title": "Autopilot 公告",
+          "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "date": "2026-09-25",
+          "kind": "官方公告"
+        },
+        {
+          "title": "前身 Scout 的 Microsoft 365 动作",
+          "url": "https://learn.microsoft.com/en-us/microsoft-scout/work-with-microsoft-365",
+          "date": "预发布文档，沿用旧称",
+          "kind": "官方预览文档"
+        }
+      ]
+    },
+    {
+      "slug": "poke",
+      "name": "Poke",
+      "vendor": "The Interaction Company of California；2026-07 加入 Cognition",
+      "release": "2025-09",
+      "status": "公开注册；无候补名单",
+      "region": "官方称全球可用；消息渠道条件另计",
+      "subscription": "公开注册、无候补；当前定价页月付为 Free 0 美元、Pro 19 美元、Ultra 199 美元，另有按用量计费条件。不同套餐的额度、人工协助与追加费用按当前账号确认，不按网页对勾缺失的位置补猜。",
+      "capabilities": [
+        "通过消息入口管理邮件、日历、提醒、网页搜索与集成，Recipes 可组织成可分享的服务入口。",
+        "2026-06-25 的 Poke Human 公告列出餐厅预订、电话、下单和叫车，并明确由真人加入完成。",
+        "Recipe 发布后可以生成分享入口并具备获得分成的资格；这是创作者侧机制，不是普通用户已有支付钱包的证明。"
+      ],
+      "payment": "现实事务可通过 Poke Human 承接，但不能据“可下单”就推断全程纯 AI、平台钱包或自动扣款。",
+      "limit": "官方称全球可用，具体消息渠道仍有地域条件。Poke Human 的服务范围、是否收费和谁实际执行应与自动任务分别核实。",
+      "sources": [
+        {
+          "title": "当前产品与地区",
+          "url": "https://poke.com/docs",
+          "date": "动态文档",
+          "kind": "官方文档"
+        },
+        {
+          "title": "Poke Human 与组织变化",
+          "url": "https://poke.com/docs/release-notes",
+          "date": "2026-06-25；2026-07-23",
+          "kind": "官方发布记录"
+        },
+        {
+          "title": "当前套餐",
+          "url": "https://poke.com/pricing",
+          "date": "动态定价，按月付栏记录",
+          "kind": "官方定价"
+        },
+        {
+          "title": "Recipes 发布",
+          "url": "https://poke.com/docs/creating-recipes",
+          "date": "动态文档",
+          "kind": "官方文档"
+        }
+      ]
+    },
+    {
+      "slug": "lindy",
+      "name": "Lindy",
+      "vendor": "Lindy",
+      "release": "2023-03；初代介绍",
+      "status": "开放注册；按套餐使用",
+      "region": "未公布完整地域清单",
+      "subscription": "当前定价提供免费体验积分、Team 额度方案与 Enterprise；Team 月付起点为 29.99 美元、3,000 credits。免费 50 美元积分有 7 天有效期，不把体验额度当作长期免费不限量。",
+      "capabilities": [
+        "官方电话产品页列出代拨电话、改牙医预约、订餐厅、跟进供应商和接听来电。",
+        "通话结果可写入日历并汇报；官网还将客户支持、CRM、发票记录和经营分析列为工作用途。",
+        "Skills、Routines、会议资料和演示学习可组合成重复工作，具体动作由集成和授权决定。"
+      ],
+      "payment": "电话、预约和记账不自动等于原生付款钱包；本轮没有确认完整购买结账或周期扣款服务。",
+      "limit": "电话号码、呼叫地区与套餐另有限制。本轮未取得完整服务地域清单，电话产品的宣传示例不是任意国家都可呼叫的承诺。",
+      "sources": [
+        {
+          "title": "当前产品范围",
+          "url": "https://www.lindy.ai/",
+          "date": "动态官网",
+          "kind": "官方产品说明"
+        },
+        {
+          "title": "电话与预约",
+          "url": "https://www.lindy.ai/product/phone",
+          "date": "动态产品页",
+          "kind": "官方产品说明"
+        },
+        {
+          "title": "当前套餐",
+          "url": "https://www.lindy.ai/pricing",
+          "date": "动态定价，按月付栏记录",
+          "kind": "官方定价"
+        }
+      ]
+    },
+    {
+      "slug": "kimi-claw",
+      "name": "Kimi Claw",
+      "vendor": "月之暗面",
+      "release": "2026-02；公测",
+      "status": "可登录开通；云端部署；需 Allegretto 及以上",
+      "region": "未公布完整地域清单",
+      "subscription": "云端一键部署要求 Allegretto 及以上；Android 指南同样列出该会员条件。关联已有 OpenClaw 是另一条路径，不将某一部署路径的会员要求外推到所有能力。",
+      "capabilities": [
+        "在 Kimi 中创建云端 OpenClaw，或关联已有实例，通过微信、飞书等渠道交办工作。",
+        "Android 版本在手机本机运行，可远程操作应用并连接智能家居；不是云端版本自动拥有手机权限。",
+        "实际可做的网页、文件、消息和设备工作由部署路径、启用技能、设备授权共同决定。"
+      ],
+      "payment": "本轮未确认 Kimi Claw 的统一消费钱包；继承 OpenClaw 工具能力不等于继承所有商户结账资格。",
+      "limit": "Kimi 主站的 Agent、Office 或 PPT 能力不自动都是 Claw 的内建功能；云端、桌面、Android 分开核对。本轮没有完整地域表。",
+      "sources": [
+        {
+          "title": "当前云端与关联路径",
+          "url": "https://www.kimi.com/help/kimi-claw/overview",
+          "date": "动态文档",
+          "kind": "官方中文帮助"
+        },
+        {
+          "title": "Android 操作范围与会员条件",
+          "url": "https://www.kimi.com/en/help/kimi-claw/android-user-guide",
+          "date": "动态文档",
+          "kind": "官方帮助"
+        }
+      ]
+    },
+    {
+      "slug": "personal-computer",
+      "name": "Personal Computer",
+      "vendor": "Perplexity",
+      "release": "2026-03 公告；2026-04 上线",
+      "status": "已提供桌面下载；按套餐与设备使用",
+      "region": "按 Perplexity 支持范围；未列独立完整地域表",
+      "subscription": "2026-05-10 Mac 公告称向所有用户提供；当前本地执行、云端 Computer 用量与具体模型仍需按账号条件区分，不能继续写成仅候补，也不能理解为所有计算免费不限量。",
+      "capabilities": [
+        "通过 Perplexity Mac 应用与 Comet 处理获准访问的文件、原生应用和登录网站，手机可发起任务与确认敏感步骤。",
+        "2026-05-10 同篇更新还介绍 Computer 的 Personal CFO，可连接个人财务资料做预算与组合分析；该服务注明美国、加拿大。",
+        "我将 Personal CFO 作为配套 Computer 服务观察，不能把它说成所有 Personal Computer 安装都默认开通的功能。"
+      ],
+      "payment": "预算和账户分析不是转账、交易或购买；本轮没有确认 Personal Computer 自身的统一付款钱包。",
+      "limit": "“Mac for all”是产品入口公告，Personal CFO 的美加范围是另一个条件；客户端、授权、地区与云端额度同时记录。",
+      "sources": [
+        {
+          "title": "当前桌面入口",
+          "url": "https://www.perplexity.ai/personal-computer",
+          "date": "动态页面",
+          "kind": "官方产品说明"
+        },
+        {
+          "title": "安装与本机授权",
+          "url": "https://www.perplexity.ai/personal-computer-setup",
+          "date": "动态页面",
+          "kind": "官方安装帮助"
+        },
+        {
+          "title": "Mac 扩围与配套 Personal CFO",
+          "url": "https://www.perplexity.ai/changelog/personal-computer-for-all-users-on-mac",
+          "date": "2026-05-10",
+          "kind": "官方更新公告"
+        }
+      ]
+    },
+    {
+      "slug": "deepseek-harness",
+      "name": "DeepSeek Harness",
+      "vendor": "深度求索",
+      "release": "2026-08；已有公开记录",
+      "status": "Public Preview；可下载 / 开源",
+      "region": "官方称全球公开预览",
+      "subscription": "全球 Public Preview、公开开源并可下载。条款区分登录后默认官方模型与第三方模型接入；本轮未取得统一消费会员价格，不将预览或源码开放说成所有模型调用均免费。",
+      "capabilities": [
+        "官网明确列出文件整理、数据分析、文档与 PPT、代码修改、研究引用、后台脚本和批处理。",
+        "可安装或创建插件扩展工具、技能与界面，因此适合把个人重复工作组织成可继续修改的流程。",
+        "这些是个人工作代理和运行底座的能力，不能只凭插件机制认定长期个人服务已经完整成立。"
+      ],
+      "payment": "插件可扩展不等于内建支付；本轮没有确认统一购物、付费订阅代办或商户钱包。",
+      "limit": "继续作为边界对照：基础执行、部署条件、可配置能力和现成个人服务分别比较。",
+      "sources": [
+        {
+          "title": "当前功能与预览范围",
+          "url": "https://www.deepseek.com/en/harness/",
+          "date": "动态页面",
+          "kind": "官方产品说明"
+        },
+        {
+          "title": "模型接入与服务主体",
+          "url": "https://www.deepseek.com/en/harness/terms-of-use/",
+          "date": "最后更新 2026-09-20",
+          "kind": "官方条款"
+        }
+      ]
+    },
+    {
+      "slug": "claude-cowork",
+      "name": "Claude Cowork",
+      "vendor": "Anthropic",
+      "release": "2026-01-12；首次研究预览",
+      "status": "付费套餐可用；统一体验逐步开放",
+      "region": "Claude 支持地区",
+      "subscription": "Pro / Max 逐步获得 Chat 与 Cowork 统一体验；Team 为 Beta，Enterprise 按组织开关。首次研究预览和当前付费可用状态分开，不从 1 月的标签推断今天仍全线 Research Preview。",
+      "capabilities": [
+        "可搜索资料、运行代码，并形成研究、报告、表格和演示文件；统一体验中同一对话可以继续交办。",
+        "可使用获准连接的应用与电脑；有些工作在云端继续，本机文件和应用操作仍依赖桌面环境。",
+        "研究交付、经营资料分析和原型制作有资料依据，但不同部署和组织开关下的工具范围不同。"
+      ],
+      "payment": "Duet 的 Link 帮助明确说当前不在 Cowork 提供；不能把 Anthropic 同品牌的钱包能力复制给 Cowork。",
+      "limit": "应用动作与内建支付分开；资料整理和财务分析不等于可完成支付或账户转账。",
+      "sources": [
+        {
+          "title": "当前统一体验与套餐",
+          "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+          "date": "动态帮助",
+          "kind": "官方帮助"
+        },
+        {
+          "title": "Link 仅在 Duet 的范围说明",
+          "url": "https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet",
+          "date": "动态帮助",
+          "kind": "官方帮助"
+        }
+      ]
+    }
+  ]
+}

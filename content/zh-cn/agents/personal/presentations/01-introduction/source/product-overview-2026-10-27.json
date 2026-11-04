@@ -1,0 +1,519 @@
+{
+  "date": "2026-10-27",
+  "profiles": [
+    {
+      "slug": "muse",
+      "product": "Muse",
+      "art": "muse",
+      "title": "Muse｜Meta 的综合个人代理",
+      "vendor": "Meta",
+      "launch": "2026-09-08",
+      "position": "围绕个人生活、消费和长期目标接受委托，也延伸到个人经营。",
+      "entry": "Muse 应用与网页；\n可通过支持的消息入口交谈",
+      "ecosystem": "Meta 个人应用与第三方连接；\n商家、旅行及支付服务",
+      "business": "生活事务、购物与预订；\n个人目标、内容与经营工作",
+      "takeaway": "我把 Muse 理解为覆盖生活、消费和个人经营的综合个人代理。",
+      "status": "公开提供；美、加、日。具体功能与地域条件沿用 2026-10-26 快照。",
+      "caption": "Meta 官方产品设计页：活动界面示意",
+      "source": "https://introducing.muse.ai/",
+      "sourceDate": "2026 年 9 月",
+      "body": "我把 Muse 理解为 Meta 面向个人提供的综合代理。它既承接生活和消费事务，也试图围绕个人目标延续工作，并通过 Small Business 扩展到店铺、内容和经营资料。认识这个产品时，我会先联系 Meta 已有个人应用和它接入的外部服务，不用一个旅行计划来界定它的能力范围。",
+      "refs": [
+        "overview-muse",
+        "roster01_1",
+        "roster01_2",
+        "cap_muse_3"
+      ],
+      "image": {
+        "slug": "muse",
+        "page": "https://introducing.muse.ai/",
+        "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstatus.38zbywac8-xmc.png&w=1920&q=75",
+        "alt": "Muse status and activity view",
+        "path": "product-overview/muse.png",
+        "size": [
+          786,
+          1254
+        ],
+        "retrieved": "2026-10-27",
+        "caption": "Meta 官方产品设计页：活动界面示意"
+      },
+      "kind": "product-profile",
+      "focus": "overview",
+      "seconds": 70,
+      "subtitle": "围绕个人生活、消费和长期目标接受委托，也延伸到个人经营。",
+      "ribbon": "我把 Muse 理解为覆盖生活、消费和个人经营的综合个人代理。",
+      "footer": "公开提供；美、加、日。具体功能与地域条件沿用 2026-10-26 快照。｜来源见讲者备注",
+      "readDate": "2026-10-27",
+      "notes": "我把 Muse 理解为 Meta 面向个人提供的综合代理。它既承接生活和消费事务，也试图围绕个人目标延续工作，并通过 Small Business 扩展到店铺、内容和经营资料。认识这个产品时，我会先联系 Meta 已有个人应用和它接入的外部服务，不用一个旅行计划来界定它的能力范围。\n厂商与推出：Meta；2026-09-08。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://introducing.muse.ai/\n原始图片：https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstatus.38zbywac8-xmc.png&w=1920&q=75"
+    },
+    {
+      "slug": "dots",
+      "product": "Dots",
+      "art": "dots",
+      "title": "Dots｜ChatGPT 中的持续个人职责",
+      "vendor": "OpenAI",
+      "launch": "2026-09-29",
+      "position": "在 ChatGPT 中保留同一个个人代理，让一份工作在多次对话之间继续。",
+      "entry": "ChatGPT 中创建与交谈；\n可接入支持的消息渠道",
+      "ecosystem": "ChatGPT 的记忆与应用连接；\n与 Work、Codex 协同完成任务",
+      "business": "资料与项目持续维护；\n研究、文档及软件相关工作",
+      "takeaway": "我用“ChatGPT 中承接持续职责的个人代理”来认识 Dots。",
+      "status": "符合套餐逐步开放；个人与组织账号条件不同，见 2026-10-26 快照。",
+      "caption": "OpenAI 官方文档：Dots 产品介绍图",
+      "source": "https://learn.chatgpt.com/docs/dots",
+      "sourceDate": "动态文档",
+      "body": "Dots 位于 ChatGPT 产品体系中。我更容易把它理解为一份持续职责的承接者：结合相关个人上下文，跟踪需要维护的工作，并在后续对话中继续。它可以使用应用连接，也可以把具体工作交给 Work 或 Codex；本节只建立这层产品关系，不展开委派和运行机制。",
+      "refs": [
+        "overview-dots",
+        "roster02_1",
+        "cap_dots_2",
+        "cap_dots_3"
+      ],
+      "image": {
+        "slug": "dots",
+        "page": "https://learn.chatgpt.com/docs/dots",
+        "url": "https://learn.chatgpt.com/og/docs/dots.png",
+        "alt": "og:image",
+        "path": "product-overview/dots.png",
+        "size": [
+          1200,
+          630
+        ],
+        "retrieved": "2026-10-27",
+        "caption": "OpenAI 官方文档：Dots 产品介绍图"
+      },
+      "kind": "product-profile",
+      "focus": "overview",
+      "seconds": 70,
+      "subtitle": "在 ChatGPT 中保留同一个个人代理，让一份工作在多次对话之间继续。",
+      "ribbon": "我用“ChatGPT 中承接持续职责的个人代理”来认识 Dots。",
+      "footer": "符合套餐逐步开放；个人与组织账号条件不同，见 2026-10-26 快照。｜来源见讲者备注",
+      "readDate": "2026-10-27",
+      "notes": "Dots 位于 ChatGPT 产品体系中。我更容易把它理解为一份持续职责的承接者：结合相关个人上下文，跟踪需要维护的工作，并在后续对话中继续。它可以使用应用连接，也可以把具体工作交给 Work 或 Codex；本节只建立这层产品关系，不展开委派和运行机制。\n厂商与推出：OpenAI；2026-09-29。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://learn.chatgpt.com/docs/dots\n原始图片：https://learn.chatgpt.com/og/docs/dots.png"
+    },
+    {
+      "slug": "cue",
+      "product": "Cue",
+      "art": "cue",
+      "title": "Cue｜具有独立身份的个人助手",
+      "vendor": "Manus",
+      "launch": "2026-09-28",
+      "position": "以有名字、有通信资源的助手组织个人事务，也支持多个助手协作。",
+      "entry": "独立的 Cue 网页与应用；\n围绕助手和群聊交办工作",
+      "ecosystem": "来自 Manus 的独立产品；\n通信资源与支持的商家服务",
+      "business": "日常事务与沟通协作；\n支持商家的点单和服务代办",
+      "takeaway": "Cue 的产品印象：有独立身份的个人助手，以及可协作的助手团队。",
+      "status": "Early Access，公告为邀请码准入；应用条目和当前资格需分开确认。",
+      "caption": "Manus 2026-09-28 公告：Cue 产品展示",
+      "source": "https://www.manus.im/blog/introducing-manus-2-0",
+      "sourceDate": "2026-09-28",
+      "body": "Cue 是 Manus 推出的独立应用。发布资料强调每个助手有自己的身份和通信资源，多个助手可以在群聊中协作。业务范围包括日常事务、沟通和受支持商家的服务代办。这里我只介绍 Cue 自身，不把同篇 Manus 2.0 公告中的视频、游戏和桌面工作台全部算到 Cue 身上。",
+      "refs": [
+        "overview-cue",
+        "cap_cue_2"
+      ],
+      "image": {
+        "slug": "cue",
+        "page": "https://www.manus.im/blog/introducing-manus-2-0",
+        "url": "https://files.manuscdn.com/assets/dashboard/materials/2026/09/28/972bc30a55a668ad2620114691959f5ee710a3d2c5792144050068a152b5b21b.webp",
+        "alt": "",
+        "path": "product-overview/cue.png",
+        "size": [
+          2048,
+          1152
+        ],
+        "retrieved": "2026-10-27",
+        "caption": "Manus 2026-09-28 公告：Cue 产品展示"
+      },
+      "kind": "product-profile",
+      "focus": "overview",
+      "seconds": 70,
+      "subtitle": "以有名字、有通信资源的助手组织个人事务，也支持多个助手协作。",
+      "ribbon": "Cue 的产品印象：有独立身份的个人助手，以及可协作的助手团队。",
+      "footer": "Early Access，公告为邀请码准入；应用条目和当前资格需分开确认。｜来源见讲者备注",
+      "readDate": "2026-10-27",
+      "notes": "Cue 是 Manus 推出的独立应用。发布资料强调每个助手有自己的身份和通信资源，多个助手可以在群聊中协作。业务范围包括日常事务、沟通和受支持商家的服务代办。这里我只介绍 Cue 自身，不把同篇 Manus 2.0 公告中的视频、游戏和桌面工作台全部算到 Cue 身上。\n厂商与推出：Manus；2026-09-28。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://www.manus.im/blog/introducing-manus-2-0\n原始图片：https://files.manuscdn.com/assets/dashboard/materials/2026/09/28/972bc30a55a668ad2620114691959f5ee710a3d2c5792144050068a152b5b21b.webp"
+    },
+    {
+      "slug": "gemini-spark",
+      "product": "Gemini Spark / Task",
+      "art": "gemini",
+      "title": "Gemini Spark / Task｜Google 生态中的个人任务",
+      "vendor": "Google",
+      "launch": "2026-05-19 Spark 公告；当前按 Task 形态介绍",
+      "position": "结合已有 Google 账号、个人上下文和应用，处理个人工作与生活任务。",
+      "entry": "Gemini 应用与网页中的 Task；\n具体入口按客户端开放",
+      "ecosystem": "Gemini、Gmail、日历与 Drive；\n通过 Chrome 等连接网页服务",
+      "business": "邮件与资料、个人安排；\n购物预订、研究与持续跟踪",
+      "takeaway": "认识这条路线时，我先看已有 Google 账号和应用怎样参与个人任务。",
+      "status": "当前 Task 要求个人 Google AI Pro / Ultra；另有年龄与地域条件。",
+      "caption": "Google 首发合作生态图；含发布时计划，非全量可用清单",
+      "source": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+      "sourceDate": "2026-05-19",
+      "body": "我把 Spark 与当前 Task 入口放在同一条产品演进线上介绍。它的背景是 Google 已有的账号、个人上下文、邮件、日历和浏览器生态。主要用途可以概括为个人事务、资料处理、购物预订和持续跟踪；具体连接和功能仍按当前 Task 帮助确认，不能由首发合作图推定全部服务已经开放。",
+      "refs": [
+        "overview-gemini-spark",
+        "cap_gemini-spark_1",
+        "cap_gemini-spark_2"
+      ],
+      "image": {
+        "slug": "gemini",
+        "page": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spark_Partners.width-1200.format-webp.webp",
+        "alt": "an image showing Gemini Spark partners",
+        "path": "product-overview/gemini.png",
+        "size": [
+          1200,
+          675
+        ],
+        "retrieved": "2026-10-27",
+        "caption": "Google 首发合作生态图；含发布时计划，非全量可用清单"
+      },
+      "kind": "product-profile",
+      "focus": "overview",
+      "seconds": 70,
+      "subtitle": "结合已有 Google 账号、个人上下文和应用，处理个人工作与生活任务。",
+      "ribbon": "认识这条路线时，我先看已有 Google 账号和应用怎样参与个人任务。",
+      "footer": "当前 Task 要求个人 Google AI Pro / Ultra；另有年龄与地域条件。｜来源见讲者备注",
+      "readDate": "2026-10-27",
+      "notes": "我把 Spark 与当前 Task 入口放在同一条产品演进线上介绍。它的背景是 Google 已有的账号、个人上下文、邮件、日历和浏览器生态。主要用途可以概括为个人事务、资料处理、购物预订和持续跟踪；具体连接和功能仍按当前 Task 帮助确认，不能由首发合作图推定全部服务已经开放。\n厂商与推出：Google；2026-05-19 Spark 公告；当前按 Task 形态介绍。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/\n原始图片：https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spark_Partners.width-1200.format-webp.webp"
+    },
+    {
+      "slug": "grok-bot",
+      "product": "Grok Bot",
+      "art": "grok",
+      "title": "Grok Bot｜Grok 生态中的长期助手",
+      "vendor": "xAI / Grok（沿用发布品牌）",
+      "launch": "2026-08-11；首发为 Beta",
+      "position": "通过有长期角色的 Bot 处理个人与工作任务，并可与其他 Bot 协作。",
+      "entry": "Grok Bot 桌面与移动应用；\n另有受支持的 X 消息入口",
+      "ecosystem": "Grok 与 Cursor 的账号及工具连接；\n外部应用、网页和工作服务",
+      "business": "资料、文档与业务信息；\n内容工作、职责协作与重复任务",
+      "takeaway": "我把它记为以长期角色组织工作的 Bot，放回 Grok 与 Cursor 的产品联系中理解。",
+      "status": "符合付费套餐可用；新旧账号路径和各入口地域分别核对。",
+      "caption": "Grok Bot 官网产品展示图",
+      "source": "https://docs.x.ai/grok-bot/overview",
+      "sourceDate": "动态文档",
+      "body": "Grok Bot 用有名字和职责的长期 Bot 组织工作。它与 Grok、Cursor 存在账号、套餐和工作工具方面的联系，也可以使用外部应用与网页。这里我主要建立“长期角色助手”的产品印象，介绍资料、文档、内容与业务协作等用途；账号关联不作为推断公司主体或所有功能统一开放的依据。",
+      "refs": [
+        "overview-grok-bot",
+        "roster05_1",
+        "cap_grok-bot_3"
+      ],
+      "image": {
+        "slug": "grok",
+        "page": "https://x.ai/bot",
+        "url": "https://x.ai/images/news/introducing-grok-bot-og-2.png",
+        "alt": "og:image",
+        "path": "product-overview/grok.png",
+        "size": [
+          1920,
+          1080
+        ],
+        "retrieved": "2026-10-27",
+        "caption": "Grok Bot 官网产品展示图"
+      },
+      "kind": "product-profile",
+      "focus": "overview",
+      "seconds": 70,
+      "subtitle": "通过有长期角色的 Bot 处理个人与工作任务，并可与其他 Bot 协作。",
+      "ribbon": "我把它记为以长期角色组织工作的 Bot，放回 Grok 与 Cursor 的产品联系中理解。",
+      "footer": "符合付费套餐可用；新旧账号路径和各入口地域分别核对。｜来源见讲者备注",
+      "readDate": "2026-10-27",
+      "notes": "Grok Bot 用有名字和职责的长期 Bot 组织工作。它与 Grok、Cursor 存在账号、套餐和工作工具方面的联系，也可以使用外部应用与网页。这里我主要建立“长期角色助手”的产品印象，介绍资料、文档、内容与业务协作等用途；账号关联不作为推断公司主体或所有功能统一开放的依据。\n厂商与推出：xAI / Grok（沿用发布品牌）；2026-08-11；首发为 Beta。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://x.ai/bot\n原始图片：https://x.ai/images/news/introducing-grok-bot-og-2.png"
+    },
+    {
+      "slug": "openclaw",
+      "product": "OpenClaw",
+      "art": "openclaw",
+      "title": "OpenClaw｜可以自行部署的个人助手",
+      "vendor": "OpenClaw 开源社区",
+      "launch": "2025-11 前身；2026-01 使用现名",
+      "position": "由使用者选择运行环境和所接服务，组合出自己的个人助手。",
+      "entry": "自行部署后，通过支持的\n消息渠道或客户端使用",
+      "ecosystem": "开源社区与插件生态；\n可选择模型、渠道和外部服务",
+      "business": "个人消息与资料事务；\n网页、文件和重复性工作",
+      "takeaway": "OpenClaw 提供自建个人助手的路线，配置和维护也由运行者承担。",
+      "status": "公开开源、可自建；模型、渠道和第三方服务条件另计。",
+      "caption": "官方文档中的消息入口示例，画面保留早期名称",
+      "source": "https://docs.openclaw.ai/",
+      "sourceDate": "动态文档；沿革另见官方 Lore",
+      "body": "OpenClaw 为认识 Personal Agent 提供了一条可以自行部署的路线。使用者可组合模型、消息渠道、工具和服务，使助手进入自己的工作环境。它可以承接个人事务、资料和重复性工作，但具体覆盖什么取决于配置。我在这里仅介绍产品形态与生态，不展开 Gateway、状态和权限实现。",
+      "refs": [
+        "overview-openclaw",
+        "roster06_1",
+        "roster06_2",
+        "cap_openclaw_1"
+      ],
+      "image": {
+        "slug": "openclaw",
+        "page": "https://docs.openclaw.ai/",
+        "url": "https://docs.openclaw.ai/whatsapp-openclaw.jpg",
+        "alt": "OpenClaw",
+        "path": "product-overview/openclaw.png",
+        "size": [
+          471,
+          1024
+        ],
+        "retrieved": "2026-10-27",
+        "caption": "官方文档中的消息入口示例，画面保留早期名称"
+      },
+      "kind": "product-profile",
+      "focus": "overview",
+      "seconds": 70,
+      "subtitle": "由使用者选择运行环境和所接服务，组合出自己的个人助手。",
+      "ribbon": "OpenClaw 提供自建个人助手的路线，配置和维护也由运行者承担。",
+      "footer": "公开开源、可自建；模型、渠道和第三方服务条件另计。｜来源见讲者备注",
+      "readDate": "2026-10-27",
+      "notes": "OpenClaw 为认识 Personal Agent 提供了一条可以自行部署的路线。使用者可组合模型、消息渠道、工具和服务，使助手进入自己的工作环境。它可以承接个人事务、资料和重复性工作，但具体覆盖什么取决于配置。我在这里仅介绍产品形态与生态，不展开 Gateway、状态和权限实现。\n厂商与推出：OpenClaw 开源社区；2025-11 前身；2026-01 使用现名。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://docs.openclaw.ai/\n原始图片：https://docs.openclaw.ai/whatsapp-openclaw.jpg"
+    },
+    {
+      "slug": "workbuddy",
+      "product": "WorkBuddy",
+      "art": "workbuddy",
+      "title": "WorkBuddy｜腾讯的 AI 工作台",
+      "vendor": "腾讯",
+      "launch": "2026-03；正式推出",
+      "position": "从文件、办公应用和项目材料进入，处理工作并交付可以继续使用的成果。",
+      "entry": "WorkBuddy 工作台；\n可从支持的消息助理入口交办",
+      "ecosystem": "腾讯办公与通信生态；\n腾讯文档、企业微信等及外部连接",
+      "business": "办公资料、文档和数据分析；\n内容创作、应用制作与发布",
+      "takeaway": "我先用“腾讯生态中的 AI 工作台”认识 WorkBuddy，再看材料和成果怎样衔接。",
+      "status": "公开下载、登录可用；国内与海外、个人与企业条件分别看。",
+      "caption": "腾讯官方帮助：WorkBuddy 工作界面区域标注",
+      "source": "https://www.workbuddy.cn/docs/workbuddy/Overview",
+      "sourceDate": "动态文档",
+      "body": "WorkBuddy 是腾讯提供的 AI 工作台。它从文件、应用和项目材料进入任务，业务侧重包括办公资料、数据分析、内容与成果制作，也覆盖网站和应用开发。腾讯文档、企业微信等是理解其产品生态的入口；我不会据此认为所有腾讯应用均已接通，或所有工作都只能在它上面完成。",
+      "refs": [
+        "overview-workbuddy",
+        "roster07_2",
+        "cap_workbuddy_2"
+      ],
+      "image": {
+        "slug": "workbuddy",
+        "page": "https://www.workbuddy.cn/docs/workbuddy/Overview",
+        "url": "https://download.codebuddy.cn/web/docs/b043a5d6b529e83c131924b676ba6273f6160f7a/docs/static/overview-ui-areas.si-lsnLi.png",
+        "alt": "WorkBuddy 工作界面区域标注",
+        "path": "product-overview/workbuddy.png",
+        "size": [
+          1080,
+          723
+        ],
+        "retrieved": "2026-10-27",
+        "caption": "腾讯官方帮助：WorkBuddy 工作界面区域标注"
+      },
+      "kind": "product-profile",
+      "focus": "overview",
+      "seconds": 70,
+      "subtitle": "从文件、办公应用和项目材料进入，处理工作并交付可以继续使用的成果。",
+      "ribbon": "我先用“腾讯生态中的 AI 工作台”认识 WorkBuddy，再看材料和成果怎样衔接。",
+      "footer": "公开下载、登录可用；国内与海外、个人与企业条件分别看。｜来源见讲者备注",
+      "readDate": "2026-10-27",
+      "notes": "WorkBuddy 是腾讯提供的 AI 工作台。它从文件、应用和项目材料进入任务，业务侧重包括办公资料、数据分析、内容与成果制作，也覆盖网站和应用开发。腾讯文档、企业微信等是理解其产品生态的入口；我不会据此认为所有腾讯应用均已接通，或所有工作都只能在它上面完成。\n厂商与推出：腾讯；2026-03；正式推出。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://www.workbuddy.cn/docs/workbuddy/Overview\n原始图片：https://download.codebuddy.cn/web/docs/b043a5d6b529e83c131924b676ba6273f6160f7a/docs/static/overview-ui-areas.si-lsnLi.png"
+    },
+    {
+      "slug": "claude-duet",
+      "product": "Claude Duet",
+      "art": "duet",
+      "title": "Claude Duet｜主动跟进工作的个人代理",
+      "vendor": "Anthropic",
+      "launch": "2026-10-21；研究预览",
+      "position": "面向专业人士和小企业主，从已连接的工作信息中发现事项并继续推进。",
+      "entry": "独立 Duet 应用与网页入口；\n通过消息、任务与成果界面使用",
+      "ecosystem": "Claude 账号及应用连接；\n客户、财务、店铺与支付服务",
+      "business": "简报、待办与工作跟进；\n客户、账单、采购和个人经营",
+      "takeaway": "Duet 的定位是主动跟进工作的个人代理，当前仍处于研究预览。",
+      "status": "美国 Pro / Max 候补邀请；与 Cowork 的入口和支付能力分别看。",
+      "caption": "Anthropic 官方发布图：Claude Duet 应用标识",
+      "source": "https://claude.com/resources/articles/claude-duet",
+      "sourceDate": "2026-10-21；页面含 10-23 更新",
+      "body": "Duet 是 Anthropic 新推出的主动个人代理，面向专业人士和小企业主。它可以结合已连接的工作信息形成简报和待办，并处理客户、账单、采购及较大的工作成果。认识它时，我会联系 Claude 的账号和业务应用连接，同时保留它与 Cowork 的产品区别；本节不展开钱包和审批流程。",
+      "refs": [
+        "overview-claude-duet",
+        "cap_claude-duet_2",
+        "cap_claude-duet_4"
+      ],
+      "image": {
+        "slug": "duet",
+        "page": "https://claude.com/resources/articles/claude-duet",
+        "url": "https://claude.com/resources/articles/claude-duet/opengraph-image/og",
+        "alt": "og:image",
+        "path": "product-overview/duet.png",
+        "size": [
+          2400,
+          1260
+        ],
+        "retrieved": "2026-10-27",
+        "caption": "Anthropic 官方发布图：Claude Duet 应用标识"
+      },
+      "kind": "product-profile",
+      "focus": "overview",
+      "seconds": 70,
+      "subtitle": "面向专业人士和小企业主，从已连接的工作信息中发现事项并继续推进。",
+      "ribbon": "Duet 的定位是主动跟进工作的个人代理，当前仍处于研究预览。",
+      "footer": "美国 Pro / Max 候补邀请；与 Cowork 的入口和支付能力分别看。｜来源见讲者备注",
+      "readDate": "2026-10-27",
+      "notes": "Duet 是 Anthropic 新推出的主动个人代理，面向专业人士和小企业主。它可以结合已连接的工作信息形成简报和待办，并处理客户、账单、采购及较大的工作成果。认识它时，我会联系 Claude 的账号和业务应用连接，同时保留它与 Cowork 的产品区别；本节不展开钱包和审批流程。\n厂商与推出：Anthropic；2026-10-21；研究预览。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://claude.com/resources/articles/claude-duet\n原始图片：https://claude.com/resources/articles/claude-duet/opengraph-image/og"
+    }
+  ],
+  "referenceProducts": [
+    {
+      "product": "Hermes Agent",
+      "vendor": "Nous Research",
+      "launch": "2026-02-25",
+      "ecosystem": "开源自建、模型与插件生态",
+      "business": "个人助手、知识与重复工作",
+      "icon": {
+        "slug": "hermes",
+        "page": "https://hermes-agent.nousresearch.com/",
+        "url": "https://web-assets.nousresearch.com/marketing/6ae3c5b07622a9219fa0cd2d3cbc2e833d9c5aba/assets/hermes-agent/icon.png",
+        "caption": "Hermes Agent 官方站点图标",
+        "path": "product-icons/hermes.png",
+        "size": [
+          48,
+          48
+        ],
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "product": "Copilot Autopilot",
+      "vendor": "Microsoft",
+      "launch": "2026-09-25 现名公告",
+      "ecosystem": "Microsoft 365 与组织工作环境",
+      "business": "组织上下文中的个人工作；私有预览",
+      "icon": {
+        "slug": "copilot",
+        "page": "https://www.microsoft.com/en-us/copilot",
+        "url": "https://copilot.microsoft.com/favicon.ico",
+        "caption": "Microsoft Copilot 品牌图标，用于 Autopilot 所属产品体系",
+        "path": "product-icons/copilot.png",
+        "size": [
+          48,
+          48
+        ],
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "product": "Poke",
+      "vendor": "Interaction，已加入 Cognition",
+      "launch": "2025-09",
+      "ecosystem": "消息渠道、应用连接与 Recipes",
+      "business": "邮件、日程和生活事务；部分有真人协助",
+      "icon": {
+        "slug": "poke",
+        "page": "https://cognition.com/blog/interaction",
+        "url": "https://cognition.com/images/interaction/cog-poke-blog-image-v3.jpg",
+        "caption": "Poke 官方所属公司公告中的标识；PPT 内裁剪到右侧 Poke 标识，完整原图保留",
+        "path": "product-icons/poke.png",
+        "size": [
+          1920,
+          1080
+        ],
+        "retrieved": "2026-10-27",
+        "crop": {
+          "x": 1040,
+          "y": 350,
+          "w": 400,
+          "h": 400
+        }
+      }
+    },
+    {
+      "product": "Lindy",
+      "vendor": "Lindy",
+      "launch": "2023-03 初代介绍",
+      "ecosystem": "办公 SaaS、电话与业务集成",
+      "business": "电话预约、客户跟进和例行工作",
+      "icon": {
+        "slug": "lindy",
+        "page": "https://www.lindy.ai/",
+        "url": "https://www.lindy.ai/_sherpa/assets/static/lindy/69f7b166c2e11ba39f7b2b9e_lindy-avatar-favicon.png",
+        "caption": "Lindy 官网应用图标",
+        "path": "product-icons/lindy.png",
+        "size": [
+          512,
+          512
+        ],
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "product": "Kimi Claw",
+      "vendor": "月之暗面",
+      "launch": "2026-02 公测",
+      "ecosystem": "Kimi、OpenClaw 与消息及设备入口",
+      "business": "个人助手的托管和设备使用形态",
+      "icon": {
+        "slug": "kimi",
+        "page": "https://www.kimi.com/",
+        "url": "https://www.kimi.com/pwa-192.png",
+        "caption": "Kimi 品牌图标，用于 Kimi Claw",
+        "path": "product-icons/kimi.png",
+        "size": [
+          192,
+          192
+        ],
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "product": "Personal Computer",
+      "vendor": "Perplexity",
+      "launch": "2026-03 公告；04 上线",
+      "ecosystem": "Computer、Comet 与个人电脑",
+      "business": "本地文件、应用与网页工作",
+      "icon": {
+        "slug": "perplexity",
+        "page": "https://www.perplexity.ai/personal-computer",
+        "url": "https://www.perplexity.ai/favicon.ico",
+        "caption": "Perplexity 官网品牌图标，用于 Personal Computer",
+        "path": "product-icons/perplexity.png",
+        "size": [
+          48,
+          48
+        ],
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "product": "DeepSeek Harness",
+      "vendor": "深度求索",
+      "launch": "2026-08 已有公开记录",
+      "ecosystem": "模型、开发工具和插件生态",
+      "business": "工作助手与运行底座；保留为边界对照",
+      "icon": {
+        "slug": "deepseek",
+        "page": "https://www.deepseek.com/en/harness/",
+        "url": "https://www.deepseek.com/favicon.ico",
+        "caption": "DeepSeek 官网品牌图标，用于 Harness",
+        "path": "product-icons/deepseek.png",
+        "size": [
+          225,
+          225
+        ],
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "product": "Claude Cowork",
+      "vendor": "Anthropic",
+      "launch": "2026-01 首次研究预览",
+      "ecosystem": "Claude、应用连接与个人工作环境",
+      "business": "研究与文件交付；统一入口逐步开放",
+      "icon": {
+        "slug": "cowork",
+        "page": "https://claude.com/product/cowork",
+        "url": "https://assets.claude.com/95a868946ac8a31e5ff832e2899f294aa368b836.png?w=256&h=256",
+        "caption": "Claude 官网图标，用于 Cowork",
+        "path": "product-icons/cowork.png",
+        "size": [
+          32,
+          32
+        ],
+        "retrieved": "2026-10-27"
+      }
+    }
+  ]
+}

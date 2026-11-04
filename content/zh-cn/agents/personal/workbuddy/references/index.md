@@ -35,3 +35,7 @@ materialType: "资料索引"
 个人客户端、国际版、Enterprise 套件与 Managed Agents 分开。Memory Hub 为可选接入；CodeBuddy CLI 与其他套件的机制不直接外推。版本与开放状态以各页标注为准。
 
 本轮没有安装产品、连接个人服务或执行安全测试。实际效果仍需 [实践验证](../practice/validation-plan/)，阶段性认识见 [调研总结](../summary/)。
+
+## 2026-10-26 补充回查
+
+- [功能、开放状态与订阅条件](../product/capabilities-and-availability-20261026/)：补存厂商、时间、地域、当前套餐与功能证据，区分购物、付款和第三方订阅管理；原有材料保留历史日期。

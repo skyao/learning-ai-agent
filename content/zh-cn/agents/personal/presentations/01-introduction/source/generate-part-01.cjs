@@ -1,4 +1,4 @@
-/** Regenerate with: NODE_PATH=<pptxgenjs install>/node_modules node generate-part-01.cjs */
+/** Chapter content renderer; generate current decks with generate-introduction.cjs. */
 const fs = require('node:fs');
 const path = require('node:path');
 const PptxGenJS = require('pptxgenjs');
@@ -157,10 +157,5 @@ return { metrics, timings: [60, 40, 80, 60], totalSeconds: 240 };
 }
 module.exports = { appendPart };
 if (require.main === module) {
-  const pptx = new PptxGenJS();
-  const { metrics } = appendPart(pptx);
-pptx.writeFile({ fileName: path.join(out, '01-what-is-personal-agent.pptx') }).then(() => {
-  fs.writeFileSync(path.join(__dirname, 'part-01-layout.json'), JSON.stringify({ slides: 4, totalSeconds: 240, metrics }, null, 2) + '\n');
-  console.log('Created 4 editable slides, 240 seconds, with speaker notes.');
-});
+  require('./generate-introduction.cjs');
 }

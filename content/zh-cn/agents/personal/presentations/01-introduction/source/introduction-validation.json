@@ -1,22 +1,52 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-11-02",
+  "navigationPages": [
+    {
+      "part": 1,
+      "number": 2
+    },
+    {
+      "part": 2,
+      "number": 9
+    },
+    {
+      "part": 3,
+      "number": 24
+    },
+    {
+      "part": 4,
+      "number": 28
+    },
+    {
+      "part": 5,
+      "number": 35
+    },
+    {
+      "part": 6,
+      "number": 63
+    },
+    {
+      "part": 7,
+      "number": 66
+    }
+  ],
   "presentations": [
     {
       "name": "00-personal-agent-introduction",
-      "slides": 34,
-      "notesPages": 34,
-      "pdfPages": 34,
-      "totalSeconds": 3000,
+      "slides": 68,
+      "notesPages": 68,
+      "pdfPages": 68,
+      "totalSeconds": 3780,
       "missingRenderedText": [],
       "renderedWith": "LibreOffice Impress",
       "nativeEditableTextAndShapes": true,
       "windowsPowerPointTested": false
     },
     {
-      "name": "02-what-personal-agents-can-do",
-      "slides": 4,
-      "notesPages": 4,
-      "pdfPages": 4,
+      "name": "01-what-is-personal-agent",
+      "slides": 8,
+      "notesPages": 8,
+      "pdfPages": 8,
       "totalSeconds": 240,
       "missingRenderedText": [],
       "renderedWith": "LibreOffice Impress",
@@ -24,10 +54,21 @@
       "windowsPowerPointTested": false
     },
     {
+      "name": "02-what-personal-agents-can-do",
+      "slides": 15,
+      "notesPages": 15,
+      "pdfPages": 15,
+      "totalSeconds": 840,
+      "missingRenderedText": [],
+      "renderedWith": "LibreOffice Impress",
+      "nativeEditableTextAndShapes": true,
+      "windowsPowerPointTested": false
+    },
+    {
       "name": "03-product-openclaw-harness",
-      "slides": 3,
-      "notesPages": 3,
-      "pdfPages": 3,
+      "slides": 4,
+      "notesPages": 4,
+      "pdfPages": 4,
       "totalSeconds": 120,
       "missingRenderedText": [],
       "renderedWith": "LibreOffice Impress",
@@ -36,9 +77,9 @@
     },
     {
       "name": "04-evolution",
-      "slides": 6,
-      "notesPages": 6,
-      "pdfPages": 6,
+      "slides": 7,
+      "notesPages": 7,
+      "pdfPages": 7,
       "totalSeconds": 300,
       "missingRenderedText": [],
       "renderedWith": "LibreOffice Impress",
@@ -47,10 +88,10 @@
     },
     {
       "name": "05-products-and-scenarios",
-      "slides": 12,
-      "notesPages": 12,
-      "pdfPages": 12,
-      "totalSeconds": 1500,
+      "slides": 28,
+      "notesPages": 28,
+      "pdfPages": 28,
+      "totalSeconds": 1680,
       "missingRenderedText": [],
       "renderedWith": "LibreOffice Impress",
       "nativeEditableTextAndShapes": true,
@@ -58,9 +99,9 @@
     },
     {
       "name": "06-muse-demo",
-      "slides": 2,
-      "notesPages": 2,
-      "pdfPages": 2,
+      "slides": 3,
+      "notesPages": 3,
+      "pdfPages": 3,
       "totalSeconds": 300,
       "missingRenderedText": [],
       "renderedWith": "LibreOffice Impress",
@@ -69,10 +110,21 @@
     },
     {
       "name": "07-takeaways",
-      "slides": 2,
-      "notesPages": 2,
-      "pdfPages": 2,
+      "slides": 3,
+      "notesPages": 3,
+      "pdfPages": 3,
       "totalSeconds": 300,
+      "missingRenderedText": [],
+      "renderedWith": "LibreOffice Impress",
+      "nativeEditableTextAndShapes": true,
+      "windowsPowerPointTested": false
+    },
+    {
+      "name": "05-product-scenarios-appendix",
+      "slides": 13,
+      "notesPages": 13,
+      "pdfPages": 13,
+      "totalSeconds": 1500,
       "missingRenderedText": [],
       "renderedWith": "LibreOffice Impress",
       "nativeEditableTextAndShapes": true,

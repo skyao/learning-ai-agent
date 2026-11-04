@@ -61,3 +61,11 @@ materialType: "资料索引"
 本轮保留官方原始资料、中英文对照、合作方一手说明与英文发布报道。中文帮助与英文原文不是独立验证；历史工程文章不等于 Duet 当前部署图。没有申请候补、连接账号或执行购买。
 
 本轮没有安装产品、连接个人服务或执行安全测试。实际效果仍需 [实践验证](../practice/validation-plan/)，阶段性认识见 [调研总结](../summary/)。
+
+## 2026-10-26 补充回查
+
+- [功能、开放状态与订阅条件](../product/capabilities-and-availability-20261026/)：补存厂商、时间、地域、当前套餐与功能证据，区分购物、付款和第三方订阅管理；原有材料保留历史日期。
+
+## 2026-11-02 补记
+
+回查[官方入门帮助](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet)与[产品页](https://claude.com/product/claude-duet)，当前美国候补研究预览还列出 Ultra；相对更新时间不能确定具体变更日。条件与历史记录的关系见[产品目录补记](../product/)，本轮未注册或实测。

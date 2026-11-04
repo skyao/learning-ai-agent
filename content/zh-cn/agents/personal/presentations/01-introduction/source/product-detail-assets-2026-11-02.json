@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "muse-goals",
+    "page": "https://introducing.muse.ai/",
+    "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fgoals.0afs6w3eczjsr.png&w=1920&q=75",
+    "caption": "Muse goals and progress view",
+    "sourceDate": "2026-09",
+    "path": "product-details/muse-goals.png",
+    "size": [
+      786,
+      1130
+    ],
+    "retrieved": "2026-11-02"
+  },
+  {
+    "slug": "muse-checkout",
+    "page": "https://introducing.muse.ai/",
+    "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fcheckout.0nx6hmfxq6ara.png&w=1920&q=75",
+    "caption": "Muse checkout approval controls",
+    "sourceDate": "2026-09",
+    "path": "product-details/muse-checkout.png",
+    "size": [
+      786,
+      1050
+    ],
+    "retrieved": "2026-11-02"
+  },
+  {
+    "slug": "muse-artifacts",
+    "page": "https://introducing.muse.ai/",
+    "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fartifacts.2gtkrb_-csikn.png&w=3840&q=75",
+    "caption": "Examples of rich Artifacts created by Muse",
+    "sourceDate": "2026-09",
+    "path": "product-details/muse-artifacts.png",
+    "size": [
+      1536,
+      418
+    ],
+    "retrieved": "2026-11-02"
+  },
+  {
+    "slug": "muse-ideas",
+    "page": "https://introducing.muse.ai/",
+    "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fideas.03w1vqmflzqox.png&w=3840&q=75",
+    "caption": "Ideas suggested by Muse",
+    "sourceDate": "2026-09",
+    "path": "product-details/muse-ideas.png",
+    "size": [
+      1536,
+      960
+    ],
+    "retrieved": "2026-11-02"
+  },
+  {
+    "slug": "grok-poster",
+    "page": "https://x.ai/bot",
+    "url": "https://media.x.ai/v1/website/launch-trailer-poster-1a559a65.jpg",
+    "caption": "Grok Bot 官网发布视频封面；官方展示，非本人实测",
+    "sourceDate": "2026-08-11 发布，动态产品页",
+    "path": "product-details/grok-poster.png",
+    "size": [
+      1280,
+      720
+    ],
+    "retrieved": "2026-11-02"
+  },
+  {
+    "slug": "duet-apps",
+    "page": "https://claude.com/resources/articles/claude-duet",
+    "url": "https://assets.claude.com/c3618d5ce675bcaa9716a06d180879c2b94161c3.png",
+    "caption": "Duet 官方应用连接展示；具体开放条件另核",
+    "sourceDate": "2026-10-21",
+    "path": "product-details/duet-apps.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "retrieved": "2026-11-02"
+  }
+]

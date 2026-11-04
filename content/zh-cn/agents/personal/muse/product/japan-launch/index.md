@@ -8,10 +8,10 @@ description: >
 materialType: "官方资料笔记"
 ---
 
-来源：Meta 日本 Newsroom 公告《Meta launches personal AI agent Muse in Japan》，2026-10-23（确切链接待补，先以 [Meta Newsroom](https://about.fb.com/news/) 入口回查）
+来源：[Meta 日本 Newsroom：Muse 在日本提供开始](https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/)，2026-10-23；原始公告于 2026-10-26 补充回查
 交叉阅读：[DigitalToday 英文报道](https://www.digitaltoday.co.kr/en/view/119025/meta-steps-up-global-expansion-of-muse-launches-in-japan)，2026-10-24；ITmedia、Nikkei 同期报道
 整理日期：2026-10-26
-材料性质：官方公告口径经多家媒体交叉核实，未做日本账号实测
+材料性质：官方公告阅读与媒体交叉参考，未做日本账号实测
 
 ----
 

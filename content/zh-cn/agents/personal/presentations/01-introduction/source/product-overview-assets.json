@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "muse",
+    "page": "https://introducing.muse.ai/",
+    "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstatus.38zbywac8-xmc.png&w=1920&q=75",
+    "alt": "Muse status and activity view",
+    "path": "product-overview/muse.png",
+    "size": [
+      786,
+      1254
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "dots",
+    "page": "https://learn.chatgpt.com/docs/dots",
+    "url": "https://learn.chatgpt.com/og/docs/dots.png",
+    "alt": "og:image",
+    "path": "product-overview/dots.png",
+    "size": [
+      1200,
+      630
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "cue",
+    "page": "https://www.manus.im/blog/introducing-manus-2-0",
+    "url": "https://files.manuscdn.com/assets/dashboard/materials/2026/09/28/972bc30a55a668ad2620114691959f5ee710a3d2c5792144050068a152b5b21b.webp",
+    "alt": "",
+    "path": "product-overview/cue.png",
+    "size": [
+      2048,
+      1152
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "gemini",
+    "page": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spark_Partners.width-1200.format-webp.webp",
+    "alt": "an image showing Gemini Spark partners",
+    "path": "product-overview/gemini.png",
+    "size": [
+      1200,
+      675
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "grok",
+    "page": "https://x.ai/bot",
+    "url": "https://x.ai/images/news/introducing-grok-bot-og-2.png",
+    "alt": "og:image",
+    "path": "product-overview/grok.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "openclaw",
+    "page": "https://docs.openclaw.ai/",
+    "url": "https://docs.openclaw.ai/whatsapp-openclaw.jpg",
+    "alt": "OpenClaw",
+    "path": "product-overview/openclaw.png",
+    "size": [
+      471,
+      1024
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "workbuddy",
+    "page": "https://www.workbuddy.cn/docs/workbuddy/Overview",
+    "url": "https://download.codebuddy.cn/web/docs/b043a5d6b529e83c131924b676ba6273f6160f7a/docs/static/overview-ui-areas.si-lsnLi.png",
+    "alt": "WorkBuddy 工作界面区域标注",
+    "path": "product-overview/workbuddy.png",
+    "size": [
+      1080,
+      723
+    ],
+    "retrieved": "2026-10-27"
+  },
+  {
+    "slug": "duet",
+    "page": "https://claude.com/resources/articles/claude-duet",
+    "url": "https://claude.com/resources/articles/claude-duet/opengraph-image/og",
+    "alt": "og:image",
+    "path": "product-overview/duet.png",
+    "size": [
+      2400,
+      1260
+    ],
+    "retrieved": "2026-10-27"
+  }
+]

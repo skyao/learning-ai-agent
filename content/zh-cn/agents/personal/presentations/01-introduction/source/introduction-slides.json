@@ -1,13 +1,13 @@
 {
-  "title": "Personal Agent：概念、产品与应用场景",
-  "date": "2026-10-25",
-  "totalSeconds": 3000,
+  "title": "深入 Personal Agent 系列之总览篇：从对话问答到持续委托",
+  "date": "2026-11-02",
+  "totalSeconds": 3780,
   "coverSeconds": 30,
   "part01CombinedTimings": [
-    50,
     30,
-    75,
-    55
+    20,
+    50,
+    40
   ],
   "references": {
     "openclaw": {
@@ -299,6 +299,648 @@
       "url": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide",
       "originalDate": "动态文档；本地、项目、云端来源分开，云端任务无需电脑在线",
       "readDate": "2026-10-25"
+    },
+    "roster01_1": {
+      "name": "Muse · 发布公告",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "originalDate": "2026-09-08",
+      "readDate": "2026-10-26"
+    },
+    "roster01_2": {
+      "name": "Muse · 日本上线",
+      "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
+      "originalDate": "2026-10-23",
+      "readDate": "2026-10-26"
+    },
+    "roster02_1": {
+      "name": "Dots · DevDay 2026",
+      "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026",
+      "originalDate": "2026-09-29",
+      "readDate": "2026-10-26"
+    },
+    "roster02_2": {
+      "name": "Dots · 当前开放条件",
+      "url": "https://learn.chatgpt.com/docs/dots",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "roster03_1": {
+      "name": "Cue · Manus 2.0 公告",
+      "url": "https://manus.im/blog/introducing-manus-2-0",
+      "originalDate": "2026-09-28",
+      "readDate": "2026-10-26"
+    },
+    "roster03_2": {
+      "name": "Cue · 当前产品入口",
+      "url": "https://www.cue.im/",
+      "originalDate": "动态页面",
+      "readDate": "2026-10-26"
+    },
+    "roster04_1": {
+      "name": "Gemini Spark （现 Task） · Spark 介绍",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+      "originalDate": "2026-05-19",
+      "readDate": "2026-10-26"
+    },
+    "roster04_2": {
+      "name": "Gemini Spark （现 Task） · 当前 Task 条件",
+      "url": "https://support.google.com/gemini/answer/17094507?hl=en",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "roster05_1": {
+      "name": "Grok Bot · 首发公告",
+      "url": "https://x.ai/news/introducing-grok-bot",
+      "originalDate": "2026-08-11",
+      "readDate": "2026-10-26"
+    },
+    "roster05_2": {
+      "name": "Grok Bot · 当前产品说明",
+      "url": "https://docs.x.ai/grok-bot/overview",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "roster05_3": {
+      "name": "Grok Bot · 当前套餐条件",
+      "url": "https://cursor.com/help/grok-bot/plans",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "roster06_1": {
+      "name": "OpenClaw · 项目沿革",
+      "url": "https://docs.openclaw.ai/start/lore",
+      "originalDate": "2025-11 至 2026-01",
+      "readDate": "2026-10-26"
+    },
+    "roster06_2": {
+      "name": "OpenClaw · 开源项目",
+      "url": "https://github.com/openclaw/openclaw",
+      "originalDate": "持续更新",
+      "readDate": "2026-10-26"
+    },
+    "roster07_1": {
+      "name": "WorkBuddy · 产品简介",
+      "url": "https://www.workbuddy.cn/docs/workbuddy/Overview",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "roster07_2": {
+      "name": "WorkBuddy · 官方版本日志",
+      "url": "https://www.workbuddy.cn/docs/workbuddy/Changelog",
+      "originalDate": "首版记录 2026-03-04；持续更新",
+      "readDate": "2026-10-26"
+    },
+    "roster08_1": {
+      "name": "Claude Duet · 发布公告",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "originalDate": "2026-10-21",
+      "readDate": "2026-10-26"
+    },
+    "roster08_2": {
+      "name": "Claude Duet · 当前准入条件",
+      "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "roster09_1": {
+      "name": "Hermes Agent · 官方发布索引",
+      "url": "https://nousresearch.com/releases",
+      "originalDate": "2026-02-25",
+      "readDate": "2026-10-26"
+    },
+    "roster09_2": {
+      "name": "Hermes Agent · 官方项目",
+      "url": "https://hermes-agent.nousresearch.com/",
+      "originalDate": "持续更新",
+      "readDate": "2026-10-26"
+    },
+    "roster10_1": {
+      "name": "Copilot Autopilot · 现名与预览公告",
+      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "originalDate": "2026-09-25",
+      "readDate": "2026-10-26"
+    },
+    "roster11_1": {
+      "name": "Poke · 公开推出的公司新闻稿",
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=343533",
+      "originalDate": "2025-09-08",
+      "readDate": "2026-10-26"
+    },
+    "roster11_2": {
+      "name": "Poke · 当前开放范围",
+      "url": "https://poke.com/docs",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "roster11_3": {
+      "name": "Poke · 发布记录",
+      "url": "https://poke.com/docs/release-notes",
+      "originalDate": "2026-03-19 取消候补",
+      "readDate": "2026-10-26"
+    },
+    "roster11_4": {
+      "name": "Poke · 加入 Cognition",
+      "url": "https://cognition.com/blog/interaction",
+      "originalDate": "2026-07-23",
+      "readDate": "2026-10-26"
+    },
+    "roster12_1": {
+      "name": "Lindy · 初代产品介绍",
+      "url": "https://www.lindy.ai/blog/meet-lindy",
+      "originalDate": "页面日期 2023-03-21，标为 Last Updated",
+      "readDate": "2026-10-26"
+    },
+    "roster12_2": {
+      "name": "Lindy · 当前官网与注册入口",
+      "url": "https://www.lindy.ai/",
+      "originalDate": "动态页面",
+      "readDate": "2026-10-26"
+    },
+    "roster13_1": {
+      "name": "Kimi Claw · 官方产品沿革",
+      "url": "https://www.kimi.com/help/agent/agent-overview",
+      "originalDate": "2026-02 公测",
+      "readDate": "2026-10-26"
+    },
+    "roster13_2": {
+      "name": "Kimi Claw · 当前开通条件",
+      "url": "https://www.kimi.com/help/kimi-claw/overview",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "roster14_1": {
+      "name": "Personal Computer · 首轮公告记录",
+      "url": "https://www.perplexity.ai/changelog",
+      "originalDate": "2026-03-12 公告",
+      "readDate": "2026-10-26"
+    },
+    "roster14_2": {
+      "name": "Personal Computer · Mac 上线",
+      "url": "https://www.perplexity.ai/changelog/personal-computer-on-mac-launch-and-computer-updates---april-17-2026",
+      "originalDate": "正文日期 2026-04-16",
+      "readDate": "2026-10-26"
+    },
+    "roster14_3": {
+      "name": "Personal Computer · 当前下载入口",
+      "url": "https://www.perplexity.ai/personal-computer",
+      "originalDate": "动态页面",
+      "readDate": "2026-10-26"
+    },
+    "roster15_1": {
+      "name": "DeepSeek Harness · 当前官方产品页",
+      "url": "https://www.deepseek.com/en/harness/",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "roster15_2": {
+      "name": "DeepSeek Harness · 早期公开研究记录",
+      "url": "https://arxiv.org/abs/2608.16393",
+      "originalDate": "v1 于 2026-08-17 提交",
+      "readDate": "2026-10-26"
+    },
+    "roster16_1": {
+      "name": "Claude Cowork · 官方发布记录",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "originalDate": "2026-01-12",
+      "readDate": "2026-10-26"
+    },
+    "roster16_2": {
+      "name": "Claude Cowork · 当前统一体验",
+      "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_muse_1": {
+      "name": "Muse · 首次发布",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "originalDate": "2026-09-08",
+      "readDate": "2026-10-26"
+    },
+    "cap_muse_2": {
+      "name": "Muse · 购买审批说明",
+      "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse",
+      "originalDate": "2026-09，首发安全设计",
+      "readDate": "2026-10-26"
+    },
+    "cap_muse_3": {
+      "name": "Muse · 个人经营场景",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+      "originalDate": "2026-09-29；更新 10-08",
+      "readDate": "2026-10-26"
+    },
+    "cap_muse_4": {
+      "name": "Muse · 日本上线",
+      "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
+      "originalDate": "2026-10-23",
+      "readDate": "2026-10-26"
+    },
+    "cap_muse_5": {
+      "name": "Muse · 连接器完整任务要求",
+      "url": "https://platform.muse.ai/docs",
+      "originalDate": "动态文档，未列独立修订日",
+      "readDate": "2026-10-26"
+    },
+    "cap_muse_6": {
+      "name": "Muse · 订阅管理观察",
+      "url": "https://www.subscriptioninsider.com/blog/meta-muse-shows-where-subscription-management-is-headed",
+      "originalDate": "2026-09-29",
+      "readDate": "2026-10-26"
+    },
+    "cap_dots_1": {
+      "name": "Dots · 当前产品与准入",
+      "url": "https://learn.chatgpt.com/docs/dots",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_dots_2": {
+      "name": "Dots · 电脑和应用接入",
+      "url": "https://learn.chatgpt.com/docs/dots/computers-and-apps",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_dots_3": {
+      "name": "Dots · 动作审查与规则",
+      "url": "https://learn.chatgpt.com/docs/dots/controls",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_cue_1": {
+      "name": "Cue · Cue 首发与 Early Access",
+      "url": "https://www.manus.im/blog/introducing-manus-2-0",
+      "originalDate": "2026-09-28",
+      "readDate": "2026-10-26"
+    },
+    "cap_cue_2": {
+      "name": "Cue · Cue 当前应用说明",
+      "url": "https://play.google.com/store/apps/details?hl=en&id=ai.manus.agents",
+      "originalDate": "商店持续更新；本轮以开发者描述为准",
+      "readDate": "2026-10-26"
+    },
+    "cap_gemini-spark_1": {
+      "name": "Gemini Spark （现 Task） · Task 英文说明",
+      "url": "https://support.google.com/gemini/answer/17094507?hl=en",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_gemini-spark_2": {
+      "name": "Gemini Spark （现 Task） · Task 中文说明",
+      "url": "https://support.google.com/gemini/answer/17094507?hl=zh-Hans",
+      "originalDate": "动态文档，与英文同源",
+      "readDate": "2026-10-26"
+    },
+    "cap_grok-bot_1": {
+      "name": "Grok Bot · 当前 Bot 概览",
+      "url": "https://docs.x.ai/grok-bot/overview",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_grok-bot_2": {
+      "name": "Grok Bot · 审批与接管",
+      "url": "https://docs.x.ai/grok-bot/approvals-security-and-privacy",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_grok-bot_3": {
+      "name": "Grok Bot · 新订阅的 Bot 资格",
+      "url": "https://docs.x.ai/x-subscription/grok-bot",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_grok-bot_4": {
+      "name": "Grok Bot · Link 合作名单",
+      "url": "https://stripe.com/newsroom/news/anthropic-and-stripe",
+      "originalDate": "2026-10-21",
+      "readDate": "2026-10-26"
+    },
+    "cap_openclaw_1": {
+      "name": "OpenClaw · 官方功能列表",
+      "url": "https://docs.openclaw.ai/concepts/features",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_openclaw_2": {
+      "name": "OpenClaw · 官方项目与安装入口",
+      "url": "https://docs.openclaw.ai/",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_workbuddy_1": {
+      "name": "WorkBuddy · 官方简介",
+      "url": "https://www.workbuddy.cn/docs/workbuddy/Overview",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_workbuddy_2": {
+      "name": "WorkBuddy · 网站应用开发与发布",
+      "url": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Web-App",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_workbuddy_3": {
+      "name": "WorkBuddy · 国内个人版定价",
+      "url": "https://www.workbuddy.cn/docs/workbuddy/Pricing",
+      "originalDate": "2026-07-01 起方案，动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_claude-duet_1": {
+      "name": "Claude Duet · 发布与业务场景",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "originalDate": "2026-10-21",
+      "readDate": "2026-10-26"
+    },
+    "cap_claude-duet_2": {
+      "name": "Claude Duet · 当前准入",
+      "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_claude-duet_3": {
+      "name": "Claude Duet · Link 条件和周期付款限制",
+      "url": "https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_claude-duet_4": {
+      "name": "Claude Duet · 支付与商户经营分别接入",
+      "url": "https://stripe.com/newsroom/news/anthropic-and-stripe",
+      "originalDate": "2026-10-21",
+      "readDate": "2026-10-26"
+    },
+    "cap_hermes-agent_1": {
+      "name": "Hermes Agent · 官方发布索引",
+      "url": "https://nousresearch.com/releases",
+      "originalDate": "2026-02-25",
+      "readDate": "2026-10-26"
+    },
+    "cap_hermes-agent_2": {
+      "name": "Hermes Agent · 工具与插件列表",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/tools",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_hermes-agent_3": {
+      "name": "Hermes Agent · 浏览器与凭证库",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/browser",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_hermes-agent_4": {
+      "name": "Hermes Agent · 社区故事集",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-stories",
+      "originalDate": "持续收录；每项有原作者和日期",
+      "readDate": "2026-10-26"
+    },
+    "cap_copilot-autopilot_1": {
+      "name": "Copilot Autopilot · Autopilot 公告",
+      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "originalDate": "2026-09-25",
+      "readDate": "2026-10-26"
+    },
+    "cap_copilot-autopilot_2": {
+      "name": "Copilot Autopilot · 前身 Scout 的 Microsoft 365 动作",
+      "url": "https://learn.microsoft.com/en-us/microsoft-scout/work-with-microsoft-365",
+      "originalDate": "预发布文档，沿用旧称",
+      "readDate": "2026-10-26"
+    },
+    "cap_poke_1": {
+      "name": "Poke · 当前产品与地区",
+      "url": "https://poke.com/docs",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_poke_2": {
+      "name": "Poke · Poke Human 与组织变化",
+      "url": "https://poke.com/docs/release-notes",
+      "originalDate": "2026-06-25；2026-07-23",
+      "readDate": "2026-10-26"
+    },
+    "cap_poke_3": {
+      "name": "Poke · 当前套餐",
+      "url": "https://poke.com/pricing",
+      "originalDate": "动态定价，按月付栏记录",
+      "readDate": "2026-10-26"
+    },
+    "cap_poke_4": {
+      "name": "Poke · Recipes 发布",
+      "url": "https://poke.com/docs/creating-recipes",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_lindy_1": {
+      "name": "Lindy · 当前产品范围",
+      "url": "https://www.lindy.ai/",
+      "originalDate": "动态官网",
+      "readDate": "2026-10-26"
+    },
+    "cap_lindy_2": {
+      "name": "Lindy · 电话与预约",
+      "url": "https://www.lindy.ai/product/phone",
+      "originalDate": "动态产品页",
+      "readDate": "2026-10-26"
+    },
+    "cap_lindy_3": {
+      "name": "Lindy · 当前套餐",
+      "url": "https://www.lindy.ai/pricing",
+      "originalDate": "动态定价，按月付栏记录",
+      "readDate": "2026-10-26"
+    },
+    "cap_kimi-claw_1": {
+      "name": "Kimi Claw · 当前云端与关联路径",
+      "url": "https://www.kimi.com/help/kimi-claw/overview",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_kimi-claw_2": {
+      "name": "Kimi Claw · Android 操作范围与会员条件",
+      "url": "https://www.kimi.com/en/help/kimi-claw/android-user-guide",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-26"
+    },
+    "cap_personal-computer_1": {
+      "name": "Personal Computer · 当前桌面入口",
+      "url": "https://www.perplexity.ai/personal-computer",
+      "originalDate": "动态页面",
+      "readDate": "2026-10-26"
+    },
+    "cap_personal-computer_2": {
+      "name": "Personal Computer · 安装与本机授权",
+      "url": "https://www.perplexity.ai/personal-computer-setup",
+      "originalDate": "动态页面",
+      "readDate": "2026-10-26"
+    },
+    "cap_personal-computer_3": {
+      "name": "Personal Computer · Mac 扩围与配套 Personal CFO",
+      "url": "https://www.perplexity.ai/changelog/personal-computer-for-all-users-on-mac",
+      "originalDate": "2026-05-10",
+      "readDate": "2026-10-26"
+    },
+    "cap_deepseek-harness_1": {
+      "name": "DeepSeek Harness · 当前功能与预览范围",
+      "url": "https://www.deepseek.com/en/harness/",
+      "originalDate": "动态页面",
+      "readDate": "2026-10-26"
+    },
+    "cap_deepseek-harness_2": {
+      "name": "DeepSeek Harness · 模型接入与服务主体",
+      "url": "https://www.deepseek.com/en/harness/terms-of-use/",
+      "originalDate": "最后更新 2026-09-20",
+      "readDate": "2026-10-26"
+    },
+    "cap_claude-cowork_1": {
+      "name": "Claude Cowork · 当前统一体验与套餐",
+      "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+      "originalDate": "动态帮助",
+      "readDate": "2026-10-26"
+    },
+    "cap_claude-cowork_2": {
+      "name": "Claude Cowork · Link 仅在 Duet 的范围说明",
+      "url": "https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet",
+      "originalDate": "动态帮助",
+      "readDate": "2026-10-26"
+    },
+    "overview-muse": {
+      "name": "Muse 官方产品资料",
+      "url": "https://introducing.muse.ai/",
+      "originalDate": "2026 年 9 月",
+      "readDate": "2026-10-27"
+    },
+    "overview-dots": {
+      "name": "Dots 官方产品资料",
+      "url": "https://learn.chatgpt.com/docs/dots",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-27"
+    },
+    "overview-cue": {
+      "name": "Cue 官方产品资料",
+      "url": "https://www.manus.im/blog/introducing-manus-2-0",
+      "originalDate": "2026-09-28",
+      "readDate": "2026-10-27"
+    },
+    "overview-gemini-spark": {
+      "name": "Gemini Spark / Task 官方产品资料",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+      "originalDate": "2026-05-19",
+      "readDate": "2026-10-27"
+    },
+    "overview-grok-bot": {
+      "name": "Grok Bot 官方产品资料",
+      "url": "https://docs.x.ai/grok-bot/overview",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-27"
+    },
+    "overview-openclaw": {
+      "name": "OpenClaw 官方产品资料",
+      "url": "https://docs.openclaw.ai/",
+      "originalDate": "动态文档；沿革另见官方 Lore",
+      "readDate": "2026-10-27"
+    },
+    "overview-workbuddy": {
+      "name": "WorkBuddy 官方产品资料",
+      "url": "https://www.workbuddy.cn/docs/workbuddy/Overview",
+      "originalDate": "动态文档",
+      "readDate": "2026-10-27"
+    },
+    "overview-claude-duet": {
+      "name": "Claude Duet 官方产品资料",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "originalDate": "2026-10-21；页面含 10-23 更新",
+      "readDate": "2026-10-27"
+    },
+    "detail-muse-design": {
+      "name": "Meta：How We Designed Muse",
+      "url": "https://introducing.muse.ai/",
+      "originalDate": "2026-09",
+      "readDate": "2026-11-02"
+    },
+    "detail-muse-business": {
+      "name": "Meta：Muse for Small Business",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+      "originalDate": "2026-09-29，页面更新 10-08",
+      "readDate": "2026-11-02"
+    },
+    "detail-muse-singapore": {
+      "name": "Meta：Muse in Singapore",
+      "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+      "originalDate": "2026-10-27（官方页面日期）",
+      "readDate": "2026-11-02"
+    },
+    "detail-muse-purchase": {
+      "name": "Meta：Muse 安全与购买确认",
+      "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse",
+      "originalDate": "2026-09",
+      "readDate": "2026-11-02"
+    },
+    "detail-dots": {
+      "name": "OpenAI：Meet dots",
+      "url": "https://learn.chatgpt.com/docs/dots",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-dots-tasks": {
+      "name": "OpenAI：Tasks and memory",
+      "url": "https://learn.chatgpt.com/docs/dots/tasks-and-memory",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-dots-computers": {
+      "name": "OpenAI：Computers and apps",
+      "url": "https://learn.chatgpt.com/docs/dots/computers-and-apps",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-dots-start": {
+      "name": "OpenAI：Get started with your dot",
+      "url": "https://learn.chatgpt.com/docs/dots/getting-started",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-duet": {
+      "name": "Anthropic：Introducing Claude Duet",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "originalDate": "2026-10-21，页面含 10-23 安全补记",
+      "readDate": "2026-11-02"
+    },
+    "detail-duet-product": {
+      "name": "Anthropic：Claude Duet 产品页",
+      "url": "https://claude.com/product/claude-duet",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-duet-help": {
+      "name": "Anthropic：Get started with Claude Duet",
+      "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-cowork": {
+      "name": "Anthropic：Cowork and chat are one Claude",
+      "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-grok": {
+      "name": "Grok Bot：Overview",
+      "url": "https://docs.x.ai/grok-bot/overview",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-grok-bots": {
+      "name": "Grok Bot：Create and manage Bots",
+      "url": "https://docs.x.ai/grok-bot/bots",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-grok-collaboration": {
+      "name": "Grok Bot：Message and collaborate",
+      "url": "https://docs.x.ai/grok-bot/chat-and-collaboration",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-grok-skills": {
+      "name": "Grok Bot：Skills and routines",
+      "url": "https://docs.x.ai/grok-bot/skills-routines-and-automations",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
     }
   },
   "parts": [
@@ -310,7 +952,7 @@
       "slides": [
         {
           "title": "三个名称，描述不同层面",
-          "seconds": 40,
+          "seconds": 30,
           "kind": "table",
           "subtitle": "先明确比较对象，再讨论能力与使用方式。",
           "notes": "我先区分层次：Personal Agent 是面向具体个人的产品或使用形态；OpenClaw 是可以自行运行的软件方案；Harness 是支撑执行的运行软件。它们可以重叠，不能看成三个互斥类别。这里不展开组件结构，只为后面比较产品建立共同语言。",
@@ -415,7 +1057,7 @@
       "slides": [
         {
           "title": "2022—2026：执行能力与个人服务逐步汇合",
-          "seconds": 50,
+          "seconds": 40,
           "kind": "timeline",
           "subtitle": "我沿两条线理解变化：更能完成工作，更能持续为同一个人工作。",
           "refs": [
@@ -685,580 +1327,1292 @@
     {
       "part": 5,
       "name": "05-products-and-scenarios",
-      "title": "主流产品及其应用场景",
-      "seconds": 1500,
+      "title": "主流 Personal Agent 产品概览",
+      "seconds": 1680,
       "slides": [
         {
-          "title": "第一批八个产品：先看定位",
+          "slug": "muse",
+          "product": "Muse",
+          "art": "muse",
+          "title": "Muse｜Meta 的综合个人代理",
+          "vendor": "Meta",
+          "launch": "2026-09-08",
+          "position": "围绕个人生活、消费和长期目标接受委托，也延伸到个人经营。",
+          "entry": "Muse 应用与网页；\n可通过支持的消息入口交谈",
+          "ecosystem": "Meta 个人应用与第三方连接；\n商家、旅行及支付服务",
+          "business": "生活事务、购物与预订；\n个人目标、内容与经营工作",
+          "takeaway": "我把 Muse 理解为覆盖生活、消费和个人经营的综合个人代理。",
+          "status": "公开提供；美、加、日。具体功能与地域条件沿用 2026-10-26 快照。",
+          "caption": "Meta 官方产品设计页：活动界面示意",
+          "source": "https://introducing.muse.ai/",
+          "sourceDate": "2026 年 9 月",
+          "body": "我把 Muse 理解为 Meta 面向个人提供的综合代理。它既承接生活和消费事务，也试图围绕个人目标延续工作，并通过 Small Business 扩展到店铺、内容和经营资料。认识这个产品时，我会先联系 Meta 已有个人应用和它接入的外部服务，不用一个旅行计划来界定它的能力范围。",
+          "refs": [
+            "overview-muse",
+            "roster01_1",
+            "roster01_2",
+            "cap_muse_3"
+          ],
+          "image": {
+            "slug": "muse",
+            "page": "https://introducing.muse.ai/",
+            "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstatus.38zbywac8-xmc.png&w=1920&q=75",
+            "alt": "Muse status and activity view",
+            "path": "product-overview/muse.png",
+            "size": [
+              786,
+              1254
+            ],
+            "retrieved": "2026-10-27",
+            "caption": "Meta 官方产品设计页：活动界面示意"
+          },
+          "kind": "product-profile",
+          "focus": "overview",
+          "seconds": 70,
+          "subtitle": "围绕个人生活、消费和长期目标接受委托，也延伸到个人经营。",
+          "ribbon": "我把 Muse 理解为覆盖生活、消费和个人经营的综合个人代理。",
+          "footer": "公开提供；美、加、日。具体功能与地域条件沿用 2026-10-26 快照。｜来源见讲者备注",
+          "readDate": "2026-10-27",
+          "notes": "我把 Muse 理解为 Meta 面向个人提供的综合代理。它既承接生活和消费事务，也试图围绕个人目标延续工作，并通过 Small Business 扩展到店铺、内容和经营资料。认识这个产品时，我会先联系 Meta 已有个人应用和它接入的外部服务，不用一个旅行计划来界定它的能力范围。\n厂商与推出：Meta；2026-09-08。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://introducing.muse.ai/\n原始图片：https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstatus.38zbywac8-xmc.png&w=1920&q=75"
+        },
+        {
+          "id": "muse-goals",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Muse",
+          "title": "Muse｜把分散的事情组织成长期目标",
+          "subtitle": "功能 1 / 4 · 个人上下文、Goals 与 Ideas",
+          "layout": "showcase",
+          "ribbon": "我理解的起点：不只记下一件事，还要持续知道这件事为什么重要。",
+          "refs": [
+            "detail-muse-design"
+          ],
           "seconds": 60,
-          "kind": "table",
-          "subtitle": "这是本次重点样本，不是市场份额或能力排名。",
-          "notes": "先建立第一批八款的地图，这里不逐行念功能。接下来重点看 Muse、Dots、Claude Duet 和 WorkBuddy，每款先讲产品，再用一个完整委托说明。四款大致提供个人目标、持续职责、主动工作关注和办公成果四个观察入口，但能力可以交叉。这是我选择讲述的侧重，不是能力排名。其余四款与第二批对象用于补充不同组织路线，名单仍保持两批各八个。",
-          "refs": [
-            "muse",
-            "dots",
-            "cue",
-            "task",
-            "grok",
-            "openclaw",
-            "workbuddy",
-            "duet-help"
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "我先从 Goals 理解 Muse 的个人服务方式。官方设计把长期目标、正在跟踪的事项和 Ideas 建议放在可见的位置；一段持续的主对话帮助用户补充要求，不必把每件事都重新开始。",
+            "本页的目标界面来自官方设计文章。它让我关注的是用户如何交代优先级、查看推进中的事项，以及在目标变化时继续沟通。这里的界面与说明属于官方展示，不能当作我已验证的跨周执行效果。"
           ],
-          "columns": [
-            "产品",
-            "我关注的定位",
-            "场景入口"
+          "image": {
+            "slug": "muse-goals",
+            "page": "https://introducing.muse.ai/",
+            "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fgoals.0afs6w3eczjsr.png&w=1920&q=75",
+            "caption": "Meta 官方示意：Goals 与正在跟踪的事项",
+            "sourceDate": "2026-09",
+            "path": "product-details/muse-goals.png",
+            "size": [
+              786,
+              1130
+            ],
+            "retrieved": "2026-11-02"
+          },
+          "cards": [
+            {
+              "title": "长期目标",
+              "body": "在 Goals 中查看目标与持续跟踪的事项。"
+            },
+            {
+              "title": "连续沟通",
+              "body": "补充偏好、改变优先级，继续已有委托。"
+            },
+            {
+              "title": "主动提出想法",
+              "body": "Ideas 根据已知目标与上下文提出可做的事。"
+            }
           ],
-          "rows": [
-            [
-              "Muse",
-              "个人事务与长期目标",
-              "安排、资料、持续待办"
-            ],
-            [
-              "Dots",
-              "个人上下文与持续职责",
-              "研究资料维护、项目跟进"
-            ],
-            [
-              "Cue",
-              "个人代理团队与分工",
-              "调研、整理、成果交接"
-            ],
-            [
-              "Gemini Spark / Task",
-              "Google 生态内的任务",
-              "邮件、日历、资料与计划"
-            ],
-            [
-              "Grok Bot",
-              "长期角色与云端工作",
-              "职责分工、方法复用"
-            ],
-            [
-              "OpenClaw",
-              "自建个人助手",
-              "惯用渠道、自选工具与运行"
-            ],
-            [
-              "WorkBuddy",
-              "国内个人办公",
-              "文件、文档、表格与 PPT"
-            ],
-            [
-              "Claude Duet",
-              "主动发现与持续跟进",
-              "简报、待办与用户决策"
-            ]
-          ],
-          "ribbon": "先选定要委托的工作，再比较产品条件与交付方式。",
-          "readDate": "2026-10-25（重点四款）；其余样本沿用 2026-10-24"
+          "notes": "我先从 Goals 理解 Muse 的个人服务方式。官方设计把长期目标、正在跟踪的事项和 Ideas 建议放在可见的位置；一段持续的主对话帮助用户补充要求，不必把每件事都重新开始。\n\n本页的目标界面来自官方设计文章。它让我关注的是用户如何交代优先级、查看推进中的事项，以及在目标变化时继续沟通。这里的界面与说明属于官方展示，不能当作我已验证的跨周执行效果。\n本页介绍产品功能与使用方式，不展开底层实现。\n产品图：Meta 官方示意：Goals 与正在跟踪的事项；来源 https://introducing.muse.ai/；原始图片 https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fgoals.0afs6w3eczjsr.png&w=1920&q=75。"
         },
         {
-          "title": "Muse｜把个人目标变成持续行动",
+          "id": "muse-activity",
+          "kind": "product-detail",
+          "focus": "features",
           "product": "Muse",
-          "focus": "product",
-          "seconds": 150,
-          "kind": "panels",
-          "subtitle": "Meta 的托管个人代理：结合个人背景，跨应用推进任务并带回成果。",
-          "panels": [
+          "title": "Muse｜离开对话后，事情怎样继续",
+          "subtitle": "功能 2 / 4 · 后台工作、活动与有用的提醒",
+          "layout": "showcase",
+          "ribbon": "我会看正在做什么、发生了什么变化，以及什么时候需要我。",
+          "refs": [
+            "detail-muse-design"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "官方的开学准备案例由产品设计作者讲述：学校邮件、日历、用品采购与截止时间被放在同一项持续事务中。我要借它说明，多步工作可以跨越一次对话，不能把这个案例写成我自己的使用经历。",
+            "活动视图让用户回看正在处理的事项。官方设计也强调，后台结果只有值得呈现或需要用户输入时才通知。我会把这一页讲成进度查看与介入方式，持续可靠性仍留待实践。"
+          ],
+          "image": {
+            "slug": "muse",
+            "page": "https://introducing.muse.ai/",
+            "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstatus.38zbywac8-xmc.png&w=1920&q=75",
+            "alt": "Muse status and activity view",
+            "path": "product-overview/muse.png",
+            "size": [
+              786,
+              1254
+            ],
+            "retrieved": "2026-10-27",
+            "caption": "Meta 官方示意：状态与活动视图"
+          },
+          "cards": [
             {
-              "title": "目标与交互",
-              "lines": [
-                "Muse 应用或 WhatsApp 交谈",
-                "Goals 看目标，Activity 看进展",
-                "记忆与后续对话延续背景"
-              ]
+              "title": "可以同时交办",
+              "body": "继续对话，查看多项工作的当前进展。"
             },
             {
-              "title": "工作与交付",
-              "lines": [
-                "在后台组织多项工作",
-                "交付文档、网页与跟踪表",
-                "需要决定时联系用户"
-              ]
+              "title": "后台继续处理",
+              "body": "退出应用以后，已设定的工作仍可继续。"
             },
             {
-              "title": "典型业务与场景",
-              "lines": [
-                "旅行、家庭安排与个人待办",
-                "个人计划与阶段目标",
-                "内容准备与个人经营事务"
-              ]
+              "title": "有变化再联系",
+              "body": "重要进展或需要决定时，请用户参与。"
             }
           ],
-          "refs": [
-            "muse-product",
-            "muse-design",
-            "muse-business"
-          ],
-          "notes": "我把 Muse 作为个人目标型产品来理解。先从使用入口看：通过应用或 WhatsApp 交谈，把背景和目标交给同一个代理。产品设计又提供 Goals、Activity 和 Artifacts，分别帮助查看目标、过程和成果。这让工作从一次回答扩展成可继续讨论和修订的事情。上述入口来自官方产品资料，不是本轮新增实测。\n我选择三类场景说明适用范围：生活里的行程与家庭安排；围绕个人时间和既有记录维护的计划；经营者围绕资料和应用做内容或业务分析。后者有单独的小企业技能与连接器公告，因此 Muse 不能只按生活聊天助手理解。\n这里看重的不是每件事都要交给它，而是资料分散、目标有多个步骤、后续可能变化时，系统能否减少我的整理和跟进。需要哪些应用、能够执行到哪一步，仍由实际连接与授权决定。发消息、发布和花费在公告中有批准要求。下一页用一个尚未执行的旅行委托，说明这种产品体验到底承接哪些步骤。",
-          "ribbon": "我关注的价值：目标、个人背景与后续行动能否接得起来。",
-          "readDate": "2026-10-25"
+          "notes": "官方的开学准备案例由产品设计作者讲述：学校邮件、日历、用品采购与截止时间被放在同一项持续事务中。我要借它说明，多步工作可以跨越一次对话，不能把这个案例写成我自己的使用经历。\n\n活动视图让用户回看正在处理的事项。官方设计也强调，后台结果只有值得呈现或需要用户输入时才通知。我会把这一页讲成进度查看与介入方式，持续可靠性仍留待实践。\n本页介绍产品功能与使用方式，不展开底层实现。\n产品图：Meta 官方示意：状态与活动视图；来源 https://introducing.muse.ai/；原始图片 https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstatus.38zbywac8-xmc.png&w=1920&q=75。"
         },
         {
-          "title": "Muse 场景｜两天行程，从方案到变化后的调整",
+          "id": "muse-commerce",
+          "kind": "product-detail",
+          "focus": "features",
           "product": "Muse",
-          "focus": "scenario",
-          "seconds": 150,
-          "kind": "scenario",
-          "subtitle": "用一个完整委托，连接输入、执行、成果与用户参与。",
-          "request": "安排两天行程，预算 3000 元；给两套方案，日期变化后接着调整，先不预订或付款。",
-          "stages": [
+          "title": "Muse｜购物与预订，走到确认动作",
+          "subtitle": "功能 3 / 4 · 查找、比较、准备与批准",
+          "layout": "showcase",
+          "ribbon": "我把方案、购物车、用户批准和最终订单分开看。",
+          "refs": [
+            "detail-muse-purchase",
+            "detail-muse-singapore"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "我把购物与预订作为 Muse 功能介绍的一个重点：产品尝试把选择方案、准备动作与用户确认接起来。左侧是官方结账控件，显示这类委托需要清楚的动作入口，不能只在聊天里笼统说同意。",
+            "Meta 的新加坡公告列出 Shopee、Grab、航空和旅行服务等本地伙伴，同时明确连接器分批开放。官方页面日期为 2026-10-27，说明 Muse 已扩展到新加坡；旧概览页保留 10 月 26 日的美、加、日快照，当前补记增加新加坡。地区开放不代表每个商家功能都已开放，支付批准也不等于订单已完成。"
+          ],
+          "image": {
+            "slug": "muse-checkout",
+            "page": "https://introducing.muse.ai/",
+            "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fcheckout.0nx6hmfxq6ara.png&w=1920&q=75",
+            "caption": "Meta 官方示意：结账批准控件",
+            "sourceDate": "2026-09",
+            "path": "product-details/muse-checkout.png",
+            "size": [
+              786,
+              1050
+            ],
+            "retrieved": "2026-11-02"
+          },
+          "cards": [
             {
-              "title": "提供背景",
-              "lines": [
-                "日期、预算、同行人与偏好",
-                "授权日历与已有安排"
-              ]
+              "title": "选方案",
+              "body": "检索商品、比较选项，准备购物或预订。"
             },
             {
-              "title": "组织方案",
-              "lines": [
-                "比较交通与住宿",
-                "单列缺失信息和待定项"
-              ]
+              "title": "看清再批准",
+              "body": "核对购买内容，重要动作由用户决定。"
             },
             {
-              "title": "收到成果",
-              "lines": [
-                "两套行程与费用构成",
-                "时间变化后修订已有方案"
-              ]
-            },
-            {
-              "title": "作出决定",
-              "lines": [
-                "核对价格、退改与时间",
-                "选择方案后再确认外部动作"
-              ]
+              "title": "按当地服务开放",
+              "body": "新加坡已加入；本地连接器逐步提供。"
             }
           ],
-          "refs": [
-            "muse-product",
-            "muse-design"
-          ],
-          "notes": "这是我构造的场景，没有实际预订或产品运行结果。假设下月有两天可用时间，我提供预算、出行偏好、同行人和已经确定的安排。委托的结果是两套可比较方案，而不是让系统一次推荐几个景点。\n预期工作分为几步：先整理约束，找出缺的信息；比较交通与住宿，给出行程和费用；把需要我决定的地方单列。如果我中途改变出发时间，就让它说明哪些原安排受影响，在已有方案上继续修订。预订和付款暂不授权。\n这个案例的适用条件很具体：我确实愿意提供相关资料，授权的网站能访问，产品能交付可检查的方案。并不因为官方有旅行场景，就能保证每个网站都可用、每个价格都正确。验收时我会查看票价时点、退改条件、时间冲突和待定项有没有消失。它说明的是目标委托怎样延续，后面的现场 Muse 演示仍用短材料周报，只观察基本操作和修订。",
-          "ribbon": "看清变化后的继续处理；方案、预订与付款是不同的交付阶段。",
-          "readDate": "2026-10-25"
+          "notes": "我把购物与预订作为 Muse 功能介绍的一个重点：产品尝试把选择方案、准备动作与用户确认接起来。左侧是官方结账控件，显示这类委托需要清楚的动作入口，不能只在聊天里笼统说同意。\n\nMeta 的新加坡公告列出 Shopee、Grab、航空和旅行服务等本地伙伴，同时明确连接器分批开放。官方页面日期为 2026-10-27，说明 Muse 已扩展到新加坡；旧概览页保留 10 月 26 日的美、加、日快照，当前补记增加新加坡。地区开放不代表每个商家功能都已开放，支付批准也不等于订单已完成。\n本页介绍产品功能与使用方式，不展开底层实现。\n产品图：Meta 官方示意：结账批准控件；来源 https://introducing.muse.ai/；原始图片 https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fcheckout.0nx6hmfxq6ara.png&w=1920&q=75。"
         },
         {
-          "title": "Dots｜把持续职责交给同一个代理",
+          "id": "muse-artifacts-business",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Muse",
+          "title": "Muse｜交付可继续使用的成果",
+          "subtitle": "功能 4 / 4 · Artifacts 与个人经营",
+          "layout": "gallery",
+          "ribbon": "我关注的结果包括文件、交互工具，也包括经营者继续使用的工作成果。",
+          "refs": [
+            "detail-muse-design",
+            "detail-muse-business"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "Artifacts 是我认为应该让听众直接看到的功能。官方设计展示文档、网页和交互式工具等成果，让任务结果可以脱离长段聊天继续使用。这里的支出跟踪、学习与健康展示属于官方示例，不是我的实验。",
+            "Small Business 则把个人委托延伸到经营活动，例如结合店铺、财务、设计和社交业务信息准备工作。我会保留它与生活事务的连续性：服务对象仍可以是同一个人，只是资料和动作进入了经营环境。发布、发送和花费需要批准，不能从连接品牌直接推定所有业务动作可用。"
+          ],
+          "image": {
+            "slug": "muse-artifacts",
+            "page": "https://introducing.muse.ai/",
+            "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fartifacts.2gtkrb_-csikn.png&w=3840&q=75",
+            "caption": "Meta 官方展示：Muse 创建的丰富交付物",
+            "sourceDate": "2026-09",
+            "path": "product-details/muse-artifacts.png",
+            "size": [
+              1536,
+              418
+            ],
+            "retrieved": "2026-11-02"
+          },
+          "cards": [
+            {
+              "title": "Artifacts：成果可以继续用",
+              "body": "文档、PDF、网页与交互工具，按任务选择形式。"
+            },
+            {
+              "title": "Small Business：进入经营工作",
+              "body": "结合店铺、内容、财务与业务资料，准备待批成果。"
+            }
+          ],
+          "notes": "Artifacts 是我认为应该让听众直接看到的功能。官方设计展示文档、网页和交互式工具等成果，让任务结果可以脱离长段聊天继续使用。这里的支出跟踪、学习与健康展示属于官方示例，不是我的实验。\n\nSmall Business 则把个人委托延伸到经营活动，例如结合店铺、财务、设计和社交业务信息准备工作。我会保留它与生活事务的连续性：服务对象仍可以是同一个人，只是资料和动作进入了经营环境。发布、发送和花费需要批准，不能从连接品牌直接推定所有业务动作可用。\n本页介绍产品功能与使用方式，不展开底层实现。\n产品图：Meta 官方展示：Muse 创建的丰富交付物；来源 https://introducing.muse.ai/；原始图片 https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fartifacts.2gtkrb_-csikn.png&w=3840&q=75。"
+        },
+        {
+          "slug": "dots",
           "product": "Dots",
-          "focus": "product",
-          "seconds": 150,
-          "kind": "panels",
-          "subtitle": "OpenAI：在 ChatGPT 中保持工作背景，跟进变化并协调后台任务。",
-          "panels": [
-            {
-              "title": "连续的工作关系",
-              "lines": [
-                "沿用当前背景与相关记忆",
-                "自己的笔记保存工作线索",
-                "补充要求后继续原有工作"
-              ]
-            },
-            {
-              "title": "任务与交付",
-              "lines": [
-                "将较大工作委派到后台",
-                "Activity 查看任务和结果",
-                "Scheduled 核对周期工作"
-              ]
-            },
-            {
-              "title": "适合哪些职责",
-              "lines": [
-                "维护研究资料与比较笔记",
-                "跟踪项目变化与待回复项",
-                "把反馈组织成待检查修订"
-              ]
-            }
-          ],
+          "art": "dots",
+          "title": "Dots｜ChatGPT 中的持续个人职责",
+          "vendor": "OpenAI",
+          "launch": "2026-09-29",
+          "position": "在 ChatGPT 中保留同一个个人代理，让一份工作在多次对话之间继续。",
+          "entry": "ChatGPT 中创建与交谈；\n可接入支持的消息渠道",
+          "ecosystem": "ChatGPT 的记忆与应用连接；\n与 Work、Codex 协同完成任务",
+          "business": "资料与项目持续维护；\n研究、文档及软件相关工作",
+          "takeaway": "我用“ChatGPT 中承接持续职责的个人代理”来认识 Dots。",
+          "status": "符合套餐逐步开放；个人与组织账号条件不同，见 2026-10-26 快照。",
+          "caption": "OpenAI 官方文档：Dots 产品介绍图",
+          "source": "https://learn.chatgpt.com/docs/dots",
+          "sourceDate": "动态文档",
+          "body": "Dots 位于 ChatGPT 产品体系中。我更容易把它理解为一份持续职责的承接者：结合相关个人上下文，跟踪需要维护的工作，并在后续对话中继续。它可以使用应用连接，也可以把具体工作交给 Work 或 Codex；本节只建立这层产品关系，不展开委派和运行机制。",
           "refs": [
-            "dots-overview",
-            "dots-work",
-            "dots-controls"
+            "overview-dots",
+            "roster02_1",
+            "cap_dots_2",
+            "cap_dots_3"
           ],
-          "notes": "我理解 Dots 时，把一次任务和一份职责分开。一份比较表可以一次生成，但某个主题的资料维护，需要在新版本、新决定和新约束出现时继续处理。dot 可以承担多份职责，用户补充优先级时，主对话仍然延续。官方也说明它可以委派后台任务，让具体工作并行，而用户继续和主 dot 交谈。\n个人背景不意味着全部历史都自动可用。当前对话、相关 ChatGPT 记忆与 dot 自己的笔记各有作用，新任务又有自己的上下文。这里不展开实现，只看用户是否减少了重复解释，以及后续结论是否保留来源。\n我用研究资料维护、项目变化跟进、反馈转成修订三类职责观察它。Activity 用来查看任务过程与成果，Scheduled 用来确认周期工作。主动研究、已分配工作和按时运行也各有范围，不能把接入一个应用当作已经开始监控。这个定位来自官方文档，本轮没有 Dots 账号实测。下一页把它落到一份四周的研究职责。",
-          "ribbon": "我关注的价值：把需要持续维护的工作留下来，而不必每次重新开始。",
-          "readDate": "2026-10-25"
+          "image": {
+            "slug": "dots",
+            "page": "https://learn.chatgpt.com/docs/dots",
+            "url": "https://learn.chatgpt.com/og/docs/dots.png",
+            "alt": "og:image",
+            "path": "product-overview/dots.png",
+            "size": [
+              1200,
+              630
+            ],
+            "retrieved": "2026-10-27",
+            "caption": "OpenAI 官方文档：Dots 产品介绍图"
+          },
+          "kind": "product-profile",
+          "focus": "overview",
+          "seconds": 70,
+          "subtitle": "在 ChatGPT 中保留同一个个人代理，让一份工作在多次对话之间继续。",
+          "ribbon": "我用“ChatGPT 中承接持续职责的个人代理”来认识 Dots。",
+          "footer": "符合套餐逐步开放；个人与组织账号条件不同，见 2026-10-26 快照。｜来源见讲者备注",
+          "readDate": "2026-10-27",
+          "notes": "Dots 位于 ChatGPT 产品体系中。我更容易把它理解为一份持续职责的承接者：结合相关个人上下文，跟踪需要维护的工作，并在后续对话中继续。它可以使用应用连接，也可以把具体工作交给 Work 或 Codex；本节只建立这层产品关系，不展开委派和运行机制。\n厂商与推出：OpenAI；2026-09-29。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://learn.chatgpt.com/docs/dots\n原始图片：https://learn.chatgpt.com/og/docs/dots.png"
         },
         {
-          "title": "Dots 场景｜持续维护 Agent 框架比较笔记",
+          "id": "dots-responsibilities",
+          "kind": "product-detail",
+          "focus": "features",
           "product": "Dots",
-          "focus": "scenario",
-          "seconds": 150,
-          "kind": "scenario",
-          "subtitle": "用一个完整委托，连接输入、执行、成果与用户参与。",
-          "request": "维护三个框架的比较笔记四周；每周汇总变化，影响部署选择时带回证据和待决问题。",
-          "stages": [
-            {
-              "title": "给出职责",
-              "lines": [
-                "框架、维度、旧笔记与来源",
-                "明确范围、周期和交付位置"
-              ]
-            },
-            {
-              "title": "持续跟进",
-              "lines": [
-                "先形成比较基线",
-                "新资料到来后核对旧结论"
-              ]
-            },
-            {
-              "title": "带回结果",
-              "lines": [
-                "变更表、引用与修订草稿",
-                "把影响部署的问题单列"
-              ]
-            },
-            {
-              "title": "用户参与",
-              "lines": [
-                "调整优先级并核对证据",
-                "确认合入；分别管理任务排程"
-              ]
-            }
-          ],
+          "title": "Dots｜把一份持续职责交出去",
+          "subtitle": "功能 1 / 4 · 任务会结束，持续职责可以继续",
+          "layout": "flow",
+          "ribbon": "我用“持续负责什么”理解 Dots，再看它为这份职责安排哪些工作。",
           "refs": [
-            "dots-work",
-            "dots-computers",
-            "dots-controls"
+            "detail-dots-start",
+            "detail-dots"
           ],
-          "notes": "这个四周研究职责是我的构造示例。先提供三个框架、关注的运行平台维度、旧表和来源清单。第一轮工作是建立有版本、日期和引用的基线，后续再核对新资料对旧结论的影响。每周给我变更表，有可能影响部署选择的内容则单独说明依据和待决问题，笔记修改先给草稿。\n我希望看到持续职责与具体任务的关系：生成一张比较表只是一次交付，跟踪和修订才是延续。周期工作要确认实际保存的时区、时间与结束条件，事件监控也要确认来源是否支持。\n还要检查执行位置。云端电脑可以做研究与文件工作；需要本机项目时，个人电脑应在线且 ChatGPT 打开。消息渠道、应用与电脑连接不自动互相授权。主任务、派生任务与排程也需要分别查看和结束。这个案例不证明它已经能可靠完成四周工作，我会在未来实际运行时保存变更、遗漏、修订和人工决定。",
-          "ribbon": "关注旧结论怎样随新信息更新；云端工作与本机访问保留各自条件。",
-          "readDate": "2026-10-25"
-        },
-        {
-          "title": "Claude Duet｜主动带回待办与待决事项",
-          "product": "Claude Duet",
-          "focus": "product",
-          "seconds": 150,
-          "kind": "panels",
-          "subtitle": "Anthropic：从已连接的工作信息出发，准备简报、成果和需要用户决定的事项。",
-          "panels": [
-            {
-              "title": "每天怎样协作",
-              "lines": [
-                "晨间简报与期间检查",
-                "持续主对话与主题频道",
-                "Tasks 看工作，Make 看成果"
-              ]
-            },
-            {
-              "title": "适合哪些工作",
-              "lines": [
-                "会前简报与资料缺口整理",
-                "待回复事项与草稿准备",
-                "客户跟进与未付账单检查"
-              ]
-            },
-            {
-              "title": "当前使用条件",
-              "lines": [
-                "美国 Pro / Max 候补预览",
-                "后台工作计入套餐用量",
-                "有检查间隔；动作按条件批准"
-              ]
-            }
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "我用官方团队活动安排示例理解持续职责：先交代计划与往来材料，指出预算、截止日期和等待答复的事项，再让 dot 带回需要决定的下一步。这与只生成一次活动方案的差别，在于后续仍需跟进变化。",
+            "图中是对官方使用方式的归纳，不是我的实测。用户可以在后续对话补充细节、修改优先级并审核结果；实际能接入哪些来源、怎样定期运行，仍取决于账号与配置。"
           ],
-          "refs": [
-            "duet-product",
-            "duet-current"
-          ],
-          "notes": "Duet 更直接地从人的工作关注切入。它不仅接受我明确列出的任务，还尝试从授权的邮件、日历和其他应用中找出该准备、该回复或该决定的事情。晨间简报、任务状态、待输入项和成果入口构成了可见的产品体验。这里主动性的价值，需要看是否减少了我查找材料和回忆待办的负担，不能只看通知有多少。\n我用会前准备、未回复事项、经营账单三类场景解释。它也能完成明确的研究、表格或幻灯片委托，因此不是只能发简报。与 Cowork 的交集仍然存在：一个更突出主动发现与跟进，一个更容易从知识成果委托观察；后台与周期工作并不是二者的绝对分界。\n当前是美国 Pro / Max 候补邀请的研究预览，后台会消耗同一套餐用量，检查也有间隔。没有 Microsoft 365 连接，不能观看或接管其浏览器；读到的内容和可执行动作都要按具体连接看。我们不把发布愿景写成可随时接管全部工作的保证。下一页用一次项目评审准备说明它怎样把信息转成待办。",
-          "ribbon": "我关注的价值：为什么现在来找我，以及这次到底需要我决定什么。",
-          "readDate": "2026-10-25"
-        },
-        {
-          "title": "Claude Duet 场景｜准备项目评审与待决清单",
-          "product": "Claude Duet",
-          "focus": "scenario",
-          "seconds": 150,
-          "kind": "scenario",
-          "subtitle": "用一个完整委托，连接输入、执行、成果与用户参与。",
-          "request": "结合授权邮件、日历和评审资料，整理本周会前简报、未回复问题与待决项，先不发送。",
-          "stages": [
+          "exampleLabel": "官方使用示例归纳 · 团队活动安排，不是本人实验",
+          "example": "持续跟进活动计划、场地邮件、预算与待决事项。",
+          "steps": [
             {
-              "title": "连接输入",
-              "lines": [
-                "邮件、日历与明确提供的文件",
-                "说明本周关注的项目"
-              ]
+              "title": "交代职责",
+              "body": "说明目标、范围\n与需要我的节点"
             },
-            {
-              "title": "筛选与准备",
-              "lines": [
-                "找相关会议和资料缺口",
-                "起草回复，解释事项优先级"
-              ]
-            },
-            {
-              "title": "收到交付",
-              "lines": [
-                "会前简报与回复草稿",
-                "完成或需判断时联系用户"
-              ]
-            },
-            {
-              "title": "处理待决项",
-              "lines": [
-                "检查遗漏和紧急程度",
-                "批准发送或调整安排"
-              ]
-            }
-          ],
-          "refs": [
-            "duet-product",
-            "duet-current"
-          ],
-          "notes": "这里是我构造的一周项目评审场景，不是 Duet 的运行记录。我明确提供评审文件，授权相应邮件和日历，要求整理会前材料、未回复问题与需要我决定的事项。它不能凭空读取所有项目或我电脑上的资料，也没有自动参加会议这个环节。\n我期望收到的是可以用于准备的材料：这次评审谈什么、哪份文档需要先读、哪些问题还没回复、我需要决定什么。回复先起草，安排先提出，不能擅自对外承诺。收到结果之后，我检查引用、遗漏和紧急程度，再决定是否发送或变更安排。\n场景的重点不是生成一张漂亮清单，而是信息筛选是否准确、有用，打扰是否合适。官方有类似会前资料与工作跟进示例，但当前检查存在间隔，不能当实时告警。关闭应用后云端工作可以继续，也不等于无需额度和权限。后续验证时，我会把漏掉了什么、错误升级了什么、草稿改了多少分别记下来，而不把通知出现视为任务完成。",
-          "ribbon": "资料变成简报，简报变成待决项；判断与外部承诺仍由用户把关。",
-          "readDate": "2026-10-25"
-        },
-        {
-          "title": "WorkBuddy｜把已有材料变成办公成果",
-          "product": "WorkBuddy",
-          "focus": "product",
-          "seconds": 150,
-          "kind": "panels",
-          "subtitle": "腾讯的 AI 工作台：围绕文件与应用，交付可编辑的文档、表格、图表与 PPT。",
-          "panels": [
-            {
-              "title": "文件与办公应用",
-              "lines": [
-                "读取授权文件、整理和分析",
-                "Excel / CSV 到图表与报告",
-                "腾讯文档搜索、引用与回写"
-              ]
-            },
-            {
-              "title": "个人与持续工作",
-              "lines": [
-                "记忆保留相关个人偏好",
-                "定时整理简报与周报",
-                "团队项目配置另有共享范围"
-              ]
-            },
-            {
-              "title": "使用入口与条件",
-              "lines": [
-                "微信、企微等远程触发",
-                "本机任务需要客户端运行",
-                "云端任务按云端条件执行"
-              ]
-            }
-          ],
-          "refs": [
-            "wb-product",
-            "wb-analysis",
-            "wb-docs",
-            "wb-memory",
-            "wb-projects",
-            "wb-remote",
-            "wb-schedules"
-          ],
-          "notes": "WorkBuddy 从国内办公中已有的材料进入工作。它可以围绕文件和应用执行任务，官方还给出了 Excel 或 CSV 数据分析、图表和报告的工作方式，以及腾讯文档的搜索、引用与回写。这些说明便于理解资料怎样变成可继续使用的成果，不代表我本轮已经验证了每种文件格式和生成质量。\n我重点看文件整理、周期汇总、研究材料转文档和 PPT。个人记忆可以延续偏好；项目又有团队共享配置与协作范围，两者要分别看，不能把所有项目资料都写成个人记忆。\n国内入口是另一个实际条件。远程助理可以从微信、企业微信、QQ、钉钉或飞书触发电脑端工作，但需要主机开机、客户端运行。定时任务另有本地、项目和云端来源，云端标识任务无需本机在线。这里先讲用户需要理解的差异，不展开底层组件。它是否适合具体工作，仍要看资料可用性、处理位置和产物是否能验收。下一页用一组项目材料到一组办公成果来说明。",
-          "ribbon": "我关注的价值：材料能否直接参与处理，成果能否继续编辑与复核。",
-          "readDate": "2026-10-25"
-        },
-        {
-          "title": "WorkBuddy 场景｜从项目材料到表格、图表和 PPT",
-          "product": "WorkBuddy",
-          "focus": "scenario",
-          "seconds": 150,
-          "kind": "scenario",
-          "subtitle": "用一个完整委托，连接输入、执行、成果与用户参与。",
-          "request": "根据指定进度表、问题记录和纪要，交付汇总表、进度图与五页 PPT；保留来源，不覆盖原件。",
-          "stages": [
             {
               "title": "提供材料",
-              "lines": [
-                "授权目录、表格与会议纪要",
-                "给出指标口径和已有模板"
-              ]
+              "body": "计划、邮件\n及相关来源"
             },
             {
-              "title": "整理与分析",
-              "lines": [
-                "对齐日期、项目与状态",
-                "把重复、冲突和缺失单列"
-              ]
+              "title": "跟进变化",
+              "body": "维护待办\n和需要的后续工作"
             },
             {
-              "title": "交付成果",
-              "lines": [
-                "汇总表、图表与五页 PPT",
-                "保留引用并沿用同一口径"
-              ]
-            },
-            {
-              "title": "修订与复核",
-              "lines": [
-                "检查数字、状态和结论",
-                "提出修订后再更新正式材料"
-              ]
+              "title": "带回决定",
+              "body": "进展、候选回复\n与下一步选择"
             }
           ],
-          "refs": [
-            "wb-product",
-            "wb-analysis",
-            "wb-docs",
-            "wb-schedules"
-          ],
-          "notes": "这是一项我设计的组合委托，没有新增 WorkBuddy 执行结果。我准备指定的进度表、问题记录和会议纪要，说明本周范围、指标口径、输出位置和模板；要求交付汇总表、进度图及五页 PPT，并区分完成、进行中和待确认状态。\n期望的处理顺序是先对齐资料，再做统计与呈现：项目名称和日期不一致时先找问题，重复项先合并，缺数不要补猜。图表与 PPT 必须保留相同口径，关键结论要能回到来源。继续修订时，验收的是是否沿用这些事实和口径，而不只是修改措辞。\n这个案例展示的是文件到成果的产品入口。腾讯文档可以在授权后参与引用与更新，但本例先不覆盖原件，也不默认把目录全部传到某个云端。选定本机或云端执行前，我会核对材料位置和权限。未来真正运行时，再保存输入、产物、修订与人工核验，不能把官方文件处理能力自动等同于报告已经准确。",
-          "ribbon": "把数字、图表与结论连回原始资料；文件生成之后仍要复核和修订。",
-          "readDate": "2026-10-25"
+          "notes": "我用官方团队活动安排示例理解持续职责：先交代计划与往来材料，指出预算、截止日期和等待答复的事项，再让 dot 带回需要决定的下一步。这与只生成一次活动方案的差别，在于后续仍需跟进变化。\n\n图中是对官方使用方式的归纳，不是我的实测。用户可以在后续对话补充细节、修改优先级并审核结果；实际能接入哪些来源、怎样定期运行，仍取决于账号与配置。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
         },
         {
-          "title": "其余四款：补充不同的组织路线",
-          "seconds": 90,
-          "kind": "table",
-          "subtitle": "继续保留第一批八款的广度，各用一个场景理解差异。",
-          "columns": [
-            "产品",
-            "我关注的组织方式",
-            "场景入口"
-          ],
-          "rows": [
-            [
-              "Cue",
-              "有通信与执行资源的角色团队",
-              "调研、整理、交接；看协调是否减少"
-            ],
-            [
-              "Gemini Spark / Task",
-              "Google 应用与个人上下文",
-              "邮件、日历和文件中的个人任务"
-            ],
-            [
-              "Grok Bot",
-              "长期角色、云端环境与复用方法",
-              "持续业务职责；个人与团队分开"
-            ],
-            [
-              "OpenClaw",
-              "自行组合模型、渠道与运行环境",
-              "惯用渠道委托；承担配置和维护"
-            ]
-          ],
+          "id": "dots-context",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Dots",
+          "title": "Dots｜已有上下文怎样参与工作",
+          "subtitle": "功能 2 / 4 · 对话、个人背景与正在维护的事项",
+          "layout": "contexts",
+          "ribbon": "我希望少重复解释背景，同时仍能检查它采用了哪些资料。",
           "refs": [
-            "cue",
-            "task",
-            "grok",
-            "openclaw"
+            "detail-dots-tasks",
+            "detail-dots-computers"
           ],
-          "notes": "其余四款仍在第一批，简要补充不同路线。Cue 用角色团队组织工作，重点看交接是否减少协调；Gemini 这里具体指 Task 形态，从 Google 应用与已有背景进入任务；Grok Bot 用长期角色与可复用方法组织云端工作，个人与团队范围分开；OpenClaw 由运行者组合渠道、工具和状态，同时承担部署维护。这些是已有资料的观察入口，不能说只有该产品能做对应工作。此处没有新增四款的版本审计，详细材料继续留在各产品目录。",
-          "ribbon": "四款重点展开，四款补充路线；都按个人使用形态及具体条件观察。"
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "任务文档区分当前对话、相关 ChatGPT 记忆和 dot 自己保留的笔记；连接应用又为具体工作提供资料。这些信息帮助延续偏好、决定与正在维护的事项，但并不表示每个任务都会拿到全部历史。",
+            "我会在产品层面解释这三类背景怎样减少重复交代，不展开内部存储。接入来源、实际读取与把资料交给某个任务，仍有各自范围；不能从认识用户推导出可以访问其全部文件和应用。"
+          ],
+          "cards": [
+            {
+              "title": "当前对话",
+              "body": "这次的目标与要求\n新补充的约束\n刚刚作出的决定"
+            },
+            {
+              "title": "相关个人背景",
+              "body": "ChatGPT 相关记忆\n已知偏好\n历史讨论中的相关信息"
+            },
+            {
+              "title": "持续工作资料",
+              "body": "dot 保留的工作笔记\n已经连接的应用\n用户交付的材料"
+            }
+          ],
+          "callout": "背景帮助理解任务；具体资料仍按连接、权限与任务需要使用。",
+          "notes": "任务文档区分当前对话、相关 ChatGPT 记忆和 dot 自己保留的笔记；连接应用又为具体工作提供资料。这些信息帮助延续偏好、决定与正在维护的事项，但并不表示每个任务都会拿到全部历史。\n\n我会在产品层面解释这三类背景怎样减少重复交代，不展开内部存储。接入来源、实际读取与把资料交给某个任务，仍有各自范围；不能从认识用户推导出可以访问其全部文件和应用。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
         },
         {
-          "title": "同一类工作，四个不同的委托入口",
-          "seconds": 90,
-          "kind": "table",
-          "subtitle": "以准备项目评审材料为共同背景；这是观察方法，不是同条件评测排名。",
+          "id": "dots-work-codex",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Dots",
+          "title": "Dots｜怎样与 Work、Codex 配合",
+          "subtitle": "功能 3 / 4 · 在 ChatGPT 产品体系里持续推进工作",
+          "layout": "hub",
+          "ribbon": "我把 Dots 理解为持续跟进者，Work 与 Codex 承接适合的具体任务。",
+          "refs": [
+            "detail-dots",
+            "detail-dots-tasks"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "官方文档将 dot 的持续职责，与 Work 的研究、分析和文件交付、Codex 的软件工作分别说明。dot 可以安排相关任务、检查结果并继续跟进，用户也可以在工作推进时保持对话。",
+            "这张图是产品分工示意，既不是内部架构图，也不表示每次都必须经过所有入口。Dots 自己也能处理多步任务，Work 也能安排周期工作；这里强调的区别是产品组织重心，不是独占的能力边界。"
+          ],
+          "request": "维护项目资料\n跟进需要交付的工作",
+          "cards": [
+            {
+              "title": "Dots 自己处理",
+              "body": "检索、浏览与持续跟进。"
+            },
+            {
+              "title": "ChatGPT Work",
+              "body": "研究分析，制作文件与报告。"
+            },
+            {
+              "title": "Codex",
+              "body": "开发、调试与检查软件。"
+            }
+          ],
+          "notes": "官方文档将 dot 的持续职责，与 Work 的研究、分析和文件交付、Codex 的软件工作分别说明。dot 可以安排相关任务、检查结果并继续跟进，用户也可以在工作推进时保持对话。\n\n这张图是产品分工示意，既不是内部架构图，也不表示每次都必须经过所有入口。Dots 自己也能处理多步任务，Work 也能安排周期工作；这里强调的区别是产品组织重心，不是独占的能力边界。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "id": "dots-computers",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Dots",
+          "title": "Dots｜查看进度，在需要时继续参与",
+          "subtitle": "功能 4 / 4 · 云端工作与连接个人电脑",
+          "layout": "environments",
+          "ribbon": "我关心的是在哪儿工作、结果在哪儿，以及需要我做什么。",
+          "refs": [
+            "detail-dots-computers",
+            "detail-dots-start"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "我会把 Dots 的两种使用条件讲清楚：它自己的云端电脑可以继续处理工作；当任务需要本地文件或本机环境时，可以在支持条件下连接个人电脑。本地工作仍依赖相应设备在线和 ChatGPT 应用运行。",
+            "用户可从 Activity 查看委派任务和结果，也可以补充要求。结束通话不必然停止工作，主任务、委派任务和周期任务的停止入口需要分别理解。本页只保留直接影响使用的条件，不展开执行环境实现。"
+          ],
+          "cards": [
+            {
+              "title": "云端工作",
+              "body": "使用 dot 的云端电脑。\n个人电脑关闭后，云端工作仍可继续。\n可查看进度、结果和需要补充的信息。"
+            },
+            {
+              "title": "需要我的电脑时",
+              "body": "使用获准访问的本地文件与工具。\n设备需在线，ChatGPT 应用需运行。\n切换电脑不等于已有任务自动迁移。"
+            }
+          ],
+          "callout": "交代目标 → 在 Activity 查看任务 → 补充要求 → 检查成果；停止操作分别看任务类型。",
+          "notes": "我会把 Dots 的两种使用条件讲清楚：它自己的云端电脑可以继续处理工作；当任务需要本地文件或本机环境时，可以在支持条件下连接个人电脑。本地工作仍依赖相应设备在线和 ChatGPT 应用运行。\n\n用户可从 Activity 查看委派任务和结果，也可以补充要求。结束通话不必然停止工作，主任务、委派任务和周期任务的停止入口需要分别理解。本页只保留直接影响使用的条件，不展开执行环境实现。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "slug": "cue",
+          "product": "Cue",
+          "art": "cue",
+          "title": "Cue｜具有独立身份的个人助手",
+          "vendor": "Manus",
+          "launch": "2026-09-28",
+          "position": "以有名字、有通信资源的助手组织个人事务，也支持多个助手协作。",
+          "entry": "独立的 Cue 网页与应用；\n围绕助手和群聊交办工作",
+          "ecosystem": "来自 Manus 的独立产品；\n通信资源与支持的商家服务",
+          "business": "日常事务与沟通协作；\n支持商家的点单和服务代办",
+          "takeaway": "Cue 的产品印象：有独立身份的个人助手，以及可协作的助手团队。",
+          "status": "Early Access，公告为邀请码准入；应用条目和当前资格需分开确认。",
+          "caption": "Manus 2026-09-28 公告：Cue 产品展示",
+          "source": "https://www.manus.im/blog/introducing-manus-2-0",
+          "sourceDate": "2026-09-28",
+          "body": "Cue 是 Manus 推出的独立应用。发布资料强调每个助手有自己的身份和通信资源，多个助手可以在群聊中协作。业务范围包括日常事务、沟通和受支持商家的服务代办。这里我只介绍 Cue 自身，不把同篇 Manus 2.0 公告中的视频、游戏和桌面工作台全部算到 Cue 身上。",
+          "refs": [
+            "overview-cue",
+            "cap_cue_2"
+          ],
+          "image": {
+            "slug": "cue",
+            "page": "https://www.manus.im/blog/introducing-manus-2-0",
+            "url": "https://files.manuscdn.com/assets/dashboard/materials/2026/09/28/972bc30a55a668ad2620114691959f5ee710a3d2c5792144050068a152b5b21b.webp",
+            "alt": "",
+            "path": "product-overview/cue.png",
+            "size": [
+              2048,
+              1152
+            ],
+            "retrieved": "2026-10-27",
+            "caption": "Manus 2026-09-28 公告：Cue 产品展示"
+          },
+          "kind": "product-profile",
+          "focus": "overview",
+          "seconds": 70,
+          "subtitle": "以有名字、有通信资源的助手组织个人事务，也支持多个助手协作。",
+          "ribbon": "Cue 的产品印象：有独立身份的个人助手，以及可协作的助手团队。",
+          "footer": "Early Access，公告为邀请码准入；应用条目和当前资格需分开确认。｜来源见讲者备注",
+          "readDate": "2026-10-27",
+          "notes": "Cue 是 Manus 推出的独立应用。发布资料强调每个助手有自己的身份和通信资源，多个助手可以在群聊中协作。业务范围包括日常事务、沟通和受支持商家的服务代办。这里我只介绍 Cue 自身，不把同篇 Manus 2.0 公告中的视频、游戏和桌面工作台全部算到 Cue 身上。\n厂商与推出：Manus；2026-09-28。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://www.manus.im/blog/introducing-manus-2-0\n原始图片：https://files.manuscdn.com/assets/dashboard/materials/2026/09/28/972bc30a55a668ad2620114691959f5ee710a3d2c5792144050068a152b5b21b.webp"
+        },
+        {
+          "slug": "gemini-spark",
+          "product": "Gemini Spark / Task",
+          "art": "gemini",
+          "title": "Gemini Spark / Task｜Google 生态中的个人任务",
+          "vendor": "Google",
+          "launch": "2026-05-19 Spark 公告；当前按 Task 形态介绍",
+          "position": "结合已有 Google 账号、个人上下文和应用，处理个人工作与生活任务。",
+          "entry": "Gemini 应用与网页中的 Task；\n具体入口按客户端开放",
+          "ecosystem": "Gemini、Gmail、日历与 Drive；\n通过 Chrome 等连接网页服务",
+          "business": "邮件与资料、个人安排；\n购物预订、研究与持续跟踪",
+          "takeaway": "认识这条路线时，我先看已有 Google 账号和应用怎样参与个人任务。",
+          "status": "当前 Task 要求个人 Google AI Pro / Ultra；另有年龄与地域条件。",
+          "caption": "Google 首发合作生态图；含发布时计划，非全量可用清单",
+          "source": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+          "sourceDate": "2026-05-19",
+          "body": "我把 Spark 与当前 Task 入口放在同一条产品演进线上介绍。它的背景是 Google 已有的账号、个人上下文、邮件、日历和浏览器生态。主要用途可以概括为个人事务、资料处理、购物预订和持续跟踪；具体连接和功能仍按当前 Task 帮助确认，不能由首发合作图推定全部服务已经开放。",
+          "refs": [
+            "overview-gemini-spark",
+            "cap_gemini-spark_1",
+            "cap_gemini-spark_2"
+          ],
+          "image": {
+            "slug": "gemini",
+            "page": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spark_Partners.width-1200.format-webp.webp",
+            "alt": "an image showing Gemini Spark partners",
+            "path": "product-overview/gemini.png",
+            "size": [
+              1200,
+              675
+            ],
+            "retrieved": "2026-10-27",
+            "caption": "Google 首发合作生态图；含发布时计划，非全量可用清单"
+          },
+          "kind": "product-profile",
+          "focus": "overview",
+          "seconds": 70,
+          "subtitle": "结合已有 Google 账号、个人上下文和应用，处理个人工作与生活任务。",
+          "ribbon": "认识这条路线时，我先看已有 Google 账号和应用怎样参与个人任务。",
+          "footer": "当前 Task 要求个人 Google AI Pro / Ultra；另有年龄与地域条件。｜来源见讲者备注",
+          "readDate": "2026-10-27",
+          "notes": "我把 Spark 与当前 Task 入口放在同一条产品演进线上介绍。它的背景是 Google 已有的账号、个人上下文、邮件、日历和浏览器生态。主要用途可以概括为个人事务、资料处理、购物预订和持续跟踪；具体连接和功能仍按当前 Task 帮助确认，不能由首发合作图推定全部服务已经开放。\n厂商与推出：Google；2026-05-19 Spark 公告；当前按 Task 形态介绍。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/\n原始图片：https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spark_Partners.width-1200.format-webp.webp"
+        },
+        {
+          "slug": "grok-bot",
+          "product": "Grok Bot",
+          "art": "grok",
+          "title": "Grok Bot｜Grok 生态中的长期助手",
+          "vendor": "xAI / Grok（沿用发布品牌）",
+          "launch": "2026-08-11；首发为 Beta",
+          "position": "通过有长期角色的 Bot 处理个人与工作任务，并可与其他 Bot 协作。",
+          "entry": "Grok Bot 桌面与移动应用；\n另有受支持的 X 消息入口",
+          "ecosystem": "Grok 与 Cursor 的账号及工具连接；\n外部应用、网页和工作服务",
+          "business": "资料、文档与业务信息；\n内容工作、职责协作与重复任务",
+          "takeaway": "我把它记为以长期角色组织工作的 Bot，放回 Grok 与 Cursor 的产品联系中理解。",
+          "status": "符合付费套餐可用；新旧账号路径和各入口地域分别核对。",
+          "caption": "Grok Bot 官网产品展示图",
+          "source": "https://docs.x.ai/grok-bot/overview",
+          "sourceDate": "动态文档",
+          "body": "Grok Bot 用有名字和职责的长期 Bot 组织工作。它与 Grok、Cursor 存在账号、套餐和工作工具方面的联系，也可以使用外部应用与网页。这里我主要建立“长期角色助手”的产品印象，介绍资料、文档、内容与业务协作等用途；账号关联不作为推断公司主体或所有功能统一开放的依据。",
+          "refs": [
+            "overview-grok-bot",
+            "roster05_1",
+            "cap_grok-bot_3"
+          ],
+          "image": {
+            "slug": "grok",
+            "page": "https://x.ai/bot",
+            "url": "https://x.ai/images/news/introducing-grok-bot-og-2.png",
+            "alt": "og:image",
+            "path": "product-overview/grok.png",
+            "size": [
+              1920,
+              1080
+            ],
+            "retrieved": "2026-10-27",
+            "caption": "Grok Bot 官网产品展示图"
+          },
+          "kind": "product-profile",
+          "focus": "overview",
+          "seconds": 70,
+          "subtitle": "通过有长期角色的 Bot 处理个人与工作任务，并可与其他 Bot 协作。",
+          "ribbon": "我把它记为以长期角色组织工作的 Bot，放回 Grok 与 Cursor 的产品联系中理解。",
+          "footer": "符合付费套餐可用；新旧账号路径和各入口地域分别核对。｜来源见讲者备注",
+          "readDate": "2026-10-27",
+          "notes": "Grok Bot 用有名字和职责的长期 Bot 组织工作。它与 Grok、Cursor 存在账号、套餐和工作工具方面的联系，也可以使用外部应用与网页。这里我主要建立“长期角色助手”的产品印象，介绍资料、文档、内容与业务协作等用途；账号关联不作为推断公司主体或所有功能统一开放的依据。\n厂商与推出：xAI / Grok（沿用发布品牌）；2026-08-11；首发为 Beta。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://x.ai/bot\n原始图片：https://x.ai/images/news/introducing-grok-bot-og-2.png"
+        },
+        {
+          "id": "grok-bot-roles",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Grok Bot",
+          "title": "Grok Bot｜按职责建立长期助手",
+          "subtitle": "功能 1 / 4 · 有名字、有工作范围的 Bot",
+          "layout": "roles",
+          "ribbon": "我会先明确每个 Bot 长期负责什么，再交办这一轮的具体工作。",
+          "refs": [
+            "detail-grok-bots",
+            "detail-grok"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "Grok Bot 把具名的长期助手放在产品中心。用户可以给 Bot 规定工作范围、常用来源、风格与需要批准的动作，再在多次对话中继续使用。",
+            "下方三个角色是我为讲解构造的职责示意，不是系统预置角色或已完成的协作实验。它们帮助理解为什么产品侧栏是一组助手，以及用户怎样知道某项工作应该找谁。角色不同不自动代表资源或权限彼此隔离。"
+          ],
+          "cards": [
+            {
+              "title": "研究助手",
+              "body": "跟踪指定主题\n整理来源与变化\n保留待核实问题"
+            },
+            {
+              "title": "内容助手",
+              "body": "沿用表达要求\n维护内容草稿\n准备待审成果"
+            },
+            {
+              "title": "业务助手",
+              "body": "关注指定业务资料\n整理跟进事项\n准备下一步动作"
+            }
+          ],
+          "notes": "Grok Bot 把具名的长期助手放在产品中心。用户可以给 Bot 规定工作范围、常用来源、风格与需要批准的动作，再在多次对话中继续使用。\n\n下方三个角色是我为讲解构造的职责示意，不是系统预置角色或已完成的协作实验。它们帮助理解为什么产品侧栏是一组助手，以及用户怎样知道某项工作应该找谁。角色不同不自动代表资源或权限彼此隔离。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "id": "grok-bot-collaboration",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Grok Bot",
+          "title": "Grok Bot｜让多个助手协作",
+          "subtitle": "功能 2 / 4 · 并行工作、群聊与任务交接",
+          "layout": "flow",
+          "ribbon": "我希望看到明确的负责者与交付物，减少在人和工具之间来回转述。",
+          "refs": [
+            "detail-grok-collaboration",
+            "detail-grok"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "官方资料描述了 Bot 并行工作、互相联系、在群聊中共享相关上下文和交接任务的方式。用户仍可以追加指令，并在需要时停止工作。",
+            "图中的收集、核验和汇总是讲解示意，用来表达协作关系，不宣称这是产品内置工作流或我已经验证的结果。实际交接要看最终由谁汇报、谁可以修改产物以及哪些动作需要批准。"
+          ],
+          "exampleLabel": "作者构造的协作示意 · 不是预置流程或实测结果",
+          "example": "收集信息、核验来源、整理成果，指定负责最终汇报的 Bot。",
+          "steps": [
+            {
+              "title": "分配职责",
+              "body": "约定分工\n与最终汇报者"
+            },
+            {
+              "title": "分别推进",
+              "body": "各自处理\n相关资料与工作"
+            },
+            {
+              "title": "互相交接",
+              "body": "在支持的消息\n与群聊里协作"
+            },
+            {
+              "title": "汇报成果",
+              "body": "带回文件、来源\n和需要的决定"
+            }
+          ],
+          "notes": "官方资料描述了 Bot 并行工作、互相联系、在群聊中共享相关上下文和交接任务的方式。用户仍可以追加指令，并在需要时停止工作。\n\n图中的收集、核验和汇总是讲解示意，用来表达协作关系，不宣称这是产品内置工作流或我已经验证的结果。实际交接要看最终由谁汇报、谁可以修改产物以及哪些动作需要批准。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "id": "grok-bot-skills",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Grok Bot",
+          "title": "Grok Bot｜把有效做法保存为 Skill",
+          "subtitle": "功能 3 / 4 · 方法可以复用，也可以通过演示来教",
+          "layout": "flow",
+          "ribbon": "我理解 Skill 的价值，是让下一次工作沿用已检查过的方法。",
+          "refs": [
+            "detail-grok-skills"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "Skills 文档把可复用的方法与触发时间分开：Skill 保存怎样做一项工作。用户可以从一次已完成的任务归纳步骤、结果要求与批准边界，并供后续任务复用。",
+            "在开放了 Teach a task 的账号中，也可以演示浏览器操作再审核产生的方法草稿。演示教学逐步开放，不能把录过一次当作已经学会全部异常情况；先检查方法再用于重复工作，这是产品使用层面的重点。"
+          ],
+          "exampleLabel": "官方功能归纳 · 演示教学按账号逐步开放",
+          "example": "完成一次工作，保存方法，检查以后再用于下一次任务。",
+          "steps": [
+            {
+              "title": "先做一次",
+              "body": "确认一次任务\n确实完成"
+            },
+            {
+              "title": "保存做法",
+              "body": "说明步骤、输入\n与预期结果"
+            },
+            {
+              "title": "审核方法",
+              "body": "检查边界\n补充特殊情况"
+            },
+            {
+              "title": "再次复用",
+              "body": "按名称调用\n用于后续工作"
+            }
+          ],
+          "notes": "Skills 文档把可复用的方法与触发时间分开：Skill 保存怎样做一项工作。用户可以从一次已完成的任务归纳步骤、结果要求与批准边界，并供后续任务复用。\n\n在开放了 Teach a task 的账号中，也可以演示浏览器操作再审核产生的方法草稿。演示教学逐步开放，不能把录过一次当作已经学会全部异常情况；先检查方法再用于重复工作，这是产品使用层面的重点。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "id": "grok-bot-routines",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Grok Bot",
+          "title": "Grok Bot｜用 Routine 安排持续工作",
+          "subtitle": "功能 4 / 4 · 谁负责、何时执行、怎样带回结果",
+          "layout": "flow",
+          "ribbon": "Skill 说明怎么做，Routine 安排何时由哪个 Bot 来做。",
+          "refs": [
+            "detail-grok-skills"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "Routine 将可复用方法安排成重复工作。官方资料支持按时间或已支持的事件触发，创建时需要明确负责的 Bot、资料来源、预期结果与需要用户确认的动作。",
+            "我会用这页说明用户怎样把一件事留给助手持续处理，以及之后去哪里看结果。接入一个应用不表示所有事件都已可触发；计划启用也不等于每次都成功，仍要查看运行记录和缺失信息的提示。"
+          ],
+          "exampleLabel": "官方功能归纳 · 时间或事件依赖已支持的集成",
+          "example": "把已检查的方法交给指定 Bot，按约定持续执行并带回结果。",
+          "steps": [
+            {
+              "title": "选负责者",
+              "body": "指定一个 Bot\n持续承接工作"
+            },
+            {
+              "title": "约定触发",
+              "body": "时间与时区\n或支持的事件"
+            },
+            {
+              "title": "运行方法",
+              "body": "使用 Skill\n与获准的数据"
+            },
+            {
+              "title": "检查结果",
+              "body": "查看运行结果\n处理待批事项"
+            }
+          ],
+          "notes": "Routine 将可复用方法安排成重复工作。官方资料支持按时间或已支持的事件触发，创建时需要明确负责的 Bot、资料来源、预期结果与需要用户确认的动作。\n\n我会用这页说明用户怎样把一件事留给助手持续处理，以及之后去哪里看结果。接入一个应用不表示所有事件都已可触发；计划启用也不等于每次都成功，仍要查看运行记录和缺失信息的提示。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "slug": "openclaw",
+          "product": "OpenClaw",
+          "art": "openclaw",
+          "title": "OpenClaw｜可以自行部署的个人助手",
+          "vendor": "OpenClaw 开源社区",
+          "launch": "2025-11 前身；2026-01 使用现名",
+          "position": "由使用者选择运行环境和所接服务，组合出自己的个人助手。",
+          "entry": "自行部署后，通过支持的\n消息渠道或客户端使用",
+          "ecosystem": "开源社区与插件生态；\n可选择模型、渠道和外部服务",
+          "business": "个人消息与资料事务；\n网页、文件和重复性工作",
+          "takeaway": "OpenClaw 提供自建个人助手的路线，配置和维护也由运行者承担。",
+          "status": "公开开源、可自建；模型、渠道和第三方服务条件另计。",
+          "caption": "官方文档中的消息入口示例，画面保留早期名称",
+          "source": "https://docs.openclaw.ai/",
+          "sourceDate": "动态文档；沿革另见官方 Lore",
+          "body": "OpenClaw 为认识 Personal Agent 提供了一条可以自行部署的路线。使用者可组合模型、消息渠道、工具和服务，使助手进入自己的工作环境。它可以承接个人事务、资料和重复性工作，但具体覆盖什么取决于配置。我在这里仅介绍产品形态与生态，不展开 Gateway、状态和权限实现。",
+          "refs": [
+            "overview-openclaw",
+            "roster06_1",
+            "roster06_2",
+            "cap_openclaw_1"
+          ],
+          "image": {
+            "slug": "openclaw",
+            "page": "https://docs.openclaw.ai/",
+            "url": "https://docs.openclaw.ai/whatsapp-openclaw.jpg",
+            "alt": "OpenClaw",
+            "path": "product-overview/openclaw.png",
+            "size": [
+              471,
+              1024
+            ],
+            "retrieved": "2026-10-27",
+            "caption": "官方文档中的消息入口示例，画面保留早期名称"
+          },
+          "kind": "product-profile",
+          "focus": "overview",
+          "seconds": 70,
+          "subtitle": "由使用者选择运行环境和所接服务，组合出自己的个人助手。",
+          "ribbon": "OpenClaw 提供自建个人助手的路线，配置和维护也由运行者承担。",
+          "footer": "公开开源、可自建；模型、渠道和第三方服务条件另计。｜来源见讲者备注",
+          "readDate": "2026-10-27",
+          "notes": "OpenClaw 为认识 Personal Agent 提供了一条可以自行部署的路线。使用者可组合模型、消息渠道、工具和服务，使助手进入自己的工作环境。它可以承接个人事务、资料和重复性工作，但具体覆盖什么取决于配置。我在这里仅介绍产品形态与生态，不展开 Gateway、状态和权限实现。\n厂商与推出：OpenClaw 开源社区；2025-11 前身；2026-01 使用现名。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://docs.openclaw.ai/\n原始图片：https://docs.openclaw.ai/whatsapp-openclaw.jpg"
+        },
+        {
+          "slug": "workbuddy",
+          "product": "WorkBuddy",
+          "art": "workbuddy",
+          "title": "WorkBuddy｜腾讯的 AI 工作台",
+          "vendor": "腾讯",
+          "launch": "2026-03；正式推出",
+          "position": "从文件、办公应用和项目材料进入，处理工作并交付可以继续使用的成果。",
+          "entry": "WorkBuddy 工作台；\n可从支持的消息助理入口交办",
+          "ecosystem": "腾讯办公与通信生态；\n腾讯文档、企业微信等及外部连接",
+          "business": "办公资料、文档和数据分析；\n内容创作、应用制作与发布",
+          "takeaway": "我先用“腾讯生态中的 AI 工作台”认识 WorkBuddy，再看材料和成果怎样衔接。",
+          "status": "公开下载、登录可用；国内与海外、个人与企业条件分别看。",
+          "caption": "腾讯官方帮助：WorkBuddy 工作界面区域标注",
+          "source": "https://www.workbuddy.cn/docs/workbuddy/Overview",
+          "sourceDate": "动态文档",
+          "body": "WorkBuddy 是腾讯提供的 AI 工作台。它从文件、应用和项目材料进入任务，业务侧重包括办公资料、数据分析、内容与成果制作，也覆盖网站和应用开发。腾讯文档、企业微信等是理解其产品生态的入口；我不会据此认为所有腾讯应用均已接通，或所有工作都只能在它上面完成。",
+          "refs": [
+            "overview-workbuddy",
+            "roster07_2",
+            "cap_workbuddy_2"
+          ],
+          "image": {
+            "slug": "workbuddy",
+            "page": "https://www.workbuddy.cn/docs/workbuddy/Overview",
+            "url": "https://download.codebuddy.cn/web/docs/b043a5d6b529e83c131924b676ba6273f6160f7a/docs/static/overview-ui-areas.si-lsnLi.png",
+            "alt": "WorkBuddy 工作界面区域标注",
+            "path": "product-overview/workbuddy.png",
+            "size": [
+              1080,
+              723
+            ],
+            "retrieved": "2026-10-27",
+            "caption": "腾讯官方帮助：WorkBuddy 工作界面区域标注"
+          },
+          "kind": "product-profile",
+          "focus": "overview",
+          "seconds": 70,
+          "subtitle": "从文件、办公应用和项目材料进入，处理工作并交付可以继续使用的成果。",
+          "ribbon": "我先用“腾讯生态中的 AI 工作台”认识 WorkBuddy，再看材料和成果怎样衔接。",
+          "footer": "公开下载、登录可用；国内与海外、个人与企业条件分别看。｜来源见讲者备注",
+          "readDate": "2026-10-27",
+          "notes": "WorkBuddy 是腾讯提供的 AI 工作台。它从文件、应用和项目材料进入任务，业务侧重包括办公资料、数据分析、内容与成果制作，也覆盖网站和应用开发。腾讯文档、企业微信等是理解其产品生态的入口；我不会据此认为所有腾讯应用均已接通，或所有工作都只能在它上面完成。\n厂商与推出：腾讯；2026-03；正式推出。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://www.workbuddy.cn/docs/workbuddy/Overview\n原始图片：https://download.codebuddy.cn/web/docs/b043a5d6b529e83c131924b676ba6273f6160f7a/docs/static/overview-ui-areas.si-lsnLi.png"
+        },
+        {
+          "slug": "claude-duet",
+          "product": "Claude Duet",
+          "art": "duet",
+          "title": "Claude Duet｜主动跟进工作的个人代理",
+          "vendor": "Anthropic",
+          "launch": "2026-10-21；研究预览",
+          "position": "面向专业人士和小企业主，从已连接的工作信息中发现事项并继续推进。",
+          "entry": "独立 Duet 应用与网页入口；\n通过消息、任务与成果界面使用",
+          "ecosystem": "Claude 账号及应用连接；\n客户、财务、店铺与支付服务",
+          "business": "简报、待办与工作跟进；\n客户、账单、采购和个人经营",
+          "takeaway": "Duet 的定位是主动跟进工作的个人代理，当前仍处于研究预览。",
+          "status": "美国 Pro / Max 候补邀请；与 Cowork 的入口和支付能力分别看。",
+          "caption": "Anthropic 官方发布图：Claude Duet 应用标识",
+          "source": "https://claude.com/resources/articles/claude-duet",
+          "sourceDate": "2026-10-21；页面含 10-23 更新",
+          "body": "Duet 是 Anthropic 新推出的主动个人代理，面向专业人士和小企业主。它可以结合已连接的工作信息形成简报和待办，并处理客户、账单、采购及较大的工作成果。认识它时，我会联系 Claude 的账号和业务应用连接，同时保留它与 Cowork 的产品区别；本节不展开钱包和审批流程。",
+          "refs": [
+            "overview-claude-duet",
+            "cap_claude-duet_2",
+            "cap_claude-duet_4"
+          ],
+          "image": {
+            "slug": "duet",
+            "page": "https://claude.com/resources/articles/claude-duet",
+            "url": "https://claude.com/resources/articles/claude-duet/opengraph-image/og",
+            "alt": "og:image",
+            "path": "product-overview/duet.png",
+            "size": [
+              2400,
+              1260
+            ],
+            "retrieved": "2026-10-27",
+            "caption": "Anthropic 官方发布图：Claude Duet 应用标识"
+          },
+          "kind": "product-profile",
+          "focus": "overview",
+          "seconds": 70,
+          "subtitle": "面向专业人士和小企业主，从已连接的工作信息中发现事项并继续推进。",
+          "ribbon": "Duet 的定位是主动跟进工作的个人代理，当前仍处于研究预览。",
+          "footer": "美国 Pro / Max 候补邀请；与 Cowork 的入口和支付能力分别看。｜来源见讲者备注",
+          "readDate": "2026-10-27",
+          "notes": "Duet 是 Anthropic 新推出的主动个人代理，面向专业人士和小企业主。它可以结合已连接的工作信息形成简报和待办，并处理客户、账单、采购及较大的工作成果。认识它时，我会联系 Claude 的账号和业务应用连接，同时保留它与 Cowork 的产品区别；本节不展开钱包和审批流程。\n厂商与推出：Anthropic；2026-10-21；研究预览。历史日期沿用 2026-10-26 名单的原始来源；上述主产品资料于 2026-10-27 回查，图片同日从官方页面获取。图像可能是产品标识、首发示意或历史界面，不是我的账号实测。仅概括业务侧重，不据此排除其他产品可以完成同类工作。\n图片出处：https://claude.com/resources/articles/claude-duet\n原始图片：https://claude.com/resources/articles/claude-duet/opengraph-image/og"
+        },
+        {
+          "id": "claude-duet-brief",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Claude Duet",
+          "title": "Duet｜先带来值得处理的事",
+          "subtitle": "功能 1 / 4 · 专业工作中的晨间简报与主动跟进",
+          "layout": "brief",
+          "ribbon": "我把 Duet 的产品印象记为：先准备好下一步，再让我处理关键决定。",
+          "refs": [
+            "detail-duet-product",
+            "detail-duet"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "Duet 的产品页把晨间简报与专业人士的日常决定联系起来：从已连接的信息中筛出需要关注的工作，准备回复或后续动作，并在需要用户时联系。",
+            "左侧卡片按官方业务示例归纳，属于功能示意，不是我的账户界面或客户经历。主动检查有间隔，也可能误判轻重缓急；我会讲清楚它提供的帮助，而不承诺它不会漏掉事情。"
+          ],
+          "brief": [
+            {
+              "title": "合同需要回应",
+              "body": "整理变更，准备待审回复。"
+            },
+            {
+              "title": "客户事项要跟进",
+              "body": "汇总相关记录，列出下一步。"
+            },
+            {
+              "title": "有一项需要我决定",
+              "body": "给出背景与可选动作。"
+            }
+          ],
+          "cards": [
+            {
+              "title": "早上先看重点",
+              "body": "把邮件、日程与工作事项带到一起。"
+            },
+            {
+              "title": "先准备下一步",
+              "body": "整理背景，准备草稿和可选动作。"
+            },
+            {
+              "title": "需要决定再找我",
+              "body": "突出待我处理的事项，继续跟进其他工作。"
+            }
+          ],
+          "notes": "Duet 的产品页把晨间简报与专业人士的日常决定联系起来：从已连接的信息中筛出需要关注的工作，准备回复或后续动作，并在需要用户时联系。\n\n左侧卡片按官方业务示例归纳，属于功能示意，不是我的账户界面或客户经历。主动检查有间隔，也可能误判轻重缓急；我会讲清楚它提供的帮助，而不承诺它不会漏掉事情。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "id": "claude-duet-tasks",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Claude Duet",
+          "title": "Duet｜从发现事项到用户验收",
+          "subtitle": "功能 2 / 4 · Tasks 跟进工作，Make 查看成果",
+          "layout": "flow",
+          "ribbon": "我把“正在做、等我决定、已有成果、我确认完成”分别看清楚。",
+          "refs": [
+            "detail-duet-help"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "入门帮助把 Tasks 与 Make 的用途分开：Tasks 展示工作和需要输入的事项，较大的成果出现在 Make，用户可以查看和编辑文件。工作涉及对外动作时，产品会按相应规则请求确认。",
+            "官方还说明，Duet 可以建议任务看起来已经完成，但由用户将任务标记为完成。我认为这能帮助听众理解持续委托的参与方式：并非一直盯着执行，也不是交出去以后完全不管。"
+          ],
+          "exampleLabel": "官方交互方式归纳 · 图形不是产品截屏",
+          "example": "把事项推进成可检查的成果，在需要时请求决定，最后由用户验收。",
+          "steps": [
+            {
+              "title": "发现或交办",
+              "body": "来自已连信息\n或用户消息"
+            },
+            {
+              "title": "准备与推进",
+              "body": "Tasks 查看工作\n与需要的输入"
+            },
+            {
+              "title": "请求决定",
+              "body": "发送、付款等\n重要动作先确认"
+            },
+            {
+              "title": "查看与验收",
+              "body": "Make 检查成果\n由用户标记完成"
+            }
+          ],
+          "notes": "入门帮助把 Tasks 与 Make 的用途分开：Tasks 展示工作和需要输入的事项，较大的成果出现在 Make，用户可以查看和编辑文件。工作涉及对外动作时，产品会按相应规则请求确认。\n\n官方还说明，Duet 可以建议任务看起来已经完成，但由用户将任务标记为完成。我认为这能帮助听众理解持续委托的参与方式：并非一直盯着执行，也不是交出去以后完全不管。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "id": "claude-duet-business",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Claude Duet",
+          "title": "Duet｜面向专业工作与个人经营",
+          "subtitle": "功能 3 / 4 · 让连接的业务信息变成待处理的工作",
+          "layout": "business",
+          "ribbon": "我看具体业务动作，不把连接器数量当作所有功能都能完成的证明。",
+          "refs": [
+            "detail-duet",
+            "detail-duet-help"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "Duet 的公开定位面向专业人士和小企业主。发布资料与帮助将客户、合同、账单和经营资料连接到具体任务，例如查询未付发票并准备待批的提醒邮件。",
+            "我按业务事项介绍连接工具，不做应用标识墙。某个品牌出现在公告中，不意味着每个账号都有该应用的所有读写能力；采购付款、商户退款与个人转账也不能混为一谈。下面保留工作准备和人工批准的边界。"
+          ],
+          "cards": [
+            {
+              "title": "客户跟进",
+              "apps": "HubSpot · Gmail 等",
+              "body": "整理客户背景，准备沟通与会前材料。"
+            },
+            {
+              "title": "合同与签署",
+              "apps": "DocuSign 等",
+              "body": "准备合同资料，需要签署时请用户决定。"
+            },
+            {
+              "title": "账单与收入",
+              "apps": "Stripe · QuickBooks 等",
+              "body": "查未付账款，准备提醒或分析资料。"
+            },
+            {
+              "title": "店铺与内容",
+              "apps": "Shopify · Canva 等",
+              "body": "利用业务资料准备经营内容与工作成果。"
+            }
+          ],
+          "notes": "Duet 的公开定位面向专业人士和小企业主。发布资料与帮助将客户、合同、账单和经营资料连接到具体任务，例如查询未付发票并准备待批的提醒邮件。\n\n我按业务事项介绍连接工具，不做应用标识墙。某个品牌出现在公告中，不意味着每个账号都有该应用的所有读写能力；采购付款、商户退款与个人转账也不能混为一谈。下面保留工作准备和人工批准的边界。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "id": "claude-duet-cowork",
+          "kind": "product-detail",
+          "focus": "features",
+          "product": "Claude Duet",
+          "title": "Duet｜与 Cowork 怎样分工",
+          "subtitle": "功能 4 / 4 · 相同账号基础，不同的产品重心",
+          "layout": "compare",
+          "ribbon": "我按工作入口和协作方式区分两者，不用“是否后台运行”简单划线。",
+          "refs": [
+            "detail-duet-help",
+            "detail-cowork"
+          ],
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+          "body": [
+            "我用 Cowork 路线理解明确任务的研究、文档与文件交付，用 Duet 理解主动关注、筛选待办和继续跟进。两者都可能处理较大任务，也都可能在后台工作，所以这是一种产品重心比较，不是能力排他判断。",
+            "当前 Claude 的聊天与 Cowork 正逐步统一。Duet 使用同一账号已有的记忆、Skills 和连接配置，但不表示它可以访问所有项目与文件。11 月 2 日帮助列出的研究预览条件为美国 Pro、Max、Ultra 候补邀请；旧概览页保留的是 10 月 26 日的 Pro / Max 快照。"
+          ],
+          "cards": [
+            {
+              "title": "Cowork 路线：明确交付",
+              "body": "我交给它一组材料和明确任务。\n完成研究、文档、表格等成果。\n当前逐步并入统一 Claude 对话体验。"
+            },
+            {
+              "title": "Duet：主动关注与跟进",
+              "body": "我交代需要持续关注的工作。\n它带来待办、准备动作并请求决定。\n也能承接一次性任务和较大成果。"
+            }
+          ],
+          "callout": "共享账号记忆、Skills 与已连应用；具体资料访问、产品能力和开放条件分别确认。",
+          "notes": "我用 Cowork 路线理解明确任务的研究、文档与文件交付，用 Duet 理解主动关注、筛选待办和继续跟进。两者都可能处理较大任务，也都可能在后台工作，所以这是一种产品重心比较，不是能力排他判断。\n\n当前 Claude 的聊天与 Cowork 正逐步统一。Duet 使用同一账号已有的记忆、Skills 和连接配置，但不表示它可以访问所有项目与文件。11 月 2 日帮助列出的研究预览条件为美国 Pro、Max、Ultra 候补邀请；旧概览页保留的是 10 月 26 日的 Pro / Max 快照。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+        },
+        {
+          "id": "four-products-comparison",
+          "kind": "product-comparison",
+          "focus": "comparison",
+          "seconds": 60,
+          "readDate": "2026-11-02",
+          "title": "四款产品：相近能力，不同的工作组织方式",
+          "subtitle": "我用产品重心与使用方式建立印象，不据此判断独占能力。",
           "columns": [
             "产品",
-            "我会从什么委托开始",
-            "我希望看清的结果"
+            "主要工作重心",
+            "怎样组织工作",
+            "典型成果",
+            "我怎样参与"
           ],
           "rows": [
             [
               "Muse",
-              "围绕个人目标组织安排与资料",
-              "目标、计划与变化后的修订能否接上"
+              "生活、消费\n与个人经营",
+              "个人目标\n持续跟踪事项",
+              "计划、交互工具\n待批的事务动作",
+              "看 Goals / 活动\n重要动作确认"
             ],
             [
               "Dots",
-              "持续维护研究笔记与项目变化",
-              "新资料如何影响旧结论，职责能否延续"
+              "持续职责\n与项目工作",
+              "dot 跟进职责\n结合 Work / Codex",
+              "研究、文件\n软件与项目成果",
+              "补充背景与要求\n查看 Activity"
             ],
             [
-              "Claude Duet",
-              "从邮件、日历准备会前事项",
-              "简报是否有用，待决与打扰是否合适"
+              "Duet",
+              "专业事务\n与个人经营",
+              "简报、主动待办\n继续跟进与交付",
+              "待批动作\n业务资料与文件",
+              "处理关键决定\n检查并验收"
             ],
             [
-              "WorkBuddy",
-              "把指定文件加工成表、图和 PPT",
-              "数字、引用与口径一致，成果便于修改"
+              "Grok Bot",
+              "长期角色\n与重复工作",
+              "多个 Bot 分工\nSkills 与 Routines",
+              "协作成果\n可复用工作方法",
+              "明确职责与分工\n审核并看运行结果"
             ]
           ],
+          "ribbon": "这些是我依据公开资料作出的比较；功能有交集，实际覆盖仍按版本、地区与授权核验。",
           "refs": [
-            "muse-product",
-            "dots-overview",
-            "duet-product",
-            "wb-product"
+            "detail-muse-design",
+            "detail-dots",
+            "detail-duet",
+            "detail-grok"
           ],
-          "readDate": "2026-10-25",
-          "notes": "回到同一类工作：准备项目评审材料。我可以从个人目标组织整体安排，可以让一份研究职责持续维护，可以从邮件日历发现要准备的事项，也可以先把明确文件加工成汇报成果。四款产品都可能覆盖更多场景，这里的区别是我选择的委托入口。\n它们是否真的减少工作负担，要用实际资料和相同验收标准继续检查。Muse 观察计划与修订，Dots 观察新旧结论的延续，Duet 观察简报和待决信息是否有用，WorkBuddy 观察数字、来源和文件是否便于继续处理。这不是已经完成的四款对照实验，也不构成产品排名。这样比较比只记住一张功能表更接近我的日常工作。",
-          "ribbon": "先确定要减少哪一种重复工作，再比较资料、交付、人工参与和使用条件。"
+          "footer": "作者比较归纳 · 不是独占能力表或同条件实测排名",
+          "notes": "我把这四款产品的共同能力放在背景里，再看各自怎样组织用户的工作。Muse 的目标与生活事务，Dots 的持续职责与执行产品配合，Duet 的专业待办和决策交回，Grok Bot 的长期角色与方法复用，是本节希望留下的产品印象。这不是互斥分类，不证明某款能做而另一款不能做。表格为作者归纳，非内部架构或实测排名。",
+          "body": [
+            "我把四款产品联系起来时，最值得记住的是它们怎样组织工作：Muse 围绕个人目标与生活事务，Dots 围绕持续职责，Duet 围绕专业待办与需要用户的决定，Grok Bot 围绕长期角色与可复用方法。",
+            "它们的功能会相互覆盖。我不会据此断言某个通用任务只有其中一款能做，也不把资料展示当作同条件评测。实际选择仍需结合账号、来源、地区、任务与授权。"
+          ]
         },
         {
-          "title": "第二批八个对象：各补充一个观察点",
-          "seconds": 60,
-          "kind": "table",
-          "subtitle": "简要点到，作为后续阅读与比较的入口。",
-          "notes": "第二批只记一个观察点：Hermes 的自建记忆与技能，Autopilot 的组织内个人工作，Poke 的消息入口，Lindy 的个人团队边界，Kimi Claw 的 OpenClaw 产品化，Personal Computer 的个人电脑执行，Harness 的底座与助手交集，以及 Cowork 的知识交付。Personal Computer 仅作为参考。Harness 是边界样本，不能把十六个研究对象都说成已证实持续个人代理。Autopilot 和 Duet 的预览状态不等于归类不成立，能力与开放条件需分别记录。",
+          "title": "第二批产品参考｜1—4 / 8",
+          "subtitle": "每款只记住厂商、产品生态和大致定位，作为后续阅读入口。",
+          "kind": "product-reference",
+          "seconds": 45,
+          "cards": [
+            {
+              "product": "Hermes Agent",
+              "vendor": "Nous Research",
+              "launch": "2026-02-25",
+              "ecosystem": "开源自建、模型与插件生态",
+              "business": "个人助手、知识与重复工作",
+              "icon": {
+                "slug": "hermes",
+                "page": "https://hermes-agent.nousresearch.com/",
+                "url": "https://web-assets.nousresearch.com/marketing/6ae3c5b07622a9219fa0cd2d3cbc2e833d9c5aba/assets/hermes-agent/icon.png",
+                "caption": "Hermes Agent 官方站点图标",
+                "path": "product-icons/hermes.png",
+                "size": [
+                  48,
+                  48
+                ],
+                "retrieved": "2026-10-27"
+              }
+            },
+            {
+              "product": "Copilot Autopilot",
+              "vendor": "Microsoft",
+              "launch": "2026-09-25 现名公告",
+              "ecosystem": "Microsoft 365 与组织工作环境",
+              "business": "组织上下文中的个人工作；私有预览",
+              "icon": {
+                "slug": "copilot",
+                "page": "https://www.microsoft.com/en-us/copilot",
+                "url": "https://copilot.microsoft.com/favicon.ico",
+                "caption": "Microsoft Copilot 品牌图标，用于 Autopilot 所属产品体系",
+                "path": "product-icons/copilot.png",
+                "size": [
+                  48,
+                  48
+                ],
+                "retrieved": "2026-10-27"
+              }
+            },
+            {
+              "product": "Poke",
+              "vendor": "Interaction，已加入 Cognition",
+              "launch": "2025-09",
+              "ecosystem": "消息渠道、应用连接与 Recipes",
+              "business": "邮件、日程和生活事务；部分有真人协助",
+              "icon": {
+                "slug": "poke",
+                "page": "https://cognition.com/blog/interaction",
+                "url": "https://cognition.com/images/interaction/cog-poke-blog-image-v3.jpg",
+                "caption": "Poke 官方所属公司公告中的标识；PPT 内裁剪到右侧 Poke 标识，完整原图保留",
+                "path": "product-icons/poke.png",
+                "size": [
+                  1920,
+                  1080
+                ],
+                "retrieved": "2026-10-27",
+                "crop": {
+                  "x": 1040,
+                  "y": 350,
+                  "w": 400,
+                  "h": 400
+                }
+              }
+            },
+            {
+              "product": "Lindy",
+              "vendor": "Lindy",
+              "launch": "2023-03 初代介绍",
+              "ecosystem": "办公 SaaS、电话与业务集成",
+              "business": "电话预约、客户跟进和例行工作",
+              "icon": {
+                "slug": "lindy",
+                "page": "https://www.lindy.ai/",
+                "url": "https://www.lindy.ai/_sherpa/assets/static/lindy/69f7b166c2e11ba39f7b2b9e_lindy-avatar-favicon.png",
+                "caption": "Lindy 官网应用图标",
+                "path": "product-icons/lindy.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "retrieved": "2026-10-27"
+              }
+            }
+          ],
           "refs": [
-            "hermes",
-            "autopilot",
-            "poke",
-            "lindy",
-            "kimi",
-            "personal-computer",
-            "memory",
-            "cowork"
+            "roster09_1",
+            "roster09_2",
+            "roster10_1",
+            "roster11_1",
+            "roster11_2",
+            "roster11_3",
+            "roster11_4",
+            "roster12_1",
+            "roster12_2"
           ],
-          "columns": [
-            "对象",
-            "补充观察",
-            "保留的条件"
+          "readDate": "2026-10-26",
+          "footer": "定位与历史时间沿用 2026-10-26 资料；不是同条件测评排名",
+          "ribbon": "第二批是调研顺序；DeepSeek Harness 继续保留为边界对照。",
+          "notes": "这里只简要建立产品印象，功能和开放条件按各自笔记继续阅读。\nHermes Agent：Nous Research；2026-02-25；开源自建、模型与插件生态；个人助手、知识与重复工作。\nCopilot Autopilot：Microsoft；2026-09-25 现名公告；Microsoft 365 与组织工作环境；组织上下文中的个人工作；私有预览。\nPoke：Interaction，已加入 Cognition；2025-09；消息渠道、应用连接与 Recipes；邮件、日程和生活事务；部分有真人协助。\nLindy：Lindy；2023-03 初代介绍；办公 SaaS、电话与业务集成；电话预约、客户跟进和例行工作。\n\n图标获取：2026-10-27。部分使用所属产品品牌标识，不将其说成独立产品专属图标。\nHermes Agent：Hermes Agent 官方站点图标。来源：https://hermes-agent.nousresearch.com/；图标：https://web-assets.nousresearch.com/marketing/6ae3c5b07622a9219fa0cd2d3cbc2e833d9c5aba/assets/hermes-agent/icon.png\nCopilot Autopilot：Microsoft Copilot 品牌图标，用于 Autopilot 所属产品体系。来源：https://www.microsoft.com/en-us/copilot；图标：https://copilot.microsoft.com/favicon.ico\nPoke：Poke 官方所属公司公告中的标识；PPT 内裁剪到右侧 Poke 标识，完整原图保留。来源：https://cognition.com/blog/interaction；图标：https://cognition.com/images/interaction/cog-poke-blog-image-v3.jpg\nLindy：Lindy 官网应用图标。来源：https://www.lindy.ai/；图标：https://www.lindy.ai/_sherpa/assets/static/lindy/69f7b166c2e11ba39f7b2b9e_lindy-avatar-favicon.png"
+        },
+        {
+          "title": "第二批产品参考｜5—8 / 8",
+          "subtitle": "每款只记住厂商、产品生态和大致定位，作为后续阅读入口。",
+          "kind": "product-reference",
+          "seconds": 45,
+          "cards": [
+            {
+              "product": "Kimi Claw",
+              "vendor": "月之暗面",
+              "launch": "2026-02 公测",
+              "ecosystem": "Kimi、OpenClaw 与消息及设备入口",
+              "business": "个人助手的托管和设备使用形态",
+              "icon": {
+                "slug": "kimi",
+                "page": "https://www.kimi.com/",
+                "url": "https://www.kimi.com/pwa-192.png",
+                "caption": "Kimi 品牌图标，用于 Kimi Claw",
+                "path": "product-icons/kimi.png",
+                "size": [
+                  192,
+                  192
+                ],
+                "retrieved": "2026-10-27"
+              }
+            },
+            {
+              "product": "Personal Computer",
+              "vendor": "Perplexity",
+              "launch": "2026-03 公告；04 上线",
+              "ecosystem": "Computer、Comet 与个人电脑",
+              "business": "本地文件、应用与网页工作",
+              "icon": {
+                "slug": "perplexity",
+                "page": "https://www.perplexity.ai/personal-computer",
+                "url": "https://www.perplexity.ai/favicon.ico",
+                "caption": "Perplexity 官网品牌图标，用于 Personal Computer",
+                "path": "product-icons/perplexity.png",
+                "size": [
+                  48,
+                  48
+                ],
+                "retrieved": "2026-10-27"
+              }
+            },
+            {
+              "product": "DeepSeek Harness",
+              "vendor": "深度求索",
+              "launch": "2026-08 已有公开记录",
+              "ecosystem": "模型、开发工具和插件生态",
+              "business": "工作助手与运行底座；保留为边界对照",
+              "icon": {
+                "slug": "deepseek",
+                "page": "https://www.deepseek.com/en/harness/",
+                "url": "https://www.deepseek.com/favicon.ico",
+                "caption": "DeepSeek 官网品牌图标，用于 Harness",
+                "path": "product-icons/deepseek.png",
+                "size": [
+                  225,
+                  225
+                ],
+                "retrieved": "2026-10-27"
+              }
+            },
+            {
+              "product": "Claude Cowork",
+              "vendor": "Anthropic",
+              "launch": "2026-01 首次研究预览",
+              "ecosystem": "Claude、应用连接与个人工作环境",
+              "business": "研究与文件交付；统一入口逐步开放",
+              "icon": {
+                "slug": "cowork",
+                "page": "https://claude.com/product/cowork",
+                "url": "https://assets.claude.com/95a868946ac8a31e5ff832e2899f294aa368b836.png?w=256&h=256",
+                "caption": "Claude 官网图标，用于 Cowork",
+                "path": "product-icons/cowork.png",
+                "size": [
+                  32,
+                  32
+                ],
+                "retrieved": "2026-10-27"
+              }
+            }
           ],
-          "rows": [
-            [
-              "Hermes Agent",
-              "自建、记忆与经验技能",
-              "保留个人助手形态"
-            ],
-            [
-              "Copilot Autopilot",
-              "组织上下文中的个人工作",
-              "Private Preview，条件单独看"
-            ],
-            [
-              "Poke",
-              "消息入口与个人事务",
-              "邮件、日历与自动化"
-            ],
-            [
-              "Lindy",
-              "个人与团队例行工作",
-              "限定个人使用形态"
-            ],
-            [
-              "Kimi Claw",
-              "OpenClaw 产品化",
-              "同一技术谱系，不重复计路线"
-            ],
-            [
-              "Personal Computer",
-              "个人电脑参与执行",
-              "第二批参考样本"
-            ],
-            [
-              "DeepSeek Harness",
-              "工作助手与运行底座",
-              "边界对照，长期服务待证实"
-            ],
-            [
-              "Claude Cowork",
-              "个人知识成果交付",
-              "记忆、后台与计划条件分别看"
-            ]
+          "refs": [
+            "roster13_1",
+            "roster13_2",
+            "roster14_1",
+            "roster14_2",
+            "roster14_3",
+            "roster15_1",
+            "roster15_2",
+            "roster16_1",
+            "roster16_2"
           ],
-          "ribbon": "两批各八个；研究对象数量，不等于完整能力已经逐一实测。"
+          "readDate": "2026-10-26",
+          "footer": "定位与历史时间沿用 2026-10-26 资料；不是同条件测评排名",
+          "ribbon": "第二批是调研顺序；DeepSeek Harness 继续保留为边界对照。",
+          "notes": "这里只简要建立产品印象，功能和开放条件按各自笔记继续阅读。\nKimi Claw：月之暗面；2026-02 公测；Kimi、OpenClaw 与消息及设备入口；个人助手的托管和设备使用形态。\nPersonal Computer：Perplexity；2026-03 公告；04 上线；Computer、Comet 与个人电脑；本地文件、应用与网页工作。\nDeepSeek Harness：深度求索；2026-08 已有公开记录；模型、开发工具和插件生态；工作助手与运行底座；保留为边界对照。\nClaude Cowork：Anthropic；2026-01 首次研究预览；Claude、应用连接与个人工作环境；研究与文件交付；统一入口逐步开放。\n\n图标获取：2026-10-27。部分使用所属产品品牌标识，不将其说成独立产品专属图标。\nKimi Claw：Kimi 品牌图标，用于 Kimi Claw。来源：https://www.kimi.com/；图标：https://www.kimi.com/pwa-192.png\nPersonal Computer：Perplexity 官网品牌图标，用于 Personal Computer。来源：https://www.perplexity.ai/personal-computer；图标：https://www.perplexity.ai/favicon.ico\nDeepSeek Harness：DeepSeek 官网品牌图标，用于 Harness。来源：https://www.deepseek.com/en/harness/；图标：https://www.deepseek.com/favicon.ico\nClaude Cowork：Claude 官网图标，用于 Cowork。来源：https://claude.com/product/cowork；图标：https://assets.claude.com/95a868946ac8a31e5ff832e2899f294aa368b836.png?w=256&h=256"
         }
       ]
     },
@@ -1270,7 +2624,7 @@
       "slides": [
         {
           "title": "Muse 演示：三份材料，整理一页周报",
-          "seconds": 60,
+          "seconds": 50,
           "kind": "panels",
           "subtitle": "材料与操作脚本已准备；本轮尚未在 Muse 中执行。",
           "notes": "我准备一个小任务观察基本使用过程。三份输入是学习背景、本周记录和后续计划，全部标明模拟，不是真实经历。材料明确区分草稿、待核验与未执行实验，并含一次计划变更。目标是生成六百字以内的中文 Markdown 周报，三部分并注明来源，不能把计划写成结果。只使用输入材料，不连接真实邮箱、不联网、不发给别人。人工预期样例仅用于检查，不能当作 Muse 输出，也不作为输入。",
@@ -1341,7 +2695,7 @@
       "slides": [
         {
           "title": "这轮学习形成的三个基本认识",
-          "seconds": 120,
+          "seconds": 110,
           "kind": "panels",
           "subtitle": "回到定义、委托与场景，为后续实践保留共同语言。",
           "notes": "第一，先有 Agent 执行循环，再看个人服务关系与个人上下文，不能只看名字和部署。第二，事务、成果和持续跟踪都可以作为委托，但范围、结果、条件和待决动作要说清；记忆、周期执行与持续目标分别观察。第三，不同产品从不同入口出发，比较先选工作场景，再看资料、质量、人工参与和投入。这是本次阅读与比较的认识，不是产品排名。后续用实际记录修正。",
@@ -1415,15 +2769,856 @@
   "defaultReadDate": "2026-10-24",
   "part01Seconds": 240,
   "part02Timings": [
-    30,
+    20,
     70,
     70,
     70
   ],
-  "featuredProducts": [
+  "researchDate": "2026-10-25",
+  "navigation": {
+    "seconds": 10,
+    "sections": [
+      {
+        "part": 1,
+        "title": "什么是 Personal Agent",
+        "shortTitle": "概念与定义",
+        "purpose": "先理解执行循环，再看个人上下文。"
+      },
+      {
+        "part": 2,
+        "title": "Personal Agent 能做什么",
+        "shortTitle": "能力与委托",
+        "purpose": "从任务、成果和持续职责看能做什么。"
+      },
+      {
+        "part": 3,
+        "title": "和 OpenClaw 与 Agent Harness 的关系",
+        "shortTitle": "产品与运行软件",
+        "purpose": "区分产品形态、自建方案与运行软件。"
+      },
+      {
+        "part": 4,
+        "title": "Personal Agent 是怎样发展起来的",
+        "shortTitle": "发展与演进",
+        "purpose": "把关键进展与今天的产品联系起来。"
+      },
+      {
+        "part": 5,
+        "title": "主流 Personal Agent 产品概览",
+        "shortTitle": "主流产品概览",
+        "purpose": "认识厂商、推出时间、产品生态与业务侧重。"
+      },
+      {
+        "part": 6,
+        "title": "Muse 操作演示",
+        "shortTitle": "任务委托与修订",
+        "purpose": "观察任务委托、交付与修订。"
+      },
+      {
+        "part": 7,
+        "title": "总结与交流",
+        "shortTitle": "回顾与讨论",
+        "purpose": "回到使用判断，交流下一步实践。"
+      }
+    ]
+  },
+  "part01Roster": [
+    {
+      "title": "本次调研的 16 个对象｜第一批 8 个",
+      "subtitle": "先认识名单与开放条件 · 资料核对：2026-10-26 · 功能与场景在后文展开",
+      "kind": "roster",
+      "seconds": 30,
+      "columns": [
+        "名称",
+        "厂商 / 团队",
+        "推出 / 公告时间",
+        "当前状态与注册",
+        "服务地域"
+      ],
+      "rows": [
+        [
+          "Muse",
+          "Meta",
+          "2026-09-08",
+          "公开提供\n可注册",
+          "美国、加拿大、日本"
+        ],
+        [
+          "Dots",
+          "OpenAI",
+          "2026-09-29",
+          "符合套餐逐步开放\nPro / Business Premium / 企业",
+          "个人Pro除EEA/英/瑞；\n组织版全球逐步开放"
+        ],
+        [
+          "Cue",
+          "Manus",
+          "2026-09-28",
+          "Early Access\n邀请码进入",
+          "未公布完整地域清单"
+        ],
+        [
+          "Gemini Spark\n（现 Task）",
+          "Google",
+          "2026-05-19\nSpark 公告",
+          "Task 已开放\n个人 Google AI Pro / Ultra",
+          "Gemini支持地区，除\nEEA/英/瑞/尼日利亚"
+        ],
+        [
+          "Grok Bot",
+          "xAI / Grok",
+          "2026-08-11",
+          "符合付费套餐可用\n首发为 Beta",
+          "未公布 Bot 完整地域表"
+        ],
+        [
+          "OpenClaw",
+          "OpenClaw\n社区",
+          "2025-11 前身\n2026-01 现名",
+          "公开开源 / 可自建\n源码无需注册",
+          "自建无统一服务地域\n模型与渠道另有限制"
+        ],
+        [
+          "WorkBuddy",
+          "腾讯",
+          "2026-03\n正式推出",
+          "公开下载\n登录可用",
+          "中国版及海外版\n具体范围以账号为准"
+        ],
+        [
+          "Claude Duet",
+          "Anthropic",
+          "2026-10-21",
+          "Research Preview\n美国 Pro / Max 候补邀请",
+          "美国"
+        ]
+      ],
+      "refs": [
+        "roster01_1",
+        "roster01_2",
+        "roster02_1",
+        "roster02_2",
+        "roster03_1",
+        "roster03_2",
+        "roster04_1",
+        "roster04_2",
+        "roster05_1",
+        "roster05_2",
+        "roster05_3",
+        "roster06_1",
+        "roster06_2",
+        "roster07_1",
+        "roster07_2",
+        "roster08_1",
+        "roster08_2"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "官方公告 / 当前帮助文档 · 完整来源与口径见讲者备注及名单资料记录",
+      "ribbon": "EEA＝欧洲经济区；套餐与地域须同时满足。开源自建与托管服务分别列示。",
+      "notes": "我先用这张名单说明本次调研范围，不逐项展开功能。推出时间保留公告、初代与更名口径；当前条件以 2026-10-26 回查的官方资料为准。没有新增注册、付费或地域实测。\n1. Muse：日本于 10 月 23 日上线；具体连接服务和功能并非各地区同步。\n2. Dots：个人为 18 岁以上 Pro 100/200/500，排除 EEA、英国、瑞士；Business Premium 和 Enterprise 按官方说明全球逐步开放，Enterprise 默认关闭、需管理员启用。仍须符合 ChatGPT 服务支持范围，不表示任意地区或任意付费套餐均已可用。\n3. Cue：公告仍说明 early access、邀请码准入；不能据入口可打开判定任意新账号已获资格，也不保证公告中的邀请码仍有名额。\n4. Gemini Spark （现 Task）：推出时间指 Spark 公告；当前按 Task 帮助记录，需 18 岁以上个人账号、Pro/Ultra、Keep Activity 与 Personal Intelligence，不支持工作或学校账号。现有范围已超出首发美国 Ultra 预览。\n5. Grok Bot：厂商栏沿用发布品牌。当前套餐体系包括符合条件的 Grok/X 与 Cursor 付费账号，资格以账单页为准，不等于所有付费账号均可用。Beta 是首发标签，当前概览未明确宣布退出 Beta，不据此补造 GA 状态。\n6. OpenClaw：沿革区分前身与当前名称：2025 年 11 月 Clawd，2026 年 1 月更名。自建资格与模型、通信渠道的服务地域不能混为一谈。\n7. WorkBuddy：首发按月份列示；版本日志写 4.5.0 于 3 月 4 日正式发布，其他宣传常见 3 月 9 日，未将不同口径强行合并。日志有海外版记录，但不能据此推为全球全量服务。\n8. Claude Duet：加入候补不保证开放时间，当前不含 Team/Enterprise。"
+    },
+    {
+      "title": "本次调研的 16 个对象｜第二批 8 个",
+      "subtitle": "先认识名单与开放条件 · 资料核对：2026-10-26 · 功能与场景在后文展开",
+      "kind": "roster",
+      "seconds": 30,
+      "columns": [
+        "名称",
+        "厂商 / 团队",
+        "推出 / 公告时间",
+        "当前状态与注册",
+        "服务地域"
+      ],
+      "rows": [
+        [
+          "Hermes Agent",
+          "Nous\nResearch",
+          "2026-02-25",
+          "公开开源 / 可自建\n源码无需注册",
+          "自建无统一服务地域\n模型及云服务另计"
+        ],
+        [
+          "Copilot\nAutopilot",
+          "Microsoft",
+          "2026-09-25\n现名公告",
+          "Private Preview\n面向受邀组织",
+          "未公布完整地域清单"
+        ],
+        [
+          "Poke",
+          "Interaction\n/ Cognition",
+          "2025-09",
+          "公开注册\n无候补名单",
+          "官方称全球可用\n消息渠道条件另计"
+        ],
+        [
+          "Lindy",
+          "Lindy",
+          "2023-03\n初代介绍",
+          "开放注册\n按套餐使用",
+          "未公布完整地域清单"
+        ],
+        [
+          "Kimi Claw",
+          "月之暗面",
+          "2026-02\n公测",
+          "可登录开通；云端部署\n需 Allegretto 及以上",
+          "未公布完整地域清单"
+        ],
+        [
+          "Personal\nComputer",
+          "Perplexity",
+          "2026-03 公告\n2026-04 上线",
+          "已提供桌面下载\n按套餐与设备使用",
+          "按 Perplexity 支持范围\n未列独立完整地域表"
+        ],
+        [
+          "DeepSeek\nHarness",
+          "深度求索",
+          "2026-08\n已有公开记录",
+          "Public Preview\n可下载 / 开源",
+          "官方称全球公开预览"
+        ],
+        [
+          "Claude Cowork",
+          "Anthropic",
+          "2026-01-12\n首次研究预览",
+          "付费套餐可用\n统一体验逐步开放",
+          "Claude 支持地区"
+        ]
+      ],
+      "refs": [
+        "roster09_1",
+        "roster09_2",
+        "roster10_1",
+        "roster11_1",
+        "roster11_2",
+        "roster11_3",
+        "roster11_4",
+        "roster12_1",
+        "roster12_2",
+        "roster13_1",
+        "roster13_2",
+        "roster14_1",
+        "roster14_2",
+        "roster14_3",
+        "roster15_1",
+        "roster15_2",
+        "roster16_1",
+        "roster16_2"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "官方公告 / 当前帮助文档 · 完整来源与口径见讲者备注及名单资料记录",
+      "ribbon": "调研范围包含边界对照；未公布地域清单不代表全球可用。以上不是新增账号实测。",
+      "notes": "我先用这张名单说明本次调研范围，不逐项展开功能。推出时间保留公告、初代与更名口径；当前条件以 2026-10-26 回查的官方资料为准。没有新增注册、付费或地域实测。\n9. Hermes Agent：采用官方 Releases 公布的日期，不将更早的 GitHub 仓库创建时间冒充公开发布日期。可选模型或云服务另需账号及地区资格。\n10. Copilot Autopilot：前身 Scout 不与当前名称的公告时间混用；公告写 9 月底扩大私有预览，加入 Frontier 不等于自动得到 Autopilot。\n11. Poke：最初由 The Interaction Company of California 推出，2026 年 7 月加入 Cognition。全球可用是官方当前表述，不代表所有消息渠道在每个地区均可访问。\n12. Lindy：早期介绍页日期标为 Last Updated，因此按月份记录初代介绍，不将其强称精确 GA 日。当前官网提供登录与免费试用入口。\n13. Kimi Claw：云端一键部署有会员限制；关联已有 OpenClaw 是另一条路径，不能把云端部署的套餐限制外推到所有操作。当前页未明确维持或结束公测标签，因此只把公测写入历史推出栏。\n14. Personal Computer：区分 3 月公告、4 月 Mac 上线和当前产品页，不能继续概括为只在候补。下载入口不等于免费使用资格，具体套餐、设备与服务支持范围需同时满足。\n15. DeepSeek Harness：8 月已有公开研究记录，只能据此确认当时已出现，未据仓库创建时间断言精确首发日。保留为边界对照，不将运行底座直接认定为成熟的长期个人代理产品。\n16. Claude Cowork：Pro/Max 逐步得到 Chat 与 Cowork 统一体验；Team 处于 Beta、Enterprise 按组织开关。不能因为首发为研究预览，就将当前全线状态继续标为研究预览。"
+    }
+  ],
+  "part02Extra": [
+    {
+      "title": "从处理信息，扩展到代表我办事",
+      "subtitle": "保留前三类常规工作，再补充六个业务方向；持续跟踪可以贯穿每一种用途。",
+      "kind": "panels",
+      "seconds": 30,
+      "ribbon": "工作可以持续发生；业务结果还包括订单、预约、账单变更与应用上线。",
+      "notes": "原有的信息与事务、调研与交付、持续跟踪全部保留。回查 16 个对象后，我发现还需要展开业务用途：购物付款、订阅账单、电话预订、个人经营、应用开发、设备操作。它们不是互斥分类，持续跟踪尤其可以贯穿前面每一项。以下是公开资料阅读与我构造的委托，没有新增交易或功能实测。",
+      "refs": [
+        "cap_muse_1",
+        "cap_muse_2",
+        "cap_muse_3",
+        "cap_muse_4",
+        "cap_muse_5",
+        "cap_muse_6",
+        "cap_cue_1",
+        "cap_cue_2",
+        "cap_claude-duet_1",
+        "cap_claude-duet_2",
+        "cap_claude-duet_3",
+        "cap_claude-duet_4",
+        "cap_lindy_1",
+        "cap_lindy_2",
+        "cap_lindy_3",
+        "cap_workbuddy_1",
+        "cap_workbuddy_2",
+        "cap_workbuddy_3",
+        "cap_kimi-claw_1",
+        "cap_kimi-claw_2"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "panels": [
+        {
+          "title": "消费与生活",
+          "lines": [
+            "购物与批准后付款",
+            "订阅、账单与预算",
+            "电话、出行与服务预订"
+          ]
+        },
+        {
+          "title": "创作与经营",
+          "lines": [
+            "内容与店铺维护",
+            "发票、客户与业务跟进",
+            "网站、应用与流程制作"
+          ]
+        },
+        {
+          "title": "设备与应用",
+          "lines": [
+            "电脑文件与原生应用",
+            "手机操作与设备控制",
+            "实际结果与后续变更"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "购物与付款：从选商品到拿到订单",
+      "subtitle": "已有明确支付产品说明，但不同钱包、商家和地区的条件差别很大。",
+      "kind": "scenario",
+      "seconds": 90,
+      "ribbon": "找到商品、批准花费、商家接受订单，是三个不同结果。",
+      "notes": "委托文字是我构造的示例。Muse 官方确认 Link 购买与逐笔批准；Duet 的 Link 帮助明确美国 Pro/Max 预览、美国支付方式和每次批准金额，且不支持周期付款。Cue 开发者说明确认支持商家的扫码点单和付款确认。预算内并不意味着每款产品都支持不经确认购买。Gemini 有购物预订帮助，但不能据此复制 Duet 的钱包能力。",
+      "refs": [
+        "cap_muse_1",
+        "cap_muse_2",
+        "cap_muse_3",
+        "cap_muse_4",
+        "cap_muse_5",
+        "cap_muse_6",
+        "cap_claude-duet_1",
+        "cap_claude-duet_2",
+        "cap_claude-duet_3",
+        "cap_claude-duet_4",
+        "cap_cue_1",
+        "cap_cue_2"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "request": "按已确认的型号补购两盒打印机墨盒，总价含税运不超过 300 元；\n先给我商品、商家、数量和退货条件，批准后再买，最后保存订单回执。",
+      "stages": [
+        {
+          "title": "选择与核对",
+          "lines": [
+            "型号、数量与商家",
+            "总价、运费与退货条件"
+          ]
+        },
+        {
+          "title": "批准与付款",
+          "lines": [
+            "展示商品和最高金额",
+            "满足钱包与地域条件"
+          ]
+        },
+        {
+          "title": "订单与后续",
+          "lines": [
+            "核实订单号与交付状态",
+            "失败、取消与退款另看"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "订阅与账单：先查清，再决定变更",
+      "subtitle": "识别重复扣费、试用到期和续费日期，与代开通、取消或自动续费分别讨论。",
+      "kind": "panels",
+      "seconds": 60,
+      "ribbon": "邮件退订 ≠ 取消付费会员；定时执行 ≠ 获准周期扣款。",
+      "notes": "我会构造一项订阅清理委托：整理近三个月获准读取的账单与邮件，列出服务、金额、周期和续费日，先提供变更清单。Subscription Insider 2026-09-29 报道 Muse 识别并批准后取消订阅，这是第三方观察，未独立复现。Perplexity 2026-05-10 的配套 Personal CFO 提供账户与预算分析，限美加，不自动在所有 Personal Computer 安装启用。Gemini 退订邮件列表不能当作取消收费会员。Duet Link 明确不能周期付款；开通新服务、续费和取消仍需各自的服务支持与授权。",
+      "refs": [
+        "cap_muse_1",
+        "cap_muse_2",
+        "cap_muse_3",
+        "cap_muse_4",
+        "cap_muse_5",
+        "cap_muse_6",
+        "cap_gemini-spark_1",
+        "cap_gemini-spark_2",
+        "cap_personal-computer_1",
+        "cap_personal-computer_2",
+        "cap_personal-computer_3",
+        "cap_claude-duet_1",
+        "cap_claude-duet_2",
+        "cap_claude-duet_3",
+        "cap_claude-duet_4"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "panels": [
+        {
+          "title": "先整理",
+          "lines": [
+            "服务、金额与扣费周期",
+            "试用截止与续费日期",
+            "重复扣费和使用情况"
+          ]
+        },
+        {
+          "title": "再决定",
+          "lines": [
+            "保留、降档或取消",
+            "开通与续费另行确认",
+            "确认变更影响和生效日"
+          ]
+        },
+        {
+          "title": "核对结果",
+          "lines": [
+            "取消回执与下次扣费",
+            "退款受理与到账状态",
+            "预算报告不等于转账"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "电话与预订：把生活事务办到结果",
+      "subtitle": "除了浏览网页，还会涉及电话、商家系统、日历以及真人协助。",
+      "kind": "panels",
+      "seconds": 60,
+      "ribbon": "预约成功应有确认；计划、已联系和最终订妥不能混为一谈。",
+      "notes": "我的示例是改约牙医或预订餐厅：给出人数、日期、时间、预算和取消条件。Lindy 电话页说明代拨、接听、预约与日历同步；Gemini Task 明确购物、旅行和餐厅预订；Cue 支持商家服务二维码。Poke Human 2026-06-25 的电话、订餐、叫车、下单明确包含真人，不能讲成纯 AI 全程执行。Muse 连接器规范要求核实确认号、处理变更与取消，但规范中的虚构酒店不能当产品实测。",
+      "refs": [
+        "cap_lindy_1",
+        "cap_lindy_2",
+        "cap_lindy_3",
+        "cap_gemini-spark_1",
+        "cap_gemini-spark_2",
+        "cap_poke_1",
+        "cap_poke_2",
+        "cap_poke_3",
+        "cap_poke_4",
+        "cap_cue_1",
+        "cap_cue_2",
+        "cap_muse_1",
+        "cap_muse_2",
+        "cap_muse_3",
+        "cap_muse_4",
+        "cap_muse_5",
+        "cap_muse_6"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "panels": [
+        {
+          "title": "我要交代什么",
+          "lines": [
+            "人数、时间和地点",
+            "预算与可接受的替代",
+            "定金及取消条件"
+          ]
+        },
+        {
+          "title": "产品已有例子",
+          "lines": [
+            "Lindy：电话与改约",
+            "Gemini：旅行与餐厅",
+            "Cue：支持商家扫码点单"
+          ]
+        },
+        {
+          "title": "谁完成、怎样确认",
+          "lines": [
+            "Poke 部分服务有真人",
+            "确认号、时间与日历",
+            "付款和后续变更另核"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "个人经营：采购，也可以收款与管理业务",
+      "subtitle": "服务具体个人，可以延伸到自由职业者、店主和小企业经营者。",
+      "kind": "panels",
+      "seconds": 60,
+      "ribbon": "为我花钱的购买钱包，与替我管理商户收款，是两类授权。",
+      "notes": "我构造一项经营委托：整理未付发票与客户记录，生成催款草稿与本周经营简报，再由我批准外发。Muse Small Business 公告说明可连接店铺、财务与内容工具，并要求发布、发送、花费获批。Duet 公告列出店铺、发薪、合同与客户工作，但不能推为任意转账。Stripe MCP 公告具体列出发票、支付链接、产品价格、收入分析与退款；Link 则为用户采购。Lindy 官网也将 CRM、记账、客户支持列为用途，但并非所有个人版均有任意工具。",
+      "refs": [
+        "cap_muse_1",
+        "cap_muse_2",
+        "cap_muse_3",
+        "cap_muse_4",
+        "cap_muse_5",
+        "cap_muse_6",
+        "cap_claude-duet_1",
+        "cap_claude-duet_2",
+        "cap_claude-duet_3",
+        "cap_claude-duet_4",
+        "cap_lindy_1",
+        "cap_lindy_2",
+        "cap_lindy_3"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "panels": [
+        {
+          "title": "内容与客户",
+          "lines": [
+            "商品与营销材料",
+            "客户记录与跟进草稿",
+            "外发与发布前检查"
+          ]
+        },
+        {
+          "title": "账单与经营",
+          "lines": [
+            "未付发票与收入分析",
+            "开票、支付链接与退款",
+            "按商户系统权限执行"
+          ]
+        },
+        {
+          "title": "业务动作边界",
+          "lines": [
+            "采购钱包与收款分开",
+            "发薪与合同各有条件",
+            "不等于任意资金划转"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "应用开发：把一个想法做成可用工具",
+      "subtitle": "交付结果除了文档和 PPT，还可以是网站、原型、插件或可重复执行的流程。",
+      "kind": "panels",
+      "seconds": 60,
+      "ribbon": "完成代码、运行预览与正式发布，是三个需要分别验收的步骤。",
+      "notes": "我会用一个报名表或研究更新看板说明：提出输入、展示和保存要求，先预览再决定发布。WorkBuddy 官方文档明确网站制作、可选云数据库与登录，以及分享、更新和下线流程。DeepSeek Harness 官网列出代码任务与插件创建；Dots 文档支持代码工作和准备修改。可生成程序不等于已在生产环境可靠运行，也不能将 Manus 同篇发布中的视频游戏能力无条件转给 Cue。",
+      "refs": [
+        "cap_workbuddy_1",
+        "cap_workbuddy_2",
+        "cap_workbuddy_3",
+        "cap_deepseek-harness_1",
+        "cap_deepseek-harness_2",
+        "cap_dots_1",
+        "cap_dots_2",
+        "cap_dots_3"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "panels": [
+        {
+          "title": "从需求到原型",
+          "lines": [
+            "报名表、看板或小工具",
+            "说明输入、结果与权限",
+            "先做可检查的预览"
+          ]
+        },
+        {
+          "title": "已有公开依据",
+          "lines": [
+            "WorkBuddy：网站发布",
+            "Dots：代码与修改工作",
+            "Harness：代码与插件"
+          ]
+        },
+        {
+          "title": "继续使用",
+          "lines": [
+            "确认数据保存与登录",
+            "发布、更新和下线",
+            "运行成本和访问范围"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "设备与应用：把动作落在我的环境中",
+      "subtitle": "个人电脑、手机和智能家居，可以成为任务执行的对象。",
+      "kind": "panels",
+      "seconds": 60,
+      "ribbon": "产品支持某条设备路径，不代表每个账号、设备和插件都默认已连接。",
+      "notes": "Personal Computer 的官方安装页说明 Mac 本地文件、应用、Comet 与手机审批。Kimi Claw Android 明确在手机本机运行，可控制应用、连接智能家居；与云端 Claw 是不同路径。Hermes 官方工具文档将 Home Assistant 列为插件；OpenClaw 官方列设备节点、浏览器和定时。我的示例是处理获准目录、同步特定应用或控制已接设备；不能把这些通用接口直接视为无需配置的完整家居服务。",
+      "refs": [
+        "cap_personal-computer_1",
+        "cap_personal-computer_2",
+        "cap_personal-computer_3",
+        "cap_kimi-claw_1",
+        "cap_kimi-claw_2",
+        "cap_hermes-agent_1",
+        "cap_hermes-agent_2",
+        "cap_hermes-agent_3",
+        "cap_hermes-agent_4",
+        "cap_openclaw_1",
+        "cap_openclaw_2"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "panels": [
+        {
+          "title": "个人电脑",
+          "lines": [
+            "文件、原生应用与网页",
+            "Personal Computer",
+            "按目录与系统权限执行"
+          ]
+        },
+        {
+          "title": "手机与设备",
+          "lines": [
+            "Kimi Claw Android",
+            "在手机本机操作应用",
+            "与云端部署分开看"
+          ]
+        },
+        {
+          "title": "已接入的家居",
+          "lines": [
+            "Hermes + Home Assistant",
+            "OpenClaw 设备节点",
+            "插件、设备与授权齐备"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "同一项委托，可以推进到不同程度",
+      "subtitle": "介绍“能做什么”时，我会说明它实际完成到了哪一步。",
+      "kind": "flow",
+      "seconds": 60,
+      "ribbon": "持续跟踪可以贯穿全程，但任务运行中不代表交易已经完成。",
+      "notes": "这条流程是我的比较框架，不是行业统一能力等级：先发现并分析，再准备订单或申请，经过需要的批准与实际提交，最后核对结果与后续处理。不是每个步骤都必须弹窗，也不是所有产品都允许一次授权覆盖未来动作。Duet Link 的批准、暂时授权、商家成交不同；Muse 连接器规范要求不能把购物车或待处理请求叫确认订单。订阅还要分辨邮件退订、会员变更和周期扣款。",
+      "refs": [
+        "cap_claude-duet_1",
+        "cap_claude-duet_2",
+        "cap_claude-duet_3",
+        "cap_claude-duet_4",
+        "cap_muse_1",
+        "cap_muse_2",
+        "cap_muse_3",
+        "cap_muse_4",
+        "cap_muse_5",
+        "cap_muse_6",
+        "cap_gemini-spark_1",
+        "cap_gemini-spark_2"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "nodes": [
+        {
+          "title": "发现与分析",
+          "lines": [
+            "找到合适选项",
+            "核实条件与价格"
+          ]
+        },
+        {
+          "title": "准备动作",
+          "lines": [
+            "草稿、购物车",
+            "订单或变更申请"
+          ]
+        },
+        {
+          "title": "批准与提交",
+          "lines": [
+            "适用的用户确认",
+            "实际调用或支付"
+          ]
+        },
+        {
+          "title": "结果与后续",
+          "lines": [
+            "订单号、预约回执",
+            "变更生效与退款"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "16 个产品的功能对照｜第一批",
+      "subtitle": "按公开资料看用途与动作边界；不是统一条件的能力排名。",
+      "kind": "capability-matrix",
+      "seconds": 60,
+      "ribbon": "资料核对：2026-10-26；“未确认”表示本轮证据不足，不表示永远不支持。",
+      "notes": "这页保留全部八个对象作为比较材料，不逐项宣读。功能证据按官方、合作方与第三方观察分别记录。Muse：官方确认 Link 购买与逐笔批准；首发材料中的 Shop Pay 为 coming soon，不能把首发承诺当作当前所有地区均已开放。\nDots：本轮读取的 Dots 专属文档未确认独立支付钱包或周期扣款能力；不把 ChatGPT 商务能力或通用浏览器操作自动计入 Dots。\nCue：官方应用说明确认钱包、批准后支付和支持商家的扫码点单；发布文中的预算设定不等于所有交易都可跳过逐次确认。\nGemini Spark （现 Task）：确认有购物与预订流程说明；付款信息须在接管的网页中输入，未据此确认独立钱包、任意商户支付或周期扣款。\nGrok Bot：Stripe 2026-10-21 公告将 Grok Bot 列为 Link 支持的代理；Bot 的通用帮助同时要求用户接管支付确认。合作方声明与当前产品流程分别保留，具体钱包入口和账号资格待核。\nOpenClaw：通用执行和插件扩展不等于内建消费钱包；本轮没有确认默认即可使用的统一购物支付服务。\nWorkBuddy：本轮官方简介与应用发布说明没有确认内建消费者钱包；费用页中的购买积分是用户为 Agent 服务付费，不能当作 Agent 能代用户购物的证据。\nClaude Duet：购买需逐次批准；Link 用针对商家和金额的一次性卡，明确不支持周期付款。目前 Link 不用于 Claude、Cowork 或 Claude Code。",
+      "refs": [
+        "cap_muse_1",
+        "cap_muse_2",
+        "cap_muse_3",
+        "cap_muse_4",
+        "cap_muse_5",
+        "cap_muse_6",
+        "cap_dots_1",
+        "cap_dots_2",
+        "cap_dots_3",
+        "cap_cue_1",
+        "cap_cue_2",
+        "cap_gemini-spark_1",
+        "cap_gemini-spark_2",
+        "cap_grok-bot_1",
+        "cap_grok-bot_2",
+        "cap_grok-bot_3",
+        "cap_grok-bot_4",
+        "cap_openclaw_1",
+        "cap_openclaw_2",
+        "cap_workbuddy_1",
+        "cap_workbuddy_2",
+        "cap_workbuddy_3",
+        "cap_claude-duet_1",
+        "cap_claude-duet_2",
+        "cap_claude-duet_3",
+        "cap_claude-duet_4"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "columns": [
+        "产品",
+        "公开说明中的工作用途",
+        "交易与证据边界"
+      ],
+      "columnWidths": [
+        2.15,
+        4.98,
+        5.0
+      ],
+      "rows": [
+        [
+          "Muse",
+          "购物、旅行与个人目标\n个人经营；订阅管理有外部观察",
+          "Link 购买逐笔批准；\n订阅取消案例未经我复现"
+        ],
+        [
+          "Dots",
+          "持续职责、文档与研究\n代码、应用与项目跟进",
+          "有动作审查与插件权限；\n专属支付钱包未确认"
+        ],
+        [
+          "Cue",
+          "身份化助手与团队协作\n支持商家扫码、点单与支付",
+          "开发者说明要求付款确认；\n商家与地域范围另核"
+        ],
+        [
+          "Gemini Task",
+          "邮件、研究、购物预订\n航班酒店比价与持续任务",
+          "敏感步骤可能需接管；\n邮件退订非付费退订"
+        ],
+        [
+          "Grok Bot",
+          "长期 Bot、网页与应用\n协作、内容和重复工作",
+          "Stripe 列为 Link 合作对象；\nBot 文档支付确认需接管"
+        ],
+        [
+          "OpenClaw",
+          "自建消息、网页与设备\n文件工作和重复任务",
+          "依赖所装插件和部署；\n未确认统一消费钱包"
+        ],
+        [
+          "WorkBuddy",
+          "办公文件、分析与应用\n可预览、发布和继续修改",
+          "应用发布须另确认；\n购买积分非代购物能力"
+        ],
+        [
+          "Claude Duet",
+          "办公与经营、采购\n商户发票、收入与退款",
+          "Link 每笔批准，不支持\n周期付款；美国预览限制"
+        ]
+      ]
+    },
+    {
+      "title": "16 个产品的功能对照｜第二批",
+      "subtitle": "按公开资料看用途与动作边界；不是统一条件的能力排名。",
+      "kind": "capability-matrix",
+      "seconds": 60,
+      "ribbon": "资料核对：2026-10-26；“未确认”表示本轮证据不足，不表示永远不支持。",
+      "notes": "这页保留全部八个对象作为比较材料，不逐项宣读。功能证据按官方、合作方与第三方观察分别记录。Hermes Agent：浏览器凭证库文档支持填写卡片和地址；这不等于有统一钱包、商户覆盖与逐笔购买保障。\nCopilot Autopilot：本轮未确认面向消费者的购物钱包、商户支付或周期付款能力。\nPoke：现实事务可通过 Poke Human 承接，但不能据“可下单”就推断全程纯 AI、平台钱包或自动扣款。\nLindy：电话、预约和记账不自动等于原生付款钱包；本轮没有确认完整购买结账或周期扣款服务。\nKimi Claw：本轮未确认 Kimi Claw 的统一消费钱包；继承 OpenClaw 工具能力不等于继承所有商户结账资格。\nPersonal Computer：预算和账户分析不是转账、交易或购买；本轮没有确认 Personal Computer 自身的统一付款钱包。\nDeepSeek Harness：插件可扩展不等于内建支付；本轮没有确认统一购物、付费订阅代办或商户钱包。\nClaude Cowork：Duet 的 Link 帮助明确说当前不在 Cowork 提供；不能把 Anthropic 同品牌的钱包能力复制给 Cowork。",
+      "refs": [
+        "cap_hermes-agent_1",
+        "cap_hermes-agent_2",
+        "cap_hermes-agent_3",
+        "cap_hermes-agent_4",
+        "cap_copilot-autopilot_1",
+        "cap_copilot-autopilot_2",
+        "cap_poke_1",
+        "cap_poke_2",
+        "cap_poke_3",
+        "cap_poke_4",
+        "cap_lindy_1",
+        "cap_lindy_2",
+        "cap_lindy_3",
+        "cap_kimi-claw_1",
+        "cap_kimi-claw_2",
+        "cap_personal-computer_1",
+        "cap_personal-computer_2",
+        "cap_personal-computer_3",
+        "cap_deepseek-harness_1",
+        "cap_deepseek-harness_2",
+        "cap_claude-cowork_1",
+        "cap_claude-cowork_2"
+      ],
+      "readDate": "2026-10-26",
+      "footer": "2026-10-26 功能回查 · 官方说明与外部观察分列；完整来源见备注及用途回查笔记",
+      "columns": [
+        "产品",
+        "公开说明中的工作用途",
+        "交易与证据边界"
+      ],
+      "columnWidths": [
+        2.15,
+        4.98,
+        5.0
+      ],
+      "rows": [
+        [
+          "Hermes Agent",
+          "自建研究、开发与定时\n可加 Home Assistant 插件",
+          "有卡片填写非统一钱包；\n社区案例不作产品保证"
+        ],
+        [
+          "Copilot Autopilot",
+          "组织上下文中的持续工作\n邮件、日历和文件沿革",
+          "受邀预览，旧 Scout 资料\n不等于现名功能全量"
+        ],
+        [
+          "Poke",
+          "消息、提醒与 Recipes\n电话、预订和现实事务",
+          "Poke Human 有真人参与；\n不概括为纯 AI 付款"
+        ],
+        [
+          "Lindy",
+          "电话、改约、客户支持\n会议、CRM 与经营资料",
+          "预约有依据；未确认\n统一购买钱包与周期支付"
+        ],
+        [
+          "Kimi Claw",
+          "消息与 OpenClaw 任务\n手机应用与智能设备路径",
+          "云端、桌面、Android 分开；\n不能复制 Kimi 全站功能"
+        ],
+        [
+          "Personal Computer",
+          "Mac 文件、应用与网页\n配套 Computer 财务分析",
+          "Personal CFO 属配套服务；\n美加范围，非自动交易"
+        ],
+        [
+          "DeepSeek Harness",
+          "文件、研究与代码\n批处理、插件与流程扩展",
+          "运行能力非现成商业服务；\n未确认消费钱包"
+        ],
+        [
+          "Claude Cowork",
+          "研究、文档、表格与代码\n应用与桌面工作",
+          "Duet 的 Link 不在 Cowork；\n财务分析不等于付款"
+        ]
+      ]
+    }
+  ],
+  "overviewProducts": [
+    "Muse",
+    "Dots",
+    "Cue",
+    "Gemini Spark / Task",
+    "Grok Bot",
+    "OpenClaw",
+    "WorkBuddy",
+    "Claude Duet"
+  ],
+  "detailProducts": [
     "Muse",
     "Dots",
     "Claude Duet",
-    "WorkBuddy"
+    "Grok Bot"
   ]
 }

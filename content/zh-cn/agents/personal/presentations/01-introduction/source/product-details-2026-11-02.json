@@ -1,0 +1,835 @@
+{
+  "date": "2026-11-02",
+  "products": [
+    "Muse",
+    "Dots",
+    "Claude Duet",
+    "Grok Bot"
+  ],
+  "slides": [
+    {
+      "id": "muse-goals",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Muse",
+      "title": "Muse｜把分散的事情组织成长期目标",
+      "subtitle": "功能 1 / 4 · 个人上下文、Goals 与 Ideas",
+      "layout": "showcase",
+      "ribbon": "我理解的起点：不只记下一件事，还要持续知道这件事为什么重要。",
+      "refs": [
+        "detail-muse-design"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "我先从 Goals 理解 Muse 的个人服务方式。官方设计把长期目标、正在跟踪的事项和 Ideas 建议放在可见的位置；一段持续的主对话帮助用户补充要求，不必把每件事都重新开始。",
+        "本页的目标界面来自官方设计文章。它让我关注的是用户如何交代优先级、查看推进中的事项，以及在目标变化时继续沟通。这里的界面与说明属于官方展示，不能当作我已验证的跨周执行效果。"
+      ],
+      "image": {
+        "slug": "muse-goals",
+        "page": "https://introducing.muse.ai/",
+        "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fgoals.0afs6w3eczjsr.png&w=1920&q=75",
+        "caption": "Meta 官方示意：Goals 与正在跟踪的事项",
+        "sourceDate": "2026-09",
+        "path": "product-details/muse-goals.png",
+        "size": [
+          786,
+          1130
+        ],
+        "retrieved": "2026-11-02"
+      },
+      "cards": [
+        {
+          "title": "长期目标",
+          "body": "在 Goals 中查看目标与持续跟踪的事项。"
+        },
+        {
+          "title": "连续沟通",
+          "body": "补充偏好、改变优先级，继续已有委托。"
+        },
+        {
+          "title": "主动提出想法",
+          "body": "Ideas 根据已知目标与上下文提出可做的事。"
+        }
+      ],
+      "notes": "我先从 Goals 理解 Muse 的个人服务方式。官方设计把长期目标、正在跟踪的事项和 Ideas 建议放在可见的位置；一段持续的主对话帮助用户补充要求，不必把每件事都重新开始。\n\n本页的目标界面来自官方设计文章。它让我关注的是用户如何交代优先级、查看推进中的事项，以及在目标变化时继续沟通。这里的界面与说明属于官方展示，不能当作我已验证的跨周执行效果。\n本页介绍产品功能与使用方式，不展开底层实现。\n产品图：Meta 官方示意：Goals 与正在跟踪的事项；来源 https://introducing.muse.ai/；原始图片 https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fgoals.0afs6w3eczjsr.png&w=1920&q=75。"
+    },
+    {
+      "id": "muse-activity",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Muse",
+      "title": "Muse｜离开对话后，事情怎样继续",
+      "subtitle": "功能 2 / 4 · 后台工作、活动与有用的提醒",
+      "layout": "showcase",
+      "ribbon": "我会看正在做什么、发生了什么变化，以及什么时候需要我。",
+      "refs": [
+        "detail-muse-design"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "官方的开学准备案例由产品设计作者讲述：学校邮件、日历、用品采购与截止时间被放在同一项持续事务中。我要借它说明，多步工作可以跨越一次对话，不能把这个案例写成我自己的使用经历。",
+        "活动视图让用户回看正在处理的事项。官方设计也强调，后台结果只有值得呈现或需要用户输入时才通知。我会把这一页讲成进度查看与介入方式，持续可靠性仍留待实践。"
+      ],
+      "image": {
+        "slug": "muse",
+        "page": "https://introducing.muse.ai/",
+        "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstatus.38zbywac8-xmc.png&w=1920&q=75",
+        "alt": "Muse status and activity view",
+        "path": "product-overview/muse.png",
+        "size": [
+          786,
+          1254
+        ],
+        "retrieved": "2026-10-27",
+        "caption": "Meta 官方示意：状态与活动视图"
+      },
+      "cards": [
+        {
+          "title": "可以同时交办",
+          "body": "继续对话，查看多项工作的当前进展。"
+        },
+        {
+          "title": "后台继续处理",
+          "body": "退出应用以后，已设定的工作仍可继续。"
+        },
+        {
+          "title": "有变化再联系",
+          "body": "重要进展或需要决定时，请用户参与。"
+        }
+      ],
+      "notes": "官方的开学准备案例由产品设计作者讲述：学校邮件、日历、用品采购与截止时间被放在同一项持续事务中。我要借它说明，多步工作可以跨越一次对话，不能把这个案例写成我自己的使用经历。\n\n活动视图让用户回看正在处理的事项。官方设计也强调，后台结果只有值得呈现或需要用户输入时才通知。我会把这一页讲成进度查看与介入方式，持续可靠性仍留待实践。\n本页介绍产品功能与使用方式，不展开底层实现。\n产品图：Meta 官方示意：状态与活动视图；来源 https://introducing.muse.ai/；原始图片 https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstatus.38zbywac8-xmc.png&w=1920&q=75。"
+    },
+    {
+      "id": "muse-commerce",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Muse",
+      "title": "Muse｜购物与预订，走到确认动作",
+      "subtitle": "功能 3 / 4 · 查找、比较、准备与批准",
+      "layout": "showcase",
+      "ribbon": "我把方案、购物车、用户批准和最终订单分开看。",
+      "refs": [
+        "detail-muse-purchase",
+        "detail-muse-singapore"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "我把购物与预订作为 Muse 功能介绍的一个重点：产品尝试把选择方案、准备动作与用户确认接起来。左侧是官方结账控件，显示这类委托需要清楚的动作入口，不能只在聊天里笼统说同意。",
+        "Meta 的新加坡公告列出 Shopee、Grab、航空和旅行服务等本地伙伴，同时明确连接器分批开放。官方页面日期为 2026-10-27，说明 Muse 已扩展到新加坡；旧概览页保留 10 月 26 日的美、加、日快照，当前补记增加新加坡。地区开放不代表每个商家功能都已开放，支付批准也不等于订单已完成。"
+      ],
+      "image": {
+        "slug": "muse-checkout",
+        "page": "https://introducing.muse.ai/",
+        "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fcheckout.0nx6hmfxq6ara.png&w=1920&q=75",
+        "caption": "Meta 官方示意：结账批准控件",
+        "sourceDate": "2026-09",
+        "path": "product-details/muse-checkout.png",
+        "size": [
+          786,
+          1050
+        ],
+        "retrieved": "2026-11-02"
+      },
+      "cards": [
+        {
+          "title": "选方案",
+          "body": "检索商品、比较选项，准备购物或预订。"
+        },
+        {
+          "title": "看清再批准",
+          "body": "核对购买内容，重要动作由用户决定。"
+        },
+        {
+          "title": "按当地服务开放",
+          "body": "新加坡已加入；本地连接器逐步提供。"
+        }
+      ],
+      "notes": "我把购物与预订作为 Muse 功能介绍的一个重点：产品尝试把选择方案、准备动作与用户确认接起来。左侧是官方结账控件，显示这类委托需要清楚的动作入口，不能只在聊天里笼统说同意。\n\nMeta 的新加坡公告列出 Shopee、Grab、航空和旅行服务等本地伙伴，同时明确连接器分批开放。官方页面日期为 2026-10-27，说明 Muse 已扩展到新加坡；旧概览页保留 10 月 26 日的美、加、日快照，当前补记增加新加坡。地区开放不代表每个商家功能都已开放，支付批准也不等于订单已完成。\n本页介绍产品功能与使用方式，不展开底层实现。\n产品图：Meta 官方示意：结账批准控件；来源 https://introducing.muse.ai/；原始图片 https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fcheckout.0nx6hmfxq6ara.png&w=1920&q=75。"
+    },
+    {
+      "id": "muse-artifacts-business",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Muse",
+      "title": "Muse｜交付可继续使用的成果",
+      "subtitle": "功能 4 / 4 · Artifacts 与个人经营",
+      "layout": "gallery",
+      "ribbon": "我关注的结果包括文件、交互工具，也包括经营者继续使用的工作成果。",
+      "refs": [
+        "detail-muse-design",
+        "detail-muse-business"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "Artifacts 是我认为应该让听众直接看到的功能。官方设计展示文档、网页和交互式工具等成果，让任务结果可以脱离长段聊天继续使用。这里的支出跟踪、学习与健康展示属于官方示例，不是我的实验。",
+        "Small Business 则把个人委托延伸到经营活动，例如结合店铺、财务、设计和社交业务信息准备工作。我会保留它与生活事务的连续性：服务对象仍可以是同一个人，只是资料和动作进入了经营环境。发布、发送和花费需要批准，不能从连接品牌直接推定所有业务动作可用。"
+      ],
+      "image": {
+        "slug": "muse-artifacts",
+        "page": "https://introducing.muse.ai/",
+        "url": "https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fartifacts.2gtkrb_-csikn.png&w=3840&q=75",
+        "caption": "Meta 官方展示：Muse 创建的丰富交付物",
+        "sourceDate": "2026-09",
+        "path": "product-details/muse-artifacts.png",
+        "size": [
+          1536,
+          418
+        ],
+        "retrieved": "2026-11-02"
+      },
+      "cards": [
+        {
+          "title": "Artifacts：成果可以继续用",
+          "body": "文档、PDF、网页与交互工具，按任务选择形式。"
+        },
+        {
+          "title": "Small Business：进入经营工作",
+          "body": "结合店铺、内容、财务与业务资料，准备待批成果。"
+        }
+      ],
+      "notes": "Artifacts 是我认为应该让听众直接看到的功能。官方设计展示文档、网页和交互式工具等成果，让任务结果可以脱离长段聊天继续使用。这里的支出跟踪、学习与健康展示属于官方示例，不是我的实验。\n\nSmall Business 则把个人委托延伸到经营活动，例如结合店铺、财务、设计和社交业务信息准备工作。我会保留它与生活事务的连续性：服务对象仍可以是同一个人，只是资料和动作进入了经营环境。发布、发送和花费需要批准，不能从连接品牌直接推定所有业务动作可用。\n本页介绍产品功能与使用方式，不展开底层实现。\n产品图：Meta 官方展示：Muse 创建的丰富交付物；来源 https://introducing.muse.ai/；原始图片 https://introducing.muse.ai/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fartifacts.2gtkrb_-csikn.png&w=3840&q=75。"
+    },
+    {
+      "id": "dots-responsibilities",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Dots",
+      "title": "Dots｜把一份持续职责交出去",
+      "subtitle": "功能 1 / 4 · 任务会结束，持续职责可以继续",
+      "layout": "flow",
+      "ribbon": "我用“持续负责什么”理解 Dots，再看它为这份职责安排哪些工作。",
+      "refs": [
+        "detail-dots-start",
+        "detail-dots"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "我用官方团队活动安排示例理解持续职责：先交代计划与往来材料，指出预算、截止日期和等待答复的事项，再让 dot 带回需要决定的下一步。这与只生成一次活动方案的差别，在于后续仍需跟进变化。",
+        "图中是对官方使用方式的归纳，不是我的实测。用户可以在后续对话补充细节、修改优先级并审核结果；实际能接入哪些来源、怎样定期运行，仍取决于账号与配置。"
+      ],
+      "exampleLabel": "官方使用示例归纳 · 团队活动安排，不是本人实验",
+      "example": "持续跟进活动计划、场地邮件、预算与待决事项。",
+      "steps": [
+        {
+          "title": "交代职责",
+          "body": "说明目标、范围\n与需要我的节点"
+        },
+        {
+          "title": "提供材料",
+          "body": "计划、邮件\n及相关来源"
+        },
+        {
+          "title": "跟进变化",
+          "body": "维护待办\n和需要的后续工作"
+        },
+        {
+          "title": "带回决定",
+          "body": "进展、候选回复\n与下一步选择"
+        }
+      ],
+      "notes": "我用官方团队活动安排示例理解持续职责：先交代计划与往来材料，指出预算、截止日期和等待答复的事项，再让 dot 带回需要决定的下一步。这与只生成一次活动方案的差别，在于后续仍需跟进变化。\n\n图中是对官方使用方式的归纳，不是我的实测。用户可以在后续对话补充细节、修改优先级并审核结果；实际能接入哪些来源、怎样定期运行，仍取决于账号与配置。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "dots-context",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Dots",
+      "title": "Dots｜已有上下文怎样参与工作",
+      "subtitle": "功能 2 / 4 · 对话、个人背景与正在维护的事项",
+      "layout": "contexts",
+      "ribbon": "我希望少重复解释背景，同时仍能检查它采用了哪些资料。",
+      "refs": [
+        "detail-dots-tasks",
+        "detail-dots-computers"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "任务文档区分当前对话、相关 ChatGPT 记忆和 dot 自己保留的笔记；连接应用又为具体工作提供资料。这些信息帮助延续偏好、决定与正在维护的事项，但并不表示每个任务都会拿到全部历史。",
+        "我会在产品层面解释这三类背景怎样减少重复交代，不展开内部存储。接入来源、实际读取与把资料交给某个任务，仍有各自范围；不能从认识用户推导出可以访问其全部文件和应用。"
+      ],
+      "cards": [
+        {
+          "title": "当前对话",
+          "body": "这次的目标与要求\n新补充的约束\n刚刚作出的决定"
+        },
+        {
+          "title": "相关个人背景",
+          "body": "ChatGPT 相关记忆\n已知偏好\n历史讨论中的相关信息"
+        },
+        {
+          "title": "持续工作资料",
+          "body": "dot 保留的工作笔记\n已经连接的应用\n用户交付的材料"
+        }
+      ],
+      "callout": "背景帮助理解任务；具体资料仍按连接、权限与任务需要使用。",
+      "notes": "任务文档区分当前对话、相关 ChatGPT 记忆和 dot 自己保留的笔记；连接应用又为具体工作提供资料。这些信息帮助延续偏好、决定与正在维护的事项，但并不表示每个任务都会拿到全部历史。\n\n我会在产品层面解释这三类背景怎样减少重复交代，不展开内部存储。接入来源、实际读取与把资料交给某个任务，仍有各自范围；不能从认识用户推导出可以访问其全部文件和应用。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "dots-work-codex",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Dots",
+      "title": "Dots｜怎样与 Work、Codex 配合",
+      "subtitle": "功能 3 / 4 · 在 ChatGPT 产品体系里持续推进工作",
+      "layout": "hub",
+      "ribbon": "我把 Dots 理解为持续跟进者，Work 与 Codex 承接适合的具体任务。",
+      "refs": [
+        "detail-dots",
+        "detail-dots-tasks"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "官方文档将 dot 的持续职责，与 Work 的研究、分析和文件交付、Codex 的软件工作分别说明。dot 可以安排相关任务、检查结果并继续跟进，用户也可以在工作推进时保持对话。",
+        "这张图是产品分工示意，既不是内部架构图，也不表示每次都必须经过所有入口。Dots 自己也能处理多步任务，Work 也能安排周期工作；这里强调的区别是产品组织重心，不是独占的能力边界。"
+      ],
+      "request": "维护项目资料\n跟进需要交付的工作",
+      "cards": [
+        {
+          "title": "Dots 自己处理",
+          "body": "检索、浏览与持续跟进。"
+        },
+        {
+          "title": "ChatGPT Work",
+          "body": "研究分析，制作文件与报告。"
+        },
+        {
+          "title": "Codex",
+          "body": "开发、调试与检查软件。"
+        }
+      ],
+      "notes": "官方文档将 dot 的持续职责，与 Work 的研究、分析和文件交付、Codex 的软件工作分别说明。dot 可以安排相关任务、检查结果并继续跟进，用户也可以在工作推进时保持对话。\n\n这张图是产品分工示意，既不是内部架构图，也不表示每次都必须经过所有入口。Dots 自己也能处理多步任务，Work 也能安排周期工作；这里强调的区别是产品组织重心，不是独占的能力边界。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "dots-computers",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Dots",
+      "title": "Dots｜查看进度，在需要时继续参与",
+      "subtitle": "功能 4 / 4 · 云端工作与连接个人电脑",
+      "layout": "environments",
+      "ribbon": "我关心的是在哪儿工作、结果在哪儿，以及需要我做什么。",
+      "refs": [
+        "detail-dots-computers",
+        "detail-dots-start"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "我会把 Dots 的两种使用条件讲清楚：它自己的云端电脑可以继续处理工作；当任务需要本地文件或本机环境时，可以在支持条件下连接个人电脑。本地工作仍依赖相应设备在线和 ChatGPT 应用运行。",
+        "用户可从 Activity 查看委派任务和结果，也可以补充要求。结束通话不必然停止工作，主任务、委派任务和周期任务的停止入口需要分别理解。本页只保留直接影响使用的条件，不展开执行环境实现。"
+      ],
+      "cards": [
+        {
+          "title": "云端工作",
+          "body": "使用 dot 的云端电脑。\n个人电脑关闭后，云端工作仍可继续。\n可查看进度、结果和需要补充的信息。"
+        },
+        {
+          "title": "需要我的电脑时",
+          "body": "使用获准访问的本地文件与工具。\n设备需在线，ChatGPT 应用需运行。\n切换电脑不等于已有任务自动迁移。"
+        }
+      ],
+      "callout": "交代目标 → 在 Activity 查看任务 → 补充要求 → 检查成果；停止操作分别看任务类型。",
+      "notes": "我会把 Dots 的两种使用条件讲清楚：它自己的云端电脑可以继续处理工作；当任务需要本地文件或本机环境时，可以在支持条件下连接个人电脑。本地工作仍依赖相应设备在线和 ChatGPT 应用运行。\n\n用户可从 Activity 查看委派任务和结果，也可以补充要求。结束通话不必然停止工作，主任务、委派任务和周期任务的停止入口需要分别理解。本页只保留直接影响使用的条件，不展开执行环境实现。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "grok-bot-roles",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Grok Bot",
+      "title": "Grok Bot｜按职责建立长期助手",
+      "subtitle": "功能 1 / 4 · 有名字、有工作范围的 Bot",
+      "layout": "roles",
+      "ribbon": "我会先明确每个 Bot 长期负责什么，再交办这一轮的具体工作。",
+      "refs": [
+        "detail-grok-bots",
+        "detail-grok"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "Grok Bot 把具名的长期助手放在产品中心。用户可以给 Bot 规定工作范围、常用来源、风格与需要批准的动作，再在多次对话中继续使用。",
+        "下方三个角色是我为讲解构造的职责示意，不是系统预置角色或已完成的协作实验。它们帮助理解为什么产品侧栏是一组助手，以及用户怎样知道某项工作应该找谁。角色不同不自动代表资源或权限彼此隔离。"
+      ],
+      "cards": [
+        {
+          "title": "研究助手",
+          "body": "跟踪指定主题\n整理来源与变化\n保留待核实问题"
+        },
+        {
+          "title": "内容助手",
+          "body": "沿用表达要求\n维护内容草稿\n准备待审成果"
+        },
+        {
+          "title": "业务助手",
+          "body": "关注指定业务资料\n整理跟进事项\n准备下一步动作"
+        }
+      ],
+      "notes": "Grok Bot 把具名的长期助手放在产品中心。用户可以给 Bot 规定工作范围、常用来源、风格与需要批准的动作，再在多次对话中继续使用。\n\n下方三个角色是我为讲解构造的职责示意，不是系统预置角色或已完成的协作实验。它们帮助理解为什么产品侧栏是一组助手，以及用户怎样知道某项工作应该找谁。角色不同不自动代表资源或权限彼此隔离。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "grok-bot-collaboration",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Grok Bot",
+      "title": "Grok Bot｜让多个助手协作",
+      "subtitle": "功能 2 / 4 · 并行工作、群聊与任务交接",
+      "layout": "flow",
+      "ribbon": "我希望看到明确的负责者与交付物，减少在人和工具之间来回转述。",
+      "refs": [
+        "detail-grok-collaboration",
+        "detail-grok"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "官方资料描述了 Bot 并行工作、互相联系、在群聊中共享相关上下文和交接任务的方式。用户仍可以追加指令，并在需要时停止工作。",
+        "图中的收集、核验和汇总是讲解示意，用来表达协作关系，不宣称这是产品内置工作流或我已经验证的结果。实际交接要看最终由谁汇报、谁可以修改产物以及哪些动作需要批准。"
+      ],
+      "exampleLabel": "作者构造的协作示意 · 不是预置流程或实测结果",
+      "example": "收集信息、核验来源、整理成果，指定负责最终汇报的 Bot。",
+      "steps": [
+        {
+          "title": "分配职责",
+          "body": "约定分工\n与最终汇报者"
+        },
+        {
+          "title": "分别推进",
+          "body": "各自处理\n相关资料与工作"
+        },
+        {
+          "title": "互相交接",
+          "body": "在支持的消息\n与群聊里协作"
+        },
+        {
+          "title": "汇报成果",
+          "body": "带回文件、来源\n和需要的决定"
+        }
+      ],
+      "notes": "官方资料描述了 Bot 并行工作、互相联系、在群聊中共享相关上下文和交接任务的方式。用户仍可以追加指令，并在需要时停止工作。\n\n图中的收集、核验和汇总是讲解示意，用来表达协作关系，不宣称这是产品内置工作流或我已经验证的结果。实际交接要看最终由谁汇报、谁可以修改产物以及哪些动作需要批准。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "grok-bot-skills",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Grok Bot",
+      "title": "Grok Bot｜把有效做法保存为 Skill",
+      "subtitle": "功能 3 / 4 · 方法可以复用，也可以通过演示来教",
+      "layout": "flow",
+      "ribbon": "我理解 Skill 的价值，是让下一次工作沿用已检查过的方法。",
+      "refs": [
+        "detail-grok-skills"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "Skills 文档把可复用的方法与触发时间分开：Skill 保存怎样做一项工作。用户可以从一次已完成的任务归纳步骤、结果要求与批准边界，并供后续任务复用。",
+        "在开放了 Teach a task 的账号中，也可以演示浏览器操作再审核产生的方法草稿。演示教学逐步开放，不能把录过一次当作已经学会全部异常情况；先检查方法再用于重复工作，这是产品使用层面的重点。"
+      ],
+      "exampleLabel": "官方功能归纳 · 演示教学按账号逐步开放",
+      "example": "完成一次工作，保存方法，检查以后再用于下一次任务。",
+      "steps": [
+        {
+          "title": "先做一次",
+          "body": "确认一次任务\n确实完成"
+        },
+        {
+          "title": "保存做法",
+          "body": "说明步骤、输入\n与预期结果"
+        },
+        {
+          "title": "审核方法",
+          "body": "检查边界\n补充特殊情况"
+        },
+        {
+          "title": "再次复用",
+          "body": "按名称调用\n用于后续工作"
+        }
+      ],
+      "notes": "Skills 文档把可复用的方法与触发时间分开：Skill 保存怎样做一项工作。用户可以从一次已完成的任务归纳步骤、结果要求与批准边界，并供后续任务复用。\n\n在开放了 Teach a task 的账号中，也可以演示浏览器操作再审核产生的方法草稿。演示教学逐步开放，不能把录过一次当作已经学会全部异常情况；先检查方法再用于重复工作，这是产品使用层面的重点。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "grok-bot-routines",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Grok Bot",
+      "title": "Grok Bot｜用 Routine 安排持续工作",
+      "subtitle": "功能 4 / 4 · 谁负责、何时执行、怎样带回结果",
+      "layout": "flow",
+      "ribbon": "Skill 说明怎么做，Routine 安排何时由哪个 Bot 来做。",
+      "refs": [
+        "detail-grok-skills"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "Routine 将可复用方法安排成重复工作。官方资料支持按时间或已支持的事件触发，创建时需要明确负责的 Bot、资料来源、预期结果与需要用户确认的动作。",
+        "我会用这页说明用户怎样把一件事留给助手持续处理，以及之后去哪里看结果。接入一个应用不表示所有事件都已可触发；计划启用也不等于每次都成功，仍要查看运行记录和缺失信息的提示。"
+      ],
+      "exampleLabel": "官方功能归纳 · 时间或事件依赖已支持的集成",
+      "example": "把已检查的方法交给指定 Bot，按约定持续执行并带回结果。",
+      "steps": [
+        {
+          "title": "选负责者",
+          "body": "指定一个 Bot\n持续承接工作"
+        },
+        {
+          "title": "约定触发",
+          "body": "时间与时区\n或支持的事件"
+        },
+        {
+          "title": "运行方法",
+          "body": "使用 Skill\n与获准的数据"
+        },
+        {
+          "title": "检查结果",
+          "body": "查看运行结果\n处理待批事项"
+        }
+      ],
+      "notes": "Routine 将可复用方法安排成重复工作。官方资料支持按时间或已支持的事件触发，创建时需要明确负责的 Bot、资料来源、预期结果与需要用户确认的动作。\n\n我会用这页说明用户怎样把一件事留给助手持续处理，以及之后去哪里看结果。接入一个应用不表示所有事件都已可触发；计划启用也不等于每次都成功，仍要查看运行记录和缺失信息的提示。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "claude-duet-brief",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Claude Duet",
+      "title": "Duet｜先带来值得处理的事",
+      "subtitle": "功能 1 / 4 · 专业工作中的晨间简报与主动跟进",
+      "layout": "brief",
+      "ribbon": "我把 Duet 的产品印象记为：先准备好下一步，再让我处理关键决定。",
+      "refs": [
+        "detail-duet-product",
+        "detail-duet"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "Duet 的产品页把晨间简报与专业人士的日常决定联系起来：从已连接的信息中筛出需要关注的工作，准备回复或后续动作，并在需要用户时联系。",
+        "左侧卡片按官方业务示例归纳，属于功能示意，不是我的账户界面或客户经历。主动检查有间隔，也可能误判轻重缓急；我会讲清楚它提供的帮助，而不承诺它不会漏掉事情。"
+      ],
+      "brief": [
+        {
+          "title": "合同需要回应",
+          "body": "整理变更，准备待审回复。"
+        },
+        {
+          "title": "客户事项要跟进",
+          "body": "汇总相关记录，列出下一步。"
+        },
+        {
+          "title": "有一项需要我决定",
+          "body": "给出背景与可选动作。"
+        }
+      ],
+      "cards": [
+        {
+          "title": "早上先看重点",
+          "body": "把邮件、日程与工作事项带到一起。"
+        },
+        {
+          "title": "先准备下一步",
+          "body": "整理背景，准备草稿和可选动作。"
+        },
+        {
+          "title": "需要决定再找我",
+          "body": "突出待我处理的事项，继续跟进其他工作。"
+        }
+      ],
+      "notes": "Duet 的产品页把晨间简报与专业人士的日常决定联系起来：从已连接的信息中筛出需要关注的工作，准备回复或后续动作，并在需要用户时联系。\n\n左侧卡片按官方业务示例归纳，属于功能示意，不是我的账户界面或客户经历。主动检查有间隔，也可能误判轻重缓急；我会讲清楚它提供的帮助，而不承诺它不会漏掉事情。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "claude-duet-tasks",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Claude Duet",
+      "title": "Duet｜从发现事项到用户验收",
+      "subtitle": "功能 2 / 4 · Tasks 跟进工作，Make 查看成果",
+      "layout": "flow",
+      "ribbon": "我把“正在做、等我决定、已有成果、我确认完成”分别看清楚。",
+      "refs": [
+        "detail-duet-help"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "入门帮助把 Tasks 与 Make 的用途分开：Tasks 展示工作和需要输入的事项，较大的成果出现在 Make，用户可以查看和编辑文件。工作涉及对外动作时，产品会按相应规则请求确认。",
+        "官方还说明，Duet 可以建议任务看起来已经完成，但由用户将任务标记为完成。我认为这能帮助听众理解持续委托的参与方式：并非一直盯着执行，也不是交出去以后完全不管。"
+      ],
+      "exampleLabel": "官方交互方式归纳 · 图形不是产品截屏",
+      "example": "把事项推进成可检查的成果，在需要时请求决定，最后由用户验收。",
+      "steps": [
+        {
+          "title": "发现或交办",
+          "body": "来自已连信息\n或用户消息"
+        },
+        {
+          "title": "准备与推进",
+          "body": "Tasks 查看工作\n与需要的输入"
+        },
+        {
+          "title": "请求决定",
+          "body": "发送、付款等\n重要动作先确认"
+        },
+        {
+          "title": "查看与验收",
+          "body": "Make 检查成果\n由用户标记完成"
+        }
+      ],
+      "notes": "入门帮助把 Tasks 与 Make 的用途分开：Tasks 展示工作和需要输入的事项，较大的成果出现在 Make，用户可以查看和编辑文件。工作涉及对外动作时，产品会按相应规则请求确认。\n\n官方还说明，Duet 可以建议任务看起来已经完成，但由用户将任务标记为完成。我认为这能帮助听众理解持续委托的参与方式：并非一直盯着执行，也不是交出去以后完全不管。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "claude-duet-business",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Claude Duet",
+      "title": "Duet｜面向专业工作与个人经营",
+      "subtitle": "功能 3 / 4 · 让连接的业务信息变成待处理的工作",
+      "layout": "business",
+      "ribbon": "我看具体业务动作，不把连接器数量当作所有功能都能完成的证明。",
+      "refs": [
+        "detail-duet",
+        "detail-duet-help"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "Duet 的公开定位面向专业人士和小企业主。发布资料与帮助将客户、合同、账单和经营资料连接到具体任务，例如查询未付发票并准备待批的提醒邮件。",
+        "我按业务事项介绍连接工具，不做应用标识墙。某个品牌出现在公告中，不意味着每个账号都有该应用的所有读写能力；采购付款、商户退款与个人转账也不能混为一谈。下面保留工作准备和人工批准的边界。"
+      ],
+      "cards": [
+        {
+          "title": "客户跟进",
+          "apps": "HubSpot · Gmail 等",
+          "body": "整理客户背景，准备沟通与会前材料。"
+        },
+        {
+          "title": "合同与签署",
+          "apps": "DocuSign 等",
+          "body": "准备合同资料，需要签署时请用户决定。"
+        },
+        {
+          "title": "账单与收入",
+          "apps": "Stripe · QuickBooks 等",
+          "body": "查未付账款，准备提醒或分析资料。"
+        },
+        {
+          "title": "店铺与内容",
+          "apps": "Shopify · Canva 等",
+          "body": "利用业务资料准备经营内容与工作成果。"
+        }
+      ],
+      "notes": "Duet 的公开定位面向专业人士和小企业主。发布资料与帮助将客户、合同、账单和经营资料连接到具体任务，例如查询未付发票并准备待批的提醒邮件。\n\n我按业务事项介绍连接工具，不做应用标识墙。某个品牌出现在公告中，不意味着每个账号都有该应用的所有读写能力；采购付款、商户退款与个人转账也不能混为一谈。下面保留工作准备和人工批准的边界。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "claude-duet-cowork",
+      "kind": "product-detail",
+      "focus": "features",
+      "product": "Claude Duet",
+      "title": "Duet｜与 Cowork 怎样分工",
+      "subtitle": "功能 4 / 4 · 相同账号基础，不同的产品重心",
+      "layout": "compare",
+      "ribbon": "我按工作入口和协作方式区分两者，不用“是否后台运行”简单划线。",
+      "refs": [
+        "detail-duet-help",
+        "detail-cowork"
+      ],
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "footer": "官方资料归纳 · 2026-11-02 回查 · 图示见说明，非新增账号实测",
+      "body": [
+        "我用 Cowork 路线理解明确任务的研究、文档与文件交付，用 Duet 理解主动关注、筛选待办和继续跟进。两者都可能处理较大任务，也都可能在后台工作，所以这是一种产品重心比较，不是能力排他判断。",
+        "当前 Claude 的聊天与 Cowork 正逐步统一。Duet 使用同一账号已有的记忆、Skills 和连接配置，但不表示它可以访问所有项目与文件。11 月 2 日帮助列出的研究预览条件为美国 Pro、Max、Ultra 候补邀请；旧概览页保留的是 10 月 26 日的 Pro / Max 快照。"
+      ],
+      "cards": [
+        {
+          "title": "Cowork 路线：明确交付",
+          "body": "我交给它一组材料和明确任务。\n完成研究、文档、表格等成果。\n当前逐步并入统一 Claude 对话体验。"
+        },
+        {
+          "title": "Duet：主动关注与跟进",
+          "body": "我交代需要持续关注的工作。\n它带来待办、准备动作并请求决定。\n也能承接一次性任务和较大成果。"
+        }
+      ],
+      "callout": "共享账号记忆、Skills 与已连应用；具体资料访问、产品能力和开放条件分别确认。",
+      "notes": "我用 Cowork 路线理解明确任务的研究、文档与文件交付，用 Duet 理解主动关注、筛选待办和继续跟进。两者都可能处理较大任务，也都可能在后台工作，所以这是一种产品重心比较，不是能力排他判断。\n\n当前 Claude 的聊天与 Cowork 正逐步统一。Duet 使用同一账号已有的记忆、Skills 和连接配置，但不表示它可以访问所有项目与文件。11 月 2 日帮助列出的研究预览条件为美国 Pro、Max、Ultra 候补邀请；旧概览页保留的是 10 月 26 日的 Pro / Max 快照。\n本页介绍产品功能与使用方式，不展开底层实现。\n图形为作者依据官方资料绘制的功能示意，不是真实界面或已完成的实验。"
+    },
+    {
+      "id": "four-products-comparison",
+      "kind": "product-comparison",
+      "focus": "comparison",
+      "seconds": 60,
+      "readDate": "2026-11-02",
+      "title": "四款产品：相近能力，不同的工作组织方式",
+      "subtitle": "我用产品重心与使用方式建立印象，不据此判断独占能力。",
+      "columns": [
+        "产品",
+        "主要工作重心",
+        "怎样组织工作",
+        "典型成果",
+        "我怎样参与"
+      ],
+      "rows": [
+        [
+          "Muse",
+          "生活、消费\n与个人经营",
+          "个人目标\n持续跟踪事项",
+          "计划、交互工具\n待批的事务动作",
+          "看 Goals / 活动\n重要动作确认"
+        ],
+        [
+          "Dots",
+          "持续职责\n与项目工作",
+          "dot 跟进职责\n结合 Work / Codex",
+          "研究、文件\n软件与项目成果",
+          "补充背景与要求\n查看 Activity"
+        ],
+        [
+          "Duet",
+          "专业事务\n与个人经营",
+          "简报、主动待办\n继续跟进与交付",
+          "待批动作\n业务资料与文件",
+          "处理关键决定\n检查并验收"
+        ],
+        [
+          "Grok Bot",
+          "长期角色\n与重复工作",
+          "多个 Bot 分工\nSkills 与 Routines",
+          "协作成果\n可复用工作方法",
+          "明确职责与分工\n审核并看运行结果"
+        ]
+      ],
+      "ribbon": "这些是我依据公开资料作出的比较；功能有交集，实际覆盖仍按版本、地区与授权核验。",
+      "refs": [
+        "detail-muse-design",
+        "detail-dots",
+        "detail-duet",
+        "detail-grok"
+      ],
+      "footer": "作者比较归纳 · 不是独占能力表或同条件实测排名",
+      "notes": "我把这四款产品的共同能力放在背景里，再看各自怎样组织用户的工作。Muse 的目标与生活事务，Dots 的持续职责与执行产品配合，Duet 的专业待办和决策交回，Grok Bot 的长期角色与方法复用，是本节希望留下的产品印象。这不是互斥分类，不证明某款能做而另一款不能做。表格为作者归纳，非内部架构或实测排名。",
+      "body": [
+        "我把四款产品联系起来时，最值得记住的是它们怎样组织工作：Muse 围绕个人目标与生活事务，Dots 围绕持续职责，Duet 围绕专业待办与需要用户的决定，Grok Bot 围绕长期角色与可复用方法。",
+        "它们的功能会相互覆盖。我不会据此断言某个通用任务只有其中一款能做，也不把资料展示当作同条件评测。实际选择仍需结合账号、来源、地区、任务与授权。"
+      ]
+    }
+  ],
+  "references": {
+    "detail-muse-design": {
+      "name": "Meta：How We Designed Muse",
+      "url": "https://introducing.muse.ai/",
+      "originalDate": "2026-09",
+      "readDate": "2026-11-02"
+    },
+    "detail-muse-business": {
+      "name": "Meta：Muse for Small Business",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+      "originalDate": "2026-09-29，页面更新 10-08",
+      "readDate": "2026-11-02"
+    },
+    "detail-muse-singapore": {
+      "name": "Meta：Muse in Singapore",
+      "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+      "originalDate": "2026-10-27（官方页面日期）",
+      "readDate": "2026-11-02"
+    },
+    "detail-muse-purchase": {
+      "name": "Meta：Muse 安全与购买确认",
+      "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse",
+      "originalDate": "2026-09",
+      "readDate": "2026-11-02"
+    },
+    "detail-dots": {
+      "name": "OpenAI：Meet dots",
+      "url": "https://learn.chatgpt.com/docs/dots",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-dots-tasks": {
+      "name": "OpenAI：Tasks and memory",
+      "url": "https://learn.chatgpt.com/docs/dots/tasks-and-memory",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-dots-computers": {
+      "name": "OpenAI：Computers and apps",
+      "url": "https://learn.chatgpt.com/docs/dots/computers-and-apps",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-dots-start": {
+      "name": "OpenAI：Get started with your dot",
+      "url": "https://learn.chatgpt.com/docs/dots/getting-started",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-duet": {
+      "name": "Anthropic：Introducing Claude Duet",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "originalDate": "2026-10-21，页面含 10-23 安全补记",
+      "readDate": "2026-11-02"
+    },
+    "detail-duet-product": {
+      "name": "Anthropic：Claude Duet 产品页",
+      "url": "https://claude.com/product/claude-duet",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-duet-help": {
+      "name": "Anthropic：Get started with Claude Duet",
+      "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-cowork": {
+      "name": "Anthropic：Cowork and chat are one Claude",
+      "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-grok": {
+      "name": "Grok Bot：Overview",
+      "url": "https://docs.x.ai/grok-bot/overview",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-grok-bots": {
+      "name": "Grok Bot：Create and manage Bots",
+      "url": "https://docs.x.ai/grok-bot/bots",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-grok-collaboration": {
+      "name": "Grok Bot：Message and collaborate",
+      "url": "https://docs.x.ai/grok-bot/chat-and-collaboration",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    },
+    "detail-grok-skills": {
+      "name": "Grok Bot：Skills and routines",
+      "url": "https://docs.x.ai/grok-bot/skills-routines-and-automations",
+      "originalDate": "动态页面，未单列修订日期",
+      "readDate": "2026-11-02"
+    }
+  }
+}

@@ -105,3 +105,6 @@ TLS 线索中“是否读取/存储流量”未证实，不列为已确认事实
 | 2026-10-11（报道 10-12；本轮 10-26 补录） | [OpenAI Says 1 Million Dots Are Working for Users](https://medium.com/@aiindustrytoday/openai-says-1-million-dots-are-working-for-users-99cb5e83b6e5)，AI Industry Today：Sottiaux 称 100 万个 dots 正在运行（实例数，非用户数） | 英文，官方高管披露经媒体报道 | [外部观察补充](../practice/external-observations/) |
 | 2026-10-19 至 10-26 | [Written dot-to-work instructions blocked as untrusted delegated authorization](https://community.openai.com/t/written-dot-to-work-instructions-blocked-as-untrusted-delegated-authorization/1407667)，OpenAI 开发者社区：dot 向 Work/既有会话发送指令被拦截（委派转述授权不被承认为直接授权） | 英文，社区一线报告 | [外部观察补充](../practice/external-observations/) / [任务与委派补充](../architecture/tasks-and-delegation/) |
 
+## 2026-10-26 补充回查
+
+- [功能、开放状态与订阅条件](../product/capabilities-and-availability-20261026/)：补存厂商、时间、地域、当前套餐与功能证据，区分购物、付款和第三方订阅管理；原有材料保留历史日期。

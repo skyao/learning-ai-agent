@@ -3,6 +3,7 @@ title: "个人智能体"
 linkTitle: "个人智能体"
 weight: 10
 date: 2025-11-13
+lastmod: "2026-11-02T00:00:00+08:00"
 description: >
   Personal Agent 的业界跟踪、产品比较、架构学习与实践笔记
 ---
@@ -13,7 +14,7 @@ description: >
 
 ## 调研入口
 
-- [业界产品清单与调研计划](research-list/)：16 个主要对象已完成公开资料调研；第一批 8 个（含 WorkBuddy、Duet），第二批 8 个（含 Personal Computer、Cowork），分别保留核验日期。
+- [业界产品清单与调研计划](research-list/)：原有两批各 8 个对象保留历史范围；2026-11-02 新增灵光与 Today，当前共 18 个主要跟踪对象，分别记录核验日期和证据边界。
 - [Meta Muse](muse/)：已有介绍、架构、安全与分析素材。
 - [OpenAI Dots](dots/)：产品、任务与记忆、执行环境、安全治理及阶段性学习总结。
 - [Manus Cue](cue/)：代理身份、团队交接、通信资源、钱包权限与阶段性学习总结。
@@ -30,5 +31,12 @@ description: >
 - [Perplexity Personal Computer](personal-computer/)：Computer 产品谱系、Brain、周期任务、本地 / 混合运行与 SPACE。
 - [DeepSeek Harness](deepseek-harness/)：个人工作代理与可组合运行时、会话事实、调度、Goal 及执行控制。
 - [Claude Cowork](claude-cowork/)：统一入口、云端与桌面桥接、Projects / Memory、排程、工具权限及可观测性。
+- [蚂蚁灵光](lingguang/)：新增跟踪；闪应用与 2.0 的演进、生活事务、持续任务、APASS 与授权边界。
+- [Today AI](today/)：新增跟踪；个人记忆、主动跟进、云端与设备执行，以及国内外服务的开放差异。
 - [第一批八个产品的阶段性比较](first-batch-summary/)：公开资料调研已完成，整理共同问题、路线差异与下一阶段验证方法。
 - [第二批八个产品的阶段性比较](second-batch-summary/)：补充自建、消息、团队与个人电脑执行路线，整理状态、执行与授权的比较认识。
+
+## 用途与功能的持续比较
+
+- [16 个对象的功能与交易边界回查](capability-review/)：2026-10-26 补充购物、付款、订阅、电话预订、个人经营、应用开发与设备操作，链接各产品的厂商、开放状态与套餐快照。
+- [灵光与 Today 的补充比较](capability-review/#2026-11-02-补充灵光与-today)：保留原有快照，新增两款产品的用途、准入和交易证据边界。
